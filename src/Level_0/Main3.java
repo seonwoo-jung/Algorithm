@@ -1,47 +1,26 @@
 package Level_0;
 
-import java.util.Arrays;
-
+// 나중에 다시 볼 것
 public class Main3 {
 
     public static void main(String[] args) {
 
-        int startNum = 1;
-        solution(startNum, 10, 100);
-    }
-
-    static int solution(int startNum, int num, int total) {
-
-        while (true) {
-
-            int[] result = searchNumber(startNum, num, total);
-
-            if (result != null) {
-
-                System.out.println("result = " + result);
-                return 1;
-            } else {
-                startNum++;
-
-            }
+        for(int intArr : solution(5, 5)) {
+            System.out.println("arr = " + intArr);
         }
     }
-    static int[] searchNumber(int startNum, int num, int total) {
 
-        int[] array = new int[num];
-        int sum = 0;
+    static int[] solution(int num, int total) {
+        int[] answer = new int[num];
 
-        for (int i = 0; i < num; i++) {
-            array[i] = startNum;
-            sum += array[i];
-            startNum++;
+        int nSum = num * (1 + num) / 2;
+        int start = (total - nSum) / num;
+
+        for (int i = 1; i < num + 1; i++) {
+            answer[i - 1] = i + start;
         }
 
-        if (total == sum) {
-            return array;
-        } else {
-            return null;
-        }
+        return answer;
     }
 
 }

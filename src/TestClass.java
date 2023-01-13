@@ -4,9 +4,8 @@ public class TestClass {
 
     public static void main(String[] args) {
 
-        String babbling = "aya";
-        String speakWord = "aya";
+        String A = "jungseonwoo";
+        System.out.println(A.substring(9));
 
-        System.out.println(babbling.matches(speakWord));
     }
 }
