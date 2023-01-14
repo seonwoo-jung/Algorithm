@@ -1,7 +1,7 @@
 package Level_0;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class Main6 {
 
@@ -17,11 +17,12 @@ public class Main6 {
 
         for (int i = 0; i < array.length; i++) {
 
-            String arr = String.valueOf(array[i]);
+            for (int k = 0; k < String.valueOf(array[i]).length(); k++) {
 
-            arr.chars()
-                    .count();
-
+                if (String.valueOf(String.valueOf(array[i]).charAt(k)).equals("7")) {
+                    answer++;
+                }
+            }
         }
 
         return answer;
