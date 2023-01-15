@@ -1,8 +1,5 @@
 package Level_0;
 
-import java.util.Arrays;
-import java.util.stream.Collectors;
-
 public class Main6 {
 
     public static void main(String[] args) {
