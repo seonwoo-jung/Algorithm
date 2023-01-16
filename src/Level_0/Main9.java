@@ -4,16 +4,31 @@ public class Main9 {
 
     public static void main(String[] args) {
 
-        System.out.println(solution(144));
+        System.out.println(solution2(3));
     }
 
     static int solution(int n) {
 
-        int answer = 0;
+        int result;
 
-        String result = String.valueOf(Math.sqrt(n));
-        System.out.println();
+        for (int i = 0; i < n; i++) {
 
-        return 0;
+            result = i * i;
+
+            if (result == n) {
+                return i;
+            }
+        }
+
+        return 2;
+    }
+
+    static int solution2(int n) {
+
+        if (n % Math.sqrt(n) == 0) {
+            return 1;
+        } else {
+            return 2;
+        }
     }
 }
