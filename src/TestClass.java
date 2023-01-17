@@ -4,20 +4,17 @@ public class TestClass {
 
     public static void main(String[] args) {
         // 약수 구하기
-        solution(12);
+        solution(new int[]{4, 5, 6, 7, 8, 9, 10, 11, 12});
 
     }
 
-    static int solution(int a) {
+    static int solution(int[] a) {
 
-        int[] x;
-
-        for (int i = 1; i <= a; i++) {
-            if (a % i == 0) {
-                System.out.println("i = " + i);
-            }
+        int[] array = Arrays.stream(a).filter(value -> value != 4).toArray();
+        
+        for (int b : array) {
+            System.out.println("b = " + b);
         }
-
         return 0;
     }
 }
