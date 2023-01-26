@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class TestClass {
 
@@ -10,11 +12,10 @@ public class TestClass {
 
     static int solution(int[] a) {
 
-        int[] array = Arrays.stream(a).filter(value -> value != 4).toArray();
-        
-        for (int b : array) {
-            System.out.println("b = " + b);
-        }
+        IntStream intStream = Arrays.stream(a);
+        intStream.limit(5).sorted().forEach(System.out::println);
+
+
         return 0;
     }
 }
