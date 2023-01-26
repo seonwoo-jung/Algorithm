@@ -4,17 +4,13 @@ public class Main1 {
 
     public static void main(String[] args) {
         // 객체 생성
-        Solution solution = new Solution();
         // 파라미터 전달
         String[] parameter = {"aya", "yee", "u", "maa", "wyeoo"};
-        int result = solution.solution(parameter);
+        int result = solution(parameter);
         System.out.println("result = " + result);
     }
-}
 
-class Solution {
-    public int solution(String[] babbling) {
-
+    static int solution(String[] babbling) {
         int answer = 0;
 
         for (int i = 0; i < babbling.length; i++ ) {
@@ -27,7 +23,6 @@ class Solution {
                 answer++;
             }
         }
-
         return answer;
     }
 }
