@@ -5,5 +5,7 @@ public class TestClass {
 
         String A = "선우";
         String B = "선우";
+
+        System.out.println(A);
     }
 }
