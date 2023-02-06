@@ -21,6 +21,7 @@ public class Main9 {
         }
 
         return 2;
+
     }
 
     static int solution2(int n) {
