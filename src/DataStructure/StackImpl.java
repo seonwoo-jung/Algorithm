@@ -20,5 +20,7 @@ public class StackImpl {
 		stack.push(5);
 
 		System.out.println("stack = " + stack);
+
+		System.out.println("stack.peek() = " + stack.peek());
 	}
 }
