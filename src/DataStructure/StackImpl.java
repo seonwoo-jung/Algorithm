@@ -2,6 +2,7 @@ package DataStructure;
 
 import java.util.Stack;
 
+// http://www.kocw.net/home/cview.do?cid=9ccf38317df98fa2
 public class StackImpl {
 	public static void main(String[] args) {
 
