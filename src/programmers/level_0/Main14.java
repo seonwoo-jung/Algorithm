@@ -1,6 +1,4 @@
-package Level_0;
-
-import java.util.Arrays;
+package programmers.level_0;
 
 public class Main14 {
 

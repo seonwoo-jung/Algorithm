@@ -1,6 +1,5 @@
-package Level_0;
+package programmers.level_0;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main13 {

@@ -1,4 +1,4 @@
-package Level_0;
+package programmers.level_0;
 
 // 나중에 다시 볼 것
 public class Main3 {

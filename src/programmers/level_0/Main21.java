@@ -1,9 +1,4 @@
-package Level_0;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
+package programmers.level_0;
 
 public class Main21 {
 	public static void main(String[] args) {

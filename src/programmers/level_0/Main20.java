@@ -1,8 +1,4 @@
-package Level_0;
-
-import java.util.Arrays;
-import java.util.Map;
-import java.util.stream.Collectors;
+package programmers.level_0;
 
 public class Main20 {
 	public static void main(String[] args) {
