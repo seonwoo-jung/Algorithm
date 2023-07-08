@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="ch01. 기본 알고리즘">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch01/JudgeSign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch01/TriangleLB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/MaxOfArrayRand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/ReverseArray.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="ch02 기본 자료구조 69p">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/CloneArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/PhysicalExamination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/PrimeNumber2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/PrimeNumber3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch03/BinSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch03/SeqSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch03/SeqSearchSen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/Study.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,23 +41,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/JSW/IdeaProjects/Algorithm",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JSW/IdeaProjects/Algorithm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="algorithm.ch01" />
@@ -62,9 +66,22 @@
       <recent name="Level_0" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ReverseArray">
-    <configuration name="MaxOfArrayRand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch02.MaxOfArrayRand" />
+  <component name="RunManager" selected="애플리케이션.Study">
+    <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.ch03.BinSearch" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.ch03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhysicalExamination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.ch02.PhysicalExamination" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -76,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Median" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch01.Median" />
+    <configuration name="SeqSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.ch03.SeqSearch" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.ch01.*" />
+          <option name="PATTERN" value="algorithm.ch03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch02.ReverseArray" />
+    <configuration name="SeqSearchSen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.ch03.SeqSearchSen" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.ch02.*" />
+          <option name="PATTERN" value="algorithm.ch03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,25 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Soojebi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Soojebi" />
+    <configuration name="Study" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.Study" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleLB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch01.TriangleLB" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.ch01.*" />
+          <option name="PATTERN" value="study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ReverseArray" />
-        <item itemvalue="애플리케이션.MaxOfArrayRand" />
-        <item itemvalue="애플리케이션.TriangleLB" />
-        <item itemvalue="애플리케이션.Soojebi" />
-        <item itemvalue="애플리케이션.Median" />
+        <item itemvalue="애플리케이션.Study" />
+        <item itemvalue="애플리케이션.SeqSearchSen" />
+        <item itemvalue="애플리케이션.BinSearch" />
+        <item itemvalue="애플리케이션.SeqSearch" />
+        <item itemvalue="애플리케이션.PhysicalExamination" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +169,8 @@
       <workItem from="1687579560106" duration="3255000" />
       <workItem from="1687673349941" duration="3260000" />
       <workItem from="1688520452612" duration="7000" />
-      <workItem from="1688709372474" duration="5728000" />
+      <workItem from="1688709372474" duration="6499000" />
+      <workItem from="1688771105398" duration="10759000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -202,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ch02 기본 자료구조 69p">
+      <option name="closed" value="true" />
+      <created>1688715217101</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688715217101</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +235,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="study" />
     <MESSAGE value="ch01. 기본 알고리즘" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch01. 기본 알고리즘" />
+    <MESSAGE value="ch02 기본 자료구조 69p" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch02 기본 자료구조 69p" />
   </component>
 </project>
