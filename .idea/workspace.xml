@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="ch02 기본 자료구조 69p">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/CloneArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/PhysicalExamination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/PrimeNumber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/PrimeNumber3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch03/BinSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch03/SeqSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch03/SeqSearchSen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study/Study.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="ch03 검색 알고리즘 112p">
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main36.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +54,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="algorithm.ch01" />
       <recent name="programmers.level_0" />
+      <recent name="algorithm.ch01" />
       <recent name="programmers.Level_0" />
       <recent name="Level_0" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Study">
+  <component name="RunManager" selected="애플리케이션.Main36">
     <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.ch03.BinSearch" />
       <module name="Algorithm" />
@@ -80,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhysicalExamination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch02.PhysicalExamination" />
+    <configuration name="Main35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main35" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.ch02.*" />
+          <option name="PATTERN" value="programmers.level_0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeqSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch03.SeqSearch" />
+    <configuration name="Main36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main36" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.ch03.*" />
+          <option name="PATTERN" value="programmers.level_0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main36" />
+        <item itemvalue="애플리케이션.Main35" />
         <item itemvalue="애플리케이션.Study" />
         <item itemvalue="애플리케이션.SeqSearchSen" />
         <item itemvalue="애플리케이션.BinSearch" />
-        <item itemvalue="애플리케이션.SeqSearch" />
-        <item itemvalue="애플리케이션.PhysicalExamination" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +164,8 @@
       <workItem from="1687673349941" duration="3260000" />
       <workItem from="1688520452612" duration="7000" />
       <workItem from="1688709372474" duration="6499000" />
-      <workItem from="1688771105398" duration="10759000" />
+      <workItem from="1688771105398" duration="10923000" />
+      <workItem from="1688798040886" duration="2853000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -215,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688715217101</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ch03 검색 알고리즘 112p">
+      <option name="closed" value="true" />
+      <created>1688796171103</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688796171103</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +239,7 @@
     <MESSAGE value="study" />
     <MESSAGE value="ch01. 기본 알고리즘" />
     <MESSAGE value="ch02 기본 자료구조 69p" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch02 기본 자료구조 69p" />
+    <MESSAGE value="ch03 검색 알고리즘 112p" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch03 검색 알고리즘 112p" />
   </component>
 </project>
