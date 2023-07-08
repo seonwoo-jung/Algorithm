@@ -1,18 +1,18 @@
 package programmers.level_0;
 
+import static java.lang.String.valueOf;
+
 public class Main36 {
 
     public static void main(String[] args) {
-        int result = solution(7, 20);
-        System.out.println("result = " + result);
+        solution(12, 21);
     }
 
     static int solution(int a, int b) {
-        double result = a % b;
-        if (result == 0.0) {
-            return 1;
-        } else {
-            return 2;
-        }
+
+        Double result = (double) a / b;
+        String convertResult = valueOf(result);
+
+        return convertResult.length() >= 16 ? 2 : 1;
     }
 }
