@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="ch03 검색 알고리즘 112p">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch02/PrimeNumber1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch03/BinarySearchTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch03/IdTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch04/IntStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/ch04/IntStackTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main41.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/ch01/TriangleLB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/ch01/TriangleLB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level_0/Main36.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +65,9 @@
       <recent name="Level_0" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main36">
-    <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch03.BinSearch" />
+  <component name="RunManager" selected="애플리케이션.IntStackTester">
+    <configuration name="BinarySearchTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.ch03.BinarySearchTester" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -76,34 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main35" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level_0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main36" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level_0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeqSearchSen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch03.SeqSearchSen" />
+    <configuration name="IdTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.ch03.IdTester" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +92,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.Study" />
+    <configuration name="IntStackTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.ch04.IntStackTester" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.*" />
+          <option name="PATTERN" value="algorithm.ch04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main37" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level_0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main40" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level_0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main36" />
-        <item itemvalue="애플리케이션.Main35" />
-        <item itemvalue="애플리케이션.Study" />
-        <item itemvalue="애플리케이션.SeqSearchSen" />
-        <item itemvalue="애플리케이션.BinSearch" />
+        <item itemvalue="애플리케이션.IntStackTester" />
+        <item itemvalue="애플리케이션.IdTester" />
+        <item itemvalue="애플리케이션.BinarySearchTester" />
+        <item itemvalue="애플리케이션.Main40" />
+        <item itemvalue="애플리케이션.Main37" />
       </list>
     </recent_temporary>
   </component>
