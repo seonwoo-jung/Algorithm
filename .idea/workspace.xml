@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="ch03 검색 알고리즘 112p">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch03/BinarySearchTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch03/IdTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch04/IntStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/ch04/IntStackTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main37.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main41.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="- 프로그래머스 알고리즘&#10;- ch04. 큐 학습중">
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main44.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main46.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch01/JudgeSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/ch01/JudgeSign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/study/Study.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +63,13 @@
       <recent name="Level_0" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.IntStackTester">
-    <configuration name="BinarySearchTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch03.BinarySearchTester" />
+  <component name="RunManager" selected="애플리케이션.Main46">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.ch03.*" />
+          <option name="PATTERN" value="study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,34 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch03.IdTester" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.ch03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntStackTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.ch04.IntStackTester" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.ch04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main37" />
+    <configuration name="Main44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main44" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +90,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main40" />
+    <configuration name="Main45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main45" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="programmers.level_0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_0.Main46" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level_0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Study2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.Study2" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.IntStackTester" />
-        <item itemvalue="애플리케이션.IdTester" />
-        <item itemvalue="애플리케이션.BinarySearchTester" />
-        <item itemvalue="애플리케이션.Main40" />
-        <item itemvalue="애플리케이션.Main37" />
+        <item itemvalue="애플리케이션.Main46" />
+        <item itemvalue="애플리케이션.Main45" />
+        <item itemvalue="애플리케이션.Main44" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.Study2" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +169,9 @@
       <workItem from="1688709372474" duration="6499000" />
       <workItem from="1688771105398" duration="10923000" />
       <workItem from="1688798040886" duration="2853000" />
+      <workItem from="1688965309416" duration="22000" />
+      <workItem from="1689039587969" duration="3038000" />
+      <workItem from="1689383885999" duration="9194000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -223,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688796171103</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- 프로그래머스 알고리즘&#10;- ch04. 스택과 큐 학습중">
+      <option name="closed" value="true" />
+      <created>1688891761170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688891761170</updated>
+    </task>
+    <task id="LOCAL-00009" summary="- 프로그래머스 알고리즘&#10;- ch04. 큐 학습중">
+      <option name="closed" value="true" />
+      <created>1688964880726</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688964880726</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +262,8 @@
     <MESSAGE value="ch01. 기본 알고리즘" />
     <MESSAGE value="ch02 기본 자료구조 69p" />
     <MESSAGE value="ch03 검색 알고리즘 112p" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch03 검색 알고리즘 112p" />
+    <MESSAGE value="- 프로그래머스 알고리즘&#10;- ch04. 스택과 큐 학습중" />
+    <MESSAGE value="- 프로그래머스 알고리즘&#10;- ch04. 큐 학습중" />
+    <option name="LAST_COMMIT_MESSAGE" value="- 프로그래머스 알고리즘&#10;- ch04. 큐 학습중" />
   </component>
 </project>
