@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="- 프로그래머스 알고리즘&#10;- ch04. 큐 학습중">
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_0/Main50.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/ch01/JudgeSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/ch01/JudgeSign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/study/Study.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
