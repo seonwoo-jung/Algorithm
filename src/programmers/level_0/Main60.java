@@ -3,19 +3,26 @@ package programmers.level_0;
 public class Main60 {
 
     public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8};
-        int n = 2;
-        solution(numbers, n);
+        solution("205");
     }
 
-    static int[][] solution(int[] num_list, int n) {
-        int[][] answer = new int[num_list.length / n][n];
-        int k = 0;
-        for (int i = 0; i < answer.length; i++) {
-            for (int j = 0; j < answer[i].length; j++) {
-                answer[i][j] = num_list[k++];
-            }
+    static String solution(String rsp) {
+        String data = "";
+
+        for (int i = 0; i < rsp.length(); i++) {
+            data += calculate(rsp.substring(i, i + 1));
         }
-        return answer;
+
+        return data;
+    }
+
+    static String calculate(String param) {
+        if (param.equals("2")) {
+            return "0";
+        } else if (param.equals("0")) {
+            return "5";
+        } else {
+            return "2";
+        }
     }
 }
