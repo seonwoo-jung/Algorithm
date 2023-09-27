@@ -1,11 +1,11 @@
-package inflearn;
+package inflearn.string;
 
 import java.util.Scanner;
 
 import static java.lang.Character.toUpperCase;
 import static java.lang.System.in;
 
-public class Main {
+public class Main1 {
     public static int solution(String str, char t) {
         int answer = 0;
 
