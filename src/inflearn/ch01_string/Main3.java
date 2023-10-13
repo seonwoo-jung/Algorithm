@@ -26,6 +26,7 @@ public class Main3 {
                 m = len;
                 answer = tmp;
             }
+
             str = str.substring(pos + 1);
 
             if (str.length() > m) {
@@ -49,7 +50,6 @@ public class Main3 {
                 answer = x;
             }
         }
-
         return answer;
     }
 }

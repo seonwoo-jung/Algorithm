@@ -53,13 +53,10 @@ public class Main5 {
         while (lt < rt) {
 
             if (!Character.isAlphabetic(s[lt])) {
-                System.out.println("lt++");
                 lt++;
             } else if (!Character.isAlphabetic(s[rt])) {
-                System.out.println("rt--");
                 rt--;
             } else {
-                System.out.println("else");
                 char tmp = s[lt];
                 s[lt] = s[rt];
                 s[rt] = tmp;

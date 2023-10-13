@@ -25,10 +25,8 @@ public class Main11 {
                 cnt++;
             } else {
                 answer += s.charAt(i);
-                System.out.println("before answer = " + answer);
                 if (cnt > 1) {
                     answer += String.valueOf(cnt);
-                    System.out.println("after answer = " + answer);
                     cnt = 1;
                     // 또는 Integer.toString();
                 }
