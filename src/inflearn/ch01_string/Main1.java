@@ -1,4 +1,4 @@
-package inflearn.string;
+package inflearn.ch01_string;
 
 import java.util.Scanner;
 
@@ -17,12 +17,6 @@ public class Main1 {
             if (x == t) answer++;
         }
 
-        // 인덱스 접근 방식
-//        for (int i = 0; i < str.length(); i++) {
-//            if (str.charAt(i) == t) {
-//                answer++;
-//            }
-//        }
         return answer;
     }
     public static void main(String[] args) {

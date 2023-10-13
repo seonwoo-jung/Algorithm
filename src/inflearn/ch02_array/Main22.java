@@ -1,8 +1,7 @@
-package inflearn.string;
+package inflearn.ch02_array;
 
 import java.util.Scanner;
 
-import static java.lang.Integer.MIN_VALUE;
 import static java.lang.Math.max;
 import static java.lang.System.in;
 

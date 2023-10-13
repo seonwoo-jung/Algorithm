@@ -1,7 +1,8 @@
-package inflearn.string;
+package inflearn.ch01_string;
 
 import java.util.Scanner;
 
+import static java.lang.Integer.MIN_VALUE;
 import static java.lang.System.in;
 
 public class Main3 {
@@ -14,7 +15,7 @@ public class Main3 {
     // indexOf와 substring 사용
     static String solution2(String str) {
         String answer = "";
-        int m = Integer.MIN_VALUE, pos;
+        int m = MIN_VALUE, pos;
 
         while ((pos = str.indexOf(" ")) != -1) {
             String tmp = str.substring(0, pos);
@@ -38,7 +39,7 @@ public class Main3 {
     // split 후 길이를 비교
     static String solution(String str) {
         String answer = "";
-        int m = Integer.MIN_VALUE;
+        int m = MIN_VALUE;
         String[] s = str.split(" ");
 
         for (String x : s) {
