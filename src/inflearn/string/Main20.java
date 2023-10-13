@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 /**
- * 점수계산
+ * 등수계산
  */
 public class Main20 {
     public static void main(String[] args) {
