@@ -1,4 +1,4 @@
-package inflearn.ch02_array;
+package inflearn.ch02;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import static java.lang.Integer.MIN_VALUE;
 import static java.lang.System.in;
 
 /**
- * 임시반장 구하기
+ * 임시반장 구하기 (이해필요)
  */
 public class Main23 {
     public static void main(String[] args) {
@@ -29,13 +29,11 @@ public class Main23 {
             int cnt = 0;
             for (int j = 1; j <= n; j++) {
                 for (int k = 1; k <= 5; k++) {
-                    System.out.printf("arr[%d][%d] == arr[%d][%d]\n", i, k, j, k);
                     if (arr[i][k] == arr[j][k]) {
                         cnt++;
                         break;
                     }
                 }
-                System.out.println();
             }
             if (cnt > max) {
                 max = cnt;

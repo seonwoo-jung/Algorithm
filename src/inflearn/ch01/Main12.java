@@ -1,4 +1,4 @@
-package inflearn.ch01_string;
+package inflearn.ch01;
 
 import java.util.Scanner;
 

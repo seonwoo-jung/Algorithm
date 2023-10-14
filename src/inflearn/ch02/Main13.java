@@ -1,4 +1,4 @@
-package inflearn.ch02_array;
+package inflearn.ch02;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package inflearn.ch02_array;
+package inflearn.ch02;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -7,6 +7,8 @@ import static java.lang.System.in;
 
 /**
  * 뒤집은 소수
+ * 9
+ * 32 55 62 20 250 370 200 30 100
  */
 public class Main18 {
     public static void main(String[] args) {

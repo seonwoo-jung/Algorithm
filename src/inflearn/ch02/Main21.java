@@ -1,4 +1,4 @@
-package inflearn.ch02_array;
+package inflearn.ch02;
 
 import java.util.Scanner;
 
@@ -27,14 +27,17 @@ public class Main21 {
 
     static int solution(int n, int[][] arr) {
         int answer = MIN_VALUE;
-        int sum1, sum2;// sum1: 행의 합, sum2: 열의 합
+        // sum1: 행의 합, sum2: 열의 합
+        int sum1, sum2;
 
         // 행, 열의 합 구한 뒤 비교
         for (int i = 0; i < n; i++) {
             sum1 = sum2 = 0;
             for (int j = 0; j < n; j++) {
-                sum1 += arr[i][j]; // 행의 합
-                sum2 += arr[j][i]; // 열의 합
+                // 행의 합
+                sum1 += arr[i][j];
+                // 열의 합
+                sum2 += arr[j][i];
             }
             answer = max(answer, sum1);
             answer = max(answer, sum2);
