@@ -1,0 +1,23 @@
+package programmers.level_0;
+
+import java.util.Scanner;
+
+public class Main77 {
+    public static void main(String[] args) {
+
+        String hello = solution("hello", 3);
+        System.out.println("hello = " + hello);
+    }
+
+    static String solution(String my_string, int n) {
+        String answer = "";
+
+        char[] a = my_string.toCharArray();
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < n; j++) {
+                answer += a[i];
+            }
+        }
+        return answer;
+    }
+}
