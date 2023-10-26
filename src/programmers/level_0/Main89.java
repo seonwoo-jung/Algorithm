@@ -1,12 +1,16 @@
 package programmers.level_0;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static java.util.Arrays.sort;
 
 // 최빈값 구하기
 public class Main89 {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 3, 3, 4};
-        solution(arr);
+        int i = solution2(arr);
+        System.out.println("i = " + i);
     }
 
     static int solution(int[] array) {
@@ -24,20 +28,6 @@ public class Main89 {
             count[array[i]]++;
         }
 
-        /**
-         * count[1]++;
-         * count[2]++;
-         * count[3]++;
-         * count[3]++;
-         * count[3]++;
-         * count[4]++;
-         */
-
-        // 배열 count에 숫자가 count 된 거임
-        for (int i = 0; i < count.length; i++) {
-            System.out.printf("count[%d] = %d\n", i, count[i]);
-        }
-
         int top = count[0]; // top: 0
 
         for (int i = 1; i < count.length; i++) {
@@ -51,5 +41,28 @@ public class Main89 {
         }
 
         return answer; // 최빈값 return
+    }
+
+    static int solution2(int[] array) {
+        int maxCount = 0;
+        int answer = 0;
+
+        Map<Integer, Integer> map = new HashMap<>();
+
+        // 1, 2, 3, 3, 3, 4 순으로 for문 실행
+        for (int number : array) {
+            int count = map.getOrDefault(number, 0) + 1;
+            System.out.println("count = " + count);
+
+            if (count > maxCount) {
+                maxCount = count;   // count 값
+                answer = number;    // 배열의 실제 값
+            } else if (count == maxCount) {
+                answer = -1;
+            }
+            // 배열의 count 값을 map에 담는다.
+            map.put(number, count);
+        }
+        return answer;
     }
 }

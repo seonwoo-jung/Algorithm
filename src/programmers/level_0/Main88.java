@@ -1,14 +1,19 @@
 package programmers.level_0;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import static java.lang.Math.max;
+import static java.lang.Math.min;
+
+/**
+ * 겹치는 선분의 길이
+ */
 public class Main88 {
     public static void main(String[] args) {
-        int[][] arr = {
-                {0, 2},
-                {-3, -1},
-                {-2, 1}
-        };
-        int solution = solution(arr);
-        System.out.println("solution = " + solution);
+        int[][] arr = {{0, 2}, {-3, -1}, {-2, 1}};
+        int solution = solution2(arr);
+        System.out.println("solution result = " + solution);
     }
 
     static int solution(int[][] dots) {
@@ -31,5 +36,18 @@ public class Main88 {
         }
 
         return answer;
+    }
+
+    static int solution2(int[][] lines) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int[] line : lines) {
+            int from = min(line[0], line[1]);
+            int to   = max(line[0], line[1]);
+            for (int i = from; i < to; i++) {
+                map.merge(i, 1, Integer::sum);
+            }
+        }
+
+        return (int) map.values().stream().filter(i -> i > 1).count();
     }
 }
