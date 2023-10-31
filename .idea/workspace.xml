@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="코딩테스트 학습중">
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch03/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch03/Main6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inflearn/ch03/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch03/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level_1/Main3.java" afterDir="false" />
-    </list>
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="문자열, 배열, Two Pointers, Sliding Window 학습" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,7 +201,7 @@
       <workItem from="1698473336386" duration="506000" />
       <workItem from="1698474650545" duration="1184000" />
       <workItem from="1698621635438" duration="4873000" />
-      <workItem from="1698707210335" duration="6154000" />
+      <workItem from="1698707210335" duration="6197000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -396,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698392026657</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="문자열, 배열, Two Pointers, Sliding Window 학습">
+      <option name="closed" value="true" />
+      <created>1698738883012</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1698738883013</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,6 +425,7 @@
     <MESSAGE value="- 컨트롤 제트&#10;- 소인수분해" />
     <MESSAGE value="학습중" />
     <MESSAGE value="코딩테스트 학습중" />
-    <option name="LAST_COMMIT_MESSAGE" value="코딩테스트 학습중" />
+    <MESSAGE value="문자열, 배열, Two Pointers, Sliding Window 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="문자열, 배열, Two Pointers, Sliding Window 학습" />
   </component>
 </project>
