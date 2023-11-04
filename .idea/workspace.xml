@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="- 학급 회장 HashMap 학습중">
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch04/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch04/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch04/Main4.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="코딩테스트 학습중">
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch04/Main5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +77,7 @@
       <recent name="inflearn.string" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main4">
+  <component name="RunManager" selected="애플리케이션.Main5">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inflearn.ch04.Main1" />
       <module name="Algorithm" />
@@ -132,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch03.Main7" />
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch04.Main5" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch03.*" />
+          <option name="PATTERN" value="inflearn.ch04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main5" />
         <item itemvalue="애플리케이션.Main4" />
         <item itemvalue="애플리케이션.Main3" />
         <item itemvalue="애플리케이션.Main2" />
         <item itemvalue="애플리케이션.Main1" />
-        <item itemvalue="애플리케이션.Main7" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +218,8 @@
       <workItem from="1698915830907" duration="518000" />
       <workItem from="1699055792709" duration="8430000" />
       <workItem from="1699076590502" duration="693000" />
-      <workItem from="1699077334734" duration="2818000" />
+      <workItem from="1699077334734" duration="3051000" />
+      <workItem from="1699080802371" duration="1947000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -433,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698825449807</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="코딩테스트 학습중">
+      <option name="closed" value="true" />
+      <created>1699080732601</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1699080732601</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,11 +466,11 @@
     <MESSAGE value="- 프로그래머스 알고리즘&#10;- ch04. 큐 학습중" />
     <MESSAGE value="- 컨트롤 제트&#10;- 소인수분해" />
     <MESSAGE value="학습중" />
-    <MESSAGE value="코딩테스트 학습중" />
     <MESSAGE value="문자열, 배열, Two Pointers, Sliding Window 학습" />
     <MESSAGE value="- 문자열&#10;- 배열&#10;- Two Pointers&#10;- Sliding Window&#10;&#10;학습완료" />
     <MESSAGE value="- 학급 회장 HashMap 학습중" />
-    <option name="LAST_COMMIT_MESSAGE" value="- 학급 회장 HashMap 학습중" />
+    <MESSAGE value="코딩테스트 학습중" />
+    <option name="LAST_COMMIT_MESSAGE" value="코딩테스트 학습중" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
