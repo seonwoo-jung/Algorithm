@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="코딩테스트 학습중">
-      <change afterPath="$PROJECT_DIR$/src/inflearn/Study.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch05/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch05/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch05/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch05/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch05/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch05/Main6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch05/Main7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch05/Main8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch06/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch06/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch06/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch06/Main4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,20 +73,20 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="inflearn.ch06" />
       <recent name="inflearn.ch05" />
       <recent name="inflearn.ch04" />
       <recent name="inflearn.ch03" />
       <recent name="programmers.level_1" />
-      <recent name="programmers.level_0" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main7">
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch05.Main5" />
+  <component name="RunManager" selected="애플리케이션.Main4">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch06.Main1" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch05.*" />
+          <option name="PATTERN" value="inflearn.ch06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch05.Main6" />
+    <configuration name="Main17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch02.Main17" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch05.*" />
+          <option name="PATTERN" value="inflearn.ch02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch05.Main7" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch06.Main2" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch05.*" />
+          <option name="PATTERN" value="inflearn.ch06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Study" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.Study" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch06.Main3" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.*" />
+          <option name="PATTERN" value="inflearn.ch06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inflearn.ch05.Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch05.Main4" />
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch06.Main4" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch05.*" />
+          <option name="PATTERN" value="inflearn.ch06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main7" />
-        <item itemvalue="애플리케이션.Main6" />
-        <item itemvalue="애플리케이션.Main5" />
-        <item itemvalue="애플리케이션.Study" />
-        <item itemvalue="애플리케이션.inflearn.ch05.Main4" />
+        <item itemvalue="애플리케이션.Main4" />
+        <item itemvalue="애플리케이션.Main3" />
+        <item itemvalue="애플리케이션.Main2" />
+        <item itemvalue="애플리케이션.Main1" />
+        <item itemvalue="애플리케이션.Main17" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +230,8 @@
       <workItem from="1699329067366" duration="1361000" />
       <workItem from="1699456587170" duration="87000" />
       <workItem from="1699573169161" duration="500000" />
-      <workItem from="1699573852850" duration="20473000" />
+      <workItem from="1699573852850" duration="20654000" />
+      <workItem from="1699924907202" duration="9064000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -464,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699082915233</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="코딩테스트 학습중">
+      <option name="closed" value="true" />
+      <created>1699861939521</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1699861939521</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
