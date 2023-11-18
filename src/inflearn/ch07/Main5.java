@@ -17,8 +17,8 @@ public class Main5 {
     static void DFS(Node root) {
         if (root == null) return;
         else {
-            DFS(root.lt);
             System.out.print(root.data + " "); // 순회 위치
+            DFS(root.lt);
             DFS(root.rt);
         }
     }

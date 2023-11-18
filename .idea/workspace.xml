@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="코딩테스트 학습중">
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/Study.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,25 +52,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/seonwoo_jung/IdeaProjects/Algorithm/src/inflearn/ch07",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "패싯",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/seonwoo_jung/IdeaProjects/Algorithm/src/inflearn/ch07&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;패싯&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/inflearn/ch07" />
@@ -86,9 +85,9 @@
       <recent name="inflearn.ch03" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main8">
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch07.Main4" />
+  <component name="RunManager" selected="애플리케이션.Main10">
+    <configuration name="Main10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch07.Main10" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -102,19 +101,6 @@
     </configuration>
     <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inflearn.ch07.Main5" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inflearn.ch07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch07.Main6" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -152,6 +138,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch07.Main9" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inflearn.ch07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main10" />
+        <item itemvalue="애플리케이션.Main9" />
         <item itemvalue="애플리케이션.Main8" />
         <item itemvalue="애플리케이션.Main7" />
-        <item itemvalue="애플리케이션.Main6" />
         <item itemvalue="애플리케이션.Main5" />
-        <item itemvalue="애플리케이션.Main4" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +240,8 @@
       <workItem from="1699954305932" duration="10848000" />
       <workItem from="1700027021529" duration="1263000" />
       <workItem from="1700029226159" duration="55000" />
-      <workItem from="1700186031999" duration="12480000" />
+      <workItem from="1700186031999" duration="13268000" />
+      <workItem from="1700262873293" duration="6746000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -494,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700024865751</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="코딩테스트 학습중">
+      <option name="closed" value="true" />
+      <created>1700206758704</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1700206758704</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
