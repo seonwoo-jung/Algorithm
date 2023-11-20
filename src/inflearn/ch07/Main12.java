@@ -2,6 +2,8 @@ package inflearn.ch07;
 
 import java.util.Scanner;
 
+import static java.lang.System.*;
+
 /**
  *  경로탐색(DFS)
  */
@@ -10,12 +12,22 @@ public class Main12 {
     static int[][] graph;
     static int[] ch;
 
-    static int DFS(int v) {
-
+    static void DFS(int v) {
+        if (v == n) {
+            answer++;
+        } else {
+            for (int i = 1; i <= n; i++) {
+                if (graph[v][i] == 1 && ch[i] == 0) {
+                    ch[i] = 1;
+                    DFS(i);
+                    ch[i] = 0;
+                }
+            }
+        }
     }
 
     public static void main(String[] args) {
-        Scanner kb = new Scanner(System.in);
+        Scanner kb = new Scanner(in);
         n = kb.nextInt();
         m = kb.nextInt();
         graph = new int[n + 1][n + 1];
@@ -27,6 +39,6 @@ public class Main12 {
         }
         ch[1] = 1;
         DFS(1);
-        System.out.println(answer);
+        out.println(answer);
     }
 }
