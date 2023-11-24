@@ -2,6 +2,7 @@ package inflearn.ch08;
 
 import java.util.Scanner;
 
+import static java.lang.Math.max;
 import static java.lang.System.in;
 
 /**
@@ -9,34 +10,31 @@ import static java.lang.System.in;
  */
 public class Main3 {
 
-    static String answer = "NO";
-    static int n, total = 0;
+    static int answer = Integer.MIN_VALUE, n, m;
     boolean flag = false;
 
-    void DFS(int L, int sum, int[] arr) {
-        if (flag) return;
-        if (sum > total / 2) return;
+    static void DFS(int L, int sum, int time, int[] ps, int[] pt) {
+        if (time > m) return;
         if (L == n) {
-            if ((total - sum) == sum) {
-                answer = "YES";
-                flag = true;
-            }
-        } else {
-            DFS(L + 1, sum + arr[L], arr);
-            DFS(L + 1, sum, arr);
+            answer = max(answer, sum);
+        }
+        else {
+            DFS(L + 1, sum + ps[L], time + pt[L], ps, pt);
+            DFS(L + 1, sum, time, ps, pt);
         }
     }
 
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
-        n = kb.nextInt();
-        int[] arr = new int[n];
+        n = kb.nextInt(); // 문제수
+        m = kb.nextInt(); // 제한시간
+        int[] a = new int[n];
+        int[] b = new int[n];
         for (int i = 0; i < n; i++) {
-            arr[i] = kb.nextInt();
-            total += arr[i];
+            a[i] = kb.nextInt();
+            b[i] = kb.nextInt();
         }
-        Main3 main = new Main3();
-        main.DFS(0, 0, arr);
+        DFS(0, 0, 0, a, b);
         System.out.println(answer);
     }
 }

@@ -11,9 +11,11 @@ public class Main1 {
     boolean flag = false;
 
     void DFS(int L, int sum, int[] arr) {
-        if (flag) return;
-        if (sum > total / 2) return;
+        System.out.printf("L의 값 = %d, sum의 값 =  %d\n", L, sum);
+        if (flag) return;            // 부분집합 합을 찾으면 더 찾을 필요가 없음.
+        if (sum > total / 2) return; // 총합보다 크다면 재귀가 돌아갈 필요가 없음
         if (L == n) {
+            // -sum 대신 /2로 해도 됨
             if ((total - sum) == sum) {
                 answer = "YES";
                 flag = true;

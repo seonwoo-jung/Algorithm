@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="코딩테스트 학습중">
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch08/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch08/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch08/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch08/Main3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <recent name="inflearn.ch04" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main2">
+  <component name="RunManager" selected="애플리케이션.Main3">
     <configuration name="Main10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inflearn.ch07.Main10" />
       <module name="Algorithm" />
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch07.Main7" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch08.Main3" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch07.*" />
+          <option name="PATTERN" value="inflearn.ch08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main3" />
         <item itemvalue="애플리케이션.Main2" />
         <item itemvalue="애플리케이션.inflearn.ch08.Main1" />
         <item itemvalue="애플리케이션.Main10" />
         <item itemvalue="애플리케이션.Main9" />
-        <item itemvalue="애플리케이션.Main7" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +242,9 @@
       <workItem from="1700552474351" duration="580000" />
       <workItem from="1700613048447" duration="1867000" />
       <workItem from="1700735424882" duration="253000" />
-      <workItem from="1700790807917" duration="70000" />
+      <workItem from="1700790807917" duration="1372000" />
+      <workItem from="1700807969734" duration="20000" />
+      <workItem from="1700808077799" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -527,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700551445270</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="코딩테스트 학습중">
+      <option name="closed" value="true" />
+      <created>1700791037961</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1700791037961</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
