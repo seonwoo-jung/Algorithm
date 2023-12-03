@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="코딩테스트 학습중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch08/Main9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +78,7 @@
       <recent name="inflearn.ch04" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main8">
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch08.Main4" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inflearn.ch08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.programmers.level_1.Main4">
     <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inflearn.ch08.Main5" />
       <module name="Algorithm" />
@@ -145,6 +131,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="programmers.level_1.Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main4" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.programmers.level_1.Main4" />
         <item itemvalue="애플리케이션.Main8" />
         <item itemvalue="애플리케이션.Main7" />
         <item itemvalue="애플리케이션.Main6" />
         <item itemvalue="애플리케이션.Main5" />
-        <item itemvalue="애플리케이션.Main4" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +247,9 @@
       <workItem from="1700868671974" duration="8641000" />
       <workItem from="1700981556721" duration="6337000" />
       <workItem from="1700996077994" duration="1518000" />
+      <workItem from="1701064377894" duration="362000" />
+      <workItem from="1701094553611" duration="499000" />
+      <workItem from="1701581867969" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -572,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700990835730</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="코딩테스트 학습중">
+      <option name="closed" value="true" />
+      <created>1701064386905</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1701064386905</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
