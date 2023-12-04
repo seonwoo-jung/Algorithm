@@ -8,14 +8,27 @@ import static java.lang.System.in;
  * 조합구하기
  */
 public class Main9 {
-    static void DFS(int L, int sum) {
 
+    static int[] combi;
+    static int n, m;
+
+    static void DFS(int L, int s) {
+        if (L == m) {
+            for (int x : combi) System.out.printf(x + " ");
+            System.out.println();
+        } else {
+            for (int i = s; i <= n; i++) {
+                combi[L] = i;
+                DFS(L + 1, i + 1);
+            }
+        }
     }
 
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
-        int n = kb.nextInt();
-        int m = kb.nextInt();
-        DFS(0, 0);
+        n = kb.nextInt();
+        m = kb.nextInt();
+        combi = new int[m];
+        DFS(0, 1);
     }
 }
