@@ -2,7 +2,7 @@ package inflearn.ch08;
 
 import java.util.Scanner;
 
-import static java.lang.Integer.*;
+import static java.lang.Integer.MIN_VALUE;
 import static java.lang.System.in;
 
 public class Main2 {

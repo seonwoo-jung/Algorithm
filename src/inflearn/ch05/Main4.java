@@ -3,7 +3,7 @@ package inflearn.ch05;
 import java.util.Scanner;
 import java.util.Stack;
 
-import static java.lang.Character.*;
+import static java.lang.Character.isDigit;
 import static java.lang.System.in;
 
 /**

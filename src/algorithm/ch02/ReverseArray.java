@@ -3,7 +3,8 @@ package algorithm.ch02;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static java.lang.System.*;
+import static java.lang.System.in;
+import static java.lang.System.out;
 
 public class ReverseArray {
 

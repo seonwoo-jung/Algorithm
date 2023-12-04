@@ -2,7 +2,6 @@ package inflearn.ch02;
 
 import java.util.Scanner;
 
-import static java.lang.Math.max;
 import static java.lang.System.in;
 
 /**

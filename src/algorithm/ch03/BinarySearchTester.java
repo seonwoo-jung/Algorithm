@@ -1,6 +1,5 @@
 package algorithm.ch03;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.util.Arrays.binarySearch;

@@ -1,8 +1,9 @@
 package inflearn.ch04;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Scanner;
 
-import static java.lang.Integer.*;
+import static java.lang.Integer.MIN_VALUE;
 import static java.lang.System.in;
 
 /**

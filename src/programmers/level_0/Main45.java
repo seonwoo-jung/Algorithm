@@ -1,7 +1,7 @@
 package programmers.level_0;
 
 import static java.lang.Math.max;
-import static java.util.Arrays.*;
+import static java.util.Arrays.sort;
 
 public class Main45 {
 

@@ -1,7 +1,5 @@
 package programmers.level_0;
 
-import java.util.Scanner;
-
 public class Main77 {
     public static void main(String[] args) {
 

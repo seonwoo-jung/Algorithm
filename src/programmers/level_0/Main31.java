@@ -1,7 +1,5 @@
 package programmers.level_0;
 
-import static java.lang.String.format;
-
 public class Main31 {
     public static void main(String[] args) {
         System.out.println(solution(1081));

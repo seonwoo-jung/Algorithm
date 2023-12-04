@@ -1,7 +1,5 @@
 package programmers.level_0;
 
-import java.util.Scanner;
-
 public class Main84 {
     public static void main(String[] args) {
         int solution = solution(10);

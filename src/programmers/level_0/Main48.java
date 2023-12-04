@@ -1,8 +1,5 @@
 package programmers.level_0;
 
-import static java.lang.Math.pow;
-import static java.lang.Math.sqrt;
-
 public class Main48 {
 
     public static void main(String[] args) {

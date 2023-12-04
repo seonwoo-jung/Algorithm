@@ -1,7 +1,5 @@
 package programmers.level_0;
 
-import java.util.Arrays;
-
 import static java.util.Arrays.sort;
 
 public class Main41 {

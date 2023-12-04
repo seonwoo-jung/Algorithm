@@ -2,7 +2,8 @@ package algorithm.ch05;
 
 import java.util.Scanner;
 
-import static java.lang.System.*;
+import static java.lang.System.in;
+import static java.lang.System.out;
 
 public class Factorial {
 

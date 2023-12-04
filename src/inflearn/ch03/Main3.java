@@ -1,11 +1,9 @@
 package inflearn.ch03;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 import static java.lang.Math.max;
 import static java.lang.System.in;
-import static java.util.Arrays.sort;
 
 /**
  * 최대매출

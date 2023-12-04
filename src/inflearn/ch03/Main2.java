@@ -1,7 +1,6 @@
 package inflearn.ch03;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.lang.System.in;

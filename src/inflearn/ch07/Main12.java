@@ -2,7 +2,8 @@ package inflearn.ch07;
 
 import java.util.Scanner;
 
-import static java.lang.System.*;
+import static java.lang.System.in;
+import static java.lang.System.out;
 
 /**
  *  경로탐색(DFS)
