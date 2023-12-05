@@ -29,7 +29,7 @@ public class Main3 {
     static int solution(int n, int k, int[] arr) {
         int answer, sum = 0;
 
-        // 0부터 k번 째까지 합한다.
+        // 0부터 k번 째 전까지 합한다.
         for (int i = 0; i < k; i++) {
             sum += arr[i];
         }
