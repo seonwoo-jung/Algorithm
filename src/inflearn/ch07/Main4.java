@@ -8,7 +8,7 @@ public class Main4 {
     static int[] fibo;
 
     static int DFS(int n) {
-        if (fibo[n] > 0){
+        if (fibo[n] > 0) {
             return fibo[n];
         }
         if (n == 1) {
@@ -21,10 +21,10 @@ public class Main4 {
     }
 
     public static void main(String[] args) {
-        int n = 45;
+        int n = 7;
         fibo = new int[n + 1];
         DFS(n);
-        for (int i = 1; i <= n; i++) {
+        for (int i = 0; i <= n; i++) {
             System.out.print(fibo[i] + " ");
         }
     }

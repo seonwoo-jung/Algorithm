@@ -33,9 +33,9 @@ public class Main13 {
         n = kb.nextInt();
         m = kb.nextInt();
         List<Integer> list = new ArrayList<>();
-        graph = new ArrayList<ArrayList<Integer>>();
+        graph = new ArrayList<>();
         for (int i = 0; i <= n; i++) {
-            graph.add(new ArrayList<Integer>());
+            graph.add(new ArrayList<>());
         }
         ch = new int[n + 1];
         for (int i = 0; i < m; i++) {

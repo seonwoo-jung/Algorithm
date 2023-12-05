@@ -27,7 +27,6 @@ public class Main9 {
             return min(DFS(L + 1, root.lt), DFS(L + 1, root.rt));
         }
     }
-
     static class Node {
         int data;
         Node lt, rt;

@@ -37,10 +37,10 @@ public class Main14 {
         Scanner kb = new Scanner(in);
         n = kb.nextInt(); // 정점의 수
         m = kb.nextInt(); // 간선의 수
-        graph = new ArrayList<ArrayList<Integer>>();
+        graph = new ArrayList<>();
 
         for (int i = 0; i <= n; i++) {
-            graph.add(new ArrayList<Integer>());
+            graph.add(new ArrayList<>());
         }
 
         ch = new int[n + 1];
