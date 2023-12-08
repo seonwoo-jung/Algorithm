@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="코딩테스트 학습중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inflearn/ch09/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch09/Main5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +52,20 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/seonwoo_jung/IdeaProjects/Algorithm/src/inflearn/ch08&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Main7.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.inflearn.ch09.Main5.executor&quot;: &quot;Run&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -160,8 +163,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.inflearn.ch09.Main5" />
-        <item itemvalue="애플리케이션.Main4" />
         <item itemvalue="애플리케이션.Main7" />
+        <item itemvalue="애플리케이션.Main4" />
         <item itemvalue="애플리케이션.Main5" />
         <item itemvalue="애플리케이션.inflearn.ch03.Main3" />
       </list>
@@ -265,6 +268,8 @@
       <workItem from="1701833454511" duration="4704000" />
       <workItem from="1701844476187" duration="869000" />
       <workItem from="1701848365452" duration="818000" />
+      <workItem from="1701933951602" duration="372000" />
+      <workItem from="1702016127254" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
