@@ -1,12 +1,15 @@
 package inflearn.ch09;
 
+import java.util.ArrayList;
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
-import static java.lang.Integer.MIN_VALUE;
+import static java.lang.Integer.MAX_VALUE;
 import static java.lang.System.in;
+import static java.util.Arrays.fill;
 
 /**
- * 다익스트라 알고리즘
+ * 다익스트라 알고리즘 (다시보기)
 6 9
 1 2 12
 1 3 4
@@ -19,31 +22,69 @@ import static java.lang.System.in;
 6 4 5
  */
 public class Main5 {
+
+    static int n, m;
+    static ArrayList<ArrayList<Edge>> graph;
+    static int[] dis;
+
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
-        int n = kb.nextInt();
-        int m = kb.nextInt();
-        int[][] graph = new int[n + 1][m + 1];
+        n = kb.nextInt();
+        m = kb.nextInt();
+        graph = new ArrayList<ArrayList<Edge>>();
         for (int i = 0; i < m; i++) {
-            int x = kb.nextInt();
-            int y = kb.nextInt();
-            int cost = kb.nextInt();
-            graph[x][y] = cost;
+            graph.add(new ArrayList<Edge>());
+        }
+        dis = new int[n + 1];
+
+        fill(dis, MAX_VALUE);
+
+        for (int i = 0; i < m; i++) {
+            int a = kb.nextInt();
+            int b = kb.nextInt();
+            int c = kb.nextInt();
+            graph.get(a).add(new Edge(b, c));
         }
 
-        for (int i = 1; i < n; i++) {
-            int min = MIN_VALUE;
-            for (int j = 1; j < m; j++) {
-                if (min > graph[i][j]) {
-                    min = graph[i][j];
+        solution(1);
+        for (int i = 2; i <= n; i++) {
+            if (dis[i] != MAX_VALUE) System.out.println(i + " : " + dis[i]);
+            else System.out.println(i + " : impossible");
+        }
+    }
+
+    static void solution(int v) {
+        PriorityQueue<Edge> pQ = new PriorityQueue<>();
+        pQ.offer(new Edge(v, 0));
+        dis[v] = 0;
+        while (!pQ.isEmpty()) {
+            Edge tmp = pQ.poll();
+            int now = tmp.vex;
+            int nowCost = tmp.cost;
+            if (nowCost > dis[now]) continue;
+            for (Edge ob : graph.get(now)) {
+                if (dis[ob.vex] > nowCost + ob.cost) {
+                    dis[ob.vex] = nowCost + ob.cost;
+                    pQ.offer(new Edge(ob.vex, nowCost + ob.cost));
                 }
             }
-            System.out.printf("%d의 최소비용 = %d\n", i, min);
         }
-//        for (int i = 0; i < n; i++) {
-//            for (int j = 0; j < m; j++) {
-//                System.out.printf("graph[%d][%d] = %d\n", i, j, graph[i][j]);
-//            }
-//        }
+
+    }
+
+
+    static class Edge implements Comparable<Edge> {
+
+        public int vex, cost;
+
+        public Edge(int vex, int cost) {
+            this.vex = vex;
+            this.cost = cost;
+        }
+
+        @Override
+        public int compareTo(Edge ob) {
+            return this.cost - ob.cost;
+        }
     }
 }
