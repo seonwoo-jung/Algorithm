@@ -1,8 +1,5 @@
 package programmers.level_1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main11 {
 
     public static void main(String[] args) {
@@ -14,11 +11,15 @@ public class Main11 {
     }
 
     static int[] solution(long n) {
-        List<Long> list = new ArrayList<>();
-        while (n % 10 != 0) {
-            list.add(n % 10);
+        String a = "" + n;
+        int[] answer = new int[a.length()];
+        int cnt = 0;
+
+        while (n > 0) {
+            answer[cnt++] = (int) (n % 10);
             n /= 10;
         }
-        return list.stream().mapToInt(Integer::parseInt).toArray();
+
+        return answer;
     }
 }

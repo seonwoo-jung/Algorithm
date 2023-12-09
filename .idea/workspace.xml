@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="코딩테스트 학습중">
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level_1/Main11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,7 @@
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.Main10.executor": "Run",
     "애플리케이션.Main11.executor": "Run",
+    "애플리케이션.Main12.executor": "Run",
     "애플리케이션.Main7.executor": "Run",
     "애플리케이션.Main8.executor": "Run",
     "애플리케이션.inflearn.ch09.Main5.executor": "Run"
@@ -92,7 +92,7 @@
       <recent name="inflearn.ch06" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main11">
+  <component name="RunManager" selected="애플리케이션.Main12">
     <configuration name="Main10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main10" />
       <module name="Algorithm" />
@@ -119,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main7" />
+    <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main12" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main12" />
         <item itemvalue="애플리케이션.Main11" />
         <item itemvalue="애플리케이션.Main10" />
         <item itemvalue="애플리케이션.Main8" />
         <item itemvalue="애플리케이션.inflearn.ch09.Main5" />
-        <item itemvalue="애플리케이션.Main7" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +279,8 @@
       <workItem from="1701848365452" duration="818000" />
       <workItem from="1701933951602" duration="372000" />
       <workItem from="1702016127254" duration="2163000" />
-      <workItem from="1702077952254" duration="3952000" />
+      <workItem from="1702077952254" duration="4333000" />
+      <workItem from="1702105505520" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -315,14 +316,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00008" summary="- 프로그래머스 알고리즘&#10;- ch04. 스택과 큐 학습중">
-      <option name="closed" value="true" />
-      <created>1688891761170</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1688891761170</updated>
     </task>
     <task id="LOCAL-00009" summary="- 프로그래머스 알고리즘&#10;- ch04. 큐 학습중">
       <option name="closed" value="true" />
@@ -668,7 +661,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702020408908</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="코딩테스트 학습중">
+      <option name="closed" value="true" />
+      <created>1702085136387</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1702085136387</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
