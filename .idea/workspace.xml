@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="다익스트라 알고리즘, Uion&amp;Find 알고리즘 학습완료">
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch09/Main6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch09/Main7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inflearn/ch09/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch09/Main5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +70,7 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Main1.executor": "Run",
     "애플리케이션.Main10.executor": "Run",
     "애플리케이션.Main11.executor": "Run",
     "애플리케이션.Main12.executor": "Run",
@@ -76,6 +79,7 @@
     "애플리케이션.Main15.executor": "Run",
     "애플리케이션.Main16.executor": "Run",
     "애플리케이션.Main17.executor": "Run",
+    "애플리케이션.Main2.executor": "Run",
     "애플리케이션.Main5.executor": "Run",
     "애플리케이션.Main6.executor": "Run",
     "애플리케이션.Main7.executor": "Run",
@@ -91,20 +95,20 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="inflearn.ch10" />
       <recent name="inflearn.ch09" />
       <recent name="programmers.level_1" />
       <recent name="inflearn.ch08" />
       <recent name="inflearn.ch07" />
-      <recent name="inflearn.ch06" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main6">
-    <configuration name="Main15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main15" />
+  <component name="RunManager" selected="애플리케이션.Main2">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main1" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="inflearn.ch10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,25 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main16" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main2" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main17" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="inflearn.ch10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,6 +155,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch09.Main7" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inflearn.ch09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main2" />
+        <item itemvalue="애플리케이션.Main1" />
+        <item itemvalue="애플리케이션.Main7" />
         <item itemvalue="애플리케이션.Main6" />
         <item itemvalue="애플리케이션.Main5" />
-        <item itemvalue="애플리케이션.Main17" />
-        <item itemvalue="애플리케이션.Main16" />
-        <item itemvalue="애플리케이션.Main15" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +291,9 @@
       <workItem from="1702016127254" duration="2163000" />
       <workItem from="1702077952254" duration="4333000" />
       <workItem from="1702105505520" duration="1966000" />
-      <workItem from="1702259309956" duration="10756000" />
+      <workItem from="1702259309956" duration="10781000" />
+      <workItem from="1702336056483" duration="3478000" />
+      <workItem from="1702364261482" duration="2893000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -323,14 +329,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00012" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1696980186609</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1696980186609</updated>
     </task>
     <task id="LOCAL-00013" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -676,7 +674,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702278530716</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="다익스트라 알고리즘, Uion&amp;Find 알고리즘 학습완료">
+      <option name="closed" value="true" />
+      <created>1702278551569</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1702278551569</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
