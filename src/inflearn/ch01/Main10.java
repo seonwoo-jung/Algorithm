@@ -32,7 +32,9 @@ public class Main10 {
                 answer[i] = p;
             }
         }
+
         p = 1000;
+
         for (int i = s.length() - 1; i >= 0; i--) {
             if (s.charAt(i) == t) {
                 p = 0;

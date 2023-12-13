@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="최소 스패닝 트리(크루스칼, 프림) 및 동적계획법 학습중">
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main6.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="자바 알고리즘 문제풀이 - 코테대비 완강">
+      <change afterPath="$PROJECT_DIR$/src/inflearn/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/NumberConvert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inflearn/ch10/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch01/Main10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch01/Main11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch01/Main8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,7 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Main.executor": "Run",
     "애플리케이션.Main1.executor": "Run",
     "애플리케이션.Main10.executor": "Run",
     "애플리케이션.Main11.executor": "Run",
@@ -86,6 +88,7 @@
     "애플리케이션.Main6.executor": "Run",
     "애플리케이션.Main7.executor": "Run",
     "애플리케이션.Main8.executor": "Run",
+    "애플리케이션.NumberConvert.executor": "Run",
     "애플리케이션.inflearn.ch09.Main5.executor": "Run"
   }
 }]]></component>
@@ -104,39 +107,13 @@
       <recent name="inflearn.ch07" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main6">
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main2" />
+  <component name="RunManager" selected="애플리케이션.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main3" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inflearn.ch10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main4" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inflearn.ch10.*" />
+          <option name="PATTERN" value="inflearn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,6 +147,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch01.Main8" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inflearn.ch01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.NumberConvert" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.NumberConvert" />
+        <item itemvalue="애플리케이션.Main8" />
         <item itemvalue="애플리케이션.Main6" />
         <item itemvalue="애플리케이션.Main5" />
-        <item itemvalue="애플리케이션.Main4" />
-        <item itemvalue="애플리케이션.Main3" />
-        <item itemvalue="애플리케이션.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +300,7 @@
       <workItem from="1702336056483" duration="3478000" />
       <workItem from="1702364261482" duration="2934000" />
       <workItem from="1702422687457" duration="633000" />
-      <workItem from="1702424350324" duration="10000000" />
+      <workItem from="1702424350324" duration="22615000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -333,14 +336,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00014" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1697176791784</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1697176791784</updated>
     </task>
     <task id="LOCAL-00015" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -686,7 +681,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702367296634</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="자바 알고리즘 문제풀이 - 코테대비 완강">
+      <option name="closed" value="true" />
+      <created>1702441097841</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1702441097841</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +722,8 @@
     <MESSAGE value="프로그래머스 LV.1 5문제 완료" />
     <MESSAGE value="다익스트라 알고리즘, Uion&amp;Find 알고리즘 학습완료" />
     <MESSAGE value="최소 스패닝 트리(크루스칼, 프림) 및 동적계획법 학습중" />
-    <option name="LAST_COMMIT_MESSAGE" value="최소 스패닝 트리(크루스칼, 프림) 및 동적계획법 학습중" />
+    <MESSAGE value="자바 알고리즘 문제풀이 - 코테대비 완강" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 알고리즘 문제풀이 - 코테대비 완강" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -16,6 +16,7 @@ public class Main8 {
 
     static String solution(String str) {
         str = str.replaceAll("[^a-zA-Z]", "");
+        System.out.println("str = " + str);
         String sb = new StringBuilder(str).reverse().toString();
         if (str.equalsIgnoreCase(sb)) {
             return "YES";

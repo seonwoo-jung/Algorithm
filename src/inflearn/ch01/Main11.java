@@ -17,7 +17,7 @@ public class Main11 {
 
     static String solution(String s) {
         String answer = "";
-        s= s + " ";
+        s = s + " "; // 문자열에 빈 문자 하나를 추가해줘야 아래 알고리즘 사용가능
         int cnt = 1;
 
         for (int i = 0; i < s.length() - 1; i++) {
