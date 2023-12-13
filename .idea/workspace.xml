@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="다익스트라 알고리즘, Uion&amp;Find 알고리즘 학습완료">
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch09/Main7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main3.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="최소 스패닝 트리(크루스칼, 프림) 및 동적계획법 학습중">
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch10/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch10/Main3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +80,8 @@
     "애플리케이션.Main16.executor": "Run",
     "애플리케이션.Main17.executor": "Run",
     "애플리케이션.Main2.executor": "Run",
+    "애플리케이션.Main3.executor": "Run",
+    "애플리케이션.Main4.executor": "Run",
     "애플리케이션.Main5.executor": "Run",
     "애플리케이션.Main6.executor": "Run",
     "애플리케이션.Main7.executor": "Run",
@@ -102,20 +104,7 @@
       <recent name="inflearn.ch07" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main2">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main1" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inflearn.ch10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.Main6">
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main2" />
       <module name="Algorithm" />
@@ -129,12 +118,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch09.Main5" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main3" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch09.*" />
+          <option name="PATTERN" value="inflearn.ch10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main4" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inflearn.ch10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main5" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inflearn.ch10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,24 +158,11 @@
       </method>
     </configuration>
     <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch09.Main6" />
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main6" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch09.Main7" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inflearn.ch09.*" />
+          <option name="PATTERN" value="inflearn.ch10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main2" />
-        <item itemvalue="애플리케이션.Main1" />
-        <item itemvalue="애플리케이션.Main7" />
         <item itemvalue="애플리케이션.Main6" />
         <item itemvalue="애플리케이션.Main5" />
+        <item itemvalue="애플리케이션.Main4" />
+        <item itemvalue="애플리케이션.Main3" />
+        <item itemvalue="애플리케이션.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +295,9 @@
       <workItem from="1702105505520" duration="1966000" />
       <workItem from="1702259309956" duration="10781000" />
       <workItem from="1702336056483" duration="3478000" />
-      <workItem from="1702364261482" duration="2893000" />
+      <workItem from="1702364261482" duration="2934000" />
+      <workItem from="1702422687457" duration="633000" />
+      <workItem from="1702424350324" duration="10000000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -329,14 +333,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00013" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1697175859366</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1697175859366</updated>
     </task>
     <task id="LOCAL-00014" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -682,7 +678,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702278551569</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="최소 스패닝 트리(크루스칼, 프림) 및 동적계획법 학습중">
+      <option name="closed" value="true" />
+      <created>1702367296633</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1702367296634</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -714,7 +718,8 @@
     <MESSAGE value="코딩테스트 학습중" />
     <MESSAGE value="프로그래머스 LV.1 5문제 완료" />
     <MESSAGE value="다익스트라 알고리즘, Uion&amp;Find 알고리즘 학습완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="다익스트라 알고리즘, Uion&amp;Find 알고리즘 학습완료" />
+    <MESSAGE value="최소 스패닝 트리(크루스칼, 프림) 및 동적계획법 학습중" />
+    <option name="LAST_COMMIT_MESSAGE" value="최소 스패닝 트리(크루스칼, 프림) 및 동적계획법 학습중" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
