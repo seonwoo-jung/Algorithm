@@ -1,5 +1,6 @@
 package inflearn;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import static java.lang.System.in;
@@ -9,35 +10,27 @@ public class Main {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();
+        int[] arr1 = new int[n];
+        for (int i = 0; i < n; i++) arr1[i] = kb.nextInt();
         int m = kb.nextInt();
-        int[][] arr = new int[m][n];
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                arr[i][j] = kb.nextInt();
-            }
-        }
-        int solution = solution(n, m, arr);
-        System.out.println(solution);
+        int[] arr2 = new int[m];
+        for (int i = 0; i < m; i++) arr2[i] = kb.nextInt();
+        ArrayList<Integer> solution = solution(n, m, arr1, arr2);
+        System.out.println("solution = " + solution);
     }
 
-    static int solution(int n, int m, int[][] arr) {
-        int answer = 0;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                int cnt = 0;
-                for (int k = 0; k < m; k++) { // 수학 테스트 번호 (k = 0 ~ 2)
-                    int pi = 0, pj = 0;
-                    for (int s = 0; s < n; s++) { // 등수 기록 (s = 0 ~ 3)
-                        if (arr[k][s] == i) pi = s;
-                        if (arr[k][s] == j) pj = s;
-                    }
-                    if (pi < pj) cnt++;
-                }
-                if (cnt == m) {
-                    answer++;
-                }
-            }
+    static ArrayList<Integer> solution(int n, int m, int[] arr1, int[] arr2) {
+        ArrayList<Integer> list = new ArrayList<>();
+        int p1 = 0, p2 = 0;
+
+        while (p1 < n && p2 < m) {
+            if (arr1[p1] < arr2[p2]) list.add(arr1[p1++]);
+            else list.add(arr2[p2++]);
         }
-        return answer;
+
+        while (p1 < n) list.add(arr1[p1++]);
+        while (p2 < m) list.add(arr2[p2++]);
+
+        return list;
     }
 }
