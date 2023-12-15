@@ -5,10 +5,7 @@ import java.util.Scanner;
 import static java.lang.Integer.MIN_VALUE;
 import static java.lang.System.in;
 
-/**
- * 임시반장 구하기 (이해필요)
- */
-public class Main23 {
+public class Main11 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();

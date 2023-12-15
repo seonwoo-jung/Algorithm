@@ -27,7 +27,7 @@ public class Main1 {
         }
 
         ArrayList<Integer> solution = solution(n, m, a, b);
-        System.out.println("solution = " + solution);
+        System.out.println(solution);
     }
 
     static ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {

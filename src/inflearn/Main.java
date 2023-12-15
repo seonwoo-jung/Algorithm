@@ -2,47 +2,42 @@ package inflearn;
 
 import java.util.Scanner;
 
-import static java.lang.Math.pow;
 import static java.lang.System.in;
 
 public class Main {
+
     public static void main(String[] args) {
-        // 1000011
-        int x = 1000011, val = 1, sum = 0, k = 2;
-
-        while (x > 0) {
-            int tmp = x % 10;
-            sum = sum + tmp * val;
-            x /= 10;
-            val *= k;
-        }
-
-
-
-        System.out.println("sum = " + sum);
-
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();
-        String s = kb.next();
-        String solution = solution(n, s);
+        int m = kb.nextInt();
+        int[][] arr = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                arr[i][j] = kb.nextInt();
+            }
+        }
+        int solution = solution(n, m, arr);
         System.out.println(solution);
     }
 
-    static String solution(int n, String s) {
-        s = s.replace("#", "1")
-             .replace("*", "0");
-
-        while (!s.isEmpty()) {
-            String tmp = s.substring(0, 7);
-            int x = Integer.parseInt(tmp) % 10;
-
-            int pow = (int) pow(2, 2);
-            System.out.println("pow = " + pow);
-
-            System.out.println("tmp = " + tmp);
-            s = s.substring(7);
+    static int solution(int n, int m, int[][] arr) {
+        int answer = 0;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                int cnt = 0;
+                for (int k = 0; k < m; k++) { // 수학 테스트 번호 (k = 0 ~ 2)
+                    int pi = 0, pj = 0;
+                    for (int s = 0; s < n; s++) { // 등수 기록 (s = 0 ~ 3)
+                        if (arr[k][s] == i) pi = s;
+                        if (arr[k][s] == j) pj = s;
+                    }
+                    if (pi < pj) cnt++;
+                }
+                if (cnt == m) {
+                    answer++;
+                }
+            }
         }
-
-        return s;
+        return answer;
     }
 }

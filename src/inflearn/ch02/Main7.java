@@ -7,7 +7,7 @@ import static java.lang.System.in;
 /**
  * 점수계산
  */
-public class Main19 {
+public class Main7 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();

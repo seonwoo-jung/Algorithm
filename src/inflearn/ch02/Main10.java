@@ -13,7 +13,7 @@ import static java.lang.System.in;
  * 4 3 6 4 1
  * 8 7 3 5 2
  */
-public class Main22 {
+public class Main10 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();

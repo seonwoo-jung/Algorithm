@@ -7,7 +7,7 @@ import static java.lang.System.in;
 /**
  * 피보나치 수열
  */
-public class Main16 {
+public class Main4 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();

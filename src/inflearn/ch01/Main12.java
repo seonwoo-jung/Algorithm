@@ -29,9 +29,7 @@ public class Main12 {
         return answer;
     }
 
-    // 1. replace와 replaceAll의 차이
-    // 2. substring index의 정확한 이해가 필요
-    // 운동하고 와서 다시 봐야징 ^-^
+    // replace와 replaceAll의 차이
     static String solution2(int n, String s) {
         String answer = "";
         for (int i = 0; i < n; i++) {

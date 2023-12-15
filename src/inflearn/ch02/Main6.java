@@ -10,7 +10,7 @@ import static java.lang.System.in;
  * 9
  * 32 55 62 20 250 370 200 30 100
  */
-public class Main18 {
+public class Main6 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();

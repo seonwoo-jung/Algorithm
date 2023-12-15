@@ -7,7 +7,7 @@ import static java.lang.System.in;
 /**
  * 소수(에라토스테네스 체): 체크해서 걸러낸다
  */
-public class Main17 {
+public class Main5 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();
@@ -25,7 +25,9 @@ public class Main17 {
         for (int i = 2; i <= n; i++) {
             if (ch[i] == 0) {
                 answer++;
-                for (int j = i; j <= n; j = j + i) ch[j] = 1;
+                for (int j = i; j <= n; j = j + i) {
+                    ch[j] = 1;
+                }
             }
         }
         return answer;

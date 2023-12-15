@@ -5,9 +5,9 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 /**
- * 멘토링
+ * 멘토링 (이해필요)
  */
-public class Main24 {
+public class Main12 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();
@@ -21,7 +21,7 @@ public class Main24 {
             }
         }
         int solution = solution(n, m, arr);
-        System.out.println("solution = " + solution);
+        System.out.println(solution);
     }
 
     static int solution(int n, int m, int[][] arr) {

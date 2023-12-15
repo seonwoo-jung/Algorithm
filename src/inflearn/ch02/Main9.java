@@ -9,7 +9,7 @@ import static java.lang.System.in;
 /**
  * 격자판 최대합
  */
-public class Main21 {
+public class Main9 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();
@@ -34,10 +34,8 @@ public class Main21 {
         for (int i = 0; i < n; i++) {
             sum1 = sum2 = 0;
             for (int j = 0; j < n; j++) {
-                // 행의 합
-                sum1 += arr[i][j];
-                // 열의 합
-                sum2 += arr[j][i];
+                sum1 += arr[i][j]; // 행의 합
+                sum2 += arr[j][i]; // 열의 합
             }
             answer = max(answer, sum1);
             answer = max(answer, sum2);

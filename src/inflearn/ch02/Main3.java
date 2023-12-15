@@ -9,7 +9,7 @@ import static java.lang.System.in;
  * 2 3 3 1 3
  * 1 1 2 2 3
  */
-public class Main15 {
+public class Main3 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();
@@ -25,7 +25,11 @@ public class Main15 {
             b[i] = kb.nextInt();
         }
 
-        System.out.println(solution(n, a, b));
+        String solution = solution(n, a, b);
+        String[] x = solution.split("");
+        for (String s : x) {
+            System.out.println(s);
+        }
     }
 
     static String solution(int n, int[] a, int[] b) {

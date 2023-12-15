@@ -7,7 +7,7 @@ import static java.lang.System.in;
 /**
  * 등수계산
  */
-public class Main20 {
+public class Main8 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         int n = kb.nextInt();
