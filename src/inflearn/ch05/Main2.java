@@ -26,6 +26,6 @@ public class Main2 {
                 stack.push(x);
             }
         }
-        return stack.toString();
+        return stack.toString().replaceAll("[, ]", "").replaceAll("[\\[\\]]", "");
     }
 }
