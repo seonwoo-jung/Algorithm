@@ -25,6 +25,7 @@ public class Main9 {
         int answer = 0;
         int lt = stream(arr).max().getAsInt();
         int rt = stream(arr).sum();
+        System.out.printf("%d %d\n", lt, rt);
         while (lt <= rt) {
             int mid = (lt + rt) / 2;
             if (count(arr, mid) <= m) {
