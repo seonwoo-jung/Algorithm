@@ -1,40 +1,38 @@
-package other;
+package other.bfs;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BFS {
+public class BFS3 {
 
     public static void main(String[] args) {
-        Node node = new Node(1);
-
-        node.lt = new Node(2);
-        node.rt = new Node(3);
-
-        node.lt.lt = new Node(4);
-        node.lt.rt = new Node(5);
-        node.rt.lt = new Node(6);
-        node.rt.rt = new Node(7);
-        BFS(node);
+        Node tree = new Node(1);
+        tree.lt = new Node(2);
+        tree.rt = new Node(3);
+        tree.lt.lt = new Node(4);
+        tree.lt.rt = new Node(5);
+        int bfs = BFS(tree);
+        System.out.println("bfs = " + bfs);
     }
 
-    static void BFS(Node root) {
+    static int BFS(Node root) {
         Queue<Node> Q = new LinkedList<>();
         Q.offer(root);
+
         int L = 0;
 
         while (!Q.isEmpty()) {
             int len = Q.size();
-            System.out.print(L + " : ");
+            // for문 i가 끝나면 같은 레벨을 모두 탐색한 것
             for (int i = 0; i < len; i++) {
                 Node cur = Q.poll();
-                System.out.print(cur.data + " ");
+                if (cur.lt == null && cur.rt == null) return L;
                 if (cur.lt != null) Q.offer(cur.lt);
                 if (cur.rt != null) Q.offer(cur.rt);
             }
             L++;
-            System.out.println();
         }
+        return L;
     }
 
     static class Node {
