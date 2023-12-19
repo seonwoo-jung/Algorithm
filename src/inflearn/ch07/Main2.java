@@ -18,8 +18,8 @@ public class Main2 {
     static void DFS(int n) {
         if (n == 0) return;
         else {
-            System.out.print(n % 2 + " ");
             DFS(n / 2);
+            System.out.print(n % 2 + " ");
         }
     }
 }

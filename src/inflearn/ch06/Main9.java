@@ -6,7 +6,7 @@ import static java.lang.System.in;
 import static java.util.Arrays.stream;
 
 /**
- * 결정 알고리즘
+ * 결정 알고리즘(이분탐색 사용)
  */
 public class Main9 {
     public static void main(String[] args) {
@@ -18,14 +18,14 @@ public class Main9 {
             arr[i] = kb.nextInt();
         }
         int solution = solution(n, m, arr);
-        System.out.println("solution = " + solution);
+        System.out.println(solution);
     }
 
     static int solution(int n, int m, int[] arr) {
         int answer = 0;
-        int lt = stream(arr).max().getAsInt();
+        int lt = stream(arr).max().getAsInt(); // 기본형 int로 바꿔준다.
         int rt = stream(arr).sum();
-        System.out.printf("%d %d\n", lt, rt);
+
         while (lt <= rt) {
             int mid = (lt + rt) / 2;
             if (count(arr, mid) <= m) {

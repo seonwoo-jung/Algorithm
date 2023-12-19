@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="프로그래머스 4문제 학습">
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main27.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="프로그래머스 6문제 학습">
+      <change afterPath="$PROJECT_DIR$/src/other/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/BFS2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch06/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch07/Main2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +75,8 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.BFS.executor": "Run",
+    "애플리케이션.BFS2.executor": "Run",
     "애플리케이션.Main (1).executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.Main1.executor": "Run",
@@ -102,6 +107,7 @@
     "애플리케이션.Main8.executor": "Run",
     "애플리케이션.Main9.executor": "Run",
     "애플리케이션.NumberConvert.executor": "Run",
+    "애플리케이션.inflearn.Main2.executor": "Run",
     "애플리케이션.inflearn.ch09.Main5.executor": "Run"
   }
 }]]></component>
@@ -113,20 +119,20 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="programmers.level_1" />
+      <recent name="other" />
       <recent name="inflearn" />
+      <recent name="programmers.level_1" />
       <recent name="inflearn.ch10" />
       <recent name="inflearn.ch09" />
-      <recent name="inflearn.ch08" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main27">
-    <configuration name="Main23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main23" />
+  <component name="RunManager" selected="애플리케이션.BFS2">
+    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.BFS" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main24" />
+    <configuration name="BFS2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.BFS2" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main25" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.Main" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main26" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch07.Main2" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="inflearn.ch07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main27" />
+    <configuration name="inflearn.Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.Main2" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main27" />
-        <item itemvalue="애플리케이션.Main26" />
-        <item itemvalue="애플리케이션.Main25" />
-        <item itemvalue="애플리케이션.Main24" />
-        <item itemvalue="애플리케이션.Main23" />
+        <item itemvalue="애플리케이션.BFS2" />
+        <item itemvalue="애플리케이션.BFS" />
+        <item itemvalue="애플리케이션.inflearn.Main2" />
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +328,8 @@
       <workItem from="1702681632720" duration="3344000" />
       <workItem from="1702686540847" duration="19465000" />
       <workItem from="1702770582481" duration="15911000" />
-      <workItem from="1702941274254" duration="5158000" />
+      <workItem from="1702941274254" duration="16828000" />
+      <workItem from="1702969227783" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -358,22 +365,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00022" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1698292077523</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1698292077523</updated>
-    </task>
-    <task id="LOCAL-00023" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1698372467595</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1698372467595</updated>
     </task>
     <task id="LOCAL-00024" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -711,7 +702,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702886092653</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="프로그래머스 6문제 학습">
+      <option name="closed" value="true" />
+      <created>1702950522068</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1702950522069</updated>
+    </task>
+    <task id="LOCAL-00067" summary="프로그래머스 6문제 학습">
+      <option name="closed" value="true" />
+      <created>1702950713257</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1702950713257</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -751,7 +758,8 @@
     <MESSAGE value="ch4-3 매출액의 종류 학습중" />
     <MESSAGE value="1. Stack, Queue 학습완료&#10;2. LRU 학습중" />
     <MESSAGE value="프로그래머스 4문제 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 4문제 학습" />
+    <MESSAGE value="프로그래머스 6문제 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 6문제 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

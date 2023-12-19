@@ -1,69 +1,46 @@
 package inflearn;
 
-import java.util.Scanner;
-
-import static java.lang.System.in;
-
-/**
- * 선택, 버블, 삽입 정렬
- */
 public class Main {
 
     public static void main(String[] args) {
-        Scanner kb = new Scanner(in);
-        int n = kb.nextInt();
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = kb.nextInt();
-        }
-        int[] solution = solution3(n, arr);
-        for (int i : solution) {
-            System.out.println(i);
+        Node node = new Node(1);
+        node.lt = new Node(2);
+        node.rt = new Node(3);
+
+        node.lt.lt = new Node(4);
+        node.lt.rt = new Node(5);
+        node.rt.lt = new Node(6);
+        node.rt.rt = new Node(7);
+
+        node.lt.lt.lt = new Node(8);
+        node.lt.lt.rt = new Node(9);
+        node.lt.rt.lt = new Node(10);
+        node.lt.rt.rt = new Node(11);
+        node.rt.lt.lt = new Node(12);
+        node.rt.lt.rt = new Node(13);
+        node.rt.rt.lt = new Node(14);
+        node.rt.rt.rt = new Node(15);
+
+        DFS(node);
+    }
+
+    static void DFS(Node root) {
+        if (root == null) {
+            return;
+        } else {
+            DFS(root.lt);
+            System.out.printf("%d ", root.data); // 순회위치
+            DFS(root.rt);
         }
     }
 
-    // 선택정렬
-    static int[] solution(int n, int[] arr) {
-        for (int i = 0; i < n - 1; i++) {
-            int idx = i;
-            for (int j = i + 1; j < n; j++) {
-                if (arr[j] < arr[idx]) idx = j;
-            }
-            int tmp = arr[i];
-            arr[i] = arr[idx];
-            arr[idx] = tmp;
-        }
-        return arr;
-    }
+    static class Node {
+        private int data;
+        private Node lt, rt;
 
-    // 버블정렬 (이웃한 두 수를 비교)
-    // 한 번의 Turn으로 제일 큰 수를 맨 뒤로 보내고, 다음 반복 때는 결정된 자리 전까지 반복함.
-    static int[] solution2(int n, int[] arr) {
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    int tmp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = tmp;
-                }
-            }
+        public Node(int data) {
+            this.data = data;
+            lt = rt = null;
         }
-        return arr;
-    }
-
-    // 삽입정렬
-    static int[] solution3(int n, int[] arr) {
-        for (int i = 0; i < n; i++) {
-            int tmp = arr[i], j;
-            for (j = i - 1; j >= 0; j--) {
-                if (arr[j] > tmp) {
-                    arr[j + 1] = arr[j];
-                } else {
-                    break;
-                }
-                arr[j + 1] = tmp;
-            }
-        }
-        return arr;
     }
 }
