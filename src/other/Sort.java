@@ -32,7 +32,6 @@ public class Sort {
             int tmp = arr[i];
             arr[i] = arr[idx];
             arr[idx] = tmp;
-            System.out.printf("arr[%d][%d]\n", i, idx);
         }
         return arr;
     }
