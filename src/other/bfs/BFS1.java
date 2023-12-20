@@ -3,7 +3,7 @@ package other.bfs;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BFS {
+public class BFS1 {
 
     public static void main(String[] args) {
         Node node = new Node(1);

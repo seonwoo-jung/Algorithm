@@ -2,7 +2,7 @@ package other.dfs;
 
 import java.util.Scanner;
 
-public class DFS {
+public class DFS1 {
 
     static int n;
     static int[] ch;

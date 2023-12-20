@@ -32,6 +32,7 @@ public class Sort {
             int tmp = arr[i];
             arr[i] = arr[idx];
             arr[idx] = tmp;
+            System.out.printf("arr[%d][%d]\n", i, idx);
         }
         return arr;
     }
@@ -53,7 +54,7 @@ public class Sort {
 
     // 삽입정렬
     static int[] solution3(int n, int[] arr) {
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             int tmp = arr[i], j;
             for (j = i - 1; j >= 0; j--) {
                 if (arr[j] > tmp) {
@@ -61,8 +62,8 @@ public class Sort {
                 } else {
                     break;
                 }
-                arr[j + 1] = tmp;
             }
+            arr[j + 1] = tmp;
         }
         return arr;
     }

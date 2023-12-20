@@ -1,5 +1,6 @@
 package other.dfs;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import static java.lang.System.in;
@@ -16,23 +17,30 @@ import static java.lang.System.in;
  4 2
  4 5
  */
-// 인접행렬
-public class DFS3 {
+// 인접리스트
+public class DFS4 {
 
     static int n, m, answer = 0;
-    static int[][] graph;
+    static ArrayList<ArrayList<Integer>> graph;
     static int[] ch;
 
     public static void main(String[] args) {
         Scanner kb = new Scanner(in);
         n = kb.nextInt();
         m = kb.nextInt();
-        graph = new int[n + 1][n + 1];
+        graph = new ArrayList<>();
+
+        // 객체 생성하기
+        for (int i = 0; i <= n; i++) {
+            graph.add(new ArrayList<>());
+        }
+
         ch = new int[n + 1];
+
         for (int i = 0; i < m; i++) {
             int a = kb.nextInt();
             int b = kb.nextInt();
-            graph[a][b] = 1;
+            graph.get(a).add(b); // a번 ArrayList에 접근해서 add를 한다.
         }
         ch[1] = 1;
         DFS(1);
@@ -43,11 +51,11 @@ public class DFS3 {
     static void DFS(int v) {
         if (v == n) answer++;
         else {
-            for (int i = 1; i <= n; i++) {
-                if (graph[v][i] == 1 && ch[i] == 0) {
-                    ch[i] = 1;
-                    DFS(i);
-                    ch[i] = 0;
+            for (int nv : graph.get(v)) {
+                if (ch[nv] == 0) {
+                    ch[nv] = 1;
+                    DFS(nv);
+                    ch[nv] = 0;
                 }
             }
         }

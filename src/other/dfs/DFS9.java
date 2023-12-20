@@ -1,6 +1,6 @@
-package inflearn;
+package other.dfs;
 
-public class Main {
+public class DFS9 {
 
     public static void main(String[] args) {
         Node node = new Node(1);
