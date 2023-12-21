@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="DFS, BFS, GCD, Sort 복습">
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="정렬 복습">
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main29.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,74 +47,76 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/seonwoo_jung/IdeaProjects/Algorithm/src/inflearn/ch08&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.BFS.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.BFS2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.BFS3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.BFS4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS10.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main10.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main11.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main12.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main13.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main14.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main15.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main16.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main17.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main18.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main19.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main20.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main21.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main22.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main23.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main24.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main25.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main26.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main27.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main5.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main6.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main7.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main8.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main9.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.NumberConvert.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Sort.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.inflearn.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.inflearn.ch09.Main5.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.동전교환.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.바둑이승차.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.최대점수구하기.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.합이같은부분집합.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/seonwoo_jung/IdeaProjects/Algorithm/src/inflearn/ch08",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.BFS.executor": "Run",
+    "애플리케이션.BFS2.executor": "Run",
+    "애플리케이션.BFS3.executor": "Run",
+    "애플리케이션.BFS4.executor": "Run",
+    "애플리케이션.DFS10.executor": "Run",
+    "애플리케이션.DFS2.executor": "Run",
+    "애플리케이션.DFS3.executor": "Run",
+    "애플리케이션.DFS4.executor": "Run",
+    "애플리케이션.Main (1).executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Main1.executor": "Run",
+    "애플리케이션.Main10.executor": "Run",
+    "애플리케이션.Main11.executor": "Run",
+    "애플리케이션.Main12.executor": "Run",
+    "애플리케이션.Main13.executor": "Run",
+    "애플리케이션.Main14.executor": "Run",
+    "애플리케이션.Main15.executor": "Run",
+    "애플리케이션.Main16.executor": "Run",
+    "애플리케이션.Main17.executor": "Run",
+    "애플리케이션.Main18.executor": "Run",
+    "애플리케이션.Main19.executor": "Run",
+    "애플리케이션.Main2.executor": "Run",
+    "애플리케이션.Main20.executor": "Run",
+    "애플리케이션.Main21.executor": "Run",
+    "애플리케이션.Main22.executor": "Run",
+    "애플리케이션.Main23.executor": "Run",
+    "애플리케이션.Main24.executor": "Run",
+    "애플리케이션.Main25.executor": "Run",
+    "애플리케이션.Main26.executor": "Run",
+    "애플리케이션.Main27.executor": "Run",
+    "애플리케이션.Main28.executor": "Run",
+    "애플리케이션.Main29.executor": "Run",
+    "애플리케이션.Main3.executor": "Run",
+    "애플리케이션.Main4.executor": "Run",
+    "애플리케이션.Main5.executor": "Run",
+    "애플리케이션.Main6.executor": "Run",
+    "애플리케이션.Main7.executor": "Run",
+    "애플리케이션.Main8.executor": "Run",
+    "애플리케이션.Main9.executor": "Run",
+    "애플리케이션.NumberConvert.executor": "Run",
+    "애플리케이션.Sort.executor": "Run",
+    "애플리케이션.inflearn.Main2.executor": "Run",
+    "애플리케이션.inflearn.ch09.Main5.executor": "Run",
+    "애플리케이션.동전교환.executor": "Run",
+    "애플리케이션.바둑이승차.executor": "Run",
+    "애플리케이션.최대점수구하기.executor": "Run",
+    "애플리케이션.합이같은부분집합.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/inflearn/ch08" />
@@ -122,14 +125,14 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="programmers.level_1" />
       <recent name="other.dfs" />
       <recent name="other.bfs" />
       <recent name="other" />
       <recent name="inflearn" />
-      <recent name="programmers.level_1" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.DFS10">
+  <component name="RunManager" selected="애플리케이션.Main29">
     <configuration name="합이같은부분집합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="other.dfs.합이같은부분집합" />
       <module name="Algorithm" />
@@ -149,6 +152,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="other.dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main28" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main29" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,6 +237,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main29" />
+        <item itemvalue="애플리케이션.Main28" />
         <item itemvalue="애플리케이션.DFS10" />
         <item itemvalue="애플리케이션.합이같은부분집합" />
       </list>
@@ -335,7 +366,8 @@
       <workItem from="1702996222179" duration="19000" />
       <workItem from="1702996511635" duration="16666000" />
       <workItem from="1703052917487" duration="138000" />
-      <workItem from="1703053123394" duration="2374000" />
+      <workItem from="1703053123394" duration="3234000" />
+      <workItem from="1703074323982" duration="2582000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -371,14 +403,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00027" summary="- 학급 회장 HashMap 학습중">
-      <option name="closed" value="true" />
-      <created>1698825449807</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1698825449807</updated>
     </task>
     <task id="LOCAL-00028" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -724,7 +748,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703052030925</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="정렬 복습">
+      <option name="closed" value="true" />
+      <created>1703056453057</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1703056453057</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -742,7 +774,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ch01. 기본 알고리즘" />
     <MESSAGE value="ch02 기본 자료구조 69p" />
     <MESSAGE value="ch03 검색 알고리즘 112p" />
     <MESSAGE value="- 프로그래머스 알고리즘&#10;- ch04. 스택과 큐 학습중" />
@@ -767,7 +798,8 @@
     <MESSAGE value="DFS, BFS, 재귀등 학습" />
     <MESSAGE value="DFS, BFS 학습완료" />
     <MESSAGE value="DFS, BFS, GCD, Sort 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS, BFS, GCD, Sort 복습" />
+    <MESSAGE value="정렬 복습" />
+    <option name="LAST_COMMIT_MESSAGE" value="정렬 복습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
