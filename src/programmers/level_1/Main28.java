@@ -8,7 +8,6 @@ public class Main28 {
 
     public static void main(String[] args) {
         String solution = solution("Zbcdefg");
-        char[] charArray = solution.toCharArray();
         System.out.println(solution);
     }
 

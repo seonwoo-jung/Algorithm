@@ -5,7 +5,7 @@ public class Main1 {
     public static void main(String[] args) {
         // 객체 생성
         // 파라미터 전달
-        String[] parameter = {"aya", "yee", "u", "maa", "wyeoo"};
+        String[] parameter = {"aya", "yee", "u", "maa", "wyeoo", "ayayewoo"};
         int result = solution(parameter);
         System.out.println("result = " + result);
     }

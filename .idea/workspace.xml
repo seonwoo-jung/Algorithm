@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="정렬 복습">
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main29.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="프로그래머스 코딩테스트 학습">
+      <change afterPath="$PROJECT_DIR$/src/other/bfs/BFS5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/dfs/DFS11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/dfs/DFS12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/dfs/DFS13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/dfs/DFS14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level_0/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level_1/Main28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/level_1/Main29.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +78,13 @@
     "애플리케이션.BFS2.executor": "Run",
     "애플리케이션.BFS3.executor": "Run",
     "애플리케이션.BFS4.executor": "Run",
+    "애플리케이션.BFS5.executor": "Run",
     "애플리케이션.DFS10.executor": "Run",
+    "애플리케이션.DFS11.executor": "Run",
+    "애플리케이션.DFS12.executor": "Run",
+    "애플리케이션.DFS13.executor": "Run",
+    "애플리케이션.DFS14 (1).executor": "Run",
+    "애플리케이션.DFS14.executor": "Run",
     "애플리케이션.DFS2.executor": "Run",
     "애플리케이션.DFS3.executor": "Run",
     "애플리케이션.DFS4.executor": "Run",
@@ -125,16 +137,42 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="programmers.level_1" />
-      <recent name="other.dfs" />
       <recent name="other.bfs" />
+      <recent name="other.dfs" />
+      <recent name="programmers.level_1" />
       <recent name="other" />
       <recent name="inflearn" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main29">
-    <configuration name="합이같은부분집합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.dfs.합이같은부분집합" />
+  <component name="RunManager" selected="애플리케이션.BFS5">
+    <configuration name="BFS2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.bfs.BFS2" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BFS5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.bfs.BFS5" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DFS13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.dfs.DFS13" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DFS10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.dfs.DFS10" />
+    <configuration name="DFS14 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.dfs.DFS14" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -159,34 +197,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main28" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main29" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="바둑이승차" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.dfs.바둑이승차" />
+    <configuration name="DFS14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.dfs.DFS14" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -237,10 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main29" />
-        <item itemvalue="애플리케이션.Main28" />
-        <item itemvalue="애플리케이션.DFS10" />
-        <item itemvalue="애플리케이션.합이같은부분집합" />
+        <item itemvalue="애플리케이션.BFS5" />
+        <item itemvalue="애플리케이션.DFS14" />
+        <item itemvalue="애플리케이션.DFS14 (1)" />
+        <item itemvalue="애플리케이션.BFS2" />
+        <item itemvalue="애플리케이션.DFS13" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +380,10 @@
       <workItem from="1702996511635" duration="16666000" />
       <workItem from="1703052917487" duration="138000" />
       <workItem from="1703053123394" duration="3234000" />
-      <workItem from="1703074323982" duration="2582000" />
+      <workItem from="1703074323982" duration="2617000" />
+      <workItem from="1703145982000" duration="819000" />
+      <workItem from="1703201780614" duration="11674000" />
+      <workItem from="1703222276300" duration="7363000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -403,14 +419,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00028" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1699080732601</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1699080732601</updated>
     </task>
     <task id="LOCAL-00029" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -756,7 +764,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703056453057</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="프로그래머스 코딩테스트 학습">
+      <option name="closed" value="true" />
+      <created>1703145374290</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1703145374290</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -774,7 +790,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ch02 기본 자료구조 69p" />
     <MESSAGE value="ch03 검색 알고리즘 112p" />
     <MESSAGE value="- 프로그래머스 알고리즘&#10;- ch04. 스택과 큐 학습중" />
     <MESSAGE value="- 프로그래머스 알고리즘&#10;- ch04. 큐 학습중" />
@@ -799,7 +814,8 @@
     <MESSAGE value="DFS, BFS 학습완료" />
     <MESSAGE value="DFS, BFS, GCD, Sort 복습" />
     <MESSAGE value="정렬 복습" />
-    <option name="LAST_COMMIT_MESSAGE" value="정렬 복습" />
+    <MESSAGE value="프로그래머스 코딩테스트 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 코딩테스트 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

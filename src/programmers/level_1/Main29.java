@@ -4,7 +4,7 @@ public class Main29 {
 
     public static void main(String[] args) {
         long solution = solution(3, 20, 4);
-        System.out.println("solution = " + solution);
+        System.out.println(solution);
     }
 
     static long solution(int price, int money, int count) {
