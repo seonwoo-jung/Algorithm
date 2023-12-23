@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="DFS, BFS 복습중">
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main32.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="프로그래머스 코딩테스트 학습">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -357,7 +355,7 @@
       <workItem from="1703201780614" duration="11674000" />
       <workItem from="1703222276300" duration="7840000" />
       <workItem from="1703231539727" duration="145000" />
-      <workItem from="1703286566639" duration="4357000" />
+      <workItem from="1703286566639" duration="4667000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -393,14 +391,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00030" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1699861939521</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1699861939521</updated>
     </task>
     <task id="LOCAL-00031" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -746,7 +736,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703230804142</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="프로그래머스 코딩테스트 학습">
+      <option name="closed" value="true" />
+      <created>1703294336385</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1703294336385</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,9 +785,9 @@
     <MESSAGE value="DFS, BFS 학습완료" />
     <MESSAGE value="DFS, BFS, GCD, Sort 복습" />
     <MESSAGE value="정렬 복습" />
-    <MESSAGE value="프로그래머스 코딩테스트 학습" />
     <MESSAGE value="DFS, BFS 복습중" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS, BFS 복습중" />
+    <MESSAGE value="프로그래머스 코딩테스트 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 코딩테스트 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
