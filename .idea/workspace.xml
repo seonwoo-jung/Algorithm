@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="프로그래머스 코딩테스트 학습">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="IDEA gitignore, workspace.xml 설정">
+      <change afterPath="$PROJECT_DIR$/src/other/Combi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/bfs/BFS6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/dfs/DFS15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/dfs/DFS16.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,85 +49,90 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/seonwoo_jung/IdeaProjects/Algorithm/src/inflearn/ch08&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.BFS.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.BFS2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.BFS3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.BFS4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.BFS5.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS10.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS11.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS12.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS13.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS14 (1).executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS14.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DFS4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main10.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main11.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main12.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main13.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main14.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main15.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main16.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main17.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main18.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main19.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main20.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main21.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main22.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main23.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main24.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main25.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main26.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main27.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main28.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main29.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main30.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main31.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main32.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main4.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main5.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main6.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main7.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main8.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main9.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.NumberConvert.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Sort.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.inflearn.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.inflearn.ch09.Main5.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.동전교환.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.바둑이승차.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.최대점수구하기.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.합이같은부분집합.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/seonwoo_jung/IdeaProjects/Algorithm/src/inflearn/ch08",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.BFS.executor": "Run",
+    "애플리케이션.BFS2.executor": "Run",
+    "애플리케이션.BFS3.executor": "Run",
+    "애플리케이션.BFS4.executor": "Run",
+    "애플리케이션.BFS5.executor": "Run",
+    "애플리케이션.BFS6.executor": "Run",
+    "애플리케이션.Combi.executor": "Run",
+    "애플리케이션.DFS10.executor": "Run",
+    "애플리케이션.DFS11.executor": "Run",
+    "애플리케이션.DFS12.executor": "Run",
+    "애플리케이션.DFS13.executor": "Run",
+    "애플리케이션.DFS14 (1).executor": "Run",
+    "애플리케이션.DFS14.executor": "Run",
+    "애플리케이션.DFS15.executor": "Run",
+    "애플리케이션.DFS16.executor": "Run",
+    "애플리케이션.DFS2.executor": "Run",
+    "애플리케이션.DFS3.executor": "Run",
+    "애플리케이션.DFS4.executor": "Run",
+    "애플리케이션.Main (1).executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Main1.executor": "Run",
+    "애플리케이션.Main10.executor": "Run",
+    "애플리케이션.Main11.executor": "Run",
+    "애플리케이션.Main12.executor": "Run",
+    "애플리케이션.Main13.executor": "Run",
+    "애플리케이션.Main14.executor": "Run",
+    "애플리케이션.Main15.executor": "Run",
+    "애플리케이션.Main16.executor": "Run",
+    "애플리케이션.Main17.executor": "Run",
+    "애플리케이션.Main18.executor": "Run",
+    "애플리케이션.Main19.executor": "Run",
+    "애플리케이션.Main2.executor": "Run",
+    "애플리케이션.Main20.executor": "Run",
+    "애플리케이션.Main21.executor": "Run",
+    "애플리케이션.Main22.executor": "Run",
+    "애플리케이션.Main23.executor": "Run",
+    "애플리케이션.Main24.executor": "Run",
+    "애플리케이션.Main25.executor": "Run",
+    "애플리케이션.Main26.executor": "Run",
+    "애플리케이션.Main27.executor": "Run",
+    "애플리케이션.Main28.executor": "Run",
+    "애플리케이션.Main29.executor": "Run",
+    "애플리케이션.Main3.executor": "Run",
+    "애플리케이션.Main30.executor": "Run",
+    "애플리케이션.Main31.executor": "Run",
+    "애플리케이션.Main32.executor": "Run",
+    "애플리케이션.Main4.executor": "Run",
+    "애플리케이션.Main5.executor": "Run",
+    "애플리케이션.Main6.executor": "Run",
+    "애플리케이션.Main7.executor": "Run",
+    "애플리케이션.Main8.executor": "Run",
+    "애플리케이션.Main9.executor": "Run",
+    "애플리케이션.NumberConvert.executor": "Run",
+    "애플리케이션.ShellSort2.executor": "Run",
+    "애플리케이션.Sort.executor": "Run",
+    "애플리케이션.inflearn.Main2.executor": "Run",
+    "애플리케이션.inflearn.ch09.Main5.executor": "Run",
+    "애플리케이션.동전교환.executor": "Run",
+    "애플리케이션.바둑이승차.executor": "Run",
+    "애플리케이션.최대점수구하기.executor": "Run",
+    "애플리케이션.합이같은부분집합.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/inflearn/ch08" />
@@ -133,16 +141,16 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="programmers.level_1" />
-      <recent name="other.bfs" />
       <recent name="other.dfs" />
+      <recent name="other.bfs" />
+      <recent name="programmers.level_1" />
       <recent name="other" />
       <recent name="inflearn" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ShellSort2">
-    <configuration name="BFS5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.bfs.BFS5" />
+  <component name="RunManager" selected="애플리케이션.Combi">
+    <configuration name="BFS6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.bfs.BFS6" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -154,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main30" />
+    <configuration name="Combi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.Combi" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main31" />
+    <configuration name="DFS15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.dfs.DFS15" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="other.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main32" />
+    <configuration name="DFS16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.dfs.DFS16" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="other.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Combi" />
+        <item itemvalue="애플리케이션.DFS16" />
+        <item itemvalue="애플리케이션.BFS6" />
+        <item itemvalue="애플리케이션.DFS15" />
         <item itemvalue="애플리케이션.ShellSort2" />
-        <item itemvalue="애플리케이션.Main32" />
-        <item itemvalue="애플리케이션.Main31" />
-        <item itemvalue="애플리케이션.Main30" />
-        <item itemvalue="애플리케이션.BFS5" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +364,7 @@
       <workItem from="1703222276300" duration="7840000" />
       <workItem from="1703231539727" duration="145000" />
       <workItem from="1703286566639" duration="4722000" />
-      <workItem from="1703294730793" duration="56000" />
+      <workItem from="1703294730793" duration="5497000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -392,14 +400,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00032" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1700024865751</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1700024865751</updated>
     </task>
     <task id="LOCAL-00033" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -745,7 +745,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703294550035</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="IDEA gitignore, workspace.xml 설정">
+      <option name="closed" value="true" />
+      <created>1703294840857</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1703294840857</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -763,7 +771,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- 프로그래머스 알고리즘&#10;- ch04. 스택과 큐 학습중" />
     <MESSAGE value="- 프로그래머스 알고리즘&#10;- ch04. 큐 학습중" />
     <MESSAGE value="- 컨트롤 제트&#10;- 소인수분해" />
     <MESSAGE value="학습중" />
@@ -788,7 +795,8 @@
     <MESSAGE value="정렬 복습" />
     <MESSAGE value="DFS, BFS 복습중" />
     <MESSAGE value="프로그래머스 코딩테스트 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 코딩테스트 학습" />
+    <MESSAGE value="IDEA gitignore, workspace.xml 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDEA gitignore, workspace.xml 설정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
