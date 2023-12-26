@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="IDEA gitignore, workspace.xml 설정">
-      <change afterPath="$PROJECT_DIR$/src/other/Http.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/greddy/Greedy.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="Greedy 학습">
+      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/MethodReferencesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/MyFunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/MyFunctionalInterfaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/RunnableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/UsingLocalVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/UsingLocalVariableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/UsingThis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/UsingThisExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/Http.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/study/Http.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -86,6 +96,7 @@
     "애플리케이션.DFS2.executor": "Run",
     "애플리케이션.DFS3.executor": "Run",
     "애플리케이션.DFS4.executor": "Run",
+    "애플리케이션.FileIO.executor": "Run",
     "애플리케이션.Greedy.executor": "Run",
     "애플리케이션.Http.executor": "Run",
     "애플리케이션.Main (1).executor": "Run",
@@ -122,9 +133,14 @@
     "애플리케이션.Main7.executor": "Run",
     "애플리케이션.Main8.executor": "Run",
     "애플리케이션.Main9.executor": "Run",
+    "애플리케이션.MethodReferencesExample.executor": "Run",
+    "애플리케이션.MyFunctionalInterfaceExample.executor": "Run",
     "애플리케이션.NumberConvert.executor": "Run",
+    "애플리케이션.RunnableExample.executor": "Run",
     "애플리케이션.ShellSort2.executor": "Run",
     "애플리케이션.Sort.executor": "Run",
+    "애플리케이션.UsingLocalVariableExample.executor": "Run",
+    "애플리케이션.UsingThisExample.executor": "Run",
     "애플리케이션.inflearn.Main2.executor": "Run",
     "애플리케이션.inflearn.ch09.Main5.executor": "Run",
     "애플리케이션.동전교환.executor": "Run",
@@ -141,20 +157,20 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="other.study.lambda" />
       <recent name="other.dfs" />
       <recent name="other.bfs" />
       <recent name="programmers.level_1" />
       <recent name="other" />
-      <recent name="inflearn" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Greedy">
-    <configuration name="Combi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.Combi" />
+  <component name="RunManager" selected="애플리케이션.MethodReferencesExample">
+    <configuration name="MethodReferencesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.lambda.MethodReferencesExample" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.*" />
+          <option name="PATTERN" value="other.study.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DFS16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.dfs.DFS16" />
+    <configuration name="MyFunctionalInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.lambda.MyFunctionalInterfaceExample" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.dfs.*" />
+          <option name="PATTERN" value="other.study.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.greddy.Greedy" />
+    <configuration name="RunnableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.lambda.RunnableExample" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.greddy.*" />
+          <option name="PATTERN" value="other.study.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Http" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.Http" />
+    <configuration name="UsingLocalVariableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.lambda.UsingLocalVariableExample" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.*" />
+          <option name="PATTERN" value="other.study.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main6" />
+    <configuration name="UsingThisExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.lambda.UsingThisExample" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch10.*" />
+          <option name="PATTERN" value="other.study.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Greedy" />
-        <item itemvalue="애플리케이션.Http" />
-        <item itemvalue="애플리케이션.Main6" />
-        <item itemvalue="애플리케이션.Combi" />
-        <item itemvalue="애플리케이션.DFS16" />
+        <item itemvalue="애플리케이션.MethodReferencesExample" />
+        <item itemvalue="애플리케이션.RunnableExample" />
+        <item itemvalue="애플리케이션.UsingLocalVariableExample" />
+        <item itemvalue="애플리케이션.UsingThisExample" />
+        <item itemvalue="애플리케이션.MyFunctionalInterfaceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +389,9 @@
       <workItem from="1703286566639" duration="4722000" />
       <workItem from="1703294730793" duration="5497000" />
       <workItem from="1703576228790" duration="3067000" />
-      <workItem from="1703590642800" duration="3234000" />
+      <workItem from="1703590642800" duration="3282000" />
+      <workItem from="1703594548173" duration="1655000" />
+      <workItem from="1703601761239" duration="2223000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -409,14 +427,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00033" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1700206758704</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1700206758704</updated>
     </task>
     <task id="LOCAL-00034" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -762,7 +772,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703294840857</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Greedy 학습">
+      <option name="closed" value="true" />
+      <created>1703594410726</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1703594410726</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -780,7 +798,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- 프로그래머스 알고리즘&#10;- ch04. 큐 학습중" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- 컨트롤 제트&#10;- 소인수분해" />
     <MESSAGE value="학습중" />
     <MESSAGE value="문자열, 배열, Two Pointers, Sliding Window 학습" />
@@ -805,7 +823,8 @@
     <MESSAGE value="DFS, BFS 복습중" />
     <MESSAGE value="프로그래머스 코딩테스트 학습" />
     <MESSAGE value="IDEA gitignore, workspace.xml 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="IDEA gitignore, workspace.xml 설정" />
+    <MESSAGE value="Greedy 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="Greedy 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

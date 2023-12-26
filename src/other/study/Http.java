@@ -1,4 +1,4 @@
-package other;
+package other.study;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
