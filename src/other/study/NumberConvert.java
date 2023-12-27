@@ -1,4 +1,4 @@
-package other;
+package other.study;
 
 import static java.lang.Integer.*;
 import static java.lang.Integer.toBinaryString;
