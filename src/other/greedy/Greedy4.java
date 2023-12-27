@@ -1,4 +1,4 @@
-package other.greddy;
+package other.greedy;
 
 import java.util.ArrayList;
 import java.util.PriorityQueue;
@@ -12,7 +12,7 @@ import static java.util.Collections.sort;
 /**
  * 최대수입스케줄
  */
-public class Greedy {
+public class Greedy4 {
 
     static int n, max = MIN_VALUE;
 

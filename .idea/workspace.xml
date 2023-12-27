@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="Greedy 학습">
-      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/FileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/MethodReferencesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/MyFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/MyFunctionalInterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/RunnableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/UsingLocalVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/UsingLocalVariableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/UsingThis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/lambda/UsingThisExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/PrefixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/greedy/Greedy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/greedy/Greedy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/greedy/Greedy3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/stream/FromArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/stream/FromCollectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/stream/FromDirectoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/stream/FromFileContentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/stream/IteratorVsStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/stream/LambdaExpressionsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/stream/MapAndReduceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/stream/ParallelExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/stream/StreamPipelinesExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/Http.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/study/Http.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/greddy/Greedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/greedy/Greedy4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +78,7 @@
     "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "settings.editor.splitter.proportion": "0.29969418",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.BFS.executor": "Run",
@@ -97,8 +100,14 @@
     "애플리케이션.DFS3.executor": "Run",
     "애플리케이션.DFS4.executor": "Run",
     "애플리케이션.FileIO.executor": "Run",
+    "애플리케이션.FromArrayExample.executor": "Run",
+    "애플리케이션.FromCollectionExample.executor": "Run",
+    "애플리케이션.FromDirectoryExample.executor": "Run",
+    "애플리케이션.FromFileContentExample.executor": "Run",
     "애플리케이션.Greedy.executor": "Run",
     "애플리케이션.Http.executor": "Run",
+    "애플리케이션.IteratorVsStreamExample.executor": "Run",
+    "애플리케이션.LambdaExpressionsExample.executor": "Run",
     "애플리케이션.Main (1).executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.Main1.executor": "Run",
@@ -133,9 +142,11 @@
     "애플리케이션.Main7.executor": "Run",
     "애플리케이션.Main8.executor": "Run",
     "애플리케이션.Main9.executor": "Run",
+    "애플리케이션.MapAndReduceExample.executor": "Run",
     "애플리케이션.MethodReferencesExample.executor": "Run",
     "애플리케이션.MyFunctionalInterfaceExample.executor": "Run",
     "애플리케이션.NumberConvert.executor": "Run",
+    "애플리케이션.ParallelExample.executor": "Run",
     "애플리케이션.RunnableExample.executor": "Run",
     "애플리케이션.ShellSort2.executor": "Run",
     "애플리케이션.Sort.executor": "Run",
@@ -157,20 +168,20 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="other.study.stream" />
+      <recent name="other.study" />
       <recent name="other.study.lambda" />
       <recent name="other.dfs" />
       <recent name="other.bfs" />
-      <recent name="programmers.level_1" />
-      <recent name="other" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MethodReferencesExample">
-    <configuration name="MethodReferencesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.lambda.MethodReferencesExample" />
+  <component name="RunManager" selected="애플리케이션.FromDirectoryExample">
+    <configuration name="FromArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.stream.FromArrayExample" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.study.lambda.*" />
+          <option name="PATTERN" value="other.study.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFunctionalInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.lambda.MyFunctionalInterfaceExample" />
+    <configuration name="FromCollectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.stream.FromCollectionExample" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.study.lambda.*" />
+          <option name="PATTERN" value="other.study.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.lambda.RunnableExample" />
+    <configuration name="FromDirectoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.stream.FromDirectoryExample" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.study.lambda.*" />
+          <option name="PATTERN" value="other.study.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingLocalVariableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.lambda.UsingLocalVariableExample" />
+    <configuration name="FromFileContentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.stream.FromFileContentExample" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.study.lambda.*" />
+          <option name="PATTERN" value="other.study.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingThisExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.lambda.UsingThisExample" />
+    <configuration name="MapAndReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.stream.MapAndReduceExample" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.study.lambda.*" />
+          <option name="PATTERN" value="other.study.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,18 +254,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.MethodReferencesExample" />
-        <item itemvalue="애플리케이션.RunnableExample" />
-        <item itemvalue="애플리케이션.UsingLocalVariableExample" />
-        <item itemvalue="애플리케이션.UsingThisExample" />
-        <item itemvalue="애플리케이션.MyFunctionalInterfaceExample" />
+        <item itemvalue="애플리케이션.FromDirectoryExample" />
+        <item itemvalue="애플리케이션.FromFileContentExample" />
+        <item itemvalue="애플리케이션.FromArrayExample" />
+        <item itemvalue="애플리케이션.FromCollectionExample" />
+        <item itemvalue="애플리케이션.MapAndReduceExample" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.21-corretto-11.0.21-249ae16d76d6-d0fa0211" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-69315bf7" />
       </set>
     </attachedChunks>
   </component>
@@ -392,6 +403,7 @@
       <workItem from="1703590642800" duration="3282000" />
       <workItem from="1703594548173" duration="1655000" />
       <workItem from="1703601761239" duration="2223000" />
+      <workItem from="1703644108689" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
