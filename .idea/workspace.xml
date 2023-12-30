@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="Greedy, Stream 학습">
-      <change afterPath="$PROJECT_DIR$/src/other/greedy/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/greedy/UnionAndFind.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="다익스트라, Union&amp;Find 학습">
+      <change afterPath="$PROJECT_DIR$/src/backjoon/Mst_1922.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backjoon/Mst_4386.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/dp/DP1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/dp/DP2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/dp/DP3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/greedy/MstKruskal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/greedy/MstPrim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/Combi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/study/Combi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/study/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/NumberConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/study/NumberConvert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/PrefixSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/study/PrefixSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/study/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +92,8 @@
     "애플리케이션.DFS2.executor": "Run",
     "애플리케이션.DFS3.executor": "Run",
     "애플리케이션.DFS4.executor": "Run",
+    "애플리케이션.DP1.executor": "Run",
+    "애플리케이션.DP2.executor": "Run",
     "애플리케이션.FileIO.executor": "Run",
     "애플리케이션.FromArrayExample.executor": "Run",
     "애플리케이션.FromCollectionExample.executor": "Run",
@@ -101,6 +103,7 @@
     "애플리케이션.Greedy5.executor": "Run",
     "애플리케이션.Http.executor": "Run",
     "애플리케이션.IteratorVsStreamExample.executor": "Run",
+    "애플리케이션.Kruskal.executor": "Run",
     "애플리케이션.LambdaExpressionsExample.executor": "Run",
     "애플리케이션.Main (1).executor": "Run",
     "애플리케이션.Main.executor": "Run",
@@ -138,6 +141,8 @@
     "애플리케이션.Main9.executor": "Run",
     "애플리케이션.MapAndReduceExample.executor": "Run",
     "애플리케이션.MethodReferencesExample.executor": "Run",
+    "애플리케이션.MstPrim.executor": "Run",
+    "애플리케이션.Mst_1922.executor": "Run",
     "애플리케이션.MyFunctionalInterfaceExample.executor": "Run",
     "애플리케이션.NumberConvert.executor": "Run",
     "애플리케이션.ParallelExample.executor": "Run",
@@ -163,16 +168,55 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="other.dp" />
+      <recent name="backjoon" />
       <recent name="other.greedy" />
       <recent name="other.study.stream" />
       <recent name="other.study" />
-      <recent name="other.study.lambda" />
-      <recent name="other.dfs" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.UnionAndFind">
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.greedy.Dijkstra" />
+  <component name="RunManager" selected="애플리케이션.Main3">
+    <configuration name="DP1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.dp.DP1" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DP2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.dp.DP2" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main3" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inflearn.ch10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MstPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.greedy.MstPrim" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -184,51 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FromArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.stream.FromArrayExample" />
+    <configuration name="Mst_1922" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backjoon.Mst_1922" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.study.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FromDirectoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.stream.FromDirectoryExample" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="other.study.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FromFileContentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.stream.FromFileContentExample" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="other.study.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnionAndFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.greedy.UnionAndFind" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="other.greedy.*" />
+          <option name="PATTERN" value="backjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.UnionAndFind" />
-        <item itemvalue="애플리케이션.Dijkstra" />
-        <item itemvalue="애플리케이션.FromDirectoryExample" />
-        <item itemvalue="애플리케이션.FromFileContentExample" />
-        <item itemvalue="애플리케이션.FromArrayExample" />
+        <item itemvalue="애플리케이션.Main3" />
+        <item itemvalue="애플리케이션.DP2" />
+        <item itemvalue="애플리케이션.DP1" />
+        <item itemvalue="애플리케이션.Mst_1922" />
+        <item itemvalue="애플리케이션.MstPrim" />
       </list>
     </recent_temporary>
   </component>
@@ -401,6 +406,8 @@
       <workItem from="1703644108689" duration="3087000" />
       <workItem from="1703654432946" duration="1278000" />
       <workItem from="1703657902866" duration="4530000" />
+      <workItem from="1703677455535" duration="207000" />
+      <workItem from="1703890731923" duration="16320000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -436,14 +443,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00035" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1700460245279</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1700460245279</updated>
     </task>
     <task id="LOCAL-00036" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -789,7 +788,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703648104301</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="다익스트라, Union&amp;Find 학습">
+      <option name="closed" value="true" />
+      <created>1703677478615</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1703677478615</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -808,7 +815,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="학습중" />
     <MESSAGE value="문자열, 배열, Two Pointers, Sliding Window 학습" />
     <MESSAGE value="- 문자열&#10;- 배열&#10;- Two Pointers&#10;- Sliding Window&#10;&#10;학습완료" />
     <MESSAGE value="- 학급 회장 HashMap 학습중" />
@@ -833,7 +839,8 @@
     <MESSAGE value="IDEA gitignore, workspace.xml 설정" />
     <MESSAGE value="Greedy 학습" />
     <MESSAGE value="Greedy, Stream 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="Greedy, Stream 학습" />
+    <MESSAGE value="다익스트라, Union&amp;Find 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="다익스트라, Union&amp;Find 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
