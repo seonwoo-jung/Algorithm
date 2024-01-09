@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="다익스트라, Union&amp;Find 학습">
-      <change afterPath="$PROJECT_DIR$/src/backjoon/Mst_1922.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backjoon/Mst_4386.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/dp/DP1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/dp/DP2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/dp/DP3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/greedy/MstKruskal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/greedy/MstPrim.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="프로그래머스 코딩테스트 학습">
+      <change afterPath="$PROJECT_DIR$/src/other/study/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main44.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +131,18 @@
     "애플리케이션.Main30.executor": "Run",
     "애플리케이션.Main31.executor": "Run",
     "애플리케이션.Main32.executor": "Run",
+    "애플리케이션.Main33.executor": "Run",
+    "애플리케이션.Main35.executor": "Run",
+    "애플리케이션.Main36.executor": "Run",
+    "애플리케이션.Main37.executor": "Run",
+    "애플리케이션.Main38.executor": "Run",
+    "애플리케이션.Main39.executor": "Run",
     "애플리케이션.Main4.executor": "Run",
+    "애플리케이션.Main40.executor": "Run",
+    "애플리케이션.Main41.executor": "Run",
+    "애플리케이션.Main42.executor": "Run",
+    "애플리케이션.Main43.executor": "Run",
+    "애플리케이션.Main44.executor": "Run",
     "애플리케이션.Main5.executor": "Run",
     "애플리케이션.Main6.executor": "Run",
     "애플리케이션.Main7.executor": "Run",
@@ -146,6 +155,7 @@
     "애플리케이션.MyFunctionalInterfaceExample.executor": "Run",
     "애플리케이션.NumberConvert.executor": "Run",
     "애플리케이션.ParallelExample.executor": "Run",
+    "애플리케이션.QuickSort.executor": "Run",
     "애플리케이션.RunnableExample.executor": "Run",
     "애플리케이션.ShellSort2.executor": "Run",
     "애플리케이션.Sort.executor": "Run",
@@ -168,20 +178,20 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="programmers.level_1" />
       <recent name="other.dp" />
       <recent name="backjoon" />
       <recent name="other.greedy" />
       <recent name="other.study.stream" />
-      <recent name="other.study" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main3">
-    <configuration name="DP1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.dp.DP1" />
+  <component name="RunManager" selected="애플리케이션.Main44">
+    <configuration name="Main41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main41" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.dp.*" />
+          <option name="PATTERN" value="programmers.level_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DP2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.dp.DP2" />
+    <configuration name="Main42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main42" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.dp.*" />
+          <option name="PATTERN" value="programmers.level_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflearn.ch10.Main3" />
+    <configuration name="Main43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main43" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflearn.ch10.*" />
+          <option name="PATTERN" value="programmers.level_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MstPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.greedy.MstPrim" />
+    <configuration name="Main44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main44" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.greedy.*" />
+          <option name="PATTERN" value="programmers.level_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mst_1922" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backjoon.Mst_1922" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.QuickSort" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backjoon.*" />
+          <option name="PATTERN" value="other.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,18 +264,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main3" />
-        <item itemvalue="애플리케이션.DP2" />
-        <item itemvalue="애플리케이션.DP1" />
-        <item itemvalue="애플리케이션.Mst_1922" />
-        <item itemvalue="애플리케이션.MstPrim" />
+        <item itemvalue="애플리케이션.Main44" />
+        <item itemvalue="애플리케이션.Main43" />
+        <item itemvalue="애플리케이션.Main42" />
+        <item itemvalue="애플리케이션.Main41" />
+        <item itemvalue="애플리케이션.QuickSort" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-69315bf7" />
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
       </set>
     </attachedChunks>
   </component>
@@ -408,6 +418,9 @@
       <workItem from="1703657902866" duration="4530000" />
       <workItem from="1703677455535" duration="207000" />
       <workItem from="1703890731923" duration="16320000" />
+      <workItem from="1704429404833" duration="43000" />
+      <workItem from="1704429475403" duration="12123000" />
+      <workItem from="1704763310671" duration="12344000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -443,22 +456,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00036" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1700551445270</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1700551445270</updated>
-    </task>
-    <task id="LOCAL-00037" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1700791037961</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1700791037961</updated>
     </task>
     <task id="LOCAL-00038" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -796,7 +793,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703677478615</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="정렬 학습">
+      <option name="closed" value="true" />
+      <created>1704433122663</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1704433122663</updated>
+    </task>
+    <task id="LOCAL-00081" summary="프로그래머스 코딩테스트 학습">
+      <option name="closed" value="true" />
+      <created>1704442772035</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1704442772035</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -815,7 +828,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="문자열, 배열, Two Pointers, Sliding Window 학습" />
     <MESSAGE value="- 문자열&#10;- 배열&#10;- Two Pointers&#10;- Sliding Window&#10;&#10;학습완료" />
     <MESSAGE value="- 학급 회장 HashMap 학습중" />
     <MESSAGE value="코딩테스트 학습중" />
@@ -835,12 +847,13 @@
     <MESSAGE value="DFS, BFS, GCD, Sort 복습" />
     <MESSAGE value="정렬 복습" />
     <MESSAGE value="DFS, BFS 복습중" />
-    <MESSAGE value="프로그래머스 코딩테스트 학습" />
     <MESSAGE value="IDEA gitignore, workspace.xml 설정" />
     <MESSAGE value="Greedy 학습" />
     <MESSAGE value="Greedy, Stream 학습" />
     <MESSAGE value="다익스트라, Union&amp;Find 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="다익스트라, Union&amp;Find 학습" />
+    <MESSAGE value="정렬 학습" />
+    <MESSAGE value="프로그래머스 코딩테스트 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 코딩테스트 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
