@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="프로그래머스 코딩테스트 학습">
-      <change afterPath="$PROJECT_DIR$/src/other/study/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main44.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="백준 DFS 학습">
+      <change afterPath="$PROJECT_DIR$/src/backjoon/bj_1759.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backjoon/bj_1987.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/inflearn/ch02/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/inflearn/ch03/Main3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/inflearn/ch07/Main6Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch06/Main1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -54,9 +59,20 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.Main3Test.slidingWindow.executor": "Run",
+    "JUnit.Main6Test.executor": "Run",
+    "JUnit.TestClass.hiJunit.executor": "Run",
+    "JUnit.TestClass.test.executor": "Run",
+    "JUnit.TestClass.validatePrime.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -66,10 +82,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "settings.editor.splitter.proportion": "0.29969418",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.BFS.executor": "Run",
@@ -143,6 +159,8 @@
     "애플리케이션.Main42.executor": "Run",
     "애플리케이션.Main43.executor": "Run",
     "애플리케이션.Main44.executor": "Run",
+    "애플리케이션.Main45.executor": "Run",
+    "애플리케이션.Main46.executor": "Run",
     "애플리케이션.Main5.executor": "Run",
     "애플리케이션.Main6.executor": "Run",
     "애플리케이션.Main7.executor": "Run",
@@ -162,6 +180,9 @@
     "애플리케이션.UnionAndFind.executor": "Run",
     "애플리케이션.UsingLocalVariableExample.executor": "Run",
     "애플리케이션.UsingThisExample.executor": "Run",
+    "애플리케이션.bj_1260.executor": "Run",
+    "애플리케이션.bj_1759.executor": "Run",
+    "애플리케이션.bj_1987.executor": "Run",
     "애플리케이션.inflearn.Main2.executor": "Run",
     "애플리케이션.inflearn.ch09.Main5.executor": "Run",
     "애플리케이션.동전교환.executor": "Run",
@@ -177,21 +198,31 @@
       <recent name="$PROJECT_DIR$/src/inflearn/ch06" />
       <recent name="$PROJECT_DIR$/src/inflearn/ch04" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="inflearn.ch07" />
+      <recent name="inflearn.ch03" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="backjoon" />
       <recent name="programmers.level_1" />
       <recent name="other.dp" />
-      <recent name="backjoon" />
       <recent name="other.greedy" />
       <recent name="other.study.stream" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main44">
-    <configuration name="Main41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main41" />
+  <component name="RunManager" selected="애플리케이션.bj_1987">
+    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch07.Main6" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="inflearn.ch07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main42" />
+    <configuration name="Main9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch08.Main9" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="inflearn.ch08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main43" />
+    <configuration name="bj_1759" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backjoon.bj_1759" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="backjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main44" />
+    <configuration name="bj_1987" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backjoon.bj_1987" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="PATTERN" value="backjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,15 +269,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.QuickSort" />
+    <configuration name="Main6Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.study.*" />
+          <option name="PATTERN" value="inflearn.ch07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="inflearn.ch07" />
+      <option name="MAIN_CLASS_NAME" value="inflearn.ch07.Main6Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,20 +297,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main44" />
-        <item itemvalue="애플리케이션.Main43" />
-        <item itemvalue="애플리케이션.Main42" />
-        <item itemvalue="애플리케이션.Main41" />
-        <item itemvalue="애플리케이션.QuickSort" />
+        <item itemvalue="애플리케이션.bj_1987" />
+        <item itemvalue="애플리케이션.bj_1759" />
+        <item itemvalue="애플리케이션.Main9" />
+        <item itemvalue="JUnit.Main6Test" />
+        <item itemvalue="애플리케이션.Main6" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -420,7 +446,11 @@
       <workItem from="1703890731923" duration="16320000" />
       <workItem from="1704429404833" duration="43000" />
       <workItem from="1704429475403" duration="12123000" />
-      <workItem from="1704763310671" duration="12344000" />
+      <workItem from="1704763310671" duration="12758000" />
+      <workItem from="1704789286135" duration="151000" />
+      <workItem from="1704789462515" duration="1155000" />
+      <workItem from="1704844523888" duration="21000" />
+      <workItem from="1704848291668" duration="22053000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -456,22 +486,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1687673451596</updated>
-    </task>
-    <task id="LOCAL-00038" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1700812259571</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1700812259571</updated>
-    </task>
-    <task id="LOCAL-00039" summary="코딩테스트 학습중">
-      <option name="closed" value="true" />
-      <created>1700895577493</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1700895577493</updated>
     </task>
     <task id="LOCAL-00040" summary="코딩테스트 학습중">
       <option name="closed" value="true" />
@@ -809,7 +823,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704442772035</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="프로그래머스 코딩테스트 학습">
+      <option name="closed" value="true" />
+      <created>1704786692541</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1704786692541</updated>
+    </task>
+    <task id="LOCAL-00083" summary="백준 DFS 학습">
+      <option name="closed" value="true" />
+      <created>1704790584475</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1704790584475</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -828,7 +858,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="- 문자열&#10;- 배열&#10;- Two Pointers&#10;- Sliding Window&#10;&#10;학습완료" />
     <MESSAGE value="- 학급 회장 HashMap 학습중" />
     <MESSAGE value="코딩테스트 학습중" />
     <MESSAGE value="프로그래머스 LV.1 5문제 완료" />
@@ -853,18 +882,8 @@
     <MESSAGE value="다익스트라, Union&amp;Find 학습" />
     <MESSAGE value="정렬 학습" />
     <MESSAGE value="프로그래머스 코딩테스트 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 코딩테스트 학습" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/inflearn/ch06/Main5.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="백준 DFS 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 DFS 학습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
