@@ -21,7 +21,7 @@ public class Main3 {
         n = kb.nextInt();
         ch = new int[n];
 
-        int[] arr = new int[n];
+        int[] arr = new int[n + 1];
 
         for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
@@ -46,25 +46,24 @@ public class Main3 {
 
     static void BFS(int L, int[] arr) {
         Queue<Node> Q = new LinkedList<>();
-        Q.offer(new Node(L, arr[0]));
-        ch[0] = 1;
+        Q.offer(new Node(0, arr[0]));
 
         while (!Q.isEmpty()) {
             int len = Q.size();
-            System.out.println("현재 Level: " + len);
             for (int i = 0; i < len; i++) {
                 Node tmp = Q.poll();
-                if (tmp.level == arr.length) {
-                    if (tmp.weight > c) continue;
-                    if (tmp.weight <= c) {
-                        answer = max(answer, tmp.weight);
-                    }
+
+                if (tmp.weight > c) continue;
+
+                if (L == n) {
+                    answer = max(answer, tmp.weight);
                 } else {
-                        Q.offer(new Node(tmp.level + 1, tmp.weight + arr[tmp.level]));
-                        Q.offer(new Node(tmp.level + 1, tmp.weight));
-                    System.out.println();
+                    Q.offer(new Node(tmp.level + 1, tmp.weight + arr[tmp.level + 1]));
+                    Q.offer(new Node(tmp.level + 1, tmp.weight));
                 }
+
             }
+            System.out.println();
             L++;
         }
     }

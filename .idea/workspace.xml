@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="- 백준 DFS 학습&#10;- JUnit 환경설정&#10;- 자료구조 &amp; 알고리즘 복습">
-      <change afterPath="$PROJECT_DIR$/src/other/study/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/CalculatePrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/Main4_DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/Main5_BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/Main6_BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/study/inflearn_code/BFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backjoon/bj_1987.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backjoon/bj_1987.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/study/Main3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "editing.templates",
     "settings.editor.splitter.proportion": "0.29969418",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.BFS.executor": "Run",
@@ -89,6 +91,7 @@
     "애플리케이션.BFS4.executor": "Run",
     "애플리케이션.BFS5.executor": "Run",
     "애플리케이션.BFS6.executor": "Run",
+    "애플리케이션.CalculatePrime.executor": "Run",
     "애플리케이션.Combi.executor": "Run",
     "애플리케이션.DFS10.executor": "Run",
     "애플리케이션.DFS11.executor": "Run",
@@ -156,8 +159,11 @@
     "애플리케이션.Main44.executor": "Run",
     "애플리케이션.Main45.executor": "Run",
     "애플리케이션.Main46.executor": "Run",
+    "애플리케이션.Main4_DFS.executor": "Run",
     "애플리케이션.Main5.executor": "Run",
+    "애플리케이션.Main5_BFS.executor": "Run",
     "애플리케이션.Main6.executor": "Run",
+    "애플리케이션.Main6_DFS.executor": "Run",
     "애플리케이션.Main7.executor": "Run",
     "애플리케이션.Main8.executor": "Run",
     "애플리케이션.Main9.executor": "Run",
@@ -211,9 +217,22 @@
       <recent name="other.greedy" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main3">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.Main" />
+  <component name="RunManager" selected="애플리케이션.Main5_BFS">
+    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.inflearn_code.BFS" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other.study.inflearn_code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatePrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.CalculatePrime" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -225,8 +244,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.Main2" />
+    <configuration name="Main4_DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.Main4_DFS" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -238,8 +257,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.Main3" />
+    <configuration name="Main5_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.Main5_BFS" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -251,25 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bj_1759" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backjoon.bj_1759" />
+    <configuration name="Main6_BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.study.Main6_BFS" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bj_1987" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backjoon.bj_1987" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backjoon.*" />
+          <option name="PATTERN" value="other.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main3" />
-        <item itemvalue="애플리케이션.Main2" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.bj_1987" />
-        <item itemvalue="애플리케이션.bj_1759" />
+        <item itemvalue="애플리케이션.Main5_BFS" />
+        <item itemvalue="애플리케이션.Main6_BFS" />
+        <item itemvalue="애플리케이션.BFS" />
+        <item itemvalue="애플리케이션.CalculatePrime" />
+        <item itemvalue="애플리케이션.Main4_DFS" />
       </list>
     </recent_temporary>
   </component>
@@ -445,6 +451,7 @@
       <workItem from="1704844523888" duration="21000" />
       <workItem from="1704848291668" duration="22118000" />
       <workItem from="1704936100029" duration="20716000" />
+      <workItem from="1705018990659" duration="15180000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -878,6 +885,31 @@
     <MESSAGE value="백준 DFS 학습" />
     <MESSAGE value="- 백준 DFS 학습&#10;- JUnit 환경설정&#10;- 자료구조 &amp; 알고리즘 복습" />
     <option name="LAST_COMMIT_MESSAGE" value="- 백준 DFS 학습&#10;- JUnit 환경설정&#10;- 자료구조 &amp; 알고리즘 복습" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/other/study/CalculatePrime.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/other/study/CalculatePrime.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/other/study/Main5_BFS.java</url>
+          <line>27</line>
+          <properties class="other.study.Main5_BFS" method="BFS">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
