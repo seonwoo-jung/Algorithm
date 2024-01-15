@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 /**
- * 친구인가 (Uion&Find 알고리즘)
+ * 친구인가 (Union&Find 알고리즘)
  * 서로소: 두 집합의 공통원소가 없어야 함
  */
 public class Main6 {

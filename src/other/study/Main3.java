@@ -46,7 +46,7 @@ public class Main3 {
 
     static void BFS(int L, int[] arr) {
         Queue<Node> Q = new LinkedList<>();
-        Q.offer(new Node(0, arr[0]));
+        Q.offer(new Node(0, 0));
 
         while (!Q.isEmpty()) {
             int len = Q.size();
