@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="BFS, DFS 학습">
-      <change afterPath="$PROJECT_DIR$/src/lib/jsoup-1.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/StudyJsoup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/inflearn_code/Combi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/other/study/inflearn_code/MemoCombi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_2/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/unlevel/Puzzle.java" afterDir="false" />
+    <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="프로그래머스 학습">
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main50.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inflearn/ch09/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflearn/ch09/Main6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/study/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/study/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/StudyJsoup.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +53,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main49.executor": "Run",
+    "Application.Main50.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.Main3Test.slidingWindow.executor": "Run",
     "JUnit.Main6Test.executor": "Run",
@@ -84,7 +78,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "라이브러리",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editing.templates",
@@ -232,33 +226,7 @@
       <recent name="other.dp" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main48">
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.study.Main3" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="other.study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main47" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main50">
     <configuration name="Main48 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main48" />
       <module name="Algorithm" />
@@ -298,6 +266,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main49" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main50" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.level_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -311,13 +305,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main48" />
-        <item itemvalue="애플리케이션.Main48 (2)" />
-        <item itemvalue="애플리케이션.Main48 (1)" />
-        <item itemvalue="애플리케이션.Main47" />
-        <item itemvalue="애플리케이션.Main3" />
+        <item itemvalue="Application.Main50" />
+        <item itemvalue="Application.Main49" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -470,6 +468,7 @@
       <workItem from="1705039330099" duration="357000" />
       <workItem from="1705048419764" duration="1076000" />
       <workItem from="1705276801946" duration="22738000" />
+      <workItem from="1709107217123" duration="3321000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -877,7 +876,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="프로그래머스 LV.1 5문제 완료" />
     <MESSAGE value="다익스트라 알고리즘, Uion&amp;Find 알고리즘 학습완료" />
     <MESSAGE value="최소 스패닝 트리(크루스칼, 프림) 및 동적계획법 학습중" />
     <MESSAGE value="자바 알고리즘 문제풀이 - 코테대비 완강" />
@@ -902,7 +900,8 @@
     <MESSAGE value="백준 DFS 학습" />
     <MESSAGE value="- 백준 DFS 학습&#10;- JUnit 환경설정&#10;- 자료구조 &amp; 알고리즘 복습" />
     <MESSAGE value="BFS, DFS 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="BFS, DFS 학습" />
+    <MESSAGE value="프로그래머스 학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
