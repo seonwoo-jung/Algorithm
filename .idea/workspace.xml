@@ -5,10 +5,385 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f498f2a-6ed3-4b21-bc38-8d7087f40557" name="변경" comment="프로그래머스 학습">
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/level_1/Main50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.6/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/study/algorithm/Solution1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/other/study/StudyJsoup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch01/JudgeSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch01/JudgeSign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch01/Max3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch01/Max3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch01/Max3Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch01/Max3Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch01/Median.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch01/Median.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch01/PracticeProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch01/PracticeProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch01/TriangleLB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch01/TriangleLB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch02/CloneArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch02/CloneArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch02/MaxOfArrayRand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch02/MaxOfArrayRand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch02/PhysicalExamination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch02/PhysicalExamination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch02/PrimeNumber1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch02/PrimeNumber1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch02/PrimeNumber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch02/PrimeNumber2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch02/PrimeNumber3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch02/PrimeNumber3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch02/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch02/ReverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch03/BinSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch03/BinSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch03/BinarySearchTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch03/BinarySearchTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch03/IdTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch03/IdTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch03/SeqSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch03/SeqSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch03/SeqSearchSen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch03/SeqSearchSen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch04/IntArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch04/IntArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch04/IntQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch04/IntQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch04/IntQueueTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch04/IntQueueTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch04/IntStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch04/IntStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch04/IntStackTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch04/IntStackTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch04/LastNElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch04/LastNElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch05/EuclidGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch05/EuclidGCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch05/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch05/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch05/Hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch05/Hanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch05/Recur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch05/Recur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch05/RecurMemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch05/RecurMemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch05/RecurX1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch05/RecurX1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch06/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch06/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch06/BubbleSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch06/BubbleSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch06/BubbleSort3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch06/BubbleSort3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch06/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch06/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch06/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch06/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch06/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch06/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/ch06/ShellSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/ch06/ShellSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backjoon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/backjoon/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backjoon/Mst_1922.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/backjoon/Mst_1922.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backjoon/Mst_4386.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/backjoon/Mst_4386.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backjoon/bj_1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/backjoon/bj_1260.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backjoon/bj_1759.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/backjoon/bj_1759.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backjoon/bj_1987.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/backjoon/bj_1987.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch01/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch01/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch02/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch02/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch03/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch03/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch03/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch03/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch03/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch03/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch03/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch03/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch03/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch03/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch03/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch03/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch03/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch03/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch04/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch04/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch04/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch04/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch04/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch04/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch04/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch04/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch04/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch04/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch05/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch05/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch05/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch05/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch05/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch05/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch05/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch05/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch05/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch05/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch05/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch05/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch05/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch05/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch05/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch05/Main8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch06/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch06/Main10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch06/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch06/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch06/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch06/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch06/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch06/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch06/Main8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch06/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch06/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch07/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch07/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch08/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch08/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch09/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch09/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch09/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch09/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch09/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch09/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch09/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch09/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch09/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch09/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch09/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch09/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch09/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch09/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch10/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch10/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch10/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch10/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch10/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch10/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch10/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch10/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch10/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch10/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflearn/ch10/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/inflearn/ch10/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/bfs/BFS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/bfs/BFS1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/bfs/BFS2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/bfs/BFS2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/bfs/BFS3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/bfs/BFS3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/bfs/BFS4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/bfs/BFS4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/bfs/BFS5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/bfs/BFS5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/bfs/BFS6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/bfs/BFS6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dfs/DFS9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dfs/DFS9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dp/DP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dp/DP1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dp/DP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dp/DP2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/dp/DP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/dp/DP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/greedy/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/greedy/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/greedy/Greedy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/greedy/Greedy1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/greedy/Greedy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/greedy/Greedy2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/greedy/Greedy3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/greedy/Greedy3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/greedy/Greedy4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/greedy/Greedy4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/greedy/MstKruskal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/greedy/MstKruskal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/greedy/MstPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/greedy/MstPrim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/greedy/UnionAndFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/greedy/UnionAndFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/CalculatePrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/CalculatePrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/Combi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/Combi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/FileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/GCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/Http.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/Http.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/Main4_DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/Main4_DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/Main5_BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/Main5_BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/Main6_BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/Main6_BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/NumberConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/NumberConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/PrefixSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/PrefixSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/inflearn_code/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/inflearn_code/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/inflearn_code/Combi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/inflearn_code/Combi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/inflearn_code/MemoCombi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/inflearn_code/MemoCombi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/lambda/MethodReferencesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/lambda/MethodReferencesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/lambda/MyFunctionalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/lambda/MyFunctionalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/lambda/MyFunctionalInterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/lambda/MyFunctionalInterfaceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/lambda/RunnableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/lambda/RunnableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/lambda/UsingLocalVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/lambda/UsingLocalVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/lambda/UsingLocalVariableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/lambda/UsingLocalVariableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/lambda/UsingThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/lambda/UsingThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/lambda/UsingThisExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/lambda/UsingThisExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/stream/FromArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/stream/FromArrayExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/stream/FromCollectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/stream/FromCollectionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/stream/FromDirectoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/stream/FromDirectoryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/stream/FromFileContentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/stream/FromFileContentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/stream/IteratorVsStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/stream/IteratorVsStreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/stream/LambdaExpressionsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/stream/LambdaExpressionsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/stream/MapAndReduceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/stream/MapAndReduceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/stream/ParallelExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/stream/ParallelExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/study/stream/StreamPipelinesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/stream/StreamPipelinesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main29.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main38.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main48.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main54.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main55.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main55.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main56.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main57.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main57.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main58.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main58.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main59.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main59.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main60.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main60.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main61.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main61.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main63.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main65.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main65.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main66.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main68.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main68.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main69.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main71.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main71.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main72.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main72.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main73.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main73.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main74.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main74.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main75.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main76.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main76.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main77.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main77.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main80.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main81.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main81.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main82.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main82.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main84.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main84.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main85.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main85.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main86.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main86.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main87.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main87.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main89.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main89.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_0/Main90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_0/Main90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main29.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main38.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main48.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_1/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_1/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_2/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_2/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/level_2/TargetNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/level_2/TargetNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/unlevel/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.study/algorithm/programmers/unlevel/Puzzle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +393,29 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -30,9 +423,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jungseonw00"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jungseonw00/Algorithm.git",
+    "accountId": "a4d00ac1-c332-40b4-b6ea-39bf1d9682bc"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/semeru-11.0.21/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
   </component>
@@ -56,11 +461,14 @@
     "Application.Main49.executor": "Run",
     "Application.Main50.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Algorithm 빌드.executor": "Run",
     "JUnit.Main3Test.slidingWindow.executor": "Run",
     "JUnit.Main6Test.executor": "Run",
     "JUnit.TestClass.hiJunit.executor": "Run",
     "JUnit.TestClass.test.executor": "Run",
     "JUnit.TestClass.validatePrime.executor": "Run",
+    "Kotlin.Algorithm1Kt.executor": "Run",
+    "Kotlin.Solution1Kt.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -72,13 +480,13 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/pc/IdeaProjects/Algorithm/src/lib/jsoup-1.17.2.jar",
+    "last_opened_file_path": "D:/dev/source/Algorithm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editing.templates",
@@ -196,10 +604,16 @@
     "애플리케이션.바둑이승차.executor": "Run",
     "애플리케이션.최대점수구하기.executor": "Run",
     "애플리케이션.합이같은부분집합.executor": "Run"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\seonwoojung\\.gradle"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\source\Algorithm" />
       <recent name="$PROJECT_DIR$/src/inflearn/ch08" />
       <recent name="$PROJECT_DIR$/src/inflearn/ch07" />
       <recent name="$PROJECT_DIR$/src/inflearn/ch06" />
@@ -209,6 +623,9 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\source\Algorithm\src\main\java" />
+      <recent name="D:\dev\source\Algorithm\src\com.study\algorithm" />
+      <recent name="D:\dev\source\Algorithm\src\com.study" />
       <recent name="C:\Users\pc\IdeaProjects\Algorithm\src\lib" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -226,7 +643,7 @@
       <recent name="other.dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main50">
+  <component name="RunManager" selected="Kotlin.Solution1Kt">
     <configuration name="Main48 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main48" />
       <module name="Algorithm" />
@@ -241,19 +658,6 @@
       </method>
     </configuration>
     <configuration name="Main48 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main48" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.level_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.level_1.Main48" />
       <module name="Algorithm" />
       <extension name="coverage">
@@ -292,6 +696,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.algorithm.Solution1Kt" />
+      <module name="Algorithm.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -305,15 +716,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main50" />
-        <item itemvalue="Application.Main49" />
+        <item itemvalue="Kotlin.Solution1Kt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -469,6 +880,7 @@
       <workItem from="1705048419764" duration="1076000" />
       <workItem from="1705276801946" duration="22738000" />
       <workItem from="1709107217123" duration="3321000" />
+      <workItem from="1714524440953" duration="1630000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <created>1686968023804</created>
@@ -907,32 +1319,32 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/other/study/CalculatePrime.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/CalculatePrime.java</url>
           <line>20</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/other/study/CalculatePrime.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/CalculatePrime.java</url>
           <line>23</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/other/study/inflearn_code/Combi.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/inflearn_code/Combi.java</url>
           <line>18</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/other/study/inflearn_code/Combi.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/inflearn_code/Combi.java</url>
           <line>23</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/other/study/inflearn_code/Combi.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/inflearn_code/Combi.java</url>
           <line>27</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/other/study/Main5_BFS.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com.study/algorithm/other/study/Main5_BFS.java</url>
           <line>27</line>
           <properties class="other.study.Main5_BFS" method="BFS">
             <option name="EMULATED" value="true" />
