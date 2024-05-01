@@ -1,29 +1,29 @@
-package programmers.level_0;
+package com.study.algorithm.programmers.level_0;
 
 public class Main8 {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        System.out.println(solution2(7, 15));
-    }
+		System.out.println(solution2(7, 15));
+	}
 
-    static int solution(int n, int t) {
+	static int solution(int n, int t) {
 
-        int answer = 0;
-        int result = 0;
+		int answer = 0;
+		int result = 0;
 
-        for (int i = 0; i < t; i++) {
-            n *= 2;
-        }
+		for (int i = 0; i < t; i++) {
+			n *= 2;
+		}
 
-        return n;
-    }
+		return n;
+	}
 
-    static int solution2(int n, int t) {
-        int answer = 0;
+	static int solution2(int n, int t) {
+		int answer = 0;
 
-        answer = n << t;
+		answer = n << t;
 
-        return answer;
-    }
+		return answer;
+	}
 }

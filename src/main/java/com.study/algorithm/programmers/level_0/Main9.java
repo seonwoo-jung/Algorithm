@@ -1,35 +1,35 @@
-package programmers.level_0;
+package com.study.algorithm.programmers.level_0;
 
 public class Main9 {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        System.out.println(solution2(3));
-    }
+		System.out.println(solution2(3));
+	}
 
-    static int solution(int n) {
+	static int solution(int n) {
 
-        int result;
+		int result;
 
-        for (int i = 0; i < n; i++) {
+		for (int i = 0; i < n; i++) {
 
-            result = i * i;
+			result = i * i;
 
-            if (result == n) {
-                return i;
-            }
-        }
+			if (result == n) {
+				return i;
+			}
+		}
 
-        return 2;
+		return 2;
 
-    }
+	}
 
-    static int solution2(int n) {
+	static int solution2(int n) {
 
-        if (n % Math.sqrt(n) == 0) {
-            return 1;
-        } else {
-            return 2;
-        }
-    }
+		if (n % Math.sqrt(n) == 0) {
+			return 1;
+		} else {
+			return 2;
+		}
+	}
 }

@@ -1,4 +1,4 @@
-package programmers.level_1;
+package com.study.algorithm.programmers.level_1;
 
 import java.util.HashSet;
 
@@ -7,25 +7,25 @@ import java.util.HashSet;
  */
 public class Main18 {
 
-    public static void main(String[] args) {
-        int[] nums = {3, 1, 2, 3};
-        int solution = solution(nums);
-        System.out.println("solution = " + solution);
-    }
+	public static void main(String[] args) {
+		int[] nums = {3, 1, 2, 3};
+		int solution = solution(nums);
+		System.out.println("solution = " + solution);
+	}
 
-    static int solution(int[] nums) {
-        int max = nums.length / 2;
+	static int solution(int[] nums) {
+		int max = nums.length / 2;
 
-        HashSet<Integer> set = new HashSet<>();
+		HashSet<Integer> set = new HashSet<>();
 
-        for (int num : nums) {
-            set.add(num);
-        }
+		for (int num : nums) {
+			set.add(num);
+		}
 
-        if (set.size() > max) {
-            return max;
-        } else {
-            return set.size();
-        }
-    }
+		if (set.size() > max) {
+			return max;
+		} else {
+			return set.size();
+		}
+	}
 }

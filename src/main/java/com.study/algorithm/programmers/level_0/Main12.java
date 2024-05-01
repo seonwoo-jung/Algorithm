@@ -1,10 +1,10 @@
-package programmers.level_0;
+package com.study.algorithm.programmers.level_0;
 
 public class Main12 {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 		System.out.println(solution(930211));
-    }
+	}
 
 	static int solution(int n) {
 

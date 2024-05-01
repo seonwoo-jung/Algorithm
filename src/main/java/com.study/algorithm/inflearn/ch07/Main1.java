@@ -1,4 +1,4 @@
-package inflearn.ch07;
+package com.study.algorithm.inflearn.ch07;
 
 import java.util.Scanner;
 
@@ -10,24 +10,24 @@ import static java.lang.System.in;
  */
 public class Main1 {
 
-    public static void main(String[] args) {
-        Scanner kb = new Scanner(in);
-        int n = kb.nextInt();
-        DFS(n);
-        System.out.println();
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(in);
+		int n = kb.nextInt();
+		DFS(n);
+		System.out.println();
 
-        for (int i = 1; i <= n; i++) {
-            System.out.printf("%d ", i);
-        }
-    }
+		for (int i = 1; i <= n; i++) {
+			System.out.printf("%d ", i);
+		}
+	}
 
-    static void DFS(int n) {
+	static void DFS(int n) {
 
-        if (n == 0) {
+		if (n == 0) {
 
-        } else {
-            DFS(n - 1);
-            System.out.print(n + " ");
-        }
-    }
+		} else {
+			DFS(n - 1);
+			System.out.print(n + " ");
+		}
+	}
 }

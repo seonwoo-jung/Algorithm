@@ -1,4 +1,4 @@
-package other.greedy;
+package com.study.algorithm.other.greedy;
 
 import java.util.ArrayList;
 import java.util.PriorityQueue;
@@ -7,7 +7,6 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 /**
- *
  * 9 12
  * 1 2 12
  * 1 9 25
@@ -24,54 +23,54 @@ import static java.lang.System.in;
  */
 public class MstPrim {
 
-    public static void main(String[] args) {
-        Scanner kb = new Scanner(in);
-        int n = kb.nextInt();
-        int m = kb.nextInt();
-        ArrayList<ArrayList<Edge>> graph = new ArrayList<>();
-        for (int i = 0; i <= n; i++) {
-            graph.add(new ArrayList<>());
-        }
-        int[] ch = new int[n + 1];
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(in);
+		int n = kb.nextInt();
+		int m = kb.nextInt();
+		ArrayList<ArrayList<Edge>> graph = new ArrayList<>();
+		for (int i = 0; i <= n; i++) {
+			graph.add(new ArrayList<>());
+		}
+		int[] ch = new int[n + 1];
 
-        for (int i = 0; i < m; i++) {
-            int a = kb.nextInt();
-            int b = kb.nextInt();
-            int c = kb.nextInt();
-            graph.get(a).add(new Edge(b, c));
-            graph.get(b).add(new Edge(a, c));
-        }
+		for (int i = 0; i < m; i++) {
+			int a = kb.nextInt();
+			int b = kb.nextInt();
+			int c = kb.nextInt();
+			graph.get(a).add(new Edge(b, c));
+			graph.get(b).add(new Edge(a, c));
+		}
 
-        int answer = 0;
+		int answer = 0;
 
-        PriorityQueue<Edge> pQ = new PriorityQueue<>();
-        pQ.offer(new Edge(1, 0));
+		PriorityQueue<Edge> pQ = new PriorityQueue<>();
+		pQ.offer(new Edge(1, 0));
 
-        while (!pQ.isEmpty()) {
-            Edge tmp = pQ.poll();
-            int ev = tmp.vex;
-            if (ch[ev] == 0) {
-                ch[ev] = 1;
-                answer += tmp.cost;
-                for (Edge ob : graph.get(ev)) {
-                    if (ch[ob.vex] == 0) pQ.offer(new Edge(ob.vex, ob.cost));
-                }
-            }
-        }
-        System.out.println(answer);
-    }
+		while (!pQ.isEmpty()) {
+			Edge tmp = pQ.poll();
+			int ev = tmp.vex;
+			if (ch[ev] == 0) {
+				ch[ev] = 1;
+				answer += tmp.cost;
+				for (Edge ob : graph.get(ev)) {
+					if (ch[ob.vex] == 0) pQ.offer(new Edge(ob.vex, ob.cost));
+				}
+			}
+		}
+		System.out.println(answer);
+	}
 
-    static class Edge implements Comparable<Edge> {
-        private int vex, cost;
+	static class Edge implements Comparable<Edge> {
+		private int vex, cost;
 
-        public Edge(int vex, int cost) {
-            this.vex = vex;
-            this.cost = cost;
-        }
+		public Edge(int vex, int cost) {
+			this.vex = vex;
+			this.cost = cost;
+		}
 
-        @Override
-        public int compareTo(Edge o) {
-            return this.cost - o.cost;
-        }
-    }
+		@Override
+		public int compareTo(Edge o) {
+			return this.cost - o.cost;
+		}
+	}
 }

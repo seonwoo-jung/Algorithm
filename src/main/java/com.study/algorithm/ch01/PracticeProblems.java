@@ -1,61 +1,61 @@
-package algorithm.ch01;
+package com.study.algorithm.ch01;
 
 public class PracticeProblems {
 
-    static int max4(int a, int b, int c, int d) {
-        int max = a; // 최댓값
+	static int max4(int a, int b, int c, int d) {
+		int max = a; // 최댓값
 
-        if (b > max) {
-            max = b;
-        }
+		if (b > max) {
+			max = b;
+		}
 
-        if (c > max) {
-            max = c;
-        }
+		if (c > max) {
+			max = c;
+		}
 
-        if (d > max) {
-            max = d;
-        }
+		if (d > max) {
+			max = d;
+		}
 
-        return max;
-    }
+		return max;
+	}
 
-    static int min3(int a, int b, int c) {
-        int min = a; // 최댓값
+	static int min3(int a, int b, int c) {
+		int min = a; // 최댓값
 
-        if (b < min) {
-            min = b;
-        }
+		if (b < min) {
+			min = b;
+		}
 
-        if (c < min) {
-            min = c;
-        }
+		if (c < min) {
+			min = c;
+		}
 
-        return min;
-    }
+		return min;
+	}
 
-    static int min4(int a, int b, int c, int d) {
-        int min
-                = a; // 최댓값
+	static int min4(int a, int b, int c, int d) {
+		int min
+				= a; // 최댓값
 
-        if (b < min) {
-            min = b;
-        }
+		if (b < min) {
+			min = b;
+		}
 
-        if (c < min) {
-            min = c;
-        }
+		if (c < min) {
+			min = c;
+		}
 
-        if (d < min) {
-            min = d;
-        }
+		if (d < min) {
+			min = d;
+		}
 
-        return min;
-    }
+		return min;
+	}
 
-    public static void main(String[] args) {
-        System.out.println(max4(1, 2,3,4 ));
-        System.out.println(min3(1, 2, 3));
-        System.out.println(min4(1, 2, 3, 4));
-    }
+	public static void main(String[] args) {
+		System.out.println(max4(1, 2, 3, 4));
+		System.out.println(min3(1, 2, 3));
+		System.out.println(min4(1, 2, 3, 4));
+	}
 }

@@ -1,20 +1,20 @@
-package other.study.lambda;
+package com.study.algorithm.other.study.lambda;
 
 public class UsingThis {
-    int outterField = 10;
+	int outterField = 10;
 
-    class Inner {
-        int innerField = 20;
+	class Inner {
+		int innerField = 20;
 
-        void method() {
-            MyFunctionalInterface fi = () -> {
-                System.out.println("outterField: " + outterField);
-                System.out.println("outterField: " + UsingThis.this.outterField + "\n");
+		void method() {
+			MyFunctionalInterface fi = () -> {
+				System.out.println("outterField: " + outterField);
+				System.out.println("outterField: " + UsingThis.this.outterField + "\n");
 
-                System.out.println("innerField: " + innerField);
-                System.out.println("innerField: " + this.innerField + "\n");
-            };
-            fi.method();
-        }
-    }
+				System.out.println("innerField: " + innerField);
+				System.out.println("innerField: " + this.innerField + "\n");
+			};
+			fi.method();
+		}
+	}
 }

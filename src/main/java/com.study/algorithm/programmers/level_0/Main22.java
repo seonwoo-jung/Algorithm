@@ -1,4 +1,4 @@
-package programmers.level_0;
+package com.study.algorithm.programmers.level_0;
 
 import java.util.stream.Collectors;
 
@@ -9,7 +9,7 @@ public class Main22 {
 
 	/**
 	 * flow
-	 *
+	 * <p>
 	 * String -> char[] array
 	 * 소문자일 경우 대문자로
 	 * 대문자일 경우 소문자로
@@ -41,8 +41,9 @@ public class Main22 {
 	 */
 
 	static String solution2(String my_string) {
-		return my_string.chars().mapToObj(x -> String.valueOf((char) (Character.isLowerCase(x) ? Character.toUpperCase(x)
-																							   : Character.toLowerCase(x))))
-								.collect(Collectors.joining());
+		return my_string.chars().mapToObj(x -> String.valueOf((char) (Character.isLowerCase(x) ?
+						Character.toUpperCase(x)
+						: Character.toLowerCase(x))))
+				.collect(Collectors.joining());
 	}
 }

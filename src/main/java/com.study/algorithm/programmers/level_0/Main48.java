@@ -1,22 +1,22 @@
-package programmers.level_0;
+package com.study.algorithm.programmers.level_0;
 
 public class Main48 {
 
-    public static void main(String[] args) {
-        String[] strlist = {"We", "are", "the", "world!"};
+	public static void main(String[] args) {
+		String[] strlist = {"We", "are", "the", "world!"};
 
-        // result: 1
-        System.out.println(solution(strlist));
-    }
+		// result: 1
+		System.out.println(solution(strlist));
+	}
 
-    static int[] solution(String[] strlist) {
+	static int[] solution(String[] strlist) {
 
-        int[] arrlength = new int[strlist.length];
+		int[] arrlength = new int[strlist.length];
 
-        for (int i = 0; i < strlist.length; i++) {
-            arrlength[i] = strlist[i].length();
-        }
+		for (int i = 0; i < strlist.length; i++) {
+			arrlength[i] = strlist[i].length();
+		}
 
-        return arrlength;
-    }
+		return arrlength;
+	}
 }

@@ -1,4 +1,4 @@
-package programmers.level_0;
+package com.study.algorithm.programmers.level_0;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class Main16 {
 	public static void main(String[] args) {
-		solution2(new int[] {1, 8, 3});
+		solution2(new int[]{1, 8, 3});
 	}
 
 	static int[] solution(int[] array) {
@@ -21,6 +21,6 @@ public class Main16 {
 		List<Integer> list = Arrays.stream(array).boxed().collect(Collectors.toList());
 		int max = list.stream().max(Integer::compareTo).orElse(0);
 		int index = list.indexOf(max);
-		return new int[] {max, index};
+		return new int[]{max, index};
 	}
 }

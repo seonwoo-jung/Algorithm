@@ -1,4 +1,4 @@
-package programmers.level_0;
+package com.study.algorithm.programmers.level_0;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -11,12 +11,12 @@ public class Main19 {
 
 	static String solution(String s) {
 		return Arrays.stream(s.split(""))
-							  .collect(Collectors.groupingBy(s1 -> s1))
-							  .entrySet()
-							  .stream()
-							  .filter(entry -> entry.getValue().size() <= 1)
-							  .map(Map.Entry::getKey)
-							  .sorted()
-							  .collect(Collectors.joining());
+				.collect(Collectors.groupingBy(s1 -> s1))
+				.entrySet()
+				.stream()
+				.filter(entry -> entry.getValue().size() <= 1)
+				.map(Map.Entry::getKey)
+				.sorted()
+				.collect(Collectors.joining());
 	}
 }

@@ -1,4 +1,4 @@
-package inflearn.ch10;
+package com.study.algorithm.inflearn.ch10;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -11,60 +11,60 @@ import static java.util.Collections.sort;
  */
 public class Main4 {
 
-    static int[] dy;
+	static int[] dy;
 
-    static int solution(ArrayList<Brick> arr) {
-        int answer;
+	static int solution(ArrayList<Brick> arr) {
+		int answer;
 
-        sort(arr);
+		sort(arr);
 
-        dy[0] = arr.get(0).h;
-        answer = dy[0];
+		dy[0] = arr.get(0).h;
+		answer = dy[0];
 
-        for (int i = 1; i < arr.size(); i++) {
-            int max_h = 0;
-            for (int j = i - 1; j >= 0; j--) {
-                if (arr.get(j).w > arr.get(i).w && dy[j] > max_h) {
-                    max_h = dy[j];
-                }
-            }
-            dy[i] = max_h + arr.get(i).h;
-            answer = Math.max(answer, dy[i]);
-        }
-        return answer;
-    }
+		for (int i = 1; i < arr.size(); i++) {
+			int max_h = 0;
+			for (int j = i - 1; j >= 0; j--) {
+				if (arr.get(j).w > arr.get(i).w && dy[j] > max_h) {
+					max_h = dy[j];
+				}
+			}
+			dy[i] = max_h + arr.get(i).h;
+			answer = Math.max(answer, dy[i]);
+		}
+		return answer;
+	}
 
-    static class Brick implements Comparable<Brick> {
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(in);
+		int n = kb.nextInt();
+		ArrayList<Brick> list = new ArrayList<>();
+		dy = new int[n];
 
-        private int s, h, w;
+		for (int i = 0; i < n; i++) {
+			int s = kb.nextInt();
+			int h = kb.nextInt();
+			int w = kb.nextInt();
+			list.add(new Brick(s, h, w));
+		}
 
-        public Brick(int s, int h, int w) {
-            this.s = s;
-            this.h = h;
-            this.w = w;
-        }
+		System.out.println(solution(list));
+	}
 
-        // 내림차순 정렬 (this가 앞에 있으면 오름차순, 뒤에 있으면 내림차순 정렬)
+	static class Brick implements Comparable<Brick> {
 
-        @Override
-        public int compareTo(Brick ob) {
-            return ob.s - this.s;
-        }
-    }
+		private int s, h, w;
 
-    public static void main(String[] args) {
-        Scanner kb = new Scanner(in);
-        int n = kb.nextInt();
-        ArrayList<Brick> list = new ArrayList<>();
-        dy = new int[n];
+		public Brick(int s, int h, int w) {
+			this.s = s;
+			this.h = h;
+			this.w = w;
+		}
 
-        for (int i = 0; i < n; i++) {
-            int s = kb.nextInt();
-            int h = kb.nextInt();
-            int w = kb.nextInt();
-            list.add(new Brick(s, h, w));
-        }
+		// 내림차순 정렬 (this가 앞에 있으면 오름차순, 뒤에 있으면 내림차순 정렬)
 
-        System.out.println(solution(list));
-    }
+		@Override
+		public int compareTo(Brick ob) {
+			return ob.s - this.s;
+		}
+	}
 }

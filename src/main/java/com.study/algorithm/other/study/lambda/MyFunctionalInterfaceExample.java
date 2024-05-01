@@ -1,8 +1,8 @@
-package other.study.lambda;
+package com.study.algorithm.other.study.lambda;
 
 public class MyFunctionalInterfaceExample {
-    public static void main(String[] args) {
-        MyFunctionalInterface fi;
+	public static void main(String[] args) {
+		MyFunctionalInterface fi;
 
 //        fi = (x, y) -> {
 //            int result = x + y;
@@ -43,8 +43,9 @@ public class MyFunctionalInterfaceExample {
 //
 //        fi = () -> System.out.println("method call3");
 //        fi.method();
-    }
-    static int sum(int x, int y) {
-        return x + y;
-    }
+	}
+
+	static int sum(int x, int y) {
+		return x + y;
+	}
 }

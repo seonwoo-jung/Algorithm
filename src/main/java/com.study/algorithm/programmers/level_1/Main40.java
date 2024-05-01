@@ -1,29 +1,29 @@
-package programmers.level_1;
+package com.study.algorithm.programmers.level_1;
 
 public class Main40 {
 
-    static int answer = 0;
+	static int answer = 0;
 
-    public static void main(String[] args) {
-        int solution = solution(new int[]{1, 1, 1, 1, 1}, 3);
-        System.out.println("solution = " + solution);
-    }
+	public static void main(String[] args) {
+		int solution = solution(new int[]{1, 1, 1, 1, 1}, 3);
+		System.out.println("solution = " + solution);
+	}
 
-    static int solution(int[] numbers, int target) {
-        DFS(0, 0, target, numbers);
-        return answer;
-    }
+	static int solution(int[] numbers, int target) {
+		DFS(0, 0, target, numbers);
+		return answer;
+	}
 
-    static void DFS(int L, int sum, int target, int[] numbers) {
-        if (L == numbers.length) {
-            if (sum == target) {
-                answer++;
-            }
-        } else {
-            DFS(L + 1, sum + numbers[L], target, numbers);
-            DFS(L + 1, sum - numbers[L], target, numbers);
-        }
-    }
+	static void DFS(int L, int sum, int target, int[] numbers) {
+		if (L == numbers.length) {
+			if (sum == target) {
+				answer++;
+			}
+		} else {
+			DFS(L + 1, sum + numbers[L], target, numbers);
+			DFS(L + 1, sum - numbers[L], target, numbers);
+		}
+	}
 }
 
 
