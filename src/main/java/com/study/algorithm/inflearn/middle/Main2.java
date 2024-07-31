@@ -13,49 +13,37 @@ public class Main2 {
 			{1, 0, 1, 0, 1},
 			{0, 0, 0, 0, 0}
 		};
-		int[] solution = solution(board, k);
+		int[] solution = solution2(board, k);
 		for (int i : solution) {
 			System.out.println("i = " + i);
 		}
 	}
 
-	static int[] solution(int[][] board, int k) {
+	static int[] solution2(int[][] board, int k) {
 		int[] answer = new int[2];
-		int pos1 = 0, pos2 = 0, idx = 0, n = board.length - 1;
-		char[] forward = {'R', 'B', 'L', 'F'};
+		int n = board.length;
+		// dx, dy는 방향
+		int[] dx = {-1, 0, 1, 0};
+		int[] dy = {0, 1, 0, -1};
+		// d는 이동하는 방향을 가리킴 (일종의 포인터)
+		int x = 0, y = 0, d = 1, count = 0;
 
-		while (k > 0) {
-
-			if (pos1 == n ||pos2 == n) {
-				idx++;
-				k--;
+		// 한 번 반복시 1초가 흐른다.
+		while (count < k) {
+			count++;
+			int nx = x + dx[d];
+			int ny = y + dy[d];
+			// 격자 밖이거나 가려는 지점이 장애물일 경우 회전한다.
+			if (nx < 0 || nx >= n || ny < 0 || ny >= n || board[nx][ny] == 1) {
+				d = (d + 1) % 4;
+				continue;
 			}
-
-			if (board[pos1][pos2] == 1) {
-				idx++;
-				k--;
-			} else if (board[pos1][pos2] == 0) {
-				k--;
-				switch (forward[idx % n]) {
-					case 'R' :
-						pos2++;
-						break;
-					case 'B' :
-						pos1++;
-						break;
-					case 'L':
-						pos2--;
-						break;
-					case 'F':
-						pos1--;
-						break;
-				}
-			} else {
-				pos2++;
-			}
+			x = nx;
+			y = ny;
 		}
-		answer[0] = pos1;
-		answer[1] = pos2;
+
+		answer[0] = x;
+		answer[1] = y;
 		return answer;
 	}
 }
