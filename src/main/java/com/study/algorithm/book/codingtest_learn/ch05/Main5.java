@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch01;
+package com.study.algorithm.book.codingtest_learn.ch05;
 
 /**
  * 행렬의 곱셈
