@@ -1,11 +1,12 @@
-package com.study.algorithm.book.codingtest_learn.ch06;
+package com.study.algorithm.book.codingtest_learn.ch07;
 
 import java.util.ArrayDeque;
 
 /**
  * 요세푸스 문제
  */
-public class Main1 {
+public class Main15 {
+
 	public static void main(String[] args) {
 		int answer1 = solution(5, 2);
 		int answer2 = solution(10, 2);
@@ -19,7 +20,6 @@ public class Main1 {
 		for (int i = 1; i <= N; i++) {
 			deque.addLast(i);
 		}
-
 
 		while (deque.size() > 1) {
 			for (int i = 0; i < K - 1; i++) {

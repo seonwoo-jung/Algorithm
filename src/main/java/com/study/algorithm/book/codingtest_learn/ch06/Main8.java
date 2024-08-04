@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch05;
+package com.study.algorithm.book.codingtest_learn.ch06;
 
 import java.util.ArrayDeque;
 

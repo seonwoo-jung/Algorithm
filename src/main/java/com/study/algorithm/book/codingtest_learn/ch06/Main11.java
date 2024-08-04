@@ -1,9 +1,9 @@
-package com.study.algorithm.book.codingtest_learn.ch05;
+package com.study.algorithm.book.codingtest_learn.ch06;
 
 import java.util.Stack;
 
 /**
- * 괄호 회전하기
+ * 짝지어 제거하기
  */
 public class Main11 {
 
