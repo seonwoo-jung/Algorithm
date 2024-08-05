@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch07;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 재귀함수 (자기 자신을 호출한다. 반복문의 형태, if-else 구조를 사용)
