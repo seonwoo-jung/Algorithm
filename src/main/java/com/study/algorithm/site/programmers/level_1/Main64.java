@@ -1,7 +1,6 @@
 package com.study.algorithm.site.programmers.level_1;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Stack;
 
 /**
  * 프로그래머스
@@ -15,28 +14,24 @@ public class Main64 {
 
 	public static int solution(int[] ingredient) {
 		int answer = 0;
-		List<Integer> list = new ArrayList<>();
+		Stack<Integer> stack = new Stack<>();
 
 		for (int x : ingredient) {
-			list.add(x);
-		}
+			stack.push(x);
 
-		int cnt = 0;
-
-		A: while (cnt < 1_000_000) {
-			for (int i = 0; i < list.size() - 3; i++) {
-				String x = list.get(i) + "" + list.get(i + 1) + "" + list.get(i + 2) + "" + list.get(i + 3);
-				if ("1234".equals(x)) {
-					list.remove(i);
-					list.remove(i + 1);
-					list.remove(i + 2);
-					list.remove(i + 3);
-					continue A;
+			if (stack.size() >= 4) {
+				int size = stack.size();
+				if (stack.get(size - 4) == 1 && stack.get(size - 3) == 2 &&
+					stack.get(size - 2) == 3 && stack.get(size - 1) == 1) {
+					answer++;
+					stack.pop(); // 1
+					stack.pop(); // 3
+					stack.pop(); // 2
+					stack.pop(); // 1
 				}
 			}
 		}
 
 		return answer;
-
 	}
 }
