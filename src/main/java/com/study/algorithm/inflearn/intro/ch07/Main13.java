@@ -1,10 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch07;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * 경로탐색(인접리스트, ArrayList)
@@ -32,7 +31,6 @@ public class Main13 {
 		Scanner kb = new Scanner(in);
 		n = kb.nextInt();
 		m = kb.nextInt();
-		List<Integer> list = new ArrayList<>();
 		graph = new ArrayList<>();
 		for (int i = 0; i <= n; i++) {
 			graph.add(new ArrayList<>());
