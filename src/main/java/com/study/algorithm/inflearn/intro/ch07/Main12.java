@@ -1,19 +1,19 @@
 package com.study.algorithm.inflearn.intro.ch07;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 import static java.lang.System.out;
 
+import java.util.Scanner;
+
 /**
- * 경로탐색(DFS)
+ * 경로탐색(인접행렬)
  */
 public class Main12 {
-	static int n, m, answer = 0;
-	static int[][] graph;
-	static int[] ch;
+	private static int n, m, answer = 0;
+	private static int[][] graph;
+	private static int[] ch;
 
-	static void DFS(int v) {
+	private static void DFS(int v) {
 		if (v == n) {
 			answer++;
 		} else {

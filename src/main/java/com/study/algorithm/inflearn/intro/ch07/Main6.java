@@ -4,10 +4,10 @@ package com.study.algorithm.inflearn.intro.ch07;
  * 부분집합 구하기(DFS)
  */
 public class Main6 {
-	static int n;
-	static int[] ch;
+	private static int n;
+	private static int[] ch;
 
-	static void DFS(int L) {
+	private static void DFS(int L) {
 		if (L == n + 1) {
 			String tmp = "";
 			for (int i = 1; i <= n; i++) {

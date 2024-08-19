@@ -5,7 +5,7 @@ package com.study.algorithm.inflearn.intro.ch07;
  */
 public class Main5 {
 
-	Node root;
+	private Node root;
 
 	public static void main(String[] args) {
 		Main5 tree = new Main5();
@@ -21,7 +21,7 @@ public class Main5 {
 		tree.DFS(tree.root);
 	}
 
-	static void DFS(Node root) {
+	private static void DFS(Node root) {
 		if (root == null) {
 			return;
 		} else {

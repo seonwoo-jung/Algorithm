@@ -7,7 +7,7 @@ import static java.lang.Math.min;
  */
 public class Main9 {
 
-	Node root;
+	private Node root;
 
 	public static void main(String[] args) {
 		Main9 tree = new Main9();
@@ -17,10 +17,9 @@ public class Main9 {
 		tree.root.lt.lt = new Node(4);
 		tree.root.lt.rt = new Node(5);
 		System.out.println(DFS(0, tree.root));
-
 	}
 
-	static int DFS(int L, Node root) {
+	private static int DFS(int L, Node root) {
 		if (root.lt == null && root.rt == null) {
 			return L;
 		} else {
@@ -28,7 +27,7 @@ public class Main9 {
 		}
 	}
 
-	static class Node {
+	private static class Node {
 		int data;
 		Node lt, rt;
 

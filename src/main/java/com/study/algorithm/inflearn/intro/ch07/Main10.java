@@ -8,7 +8,7 @@ import java.util.Queue;
  */
 public class Main10 {
 
-	Node root;
+	private Node root;
 
 	public static void main(String[] args) {
 		Main10 tree = new Main10();
@@ -18,10 +18,9 @@ public class Main10 {
 		tree.root.lt.lt = new Node(4);
 		tree.root.lt.rt = new Node(5);
 		System.out.println(BFS(tree.root));
-
 	}
 
-	static int BFS(Node root) {
+	private static int BFS(Node root) {
 		Queue<Node> Q = new LinkedList<>();
 		Q.offer(root);
 		int L = 0;
@@ -39,7 +38,7 @@ public class Main10 {
 		return 0;
 	}
 
-	static class Node {
+	private static class Node {
 
 		int data;
 		Node lt, rt;
