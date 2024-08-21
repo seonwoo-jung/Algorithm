@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 소수(에라토스테네스 체): 체크해서 걸러낸다
@@ -26,8 +26,10 @@ public class Main5 {
 			if (ch[i] == 0) {
 				answer++;
 				for (int j = i; j <= n; j = j + i) {
+					System.out.printf("%d ", j);
 					ch[j] = 1;
 				}
+				System.out.println();
 			}
 		}
 		return answer;

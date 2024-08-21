@@ -1,6 +1,6 @@
 package com.study.algorithm.book.codingtest_learn.ch13;
 
-public class Main1 {
+public class Main49 {
 
 	public static void main(String[] args) {
 		int[] result = solution(new int[]{5, 2, 9, 1, 5, 6});
