@@ -6,9 +6,9 @@ public class Main68 {
 
 	public static void main(String[] args) {
 		int solution1 = solution(new int[]{1, 4, 2, 3, 1, 5, 7, 3});
-		int solution2 = solution(new int[]{3, 2, 1});
+//		int solution2 = solution(new int[]{3, 2, 1});
 		System.out.println("solution = " + solution1);
-		System.out.println("solution = " + solution2);
+//		System.out.println("solution = " + solution2);
 	}
 
 	private static int solution(int[] nums) {
@@ -19,6 +19,7 @@ public class Main68 {
 
 		for (int i = 1; i < n; i++) {
 			for (int j = 0; j < i; j++) {
+				System.out.printf("nums[%d] = %d nums[%d] = %d\n", i, nums[i], j, nums[j]);
 				if (nums[i] > nums[j]) {
 					dp[i] = Math.max(dp[i], dp[j] + 1);
 				}
