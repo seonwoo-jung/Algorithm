@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Algorithm.iml" filepath="$PROJECT_DIR$/.idea/modules/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Algorithm.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Algorithm.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Algorithm.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Algorithm.test.iml" />
+    </modules>
+  </component>
+</project>
