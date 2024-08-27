@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
+import static java.lang.System.in;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
-import static java.lang.System.in;
 
 /**
  * 섬나라 아일랜드(BFS)
@@ -58,5 +58,15 @@ public class Main14 {
 		solution(arr);
 
 		System.out.println(answer);
+	}
+
+	private static class Point {
+
+		public int x, y;
+
+		public Point(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
 	}
 }

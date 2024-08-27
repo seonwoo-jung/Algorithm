@@ -1,12 +1,12 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.Math.abs;
 import static java.lang.Math.min;
 import static java.lang.System.in;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * 피자배달거리
@@ -47,8 +47,11 @@ public class Main15 {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
 				int tmp = kb.nextInt();
-				if (tmp == 1) house.add(new Point(i, j));
-				else if (tmp == 2) pizza.add(new Point(i, j));
+				if (tmp == 1) {
+					house.add(new Point(i, j));
+				} else if (tmp == 2) {
+					pizza.add(new Point(i, j));
+				}
 			}
 		}
 
@@ -56,5 +59,15 @@ public class Main15 {
 		combi = new int[m];
 		DFS(0, 0);
 		System.out.println(answer);
+	}
+
+	private static class Point {
+
+		public int x, y;
+
+		public Point(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
 	}
 }

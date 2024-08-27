@@ -1,12 +1,12 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
-
 import static java.lang.Integer.MIN_VALUE;
 import static java.lang.Math.max;
 import static java.lang.System.in;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
 
 /**
  * 토마토(BFS)
@@ -44,7 +44,9 @@ public class Main12 {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
 				board[i][j] = kb.nextInt();
-				if (board[i][j] == 1) Q.offer(new Point(i, j));
+				if (board[i][j] == 1) {
+					Q.offer(new Point(i, j));
+				}
 			}
 		}
 
@@ -53,18 +55,34 @@ public class Main12 {
 		boolean flag = true;
 		int answer = MIN_VALUE;
 
-		for (int i = 0; i < n; i++)
-			for (int j = 0; j < m; j++)
-				if (board[i][j] == 0) flag = false;
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < m; j++) {
+				if (board[i][j] == 0) {
+					flag = false;
+				}
+			}
+		}
 
 		if (flag) {
-			for (int i = 0; i < n; i++)
-				for (int j = 0; j < m; j++)
+			for (int i = 0; i < n; i++) {
+				for (int j = 0; j < m; j++) {
 					answer = max(answer, dis[i][j]);
+				}
+			}
 			System.out.println(answer);
 		} else {
 			System.out.println(-1);
 		}
 
+	}
+
+	private static class Point {
+
+		public int x, y;
+
+		public Point(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
 	}
 }

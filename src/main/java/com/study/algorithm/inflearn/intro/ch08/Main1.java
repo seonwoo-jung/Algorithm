@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 public class Main1 {
 
@@ -24,7 +24,6 @@ public class Main1 {
 	}
 
 	void DFS(int L, int sum, int[] arr) {
-		System.out.printf("L의 값 = %d, sum의 값 =  %d\n", L, sum);
 		if (flag) return;            // 부분집합 합을 찾으면 더 찾을 필요가 없음.
 		if (sum > total / 2) return; // 총합보다 크다면 재귀가 돌아갈 필요가 없음
 		if (L == n) {

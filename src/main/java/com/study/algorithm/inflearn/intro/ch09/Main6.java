@@ -1,15 +1,15 @@
 package com.study.algorithm.inflearn.intro.ch09;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 친구인가 (Union&Find 알고리즘)
  * 서로소: 두 집합의 공통원소가 없어야 함
  */
 public class Main6 {
-	static int[] unf; // 집합을 표현
+	private static int[] unf; // 집합을 표현
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -33,15 +33,17 @@ public class Main6 {
 		else System.out.println("NO");
 	}
 
-	static void Union(int a, int b) {
+	private static void Union(int a, int b) {
 		int fa = Find(a);
 		int fb = Find(b);
 		if (fa != fb) unf[fa] = fb;
 	}
 
-	static int Find(int v) {
-		if (v == unf[v]) return v;
-			// 경로압축
-		else return unf[v] = Find(unf[v]);
+	private static int Find(int v) {
+		if (v == unf[v]) {
+			return v;
+		} else {
+			return unf[v] = Find(unf[v]);
+		}
 	}
 }
