@@ -31,8 +31,6 @@ public class Main21 {
 			map.put(clothes[i][1], map.getOrDefault(clothes[i][1], 0) + 1);
 		}
 
-		System.out.println("map = " + map);
-
 		for(String key : map.keySet()) {
 			answer *= (map.get(key) + 1);   // 조합 -> 안입는 경우도 고려하기 위해 + 1
 		}
