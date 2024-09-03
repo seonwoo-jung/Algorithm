@@ -25,8 +25,6 @@ public class Main35 {
 
 		//len의 길이만큼만 사용할꺼임.
 		String str = sb.substring(0, len);
-		System.out.println("str = " + str);
-		System.out.println("sb.toString() = " + sb.toString());
 
 		//p번째(인덱스로는 p-1번째)부터 시작해서 m번재 마다 읽어준다.
 		for (int i = p - 1; i < str.length(); i += m) {
