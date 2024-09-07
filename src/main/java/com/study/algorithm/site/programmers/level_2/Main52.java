@@ -12,22 +12,22 @@ public class Main52 {
 	private static int[][] Land;
 
 	public static void main(String[] args) {
-		System.out.println(solution(new int[][]{
-			{0, 0, 0, 1, 1, 1, 0, 0},
-			{0, 0, 0, 0, 1, 1, 0, 0},
-			{1, 1, 0, 0, 0, 1, 1, 0},
-			{1, 1, 1, 0, 0, 0, 0, 0},
-			{1, 1, 1, 0, 0, 0, 1, 1}
-		}));
 //		System.out.println(solution(new int[][]{
-//			{1, 0, 1, 0, 1, 1},
-//			{1, 0, 1, 0, 0, 0},
-//			{1, 0, 1, 0, 0, 1},
-//			{1, 0, 0, 1, 0, 0},
-//			{1, 0, 0, 1, 0, 1},
-//			{1, 0, 0, 0, 0, 0},
-//			{1, 1, 1, 1, 1, 1}
+//			{0, 0, 0, 1, 1, 1, 0, 0},
+//			{0, 0, 0, 0, 1, 1, 0, 0},
+//			{1, 1, 0, 0, 0, 1, 1, 0},
+//			{1, 1, 1, 0, 0, 0, 0, 0},
+//			{1, 1, 1, 0, 0, 0, 1, 1}
 //		}));
+		System.out.println(solution(new int[][]{
+			{1, 0, 1, 0, 1, 1},
+			{1, 0, 1, 0, 0, 0},
+			{1, 0, 1, 0, 0, 1},
+			{1, 0, 0, 1, 0, 0},
+			{1, 0, 0, 1, 0, 1},
+			{1, 0, 0, 0, 0, 0},
+			{1, 1, 1, 1, 1, 1}
+		}));
 	}
 
 	private static int solution(int[][] land) {
@@ -58,13 +58,13 @@ public class Main52 {
 				if (visited[i][j] || land[i][j] == 0) {
 					continue;
 				}
-				groups.add(bfs(i, j));
+				groups.add(BFS(i, j));
 			}
 		}
 	}
 
 	// 최종적으로 만들어지는 것은 석유 덩어리
-	private static Group bfs(int sx, int sy) {
+	private static Group BFS(int sx, int sy) {
 		Queue<List<Integer>> Q = new LinkedList<>();
 		Set<Integer> possibleY = new HashSet<>();
 		int count = 1;

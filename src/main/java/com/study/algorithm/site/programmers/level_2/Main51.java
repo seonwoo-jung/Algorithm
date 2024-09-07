@@ -64,10 +64,10 @@ public class Main51 {
 				visited[nRed.x][nRed.y][0] = true;
 				visited[nBlue.x][nBlue.y][1] = true;
 
-
 				if (map[nRed.x][nRed.y] == 3) {
 					redEnd = true;
 				}
+
 				if (map[nBlue.x][nBlue.y] == 4) {
 					blueEnd = true;
 				}
@@ -94,12 +94,12 @@ public class Main51 {
 
 	// 해당 방향으로 움직이는 것이 가능한지 판단
 	// (현재 빨간 수레 , 다음 빨간 수레, 현재 파란 수레, 다음 파란 수레)
-	private static boolean isPossible(Point cntRed, Point red,
-		Point cntBlue, Point blue) {
+	private static boolean isPossible(Point cntRed, Point red, Point cntBlue, Point blue) {
 		// 기본 탐색 규칙
-		if (red.x < 0 || red.y < 0 || red.x >= map.length || red.y >= map[0].length
-			|| blue.x < 0 || blue.y < 0 || blue.x >= map.length || blue.y >= map[0].length
-			|| map[red.x][red.y] == 5 || map[blue.x][blue.y] == 5) {
+		if (red.x < 0 || red.y < 0 || red.x >= map.length || red.y >= map[0].length ||
+			blue.x < 0 || blue.y < 0 || blue.x >= map.length || blue.y >= map[0].length ||
+			map[red.x][red.y] == 5 ||
+			map[blue.x][blue.y] == 5) {
 			return false;
 		}
 
