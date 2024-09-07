@@ -25,6 +25,7 @@ public class Main4 {
 
 		int[] scores = new int[3];
 
+		// 1번 방법
 		for (int i = 0; i < answers.length; i++) {
 			for (int j = 0; j < pattern.length; j++) {
 				if (answers[i] == pattern[j][i % pattern[j].length]) {
