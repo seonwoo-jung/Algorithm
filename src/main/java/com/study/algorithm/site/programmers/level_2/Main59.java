@@ -1,5 +1,6 @@
 package com.study.algorithm.site.programmers.level_2;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,31 +13,34 @@ public class Main59 {
 			new String[]{"young", "john", "tod", "emily", "mary"},
 			new int[]{12, 4, 2, 5, 10}
 		);
+
+		System.out.println(Arrays.toString(solution));
 	}
 
 	private static int[] solution(String[] enroll, String[] referral, String[] seller, int[] amount) {
-		Map<String, String> map = new HashMap<>();
-		Map<String, Integer> answer = new HashMap<>();
+
+		Map<String, String> parent = new HashMap<>();
 		for (int i = 0; i < enroll.length; i++) {
-			map.put(enroll[i], referral[i]);
+			parent.put(enroll[i], referral[i]);
 		}
 
+		Map<String, Integer> total = new HashMap<>();
+
 		for (int i = 0; i < seller.length; i++) {
-			int income = amount[i] * 100;
-			if (map.get(seller[i]).equals("-")) {
-				answer.put(seller[i], answer.getOrDefault(seller[i], 0) + income);
-			} else {
-				String id = seller[i];
-				while (!map.get(id).equals("-")) {
-					int payback = (int) (income * 0.1);
-					income -= payback;
-					answer.put(id, answer.getOrDefault(id, 0) + income);
-					id = map.get(id);
-					income = payback;
-				}
+			String curName = seller[i];
+			int money = amount[i] * 100;
+
+			while (money > 0 && !curName.equals("-")) {
+				total.put(curName, total.getOrDefault(curName, 0) + money - (money / 10));
+				curName = parent.get(curName);
+				money /= 10;
 			}
-			System.out.println("answer = " + answer);
 		}
-		return null;
+		int[] answer = new int[enroll.length];
+		for (int i = 0; i < enroll.length; i++) {
+			answer[i] = total.getOrDefault(enroll[i], 0);
+		}
+
+		return answer;
 	}
 }

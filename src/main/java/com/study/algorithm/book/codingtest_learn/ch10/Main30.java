@@ -30,7 +30,7 @@ public class Main30 {
 				answer.add(find(op[1]) == find(op[2]));
 			}
 		}
-		return answer.toArray(new Boolean[0]);
+		return answer.toArray(Boolean[]::new);
 	}
 
 	private static int find(int x) {
