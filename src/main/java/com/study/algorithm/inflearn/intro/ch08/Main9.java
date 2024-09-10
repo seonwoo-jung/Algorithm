@@ -1,18 +1,26 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 조합구하기
  */
 public class Main9 {
 
-	static int[] combi;
-	static int n, m;
+	private static int[] combi;
+	private static int n, m;
 
-	static void DFS(int L, int s) {
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(in);
+		n = kb.nextInt();
+		m = kb.nextInt();
+		combi = new int[m];
+		DFS(0, 1);
+	}
+
+	private static void DFS(int L, int s) {
 		if (L == m) {
 			for (int x : combi) System.out.printf(x + " ");
 			System.out.println();
@@ -22,13 +30,5 @@ public class Main9 {
 				DFS(L + 1, i + 1);
 			}
 		}
-	}
-
-	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
-		n = kb.nextInt();
-		m = kb.nextInt();
-		combi = new int[m];
-		DFS(0, 1);
 	}
 }

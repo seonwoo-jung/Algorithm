@@ -2,16 +2,16 @@ package com.study.algorithm.book.codingtest_learn.ch11;
 
 import java.util.ArrayList;
 
-public class Main41 {
+public class Main42 {
 
 	private static boolean[] visited;
 	private static ArrayList<Integer>[] adjList;
 	private static int N, answer;
 
 	public static void main(String[] args) {
-//		System.out.println(solution(9, new int[][]{{1, 3}, {2, 3}, {3, 4}, {4, 5}, {4, 6}, {4, 7}, {7, 8}, {7, 9}}));
+		System.out.println(solution(9, new int[][]{{1, 3}, {2, 3}, {3, 4}, {4, 5}, {4, 6}, {4, 7}, {7, 8}, {7, 9}}));
 		System.out.println(solution(4, new int[][]{{1, 2}, {2, 3}, {3, 4}}));
-//		System.out.println(solution(7, new int[][]{{1, 2}, {2, 7}, {3, 7}, {3, 4}, {4, 5}, {6, 7}}));
+		System.out.println(solution(7, new int[][]{{1, 2}, {2, 7}, {3, 7}, {3, 4}, {4, 5}, {6, 7}}));
 	}
 
 	static int solution(int n, int[][] wires) {
