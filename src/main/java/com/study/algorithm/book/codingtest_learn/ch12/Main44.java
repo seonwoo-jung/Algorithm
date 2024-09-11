@@ -40,52 +40,6 @@ public class Main44 {
 		return board;
 	}
 
-	private static boolean isValid(int num, int row, int col) {
-		return !(inRow(num, row) || inCol(num, col) || inBox(num, row, col));
-	}
-
-	private static boolean inRow(int num, int row) {
-		return Arrays.stream(Board[row]).anyMatch(n -> n == num);
-	}
-
-	private static boolean inCol(int num, int col) {
-		// ❸ 해당 열에 num이 있는지 확인
-		for (int i = 0; i < 9; i++) {
-			if (Board[i][col] == num) {
-				return true;
-			}
-		}
-		return false;
-	}
-
-	private static boolean inBox(int num, int row, int col) {
-		// ❹ 현재 위치의 3 x 3 박스에 num이 있는지 확인
-		int boxRow = (row / 3) * 3;
-		int boxCol = (col / 3) * 3;
-
-		for (int i = boxRow; i < boxRow + 3; i++) {
-			for (int j = boxCol; j < boxCol + 3; j++) {
-				if (Board[i][j] == num) {
-					return true;
-				}
-			}
-		}
-
-		return false;
-	}
-
-	private static Block findEmptyPosition() {
-		// ❺ 스도쿠 보드에서 비어 있는 위치 반환
-		for (int i = 0; i < 9; i++) {
-			for (int j = 0; j < 9; j++) {
-				if (Board[i][j] == 0) {
-					return new Block(i, j);
-				}
-			}
-		}
-		return null;
-	}
-
 	private static boolean findSolution() {
 		// ❻ 비어 있는 위치에 가능한 숫자를 넣어가며 스도쿠 해결
 		Block emptyPos = findEmptyPosition();
@@ -111,6 +65,52 @@ public class Main44 {
 		return false;
 	}
 
+	private static Block findEmptyPosition() {
+		// ❺ 스도쿠 보드에서 비어 있는 위치 반환
+		for (int i = 0; i < 9; i++) {
+			for (int j = 0; j < 9; j++) {
+				if (Board[i][j] == 0) {
+					return new Block(i, j);
+				}
+			}
+		}
+		return null;
+	}
+
+	private static boolean isValid(int num, int row, int col) {
+		return !(inRow(num, row) || inCol(num, col) || inBox(num, row, col));
+	}
+
+	// 해당 row에 num이랑 동일한 값이 있는지 탐색
+	private static boolean inRow(int num, int row) {
+		return Arrays.stream(Board[row]).anyMatch(n -> n == num);
+	}
+
+	// 해당 col에 num이랑 동일한 값이 있는지 탐색
+	private static boolean inCol(int num, int col) {
+		for (int i = 0; i < 9; i++) {
+			if (Board[i][col] == num) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	// 3 x 3 박스에 해당 num이 있는지 확인
+	private static boolean inBox(int num, int row, int col) {
+		int boxRow = (row / 3) * 3;
+		int boxCol = (col / 3) * 3;
+
+		for (int i = boxRow; i < boxRow + 3; i++) {
+			for (int j = boxCol; j < boxCol + 3; j++) {
+				if (Board[i][j] == num) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
 	private static class Block {
 
 		int i, j;
@@ -119,6 +119,5 @@ public class Main44 {
 			this.i = i;
 			this.j = j;
 		}
-
 	}
 }

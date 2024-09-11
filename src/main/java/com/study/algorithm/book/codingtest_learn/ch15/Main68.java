@@ -2,6 +2,9 @@ package com.study.algorithm.book.codingtest_learn.ch15;
 
 import java.util.Arrays;
 
+/**
+ * LIS
+ */
 public class Main68 {
 
 	public static void main(String[] args) {
@@ -19,7 +22,6 @@ public class Main68 {
 
 		for (int i = 1; i < n; i++) {
 			for (int j = 0; j < i; j++) {
-				System.out.printf("nums[%d] = %d nums[%d] = %d\n", i, nums[i], j, nums[j]);
 				if (nums[i] > nums[j]) {
 					dp[i] = Math.max(dp[i], dp[j] + 1);
 				}
