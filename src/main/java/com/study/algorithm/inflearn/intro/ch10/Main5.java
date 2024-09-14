@@ -1,18 +1,28 @@
 package com.study.algorithm.inflearn.intro.ch10;
 
-import java.util.Scanner;
-
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.System.in;
 import static java.util.Arrays.fill;
+
+import java.util.Scanner;
 
 /**
  * 동전교환(냅색 알고리즘)
  */
 public class Main5 {
 
-	static int n, m;
-	static int[] dy;
+	private static int n, m;
+	private static int[] dy;
+
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(in);
+		n = kb.nextInt();
+		int[] arr = new int[n];
+		for (int i = 0; i < arr.length; i++) arr[i] = kb.nextInt();
+		m = kb.nextInt();
+		dy = new int[m + 1];
+		System.out.println(solution(arr));
+	}
 
 	private static int solution(int[] coin) {
 		fill(dy, MAX_VALUE);
@@ -24,15 +34,5 @@ public class Main5 {
 		}
 
 		return dy[m];
-	}
-
-	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
-		n = kb.nextInt();
-		int[] arr = new int[n];
-		for (int i = 0; i < arr.length; i++) arr[i] = kb.nextInt();
-		m = kb.nextInt();
-		dy = new int[m + 1];
-		System.out.println(solution(arr));
 	}
 }

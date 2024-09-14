@@ -1,17 +1,33 @@
 package com.study.algorithm.inflearn.intro.ch10;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 import static java.lang.System.in;
 import static java.util.Collections.sort;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * 가장 높은 탑 쌓기(LIS 응용)
  */
 public class Main4 {
 
-	static int[] dy;
+	private static int[] dy;
+
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(in);
+		int n = kb.nextInt();
+		ArrayList<Brick> list = new ArrayList<>();
+		dy = new int[n];
+
+		for (int i = 0; i < n; i++) {
+			int s = kb.nextInt();
+			int h = kb.nextInt();
+			int w = kb.nextInt();
+			list.add(new Brick(s, h, w));
+		}
+
+		System.out.println(solution(list));
+	}
 
 	private static int solution(ArrayList<Brick> arr) {
 		int answer;
@@ -34,23 +50,7 @@ public class Main4 {
 		return answer;
 	}
 
-	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
-		int n = kb.nextInt();
-		ArrayList<Brick> list = new ArrayList<>();
-		dy = new int[n];
-
-		for (int i = 0; i < n; i++) {
-			int s = kb.nextInt();
-			int h = kb.nextInt();
-			int w = kb.nextInt();
-			list.add(new Brick(s, h, w));
-		}
-
-		System.out.println(solution(list));
-	}
-
-	static class Brick implements Comparable<Brick> {
+	private static class Brick implements Comparable<Brick> {
 
 		private int s, h, w;
 

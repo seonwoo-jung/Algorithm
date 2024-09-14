@@ -1,37 +1,20 @@
 package com.study.algorithm.inflearn.intro.ch07;
 
+import static java.lang.System.in;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
-import static java.lang.System.in;
 
 /**
  * 그래프 최단거리(BFS)
  */
 public class Main14 {
 
-	static int n, m;
-	static ArrayList<ArrayList<Integer>> graph;
-	static int[] ch, dis;
-
-	private static void BFS(int v) {
-		Queue<Integer> queue = new LinkedList<>();
-		ch[v] = 1;
-		dis[v] = 0;
-		queue.offer(v);
-		while (!queue.isEmpty()) {
-			int cv = queue.poll();
-			for (int nv : graph.get(cv)) {
-				if (ch[nv] == 0) {
-					ch[nv] = 1;
-					queue.offer(nv);
-					dis[nv] = dis[cv] + 1;
-				}
-			}
-		}
-	}
+	private static int n, m;
+	private static ArrayList<ArrayList<Integer>> graph;
+	private static int[] ch, dis;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -55,6 +38,23 @@ public class Main14 {
 
 		for (int i = 2; i <= n; i++) {
 			System.out.println(i + " : " + dis[i]);
+		}
+	}
+
+	private static void BFS(int v) {
+		Queue<Integer> queue = new LinkedList<>();
+		ch[v] = 1;
+		dis[v] = 0;
+		queue.offer(v);
+		while (!queue.isEmpty()) {
+			int cv = queue.poll();
+			for (int nv : graph.get(cv)) {
+				if (ch[nv] == 0) {
+					ch[nv] = 1;
+					queue.offer(nv);
+					dis[nv] = dis[cv] + 1;
+				}
+			}
 		}
 	}
 }

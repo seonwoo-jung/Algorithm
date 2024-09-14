@@ -1,12 +1,12 @@
 package com.study.algorithm.inflearn.intro.ch09;
 
-import java.util.ArrayList;
-import java.util.PriorityQueue;
-import java.util.Scanner;
-
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.System.in;
 import static java.util.Arrays.fill;
+
+import java.util.ArrayList;
+import java.util.PriorityQueue;
+import java.util.Scanner;
 
 /**
  * 다익스트라 알고리즘: 음의 가중치가 없는 그래프의 한 정점에서 모든 정점까지의 최단거리를 각각 구하는 알고리즘
@@ -23,9 +23,9 @@ import static java.util.Arrays.fill;
  */
 public class Main5 {
 
-	static int n, m;
-	static ArrayList<ArrayList<Edge>> graph;
-	static int[] dis;
+	private static int n, m;
+	private	static ArrayList<ArrayList<Edge>> graph;
+	private static int[] dis;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -74,7 +74,7 @@ public class Main5 {
 
 	}
 
-	static class Edge implements Comparable<Edge> {
+	private static class Edge implements Comparable<Edge> {
 
 		// 정점, 비용
 		public int vex, cost;

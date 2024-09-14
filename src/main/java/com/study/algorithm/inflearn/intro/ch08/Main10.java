@@ -1,18 +1,30 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 미로탐색
  */
 public class Main10 {
 
-	static int[] dx = {-1, 0, 1, 0};
-	static int[] dy = {0, 1, 0, -1};
-	static int[][] board;
-	static int answer = 0;
+	private static int[] dx = {-1, 0, 1, 0};
+	private static int[] dy = {0, 1, 0, -1};
+	private static int[][] board;
+	private static int answer = 0;
+
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(in);
+		board = new int[8][8];
+		for (int i = 1; i < board.length; i++)
+			for (int j = 1; j < board.length; j++)
+				board[i][j] = kb.nextInt();
+
+		board[1][1] = 1;
+		DFS(1, 1);
+		System.out.println("answer = " + answer);
+	}
 
 	private static void DFS(int x, int y) {
 		if (x == 7 && y == 7) {
@@ -31,17 +43,5 @@ public class Main10 {
 				}
 			}
 		}
-	}
-
-	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
-		board = new int[8][8];
-		for (int i = 1; i < board.length; i++)
-			for (int j = 1; j < board.length; j++)
-				board[i][j] = kb.nextInt();
-
-		board[1][1] = 1;
-		DFS(1, 1);
-		System.out.println("answer = " + answer);
 	}
 }

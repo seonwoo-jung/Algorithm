@@ -38,7 +38,7 @@ public class Main1 {
 		return cnt;
 	}
 
-	static class Person implements Comparable<Person> {
+	private static class Person implements Comparable<Person> {
 		private int height, weight;
 
 		public Person(int height, int weight) {

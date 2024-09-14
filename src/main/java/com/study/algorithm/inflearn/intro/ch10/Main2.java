@@ -9,7 +9,7 @@ import static java.lang.System.in;
  */
 public class Main2 {
 
-	static int[] dy;
+	private static int[] dy;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);

@@ -10,22 +10,9 @@ import java.util.Scanner;
  */
 public class Main13 {
 
-	static int n, m, answer = 0;
-	static ArrayList<ArrayList<Integer>> graph;
-	static int[] ch;
-
-	private static void DFS(int v) {
-		if (v == n) answer++;
-		else {
-			for (int nv : graph.get(v)) {
-				if (ch[nv] == 0) {
-					ch[nv] = 1;
-					DFS(nv);
-					ch[nv] = 0;
-				}
-			}
-		}
-	}
+	private static int n, m, answer = 0;
+	private static ArrayList<ArrayList<Integer>> graph;
+	private static int[] ch;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -44,5 +31,18 @@ public class Main13 {
 		ch[1] = 1;
 		DFS(1);
 		System.out.println(answer);
+	}
+
+	private static void DFS(int v) {
+		if (v == n) answer++;
+		else {
+			for (int nv : graph.get(v)) {
+				if (ch[nv] == 0) {
+					ch[nv] = 1;
+					DFS(nv);
+					ch[nv] = 0;
+				}
+			}
+		}
 	}
 }

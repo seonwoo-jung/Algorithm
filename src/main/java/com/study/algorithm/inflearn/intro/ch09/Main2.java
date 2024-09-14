@@ -43,7 +43,7 @@ public class Main2 {
 		return cnt;
 	}
 
-	static class Time implements Comparable<Time> {
+	private static class Time implements Comparable<Time> {
 		private int s, e;
 
 		public Time(int s, int e) {

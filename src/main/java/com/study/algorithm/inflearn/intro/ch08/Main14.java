@@ -11,10 +11,27 @@ import java.util.Scanner;
  */
 public class Main14 {
 
-	static int answer = 0, n;
-	static int[] dx = {-1, -1, 0, 1, 1, 1, 0, -1};
-	static int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
-	static Queue<Point> queue = new LinkedList<>();
+	private static int answer = 0, n;
+	private static int[] dx = {-1, -1, 0, 1, 1, 1, 0, -1};
+	private static int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
+	private static Queue<Point> queue = new LinkedList<>();
+
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(in);
+		n = kb.nextInt();
+
+		int[][] arr = new int[n][n];
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				arr[i][j] = kb.nextInt();
+			}
+		}
+
+		solution(arr);
+
+		System.out.println(answer);
+	}
 
 	private static void BFS(int x, int y, int[][] board) {
 		queue.add(new Point(x, y));
@@ -41,23 +58,6 @@ public class Main14 {
 				}
 			}
 		}
-	}
-
-	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
-		n = kb.nextInt();
-
-		int[][] arr = new int[n][n];
-
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < n; j++) {
-				arr[i][j] = kb.nextInt();
-			}
-		}
-
-		solution(arr);
-
-		System.out.println(answer);
 	}
 
 	private static class Point {

@@ -1,22 +1,13 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
-import java.util.Scanner;
-
 import static java.lang.Integer.MIN_VALUE;
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
 public class Main2 {
 
-	static int answer = MIN_VALUE, c, n;
-
-	private static void DFS(int L, int sum, int[] arr) {
-		if (sum > c) return;
-		if (L == n) answer = Math.max(answer, sum);
-		else {
-			DFS(L + 1, sum + arr[L], arr);
-			DFS(L + 1, sum, arr);
-		}
-	}
+	private static int answer = MIN_VALUE, c, n;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -28,5 +19,14 @@ public class Main2 {
 		}
 		DFS(0, 0, arr);
 		System.out.println(answer);
+	}
+
+	private static void DFS(int L, int sum, int[] arr) {
+		if (sum > c) return;
+		if (L == n) answer = Math.max(answer, sum);
+		else {
+			DFS(L + 1, sum + arr[L], arr);
+			DFS(L + 1, sum, arr);
+		}
 	}
 }

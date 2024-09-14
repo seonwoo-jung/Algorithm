@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch09;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 import static java.lang.System.in;
 import static java.util.Collections.sort;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * 윈더랜드(최소 스패닝 트리(간선의 가중치가 제일 최소가 되도록 하는 것) - 크루스칼 : Uion&Find 이용)
@@ -12,7 +12,7 @@ import static java.util.Collections.sort;
  */
 public class Main7 {
 
-	static int[] unf;
+	private static int[] unf;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -65,7 +65,7 @@ public class Main7 {
 		if (fa != fb) unf[fa] = fb;
 	}
 
-	static class Edge implements Comparable<Edge> {
+	private static class Edge implements Comparable<Edge> {
 
 		private int v1, v2, cost;
 

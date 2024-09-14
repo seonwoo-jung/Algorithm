@@ -13,28 +13,9 @@ import java.util.Scanner;
  */
 public class Main15 {
 
-	static int n, m, len, answer = MAX_VALUE;
-	static int[] combi;
-	static ArrayList<Point> house, pizza;
-
-	private static void DFS(int L, int s) {
-		if (L == m) {
-			int sum = 0;
-			for (Point h : house) {
-				int dis = MAX_VALUE;
-				for (int i : combi) {
-					dis = min(dis, abs(h.x - pizza.get(i).x) + abs(h.y - pizza.get(i).y));
-				}
-				sum += dis;
-			}
-			answer = min(answer, sum);
-		} else {
-			for (int i = s; i < len; i++) {
-				combi[L] = i;
-				DFS(L + 1, i + 1);
-			}
-		}
-	}
+	private static int n, m, len, answer = MAX_VALUE;
+	private static int[] combi;
+	private static ArrayList<Point> house, pizza;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -59,6 +40,25 @@ public class Main15 {
 		combi = new int[m];
 		DFS(0, 0);
 		System.out.println(answer);
+	}
+
+	private static void DFS(int L, int s) {
+		if (L == m) {
+			int sum = 0;
+			for (Point h : house) {
+				int dis = MAX_VALUE;
+				for (int i : combi) {
+					dis = min(dis, abs(h.x - pizza.get(i).x) + abs(h.y - pizza.get(i).y));
+				}
+				sum += dis;
+			}
+			answer = min(answer, sum);
+		} else {
+			for (int i = s; i < len; i++) {
+				combi[L] = i;
+				DFS(L + 1, i + 1);
+			}
+		}
 	}
 
 	private static class Point {

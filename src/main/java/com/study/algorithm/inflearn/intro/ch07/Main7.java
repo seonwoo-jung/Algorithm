@@ -8,7 +8,7 @@ import java.util.Queue;
  */
 public class Main7 {
 
-	Node root;
+	private Node root;
 
 	public static void main(String[] args) {
 		Main7 tree = new Main7();
@@ -40,7 +40,7 @@ public class Main7 {
 		}
 	}
 
-	static class Node {
+	private static class Node {
 		int data;
 
 		Node lt, rt;

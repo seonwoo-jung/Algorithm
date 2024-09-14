@@ -1,18 +1,35 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 섬나라 아일랜드(DFS)
  */
 public class Main13 {
 
-	static int answer = 0, n;
+	private static int answer = 0, n;
 	// 시계방향으로 여덞방향을 탐색한다.
-	static int[] dx = {-1, -1, 0, 1, 1, 1, 0, -1};
-	static int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
+	private static int[] dx = {-1, -1, 0, 1, 1, 1, 0, -1};
+	private static int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
+
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(in);
+		n = kb.nextInt();
+
+		int[][] arr = new int[n][n];
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				arr[i][j] = kb.nextInt();
+			}
+		}
+
+		solution(arr);
+
+		System.out.println(answer);
+	}
 
 	private static void DFS(int x, int y, int[][] board) {
 		for (int i = 0; i < 8; i++) {
@@ -38,22 +55,5 @@ public class Main13 {
 				}
 			}
 		}
-	}
-
-	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
-		n = kb.nextInt();
-
-		int[][] arr = new int[n][n];
-
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < n; j++) {
-				arr[i][j] = kb.nextInt();
-			}
-		}
-
-		solution(arr);
-
-		System.out.println(answer);
 	}
 }

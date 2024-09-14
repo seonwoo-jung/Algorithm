@@ -42,7 +42,7 @@ public class Main3 {
 		return answer;
 	}
 
-	static class Time implements Comparable<Time> {
+	private static class Time implements Comparable<Time> {
 		private int time;
 		private char state;
 

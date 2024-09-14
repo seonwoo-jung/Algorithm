@@ -1,19 +1,19 @@
 package com.study.algorithm.inflearn.intro.ch07;
 
+import static java.lang.System.in;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
-import static java.lang.System.in;
 
 /**
  * 송아지 찾기1(BFS)
  */
 public class Main8 {
 
-	static int[] dis = {1, -1, 5};
-	static int[] ch;
-	static Queue<Integer> Q = new LinkedList<>();
+	private static int[] dis = {1, -1, 5};
+	private static int[] ch;
+	private static Queue<Integer> Q = new LinkedList<>();
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);

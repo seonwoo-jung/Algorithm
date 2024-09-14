@@ -1,16 +1,16 @@
 package com.study.algorithm.inflearn.intro.ch10;
 
-import java.util.Scanner;
-
 import static java.lang.Math.max;
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 최대 부분 증가수열(LIS)
  */
 public class Main3 {
 
-	static int[] dy;
+	private static int[] dy;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
