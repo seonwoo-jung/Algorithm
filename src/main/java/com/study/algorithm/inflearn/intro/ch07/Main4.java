@@ -5,7 +5,16 @@ package com.study.algorithm.inflearn.intro.ch07;
  */
 public class Main4 {
 
-	static int[] fibo;
+	private static int[] fibo;
+
+	public static void main(String[] args) {
+		int n = 7;
+		fibo = new int[n + 1];
+		DFS(n);
+		for (int i = 0; i <= n; i++) {
+			System.out.print(fibo[i] + " ");
+		}
+	}
 
 	private static int DFS(int n) {
 		if (fibo[n] > 0) {
@@ -17,15 +26,6 @@ public class Main4 {
 			return fibo[n] = 1;
 		} else {
 			return fibo[n] = DFS(n - 2) + DFS(n - 1);
-		}
-	}
-
-	public static void main(String[] args) {
-		int n = 7;
-		fibo = new int[n + 1];
-		DFS(n);
-		for (int i = 0; i <= n; i++) {
-			System.out.print(fibo[i] + " ");
 		}
 	}
 }

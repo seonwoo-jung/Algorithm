@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch07;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 이진수 출력(재귀)
@@ -16,8 +16,7 @@ public class Main2 {
 	}
 
 	private static void DFS(int n) {
-		if (n == 0) return;
-		else {
+		if (n != 0) {
 			DFS(n / 2);
 			System.out.print(n % 2 + " ");
 		}

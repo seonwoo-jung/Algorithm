@@ -14,18 +14,10 @@ public class Main1 {
 		Scanner kb = new Scanner(in);
 		int n = kb.nextInt();
 		DFS(n);
-		System.out.println();
-
-		for (int i = 1; i <= n; i++) {
-			System.out.printf("%d ", i);
-		}
 	}
 
 	private static void DFS(int n) {
-
-		if (n == 0) {
-
-		} else {
+		if (n != 0) {
 			DFS(n - 1);
 			System.out.print(n + " ");
 		}
