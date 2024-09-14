@@ -1,4 +1,4 @@
-package com.study.algorithm.inflearn.middle;
+package com.study.algorithm.inflearn.middle.ch01;
 
 import java.util.ArrayList;
 import java.util.HashMap;

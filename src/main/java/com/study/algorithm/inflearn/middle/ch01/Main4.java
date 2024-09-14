@@ -1,4 +1,4 @@
-package com.study.algorithm.inflearn.middle;
+package com.study.algorithm.inflearn.middle.ch01;
 
 import java.util.Arrays;
 
@@ -6,6 +6,13 @@ import java.util.Arrays;
  * 좌석 번호
  */
 public class Main4 {
+	public static void main(String[] args) {
+		System.out.println(Arrays.toString(solution(6, 5, 12)));
+		System.out.println(Arrays.toString(solution(6, 5, 20)));
+		System.out.println(Arrays.toString(solution(6, 5, 30)));
+		System.out.println(Arrays.toString(solution(6, 5, 31)));
+	}
+
 	private static int[] solution(int c, int r, int k) {
 		int[] answer = new int[2];
 
@@ -37,12 +44,5 @@ public class Main4 {
 		answer[1] = y + 1;
 
 		return answer;
-	}
-
-	public static void main(String[] args) {
-		System.out.println(Arrays.toString(solution(6, 5, 12)));
-		System.out.println(Arrays.toString(solution(6, 5, 20)));
-		System.out.println(Arrays.toString(solution(6, 5, 30)));
-		System.out.println(Arrays.toString(solution(6, 5, 31)));
 	}
 }
