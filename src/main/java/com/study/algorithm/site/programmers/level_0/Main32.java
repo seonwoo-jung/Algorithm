@@ -18,7 +18,7 @@ public class Main32 {
 		System.out.println(solution(id_pw, db));
 	}
 
-	static String solution(String[] id_pw, String[][] db) {
+	private static String solution(String[] id_pw, String[][] db) {
 
 		String answer = "";
 

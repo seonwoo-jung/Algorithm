@@ -11,7 +11,7 @@ public class Main52 {
 		}
 	}
 
-	static int[] solution(String my_string) {
+	private static int[] solution(String my_string) {
 		String[] split = my_string.replaceAll("[^0-9]", "").split("");
 		return stream(split).mapToInt(Integer::parseInt).sorted().toArray();
 	}

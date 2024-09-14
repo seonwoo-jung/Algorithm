@@ -36,7 +36,7 @@ public class DFS16 {
 		System.out.println(answer);
 	}
 
-	static void DFS(int L, int s) {
+	private static void DFS(int L, int s) {
 		// 조합완성
 		if (L == m) {
 			int sum = 0;

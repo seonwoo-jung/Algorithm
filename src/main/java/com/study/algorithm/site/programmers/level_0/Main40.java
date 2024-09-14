@@ -9,7 +9,7 @@ public class Main40 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(String[] spell, String[] dic) {
+	private static int solution(String[] spell, String[] dic) {
 		boolean wordCheck = false;
 		for (String word : dic) {
 			int count = 0;

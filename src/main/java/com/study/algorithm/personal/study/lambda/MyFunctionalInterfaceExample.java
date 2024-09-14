@@ -45,7 +45,7 @@ public class MyFunctionalInterfaceExample {
 //        fi.method();
 	}
 
-	static int sum(int x, int y) {
+	private static int sum(int x, int y) {
 		return x + y;
 	}
 }

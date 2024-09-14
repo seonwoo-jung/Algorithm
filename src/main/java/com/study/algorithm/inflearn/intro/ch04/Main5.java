@@ -22,7 +22,7 @@ public class Main5 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n, int k, int[] arr) {
+	private static int solution(int n, int k, int[] arr) {
 		int answer = 0;
 		TreeSet<Integer> Tset = new TreeSet<>(reverseOrder()); // reverseOrder로 내림차순 정렬
 		for (int i = 0; i < n; i++) {

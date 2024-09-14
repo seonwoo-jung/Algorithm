@@ -23,7 +23,7 @@ public class Main5 {
 		System.out.println("solution = " + solution);
 	}
 
-	static String solution2(int n, int[] arr) {
+	private static String solution2(int n, int[] arr) {
 		String answer = "U";
 		sort(arr);
 		for (int i = 0; i < n - 1; i++) {
@@ -32,7 +32,7 @@ public class Main5 {
 		return answer;
 	}
 
-	static String solution(int n, int[] arr) {
+	private static String solution(int n, int[] arr) {
 		Set<Integer> set = new HashSet<>();
 		for (int x : arr) {
 			set.add(x);

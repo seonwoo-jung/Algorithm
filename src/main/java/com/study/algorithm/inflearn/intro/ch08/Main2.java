@@ -9,7 +9,7 @@ public class Main2 {
 
 	static int answer = MIN_VALUE, c, n;
 
-	static void DFS(int L, int sum, int[] arr) {
+	private static void DFS(int L, int sum, int[] arr) {
 		if (sum > c) return;
 		if (L == n) answer = Math.max(answer, sum);
 		else {

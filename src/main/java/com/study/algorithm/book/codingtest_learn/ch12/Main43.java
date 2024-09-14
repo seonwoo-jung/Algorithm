@@ -17,7 +17,7 @@ public class Main43 {
 //		System.out.println("solution2 = " + solution2);
 	}
 
-	static ArrayList<ArrayList<Integer>> solution(int N) {
+	private static ArrayList<ArrayList<Integer>> solution(int N) {
 		result = new ArrayList<>();
 		n = N;
 

@@ -9,7 +9,7 @@ public class Main21 {
 		int[] solution = solution(arr);
 	}
 
-	static int[] solution(int[] arr) {
+	private static int[] solution(int[] arr) {
 		Stack<Integer> stack = new Stack<>();
 		for (int i = 0; i < arr.length; i++) {
 			if (stack.size() == 0) {

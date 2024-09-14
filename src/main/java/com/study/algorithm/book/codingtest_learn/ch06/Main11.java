@@ -15,7 +15,7 @@ public class Main11 {
 		System.out.println("answer = " + answer2);
 	}
 
-	static int solution(String s) {
+	private static int solution(String s) {
 		Stack<Character> stack = new Stack<>();
 		for (int i = 0; i < s.length(); i++) {
 			char c = s.charAt(i);

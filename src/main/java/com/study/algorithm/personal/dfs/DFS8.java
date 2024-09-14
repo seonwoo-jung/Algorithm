@@ -26,7 +26,7 @@ public class DFS8 {
 	}
 
 
-	static void DFS(int L, int sum, int[] arr) {
+	private static void DFS(int L, int sum, int[] arr) {
 
 		if (flag) return;
 

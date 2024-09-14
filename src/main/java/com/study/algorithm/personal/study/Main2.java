@@ -22,7 +22,7 @@ public class Main2 {
 		System.out.println("bfs = " + bfs);
 	}
 
-	static String BFS(int L) {
+	private static String BFS(int L) {
 		Queue<Integer> Q = new LinkedList<>();
 		Q.offer(arr[0]);
 
@@ -44,7 +44,7 @@ public class Main2 {
 		return "YES";
 	}
 
-	static void DFS(int L, int sum) {
+	private static void DFS(int L, int sum) {
 
 		if (flag) return;
 

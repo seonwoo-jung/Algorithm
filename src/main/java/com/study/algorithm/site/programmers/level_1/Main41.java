@@ -11,7 +11,7 @@ public class Main41 {
 		}
 	}
 
-	static int[] solution(int[] lottos, int[] win_nums) {
+	private static int[] solution(int[] lottos, int[] win_nums) {
 		int[] answer = new int[2];
 		int zero_cnt = 0, rank = 0;
 		for (int i = 0; i < lottos.length; i++) {

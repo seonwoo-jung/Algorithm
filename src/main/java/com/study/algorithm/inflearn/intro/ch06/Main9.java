@@ -21,7 +21,7 @@ public class Main9 {
 		System.out.println(solution);
 	}
 
-	static int solution(int n, int m, int[] arr) {
+	private static int solution(int n, int m, int[] arr) {
 		int answer = 0;
 		int lt = stream(arr).max().getAsInt(); // 기본형 int로 바꿔준다.
 		int rt = stream(arr).sum();
@@ -38,7 +38,7 @@ public class Main9 {
 		return answer;
 	}
 
-	static int count(int[] arr, int capacity) {
+	private static int count(int[] arr, int capacity) {
 		int cnt = 1, sum = 0;
 		for (int x : arr) {
 			if (sum + x > capacity) {

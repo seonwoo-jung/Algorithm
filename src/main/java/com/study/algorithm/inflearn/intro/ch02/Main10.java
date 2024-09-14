@@ -29,7 +29,7 @@ public class Main10 {
 		System.out.println(solution(n, arr));
 	}
 
-	static int solution(int n, int[][] arr) {
+	private static int solution(int n, int[][] arr) {
 		// 행을 i로, 열을 j로 탐색할 때, 시계 방향으로 돔
 		int[] dx = {-1, 0, 1, 0};
 		int[] dy = {0, 1, 0, -1};

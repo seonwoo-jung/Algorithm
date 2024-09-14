@@ -37,7 +37,7 @@ public class BinSearch {
 		}
 	}
 
-	static int binSearch(int[] a, int n, int key) {
+	private static int binSearch(int[] a, int n, int key) {
 		int pl = 0;
 		int pr = n - 1;
 

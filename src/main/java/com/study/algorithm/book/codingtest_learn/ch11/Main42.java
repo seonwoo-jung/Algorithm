@@ -14,7 +14,7 @@ public class Main42 {
 		System.out.println(solution(7, new int[][]{{1, 2}, {2, 7}, {3, 7}, {3, 4}, {4, 5}, {6, 7}}));
 	}
 
-	static int solution(int n, int[][] wires) {
+	private static int solution(int n, int[][] wires) {
 		N = n;
 		answer = n - 1;
 

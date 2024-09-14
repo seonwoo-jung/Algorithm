@@ -22,7 +22,7 @@ public class Main67 {
 		}
 	}
 
-	static int[][] solution(int[][] data, String ext, int val_ext, String sort_by) {
+	private static int[][] solution(int[][] data, String ext, int val_ext, String sort_by) {
 		Map<String, Integer> colOrder = new HashMap<>();
 		colOrder.put("code", 0);
 		colOrder.put("date", 1);

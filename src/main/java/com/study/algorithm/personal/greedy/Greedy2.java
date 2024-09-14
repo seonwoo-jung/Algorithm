@@ -23,7 +23,7 @@ public class Greedy2 {
 		System.out.println(solution);
 	}
 
-	static int solution(ArrayList<Time> arr, int n) {
+	private static int solution(ArrayList<Time> arr, int n) {
 		int cnt = 0;
 		sort(arr);
 		int et = 0;

@@ -12,11 +12,11 @@ public class Main15 {
 		System.out.println(solution(3, 3));
 	}
 
-	static long solution(int a, int b) {
+	private static long solution(int a, int b) {
 		return sumAtoB(min(a, b), max(a, b));
 	}
 
-	static long sumAtoB(int a, int b) {
+	private static long sumAtoB(int a, int b) {
 		return (b - a + 1) * (a + b) / 2;
 	}
 }

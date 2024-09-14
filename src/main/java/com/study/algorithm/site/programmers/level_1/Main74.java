@@ -16,7 +16,7 @@ public class Main74 {
 		System.out.println("solution = " + solution);
 	}
 
-	static String solution(String[] survey, int[] choices) {
+	private static String solution(String[] survey, int[] choices) {
 		Map<Character, Integer> map = new HashMap<>();
 
 		for(int i = 0; i< survey.length; i++) {

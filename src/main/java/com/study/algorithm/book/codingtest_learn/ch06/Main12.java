@@ -14,7 +14,7 @@ public class Main12 {
 		}
 	}
 
-	static int[] solution(int[] prices) {
+	private static int[] solution(int[] prices) {
 		int N = prices.length;
 		int[] answer = new int[N];
 

@@ -18,7 +18,7 @@ public class Main {
 		DFS(0, s, e);
 	}
 
-	static void DFS(int L, int s, int e) {
+	private static void DFS(int L, int s, int e) {
 		if (s == e) {
 			answer = Math.min(answer, L);
 		} else {
@@ -33,7 +33,7 @@ public class Main {
 	}
 
 	// 인강에서 푼 방법
-	static int BFS1(int s, int e) {
+	private static int BFS1(int s, int e) {
 		ch = new int[100001];
 		ch[s] = 1;
 		Q.offer(s);
@@ -56,7 +56,7 @@ public class Main {
 		return L;
 	}
 
-	static int BFS2(int s, int e) {
+	private static int BFS2(int s, int e) {
 		ch = new int[100001];
 		ch[s] = 1;
 		Q.offer(s);

@@ -15,7 +15,7 @@ public class BFS3 {
 		System.out.println("bfs = " + bfs);
 	}
 
-	static int BFS(Node root) {
+	private static int BFS(Node root) {
 		Queue<Node> Q = new LinkedList<>();
 		Q.offer(root);
 

@@ -8,7 +8,7 @@ public class Main78 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		int answer = 0;
 		if (n % 7 == 0) {
 			answer = n / 7;

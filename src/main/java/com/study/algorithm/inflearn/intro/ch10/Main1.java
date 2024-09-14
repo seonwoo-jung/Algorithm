@@ -20,7 +20,7 @@ public class Main1 {
 		System.out.println(solution(n));
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		dy[1] = 1;
 		dy[2] = 2;
 

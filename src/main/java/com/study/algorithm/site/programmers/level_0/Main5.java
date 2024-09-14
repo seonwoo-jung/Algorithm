@@ -6,7 +6,7 @@ public class Main5 {
 		System.out.println(solution("apple", "elppa"));
 	}
 
-	static int solution(String A, String B) {
+	private static int solution(String A, String B) {
 
 		int answer = 0;
 

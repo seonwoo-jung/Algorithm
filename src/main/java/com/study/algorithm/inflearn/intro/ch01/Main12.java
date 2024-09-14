@@ -1,13 +1,11 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
 /**
- * input1: 4
- * input2: #****###**#####**#####**##**
- * output: K2HS7E
+ * 암호
  */
 public class Main12 {
 	public static void main(String[] args) {
@@ -17,7 +15,7 @@ public class Main12 {
 		System.out.println(solution2(num, str));
 	}
 
-	static String solution(int i, String s) {
+	private static String solution(int i, String s) {
 		String answer = "";
 		s = s.replaceAll("#", "1").replaceAll("\\*", "0");
 		int len = s.length() / i;
@@ -30,7 +28,7 @@ public class Main12 {
 	}
 
 	// replace와 replaceAll의 차이
-	static String solution2(int n, String s) {
+	private static String solution2(int n, String s) {
 		String answer = "";
 		for (int i = 0; i < n; i++) {
 			String tmp = s.substring(0, 7).replace('#', '1').replace('*', '0');

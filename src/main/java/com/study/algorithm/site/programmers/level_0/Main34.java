@@ -10,7 +10,7 @@ public class Main34 {
 		solution(numlist, n);
 	}
 
-	static int[] solution(int[] numlist, int n) {
+	private static int[] solution(int[] numlist, int n) {
 
 		int[] answer = new int[numlist.length];
 		double[] order = new double[numlist.length];

@@ -19,7 +19,7 @@ public class Main12 {
 	static int[][] board, dis;
 	static Queue<Point> Q = new LinkedList<>();
 
-	static void BFS() {
+	private static void BFS() {
 		while (!Q.isEmpty()) {
 			Point tmp = Q.poll();
 			for (int i = 0; i < 4; i++) {

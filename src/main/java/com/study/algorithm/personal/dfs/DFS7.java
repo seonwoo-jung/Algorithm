@@ -29,7 +29,7 @@ public class DFS7 {
 		System.out.println(answer);
 	}
 
-	static void DFS(int L, int sum, int time, int[] ps, int[] pt) {
+	private static void DFS(int L, int sum, int time, int[] ps, int[] pt) {
 		if (time > m) return;
 		if (L == n) {
 			answer = max(answer, sum);

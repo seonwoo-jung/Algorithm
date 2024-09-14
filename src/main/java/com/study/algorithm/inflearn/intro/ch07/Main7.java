@@ -22,7 +22,7 @@ public class Main7 {
 		tree.BFS(tree.root);
 	}
 
-	static void BFS(Node root) {
+	private static void BFS(Node root) {
 		Queue<Node> Q = new LinkedList<>();
 		Q.offer(root);
 		int L = 0;

@@ -13,7 +13,7 @@ public class Main70 {
 		System.out.println(Arrays.toString(solution(new String[]{"SOO", "OOO", "OOO"}, new String[]{"E 2", "S 2", "W 1"})));
 	}
 
-	static int[] solution(String[] park, String[] routes) {
+	private static int[] solution(String[] park, String[] routes) {
 		Map<String, int[]> map = new HashMap<>();
 		int[] cur = {0, 0};
 		int x = park.length;

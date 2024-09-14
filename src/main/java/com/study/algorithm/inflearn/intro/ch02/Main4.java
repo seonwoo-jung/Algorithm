@@ -18,7 +18,7 @@ public class Main4 {
 		}
 	}
 
-	static int[] solution(int n) {
+	private static int[] solution(int n) {
 		int[] answer = new int[n];
 
 		answer[0] = 1;

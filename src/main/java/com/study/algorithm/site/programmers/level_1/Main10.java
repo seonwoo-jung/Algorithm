@@ -10,7 +10,7 @@ public class Main10 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		int answer = 0;
 		for (int x : valueOf(n).toCharArray()) {
 			answer += (x - 48);

@@ -15,7 +15,7 @@ public class Main19 {
 		System.out.println("solution = " + solution);
 	}
 
-	static String solution(int a, int b) {
+	private static String solution(int a, int b) {
 		String[] day = {"FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"};
 		int[] months = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 

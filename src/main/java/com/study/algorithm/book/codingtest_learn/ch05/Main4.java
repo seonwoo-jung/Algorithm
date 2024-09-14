@@ -16,7 +16,7 @@ public class Main4 {
 		System.out.println("answer2 = " + Arrays.toString(answer2));
 	}
 
-	static int[] solution(int[] answers) {
+	private static int[] solution(int[] answers) {
 		int[][] pattern = {
 			{1, 2, 3, 4, 5},
 			{2, 1, 2, 3, 2, 4, 2, 5},

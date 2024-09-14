@@ -8,7 +8,7 @@ public class Main57 {
 		System.out.println(solution(param, n));
 	}
 
-	static int solution(int[] box, int n) {
+	private static int solution(int[] box, int n) {
 		return (box[0] / n) * (box[1] / n) * (box[2] / n);
 	}
 }

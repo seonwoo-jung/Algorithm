@@ -16,7 +16,7 @@ public class Main68 {
 		System.out.println(solution("."));
 	}
 
-	static String solution(String new_id) {
+	private static String solution(String new_id) {
 		while (
 			new_id.charAt(0) == '.' ||
 			new_id.charAt(new_id.length() -1) == '.' ||

@@ -7,7 +7,7 @@ public class Main77 {
 		System.out.println("hello = " + hello);
 	}
 
-	static String solution(String my_string, int n) {
+	private static String solution(String my_string, int n) {
 		String answer = "";
 
 		char[] a = my_string.toCharArray();

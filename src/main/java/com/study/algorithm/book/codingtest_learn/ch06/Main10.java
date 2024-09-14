@@ -20,7 +20,7 @@ public class Main10 {
 		System.out.println("answer = " + answer4);
 	}
 
-	static int solution(String s) {
+	private static int solution(String s) {
 		HashMap<Character, Character> map = new HashMap<>();
 		map.put(')', '(');
 		map.put('}', '{');

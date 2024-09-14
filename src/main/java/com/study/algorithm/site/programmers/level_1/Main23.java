@@ -14,7 +14,7 @@ public class Main23 {
 		}
 	}
 
-	static int[] solution(int[] arr, int divisor) {
+	private static int[] solution(int[] arr, int divisor) {
 		List<Integer> list = new ArrayList<>();
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] % divisor == 0) {

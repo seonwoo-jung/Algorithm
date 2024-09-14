@@ -13,7 +13,7 @@ public class Main26 {
 		}
 	}
 
-	static int[] solution(int[] arr) {
+	private static int[] solution(int[] arr) {
 		if (arr.length == 1) {
 			int[] answer = {-1};
 			return answer;

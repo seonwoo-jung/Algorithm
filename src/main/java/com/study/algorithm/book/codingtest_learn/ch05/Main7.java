@@ -25,7 +25,7 @@ public class Main7 {
 		location.put('R', new int[]{1, 0});
 	}
 
-	static int solution(String dirs) {
+	private static int solution(String dirs) {
 		initLocation();
 		int x = 5, y = 5;
 		Set<String> answer = new HashSet<>();

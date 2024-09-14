@@ -26,7 +26,7 @@ public class Main3 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(ArrayList<Time> arr) {
+	private static int solution(ArrayList<Time> arr) {
 		int answer = MIN_VALUE;
 		sort(arr);
 		int cnt = 0;

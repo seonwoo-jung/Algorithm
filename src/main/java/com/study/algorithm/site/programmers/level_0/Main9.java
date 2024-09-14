@@ -7,7 +7,7 @@ public class Main9 {
 		System.out.println(solution2(3));
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 
 		int result;
 
@@ -24,7 +24,7 @@ public class Main9 {
 
 	}
 
-	static int solution2(int n) {
+	private static int solution2(int n) {
 
 		if (n % Math.sqrt(n) == 0) {
 			return 1;

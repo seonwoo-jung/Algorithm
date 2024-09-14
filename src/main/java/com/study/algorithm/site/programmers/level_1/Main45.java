@@ -19,7 +19,7 @@ public class Main45 {
 		}
 	}
 
-	static int[][] solution(int n) {
+	private static int[][] solution(int n) {
 
 		ansList = new ArrayList<>();
 		DFS(n, 1, 3, 2);
@@ -33,7 +33,7 @@ public class Main45 {
 		return answer;
 	}
 
-	static void DFS(int n, int start, int to, int mid) {
+	private static void DFS(int n, int start, int to, int mid) {
 
 		if (n == 1) {
 			ansList.add(new int[]{start, to});

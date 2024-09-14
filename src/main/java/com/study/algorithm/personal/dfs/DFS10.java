@@ -18,7 +18,7 @@ public class DFS10 {
 		DFS(0);
 	}
 
-	static void DFS(int L) {
+	private static void DFS(int L) {
 		if (L == m) {
 			for (int x : pm) {
 				System.out.print(x + " ");

@@ -1,10 +1,11 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
 /**
+ * 문자열 압축
  * input: KKHSSSSSSSE
  * output: K2HS7E
  */
@@ -15,7 +16,7 @@ public class Main11 {
 		System.out.println(solution(str));
 	}
 
-	static String solution(String s) {
+	private static String solution(String s) {
 		String answer = "";
 		s = s + " "; // 문자열에 빈 문자 하나를 추가해줘야 아래 알고리즘 사용가능
 		int cnt = 1;

@@ -8,7 +8,7 @@ public class Main6 {
 		solution(intArr);
 	}
 
-	static int solution(int[] array) {
+	private static int solution(int[] array) {
 
 		int answer = 0;
 

@@ -14,7 +14,7 @@ public class Hanoi {
 		move(n, 1, 3);
 	}
 
-	static void move(int no, int x, int y) {
+	private static void move(int no, int x, int y) {
 		if (no > 1) {
 			move(no - 1, x, 6 - x - y);
 

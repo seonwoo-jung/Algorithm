@@ -14,7 +14,7 @@ public class Main10 {
 	static int[][] board;
 	static int answer = 0;
 
-	static void DFS(int x, int y) {
+	private static void DFS(int x, int y) {
 		if (x == 7 && y == 7) {
 			answer++;
 		} else {

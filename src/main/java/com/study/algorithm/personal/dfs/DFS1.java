@@ -14,7 +14,7 @@ public class DFS1 {
 		DFS(1);
 	}
 
-	static void DFS(int L) {
+	private static void DFS(int L) {
 		if (L == n + 1) {
 			String tmp = "";
 			for (int i = 1; i <= n; i++) {

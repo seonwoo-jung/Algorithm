@@ -8,7 +8,7 @@ public class Main15 {
 		solution("3 + 5");
 	}
 
-	static int solution(String my_string) {
+	private static int solution(String my_string) {
 		return Arrays.stream(my_string.replaceAll("- ", "-").replaceAll("[+] ", "").trim().split(" ")).mapToInt(Integer::parseInt).sum();
 	}
 }

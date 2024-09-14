@@ -15,7 +15,7 @@ public class CalculatePrime {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		int answer = 0;
 
 		for (int i = 2; i <= n; i++) {
@@ -30,7 +30,7 @@ public class CalculatePrime {
 		return answer;
 	}
 
-	static boolean isPrime(int num) {
+	private static boolean isPrime(int num) {
 		if (num == 1) return false;
 		if (num == 2) return true;
 

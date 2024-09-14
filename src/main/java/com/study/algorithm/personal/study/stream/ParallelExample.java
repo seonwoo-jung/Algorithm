@@ -19,7 +19,7 @@ public class ParallelExample {
 		parallelStream.forEach(ParallelExample::print);
 	}
 
-	static void print(String str) {
+	private static void print(String str) {
 		System.out.println(str + " : " + currentThread().getName());
 	}
 

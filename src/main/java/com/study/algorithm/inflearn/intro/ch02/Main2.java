@@ -1,9 +1,12 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
+/**
+ * 보이는 학생
+ */
 public class Main2 {
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -15,7 +18,7 @@ public class Main2 {
 		System.out.println(solution(n, arr));
 	}
 
-	static int solution(int n, int[] arr) {
+	private static int solution(int n, int[] arr) {
 		int answer = 1, max = arr[0];
 
 		for (int i = 1; i < n; i++) {

@@ -15,7 +15,7 @@ public class Main17 {
 		System.out.println("solution2 = " + solution2);
 	}
 
-	static String solution(String[] cards1, String[] cards2, String[] goal) {
+	private static String solution(String[] cards1, String[] cards2, String[] goal) {
 		ArrayDeque<String> queue1 = new ArrayDeque<>(Arrays.asList(cards1));
 		ArrayDeque<String> queue2 = new ArrayDeque<>(Arrays.asList(cards2));
 		ArrayDeque<String> goalDeque = new ArrayDeque<>(Arrays.asList(goal));

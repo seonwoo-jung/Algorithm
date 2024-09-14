@@ -40,7 +40,7 @@ public class DFS3 {
 	}
 
 
-	static void DFS(int v) {
+	private static void DFS(int v) {
 		if (v == n) answer++;
 		else {
 			for (int i = 1; i <= n; i++) {

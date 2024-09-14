@@ -2,7 +2,7 @@ package com.study.algorithm.book.ch01;
 
 public class PracticeProblems {
 
-	static int max4(int a, int b, int c, int d) {
+	private static int max4(int a, int b, int c, int d) {
 		int max = a; // 최댓값
 
 		if (b > max) {
@@ -20,7 +20,7 @@ public class PracticeProblems {
 		return max;
 	}
 
-	static int min3(int a, int b, int c) {
+	private static int min3(int a, int b, int c) {
 		int min = a; // 최댓값
 
 		if (b < min) {
@@ -34,7 +34,7 @@ public class PracticeProblems {
 		return min;
 	}
 
-	static int min4(int a, int b, int c, int d) {
+	private static int min4(int a, int b, int c, int d) {
 		int min
 				= a; // 최댓값
 

@@ -10,7 +10,7 @@ public class Main11 {
 		solution(arr);
 	}
 
-	static String[] solution(String[] quiz) {
+	private static String[] solution(String[] quiz) {
 
 		for (int i = 0; i < quiz.length; i++) {
 			String[] text = quiz[i].split(" ");

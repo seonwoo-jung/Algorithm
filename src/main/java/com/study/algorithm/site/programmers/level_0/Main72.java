@@ -6,7 +6,7 @@ public class Main72 {
 		solution(15000);
 	}
 
-	static int[] solution(int money) {
+	private static int[] solution(int money) {
 		return new int[]{money / 5500, money % 5500};
 	}
 }

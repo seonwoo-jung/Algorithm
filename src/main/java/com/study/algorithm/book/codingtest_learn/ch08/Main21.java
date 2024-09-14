@@ -14,7 +14,7 @@ public class Main21 {
 		System.out.println(Arrays.toString(answer));
 	}
 
-	static String[] solution(String[] record) {
+	private static String[] solution(String[] record) {
 		HashMap<String, String> msg = new HashMap<>();
 		msg.put("Enter", "님이 들어왔습니다.");
 		msg.put("Leave", "님이 나갔습니다.");

@@ -17,7 +17,7 @@ public class Main4 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(String a, String b) {
+	private static int solution(String a, String b) {
 		int answer = 0;
 		HashMap<Character, Integer> am = new HashMap<>();
 		HashMap<Character, Integer> bm = new HashMap<>();

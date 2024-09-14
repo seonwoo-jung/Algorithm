@@ -8,7 +8,7 @@ public class Main46 {
 		solution(keyinput, board);
 	}
 
-	static int[] solution(String[] keyinput, int[] board) {
+	private static int[] solution(String[] keyinput, int[] board) {
 
 		int[] answer = {0, 0};
 

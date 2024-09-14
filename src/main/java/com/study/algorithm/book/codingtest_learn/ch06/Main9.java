@@ -17,7 +17,7 @@ public class Main9 {
 		System.out.println("answer = " + answer3);
 	}
 
-	static String solution(int decimal) {
+	private static String solution(int decimal) {
 		ArrayDeque<Integer> stack = new ArrayDeque<>();
 
 		while (decimal > 0) {

@@ -11,7 +11,7 @@ public class Main40 {
 		System.out.println(solution(6, new int[][]{{1, 2, 1}, {1, 3, 2}, {2, 3, 2}, {3, 4, 3}, {3, 5, 2}, {3, 5, 3}, {5, 6, 1}}, 4));
 	}
 
-	static int solution(int N, int[][] road, int K) {
+	private static int solution(int N, int[][] road, int K) {
 		ArrayList<Node>[] adjList = new ArrayList[N + 1];
 		for (int i = 0; i <= N; i++) {
 			adjList[i] = new ArrayList<>();

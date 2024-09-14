@@ -16,7 +16,7 @@ public class Main24 {
 		System.out.println(Arrays.toString(solution));
 	}
 
-	static String[] solution(String[] orders, int[] course) {
+	private static String[] solution(String[] orders, int[] course) {
 		courseMap = new HashMap<>();
 
 		for (int i : course) {
@@ -42,7 +42,7 @@ public class Main24 {
 		return answer.toArray(new String[0]);
 	}
 
-	static void combinations(int idx, char[] order, String result) {
+	private static void combinations(int idx, char[] order, String result) {
 		if (courseMap.containsKey(result.length())) {
 			HashMap<String, Integer> map = courseMap.get(result.length());
 			map.put(result, map.getOrDefault(result, 0) + 1);

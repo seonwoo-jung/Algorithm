@@ -8,7 +8,7 @@ public class Main22 {
 		System.out.println("solution = " + solution);
 	}
 
-	static String solution(String[] seoul) {
+	private static String solution(String[] seoul) {
 		String answer = "김서방은 0에 있다";
 
 		for (int i = 0; i < seoul.length; i++) {

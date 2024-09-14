@@ -7,7 +7,7 @@ public class Main29 {
 		System.out.println(solution);
 	}
 
-	static long solution(int price, int money, int count) {
+	private static long solution(int price, int money, int count) {
 		long answer = 0;
 		long sum = 0;
 

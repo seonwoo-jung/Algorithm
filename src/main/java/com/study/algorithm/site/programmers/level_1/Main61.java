@@ -19,7 +19,7 @@ public class Main61 {
 		System.out.println("solution1 = " + solution1);
 	}
 
-	static int solution(String[][] board, int h, int w) {
+	private static int solution(String[][] board, int h, int w) {
 		int answer = 0;
 		int[] dx = {-1, 0, 1, 0};
 		int[] dy = {0, 1, 0, -1};

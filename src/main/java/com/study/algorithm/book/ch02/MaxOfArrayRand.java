@@ -22,7 +22,7 @@ public class MaxOfArrayRand {
 		System.out.println("최댓값은 " + maxOf(height) + "입니다.");
 	}
 
-	static int maxOf(int[] a) {
+	private static int maxOf(int[] a) {
 		int max = a[0];
 		for (int i = 1; i < a.length; i++) {
 			if (a[i] > max) {

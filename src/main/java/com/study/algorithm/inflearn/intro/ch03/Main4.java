@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch03;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 연속 부분수열
@@ -25,7 +25,7 @@ public class Main4 {
 	}
 
 	// n: 배열 사이즈, k: 연속된 수
-	static int solution(int n, int m, int[] arr) {
+	private static int solution(int n, int m, int[] arr) {
 		int answer = 0;
 		for (int i = 0; i < n - 1; i++) {
 			int sum = 0;
@@ -40,7 +40,7 @@ public class Main4 {
 		return answer;
 	}
 
-	static int solution2(int n, int m, int[] arr) {
+	private static int solution2(int n, int m, int[] arr) {
 		int answer = 0, sum = 0, lt = 0;
 
 		for (int rt = 0; rt < n; rt++) {

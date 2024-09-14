@@ -8,7 +8,7 @@ public class Main47 {
 		System.out.println(solution("a B z", 4));
 	}
 
-	static String solution(String s, int n) {
+	private static String solution(String s, int n) {
 		String answer = "";
 		char[] x = s.toCharArray();
 		for (int i = 0; i < x.length; i++) {

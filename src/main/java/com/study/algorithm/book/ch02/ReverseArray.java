@@ -29,7 +29,7 @@ public class ReverseArray {
 		out.println("x = " + Arrays.toString(x));
 	}
 
-	static int sumOf(int[] params) {
+	private static int sumOf(int[] params) {
 		int sum = 0;
 
 		for (int i = 0; i < params.length; i++) {
@@ -39,14 +39,14 @@ public class ReverseArray {
 		return sum;
 	}
 
-	static void swap(int[] a, int idx1, int idx2) {
+	private static void swap(int[] a, int idx1, int idx2) {
 		int t = a[idx1];
 		out.println("a[" + idx1 + "]과 a[" + idx2 + "]를 교환합니다.");
 		a[idx1] = a[idx2];
 		a[idx2] = t;
 	}
 
-	static void reverse(int[] a) {
+	private static void reverse(int[] a) {
 		for (int i = 0; i < a.length / 2; i++) {
 			swap(a, i, a.length - i - 1);
 		}

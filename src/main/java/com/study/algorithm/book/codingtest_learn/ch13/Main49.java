@@ -9,7 +9,7 @@ public class Main49 {
 		}
 	}
 
-	static int[] solution(int[] array) {
+	private static int[] solution(int[] array) {
 		for (int i = 1; i < array.length; i++) {
 			int target = array[i];
 

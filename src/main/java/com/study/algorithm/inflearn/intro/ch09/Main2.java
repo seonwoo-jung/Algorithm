@@ -25,7 +25,7 @@ public class Main2 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(ArrayList<Time> arr, int n) {
+	private static int solution(ArrayList<Time> arr, int n) {
 		int cnt = 0;
 
 		// 오름차순 정렬, 정렬 기준은 compareTo 메서드로 설정

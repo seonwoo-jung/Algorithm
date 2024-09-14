@@ -22,7 +22,7 @@ public class PrefixSum {
 		System.out.println(solution(arr));
 	}
 
-	static int solution(int[] arr) {
+	private static int solution(int[] arr) {
 
 		int[] psum = new int[10];
 

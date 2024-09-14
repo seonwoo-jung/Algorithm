@@ -25,7 +25,7 @@ public class Main1 {
 	}
 
 
-	static int solution(ArrayList<Person> arr, int n) {
+	private static int solution(ArrayList<Person> arr, int n) {
 		int cnt = 0;
 		sort(arr);
 		int max = MIN_VALUE;

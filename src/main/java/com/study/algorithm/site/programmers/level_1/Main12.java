@@ -8,7 +8,7 @@ public class Main12 {
 		System.out.println("solution = " + solution);
 	}
 
-	static long solution(int n) {
+	private static long solution(int n) {
 		if (Math.pow((int) Math.sqrt(n), 2) == n) {
 			return (long) Math.pow(Math.sqrt(n) + 1, 2);
 		}

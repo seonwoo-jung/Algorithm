@@ -9,7 +9,7 @@ public class Main13 {
 		System.out.println(solution(118372));
 	}
 
-	static long solution(long n) {
+	private static long solution(long n) {
 		String answer = "";
 		char[] x = String.valueOf(n).toCharArray();
 		for (int i = 0; i < x.length; i++) {

@@ -21,7 +21,7 @@ public class Main8 {
 		System.out.println("solution = " + solution(n, m, arr));
 	}
 
-	static int solution(int n, int m, int[] arr) {
+	private static int solution(int n, int m, int[] arr) {
 		int answer = 0;
 		Queue<Person> Q = new LinkedList<>();
 		for (int i = 0; i < n; i++) {

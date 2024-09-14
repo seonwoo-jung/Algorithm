@@ -17,7 +17,7 @@ public class Main2 {
 		}
 	}
 
-	static int[] solution(String[] name, int[] yearning, String[][] photo) {
+	private static int[] solution(String[] name, int[] yearning, String[][] photo) {
 		int[] answer = new int[photo.length];
 		HashMap<String, Integer> map = new HashMap<>();
 

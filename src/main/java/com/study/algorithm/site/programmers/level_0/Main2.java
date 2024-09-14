@@ -7,7 +7,7 @@ public class Main2 {
 		System.out.println(solution(common));
 	}
 
-	static int solution(int[] common) {
+	private static int solution(int[] common) {
 
 		int answer = 0;
 

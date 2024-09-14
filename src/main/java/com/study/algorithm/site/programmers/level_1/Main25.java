@@ -8,7 +8,7 @@ public class Main25 {
 		System.out.println("solution = " + solution);
 	}
 
-	static String solution(String phone_number) {
+	private static String solution(String phone_number) {
 		String str = phone_number.substring(phone_number.length() - 4, phone_number.length());
 		String answer = "";
 		int star_len = phone_number.length() - 4;

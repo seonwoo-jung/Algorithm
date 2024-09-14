@@ -34,7 +34,7 @@ public class bj_1260 {
 		DFS(n, m, s, graph);
 	}
 
-	static void DFS(int n, int m, int s, int[][] graph) {
+	private static void DFS(int n, int m, int s, int[][] graph) {
 		for (int i = 1; i <= n; i++) {
 			if (graph[s][i] == 1 && ch[s] == 0) {
 				ch[s] = 1;

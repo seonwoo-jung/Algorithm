@@ -15,7 +15,7 @@ public class Main22 {
 	 * 대문자일 경우 소문자로
 	 * char[] array -> String
 	 */
-	static String solution(String my_string) {
+	private static String solution(String my_string) {
 
 		char[] array = my_string.toCharArray();
 
@@ -40,7 +40,7 @@ public class Main22 {
 	 * 결과를 합침
 	 */
 
-	static String solution2(String my_string) {
+	private static String solution2(String my_string) {
 		return my_string.chars().mapToObj(x -> String.valueOf((char) (Character.isLowerCase(x) ?
 						Character.toUpperCase(x)
 						: Character.toLowerCase(x))))

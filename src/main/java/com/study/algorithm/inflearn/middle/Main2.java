@@ -19,7 +19,7 @@ public class Main2 {
 		}
 	}
 
-	static int[] solution2(int[][] board, int k) {
+	private static int[] solution2(int[][] board, int k) {
 		int[] answer = new int[2];
 		int n = board.length;
 		// dx, dy는 방향

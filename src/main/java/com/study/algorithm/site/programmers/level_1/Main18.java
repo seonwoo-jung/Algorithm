@@ -13,7 +13,7 @@ public class Main18 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int[] nums) {
+	private static int solution(int[] nums) {
 		int max = nums.length / 2;
 
 		HashSet<Integer> set = new HashSet<>();

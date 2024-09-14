@@ -8,7 +8,7 @@ public class Main18 {
 		solution(24);
 	}
 
-	static int[] solution(int n) {
+	private static int[] solution(int n) {
 		List<Integer> A = new ArrayList<>();
 
 		for (int i = 1; i <= n; i++) {

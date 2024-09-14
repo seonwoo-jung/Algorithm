@@ -8,7 +8,7 @@ public class Main36 {
 		solution(12, 21);
 	}
 
-	static int solution(int a, int b) {
+	private static int solution(int a, int b) {
 
 		Double result = (double) a / b;
 		String convertResult = valueOf(result);

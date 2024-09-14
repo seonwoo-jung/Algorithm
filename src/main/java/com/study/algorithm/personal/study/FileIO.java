@@ -10,7 +10,7 @@ public class FileIO {
 		readFile2();
 	}
 
-	static void writeFile() {
+	private static void writeFile() {
 		try {
 			OutputStream output = new FileOutputStream("output.txt");
 			String str = "Hello World!";
@@ -34,7 +34,7 @@ public class FileIO {
 		}
 	}
 
-	static void readFile() {
+	private static void readFile() {
 		try {
 			FileReader reader = new FileReader("output.txt");
 			int cur = 0;
@@ -47,7 +47,7 @@ public class FileIO {
 		}
 	}
 
-	static void readFile2() {
+	private static void readFile2() {
 		try (FileInputStream file = new FileInputStream("output.txt")) {
 			byte[] readBuffer = new byte[file.available()];
 			file.read(readBuffer);

@@ -28,7 +28,7 @@ public class BubbleSort {
 		}
 	}
 
-	static void bubbleSort(int[] a, int n) {
+	private static void bubbleSort(int[] a, int n) {
 		for (int i = 0; i < n - 1; i++) {
 			for (int j = n - 1; j > i; j--) {
 				if (a[j - 1] > a[j]) {
@@ -38,7 +38,7 @@ public class BubbleSort {
 		}
 	}
 
-	static void swap(int[] a, int idx1, int idx2) {
+	private static void swap(int[] a, int idx1, int idx2) {
 		int t = a[idx1];
 		a[idx1] = a[idx2];
 		a[idx2] = t;

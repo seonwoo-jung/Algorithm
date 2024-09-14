@@ -6,7 +6,7 @@ public class Main79 {
 		System.out.println("solution = " + solution);
 	}
 
-	static String solution(String my_string, String letter) {
+	private static String solution(String my_string, String letter) {
 		return my_string.replaceAll(letter, "");
 	}
 }

@@ -21,7 +21,7 @@ public class BFS2 {
 		System.out.println("bfs = " + bfs);
 	}
 
-	static int BFS(int s, int e) {
+	private static int BFS(int s, int e) {
 		ch = new int[10001];
 		ch[s] = 1; // 출발지점
 		Q.offer(s);

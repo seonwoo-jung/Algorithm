@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch05;
 
+import static java.lang.System.in;
+
 import java.util.Scanner;
 import java.util.Stack;
-
-import static java.lang.System.in;
 
 /**
  * 괄호문자제거
@@ -17,7 +17,7 @@ public class Main2 {
 		System.out.println("solution = " + solution);
 	}
 
-	static String solution(String str) {
+	private static String solution(String str) {
 		Stack<Character> stack = new Stack<>();
 		for (char x : str.toCharArray()) {
 			if (x == ')') {

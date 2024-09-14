@@ -11,7 +11,7 @@ public class TargetNumber {
 		System.out.println("answer = " + answer);
 	}
 
-	static void DFS(int L, int sum, int[] numbers, int target) {
+	private static void DFS(int L, int sum, int[] numbers, int target) {
 		if (L == numbers.length) {
 			if (target == sum) answer++;
 		} else {

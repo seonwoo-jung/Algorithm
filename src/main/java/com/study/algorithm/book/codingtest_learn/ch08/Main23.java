@@ -11,7 +11,7 @@ public class Main23 {
 		System.out.println(Arrays.toString(solution));
 	}
 
-	static int[] solution(String[] id_list, String[] report, int k) {
+	private static int[] solution(String[] id_list, String[] report, int k) {
 		Map<String, HashSet<String>> reportedUser = new HashMap<>();
 
 		Map<String, Integer> count = new HashMap<>();

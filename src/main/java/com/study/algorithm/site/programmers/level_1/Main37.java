@@ -6,7 +6,7 @@ public class Main37 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(String s) {
+	private static int solution(String s) {
 		String[] dir = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 
 		for (int i = 0; i < dir.length; i++) {

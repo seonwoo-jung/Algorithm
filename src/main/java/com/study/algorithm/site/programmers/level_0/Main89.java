@@ -13,7 +13,7 @@ public class Main89 {
 		System.out.println("i = " + i);
 	}
 
-	static int solution(int[] array) {
+	private static int solution(int[] array) {
 		int answer = 0;
 
 		sort(array);
@@ -43,7 +43,7 @@ public class Main89 {
 		return answer; // 최빈값 return
 	}
 
-	static int solution2(int[] array) {
+	private static int solution2(int[] array) {
 		int maxCount = 0;
 		int answer = 0;
 

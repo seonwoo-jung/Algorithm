@@ -8,7 +8,7 @@ public class Main49 {
 
 	}
 
-	static int solution(String s) {
+	private static int solution(String s) {
 		String[] strArray = s.split(" ");
 
 		for (int i = 0; i < strArray.length; i++) {

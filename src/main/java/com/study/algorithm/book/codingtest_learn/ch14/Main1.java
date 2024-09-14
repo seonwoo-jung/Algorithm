@@ -30,7 +30,7 @@ public class Main1 {
 		}
 	}
 
-	static int[][] solution(int[][] arr, int n) {
+	private static int[][] solution(int[][] arr, int n) {
 		length = arr.length;
 		board = arr;
 		int[][] answer = new int[n][n];

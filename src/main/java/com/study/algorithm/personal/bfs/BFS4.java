@@ -50,7 +50,7 @@ public class BFS4 {
 		}
 	}
 
-	static void BFS(int v) {
+	private static void BFS(int v) {
 		Queue<Integer> Q = new LinkedList<>();
 		ch[v] = 1;
 		dis[v] = 0;

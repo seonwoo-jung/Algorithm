@@ -14,7 +14,7 @@ public class Main15 {
 		System.out.println("answer = " + answer2);
 	}
 
-	static int solution(int N, int K) {
+	private static int solution(int N, int K) {
 		ArrayDeque<Integer> deque = new ArrayDeque<>();
 
 		for (int i = 1; i <= N; i++) {

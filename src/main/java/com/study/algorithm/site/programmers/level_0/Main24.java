@@ -5,7 +5,7 @@ public class Main24 {
 		System.out.println(solution(294230));
 	}
 
-	static int solution(int order) {
+	private static int solution(int order) {
 		int answer = 0;
 		String buffer = String.valueOf(order);
 

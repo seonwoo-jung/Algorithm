@@ -16,7 +16,7 @@ public class Main88 {
 		System.out.println("solution result = " + solution);
 	}
 
-	static int solution(int[][] dots) {
+	private static int solution(int[][] dots) {
 		// 1. arr 배열 및 변수 초기화
 		int answer = 0;
 		int[] arr = new int[200];
@@ -38,7 +38,7 @@ public class Main88 {
 		return answer;
 	}
 
-	static int solution2(int[][] lines) {
+	private static int solution2(int[][] lines) {
 		Map<Integer, Integer> map = new HashMap<>();
 		for (int[] line : lines) {
 			int from = min(line[0], line[1]);

@@ -6,7 +6,7 @@ public class Main61 {
 		solution("205");
 	}
 
-	static String solution(String letter) {
+	private static String solution(String letter) {
 		return null;
 	}
 }

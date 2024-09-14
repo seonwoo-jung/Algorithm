@@ -16,7 +16,7 @@ public class Main4 {
 
 	static int n, max = MIN_VALUE;
 
-	static int solution(ArrayList<Lecture> arr) {
+	private static int solution(ArrayList<Lecture> arr) {
 		int answer = 0;
 		PriorityQueue<Integer> pQ = new PriorityQueue<>(reverseOrder());
 		sort(arr);

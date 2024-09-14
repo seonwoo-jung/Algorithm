@@ -1,11 +1,11 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
 /**
- * 등수계산
+ * 등수 구하기
  */
 public class Main8 {
 	public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class Main8 {
 		}
 	}
 
-	static int[] solution(int n, int[] arr) {
+	private static int[] solution(int n, int[] arr) {
 		int[] answer = new int[n];
 		for (int i = 0; i < n; i++) {
 			int cnt = 1;

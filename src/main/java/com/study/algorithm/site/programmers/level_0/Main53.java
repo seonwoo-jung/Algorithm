@@ -6,7 +6,7 @@ public class Main53 {
 		solution("bus");
 	}
 
-	static String solution(String my_string) {
+	private static String solution(String my_string) {
 		return my_string.replaceAll("[a, e, i, o, u]", "");
 	}
 }

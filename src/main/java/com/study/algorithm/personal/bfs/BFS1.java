@@ -18,7 +18,7 @@ public class BFS1 {
 		BFS(node);
 	}
 
-	static void BFS(Node root) {
+	private static void BFS(Node root) {
 		Queue<Node> Q = new LinkedList<>();
 		Q.offer(root);
 		int L = 0;

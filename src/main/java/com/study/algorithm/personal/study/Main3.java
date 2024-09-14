@@ -32,7 +32,7 @@ public class Main3 {
 		System.out.println("answer = " + answer);
 	}
 
-	static void DFS(int L, int sum, int[] arr) {
+	private static void DFS(int L, int sum, int[] arr) {
 
 		if (sum > c) return;
 
@@ -44,7 +44,7 @@ public class Main3 {
 		}
 	}
 
-	static void BFS(int L, int[] arr) {
+	private static void BFS(int L, int[] arr) {
 		Queue<Node> Q = new LinkedList<>();
 		Q.offer(new Node(0, 0));
 

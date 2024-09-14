@@ -15,7 +15,7 @@ public class Main6 {
 		}
 	}
 
-	static int[] solution(int N, int[] stages) {
+	private static int[] solution(int N, int[] stages) {
 		int[] challenger = new int[N + 2];
 
 		// 스테이지별 도전자 수를 구한다.

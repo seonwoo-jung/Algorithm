@@ -10,7 +10,7 @@ public class Main10 {
 	/**
 	 * contains method() 활용
 	 */
-	static int solution(String str1, String str2) {
+	private static int solution(String str1, String str2) {
 
 		if (str1.contains(str2)) {
 			return 1;
@@ -22,7 +22,7 @@ public class Main10 {
 	/**
 	 * indexOf method() 활용
 	 */
-	static int solution2(String str1, String str2) {
+	private static int solution2(String str1, String str2) {
 
 		if (str1.indexOf(str2) == -1) {
 			return 2;
@@ -34,7 +34,7 @@ public class Main10 {
 	/**
 	 * matches method() 활용 (정규 표현식)
 	 */
-	static int solution3(String str1, String str2) {
+	private static int solution3(String str1, String str2) {
 		System.out.println("(.*)" + str2 + "(.*)");
 		if (str1.matches("(.*)" + str2 + "(.*)")) {
 			return 2;

@@ -29,7 +29,7 @@ public class Greedy4 {
 		System.out.println(solution(arr));
 	}
 
-	static int solution(ArrayList<Lecture> arr) {
+	private static int solution(ArrayList<Lecture> arr) {
 		int answer = 0;
 		PriorityQueue<Integer> pQ = new PriorityQueue<>(reverseOrder());
 		sort(arr);

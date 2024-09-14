@@ -23,7 +23,7 @@ public class Main3 {
 		System.out.println(solution(arr));
 	}
 
-	static int solution(int[] arr) {
+	private static int solution(int[] arr) {
 		int answer = 0;
 		dy = new int[arr.length];
 		dy[0] = 1;

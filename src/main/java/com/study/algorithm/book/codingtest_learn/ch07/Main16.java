@@ -16,7 +16,7 @@ public class Main16 {
 		System.out.println("answer = " + Arrays.toString(solution1));
 	}
 
-	static int[] solution(int[] progresses, int[] speeds) {
+	private static int[] solution(int[] progresses, int[] speeds) {
 		ArrayDeque<Integer> answer = new ArrayDeque<>();
 
 		int n = progresses.length;

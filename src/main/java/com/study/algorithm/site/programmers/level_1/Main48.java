@@ -13,7 +13,7 @@ public class Main48 {
 		}
 	}
 
-	static String[] solution(String[] strings, int n) {
+	private static String[] solution(String[] strings, int n) {
 		String[] answer = {};
 		ArrayList<String> arr = new ArrayList<>();
 		for (int i = 0; i < strings.length; i++) {

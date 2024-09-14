@@ -9,7 +9,7 @@ public class Main81 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int[] array) {
+	private static int solution(int[] array) {
 		int index = array.length / 2;
 		sort(array);
 		return array[index];

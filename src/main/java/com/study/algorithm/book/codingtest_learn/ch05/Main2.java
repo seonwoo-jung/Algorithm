@@ -15,7 +15,7 @@ public class Main2 {
 		System.out.println("answer2 = " + Arrays.toString(answer2));
 	}
 
-	static int[] solution(int[] arr) {
+	private static int[] solution(int[] arr) {
 		Integer[] result = Arrays.stream(arr).boxed().distinct().toArray(Integer[]::new);
 		Arrays.sort(result, Collections.reverseOrder());
 		return Arrays.stream(result).mapToInt(Integer::intValue).toArray();

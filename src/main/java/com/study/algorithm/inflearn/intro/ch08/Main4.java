@@ -12,7 +12,7 @@ public class Main4 {
 	static int[] pm;
 	static int n, m;
 
-	static void DFS(int L) {
+	private static void DFS(int L) {
 		if (L == m) {
 			for (int x : pm) System.out.print(x + " ");
 			System.out.println();

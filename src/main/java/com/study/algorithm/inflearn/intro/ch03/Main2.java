@@ -1,13 +1,13 @@
 package com.study.algorithm.inflearn.intro.ch03;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 import static java.lang.System.in;
 import static java.util.Arrays.sort;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 /**
- * 공통원소 구하기
+ * 공통원소 구하기 (two pointers algorithm)
  */
 public class Main2 {
 	public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class Main2 {
 		solution(n, m, a, b);
 	}
 
-	static ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {
+	private static ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {
 		ArrayList<Integer> answer = new ArrayList();
 		// 오름차순 정렬
 		sort(a);

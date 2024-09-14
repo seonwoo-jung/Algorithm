@@ -28,7 +28,7 @@ public class Main52 {
 		return answer;
 	}
 
-	static int getDivisor(int num) {
+	private static int getDivisor(int num) {
 		int cnt = 0;
 		int sqrt = (int)Math.sqrt(num);
 

@@ -7,7 +7,7 @@ public class Main42 {
 		System.out.println(solution(param));
 	}
 
-	static int solution(int[][] board) {
+	private static int solution(int[][] board) {
 
 		int count = 0;
 

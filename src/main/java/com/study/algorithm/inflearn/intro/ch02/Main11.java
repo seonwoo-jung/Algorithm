@@ -1,10 +1,13 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
-import java.util.Scanner;
-
 import static java.lang.Integer.MIN_VALUE;
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
+/**
+ * 임시 반장 정하기
+ */
 public class Main11 {
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -20,7 +23,7 @@ public class Main11 {
 		System.out.println(solution(n, arr));
 	}
 
-	static int solution(int n, int[][] arr) {
+	private static int solution(int n, int[][] arr) {
 		int answer = 0, max = MIN_VALUE;
 		for (int i = 1; i <= n; i++) {
 			int cnt = 0;

@@ -16,7 +16,7 @@ public class DFS14 {
 	static int[][] board = new int[8][8];
 	static int[][] dis = new int[8][8];
 
-	static void DFS(int x, int y) {
+	private static void DFS(int x, int y) {
 		if (x == 7 && y == 7) answer++;
 		else {
 			for (int i = 0; i < 4; i++) {
@@ -32,7 +32,7 @@ public class DFS14 {
 		}
 	}
 
-	static void BFS(int x, int y) {
+	private static void BFS(int x, int y) {
 		Queue<Point> Q = new LinkedList<>();
 		Q.offer(new Point(x, y));
 		board[x][y] = 1;

@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch04;
 
+import static java.lang.System.in;
+
 import java.util.HashMap;
 import java.util.Scanner;
-
-import static java.lang.System.in;
 
 /**
  * 아나그램 (해쉬)
@@ -17,7 +17,7 @@ public class Main2 {
 		System.out.println("solution = " + solution);
 	}
 
-	static String solution(String s1, String s2) {
+	private static String solution(String s1, String s2) {
 		String answer = "YES";
 		HashMap<Character, Integer> map = new HashMap<>();
 		for (char x : s1.toCharArray()) {

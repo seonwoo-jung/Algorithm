@@ -15,7 +15,7 @@ public class Recur {
 		recur(x);
 	}
 
-	static void recur(int n) {
+	private static void recur(int n) {
 		if (n > 0) {
 			recur(n - 1);
 			System.out.println(n);

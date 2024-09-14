@@ -32,7 +32,7 @@ public class SeqSearch {
 		}
 	}
 
-	static int seqSearch(int[] a, int n, int key) {
+	private static int seqSearch(int[] a, int n, int key) {
 		int i = 0;
 
 		while (true) {

@@ -7,7 +7,7 @@ public class Main54 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		int answer = 0;
 
 		for (int i = 1; i <= 10; i++) {
@@ -20,7 +20,7 @@ public class Main54 {
 		return answer;
 	}
 
-	static int factorial(int number) {
+	private static int factorial(int number) {
 		if (number > 1) return number * factorial(number - 1);
 		return number;
 	}

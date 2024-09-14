@@ -17,7 +17,7 @@ public class Main6 {
 		System.out.println("solution = " + solution(n, k));
 	}
 
-	static int solution(int n, int k) {
+	private static int solution(int n, int k) {
 		Queue<Integer> queue = new LinkedList<>();
 		for (int i = 1; i <= n; i++) {
 			queue.offer(i);

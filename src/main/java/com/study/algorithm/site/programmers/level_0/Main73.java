@@ -9,7 +9,7 @@ public class Main73 {
 		solution2("jaron");
 	}
 
-	static String solution(String my_string) {
+	private static String solution(String my_string) {
 		String[] answer = new String[my_string.length()];
 		String[] split = my_string.split("");
 		int index = 0;
@@ -19,7 +19,7 @@ public class Main73 {
 		return Arrays.stream(answer).collect(Collectors.joining());
 	}
 
-	static String solution2(String my_string) {
+	private static String solution2(String my_string) {
 		StringBuilder sb = new StringBuilder();
 		sb.append(my_string);
 		sb.reverse();

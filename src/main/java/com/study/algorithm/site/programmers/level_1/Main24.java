@@ -8,7 +8,7 @@ public class Main24 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int[] numbers) {
+	private static int solution(int[] numbers) {
 		int sum = 0;
 		for (int i = 0; i < 10; i++) {
 			boolean flag = true;

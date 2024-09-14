@@ -18,7 +18,7 @@ public class Main47 {
 		System.out.println(solution(array));
 	}
 
-	static int solution(int[][] dots) {
+	private static int solution(int[][] dots) {
 
 		int x1 = 0;
 		int y1 = 0;

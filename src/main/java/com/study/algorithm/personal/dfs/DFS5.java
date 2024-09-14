@@ -23,7 +23,7 @@ public class DFS5 {
 	}
 
 
-	static void DFS(int L, int sum, int[] arr) {
+	private static void DFS(int L, int sum, int[] arr) {
 		if (sum > m) return;
 		if (L >= answer) return;
 		if (sum == m) {

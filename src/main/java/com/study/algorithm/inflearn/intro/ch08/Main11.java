@@ -15,7 +15,7 @@ public class Main11 {
 	static int[] dy = {0, 1, 0, -1};
 	static int[][] board, dis;
 
-	static void BFS(int x, int y) {
+	private static void BFS(int x, int y) {
 		Queue<Point> Q = new LinkedList<>();
 		Q.offer(new Point(x, y));
 		board[x][y] = 1; // 출발점 체크

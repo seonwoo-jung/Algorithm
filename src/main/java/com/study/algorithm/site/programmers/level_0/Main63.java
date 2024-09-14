@@ -10,7 +10,7 @@ public class Main63 {
 		}
 	}
 
-	static int[] solution(int[] emergency) {
+	private static int[] solution(int[] emergency) {
 		int[] answer = new int[emergency.length];
 		for (int i = 0; i < emergency.length; i++) {
 			int rank = 1;

@@ -8,7 +8,7 @@ public class Main7 {
 		System.out.println(solution("ㄹㄷㄴㄱ"));
 	}
 
-	static String solution(String my_string) {
+	private static String solution(String my_string) {
 
 		char[] charArr = my_string.toLowerCase().toCharArray();
 

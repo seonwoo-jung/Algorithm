@@ -28,7 +28,7 @@ public class ShellSort2 {
 		}
 	}
 
-	static void shellSort(int[] a, int n) {
+	private static void shellSort(int[] a, int n) {
 		int h;
 		for (h = 1; h < n; h = h * 3 + 1) ;
 

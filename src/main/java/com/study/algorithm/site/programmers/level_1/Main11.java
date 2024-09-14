@@ -10,7 +10,7 @@ public class Main11 {
 		}
 	}
 
-	static int[] solution(long n) {
+	private static int[] solution(long n) {
 		String a = "" + n;
 		int[] answer = new int[a.length()];
 		int cnt = 0;

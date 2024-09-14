@@ -17,7 +17,7 @@ public class RecurX1 {
 		recur(x);
 	}
 
-	static void recur(int n) {
+	private static void recur(int n) {
 		IntStack s = new IntStack(n);
 
 		while (true) {

@@ -23,7 +23,7 @@ public class DFS6 {
 	}
 
 
-	static void DFS(int L, int sum, int[] arr) {
+	private static void DFS(int L, int sum, int[] arr) {
 		if (sum > c) return;
 		// 모든 레벨을 전부 돌았을 때
 		if (L == n) {

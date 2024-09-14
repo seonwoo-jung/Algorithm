@@ -7,7 +7,7 @@ public class Main8 {
 		System.out.println(solution2(7, 15));
 	}
 
-	static int solution(int n, int t) {
+	private static int solution(int n, int t) {
 
 		int answer = 0;
 		int result = 0;
@@ -19,7 +19,7 @@ public class Main8 {
 		return n;
 	}
 
-	static int solution2(int n, int t) {
+	private static int solution2(int n, int t) {
 		int answer = 0;
 
 		answer = n << t;

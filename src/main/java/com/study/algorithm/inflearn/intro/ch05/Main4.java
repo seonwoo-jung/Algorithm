@@ -16,7 +16,7 @@ public class Main4 {
 		System.out.println("solution = " + solution(str));
 	}
 
-	static int solution(String str) {
+	private static int solution(String str) {
 		Stack<Integer> stack = new Stack<>();
 		for (char x : str.toCharArray()) {
 			if (isDigit(x)) {

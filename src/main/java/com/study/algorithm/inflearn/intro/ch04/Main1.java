@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch04;
 
-import java.util.HashMap;
-import java.util.Scanner;
-
 import static java.lang.Integer.MIN_VALUE;
 import static java.lang.System.in;
+
+import java.util.HashMap;
+import java.util.Scanner;
 
 /**
  * 학급 회장 (해쉬)
@@ -19,7 +19,7 @@ public class Main1 {
 
 	}
 
-	static char solution(int a, String b) {
+	private static char solution(int a, String b) {
 
 		char answer = ' ';
 		HashMap<Character, Integer> map = new HashMap<>();

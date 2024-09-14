@@ -32,7 +32,7 @@ public class bj_1987 {
 		DFS(1, 0, 0);
 	}
 
-	static void DFS(int move, int x, int y) {
+	private static void DFS(int move, int x, int y) {
 		set.add(arr[x][y]);
 		answer = Math.max(answer, move);
 

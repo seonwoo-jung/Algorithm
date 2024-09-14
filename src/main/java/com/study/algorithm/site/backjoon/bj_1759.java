@@ -29,7 +29,7 @@ public class bj_1759 {
 
 	}
 
-	static void DFS(int s, int L) {
+	private static void DFS(int s, int L) {
 		if (L == l) {
 			String answer = "";
 			int a = 0, b = 0;

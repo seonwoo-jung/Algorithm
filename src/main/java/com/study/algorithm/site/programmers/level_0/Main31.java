@@ -5,7 +5,7 @@ public class Main31 {
 		System.out.println(solution(1081));
 	}
 
-	static int solution(int chicken) {
+	private static int solution(int chicken) {
 		int answer = chicken / 9;
 		if (chicken > 1 && chicken % 9 == 0) {
 			answer--;
@@ -13,7 +13,7 @@ public class Main31 {
 		return answer;
 	}
 
-	static int solution2(int chicken) {
+	private static int solution2(int chicken) {
 		int coupon = chicken;
 		int count = 0;
 

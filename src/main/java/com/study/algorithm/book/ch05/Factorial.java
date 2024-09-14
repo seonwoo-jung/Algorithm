@@ -16,7 +16,7 @@ public class Factorial {
 		out.println(x + "의 팩토리얼은 " + fact(x) + "입니다.");
 	}
 
-	static int factorial(int n) {
+	private static int factorial(int n) {
 		if (n > 0) {
 			return n * factorial(n - 1);
 		} else {
@@ -24,7 +24,7 @@ public class Factorial {
 		}
 	}
 
-	static int fact(int n) {
+	private static int fact(int n) {
 		for (int i = n - 1; i > 0; i--) {
 			n *= i;
 		}

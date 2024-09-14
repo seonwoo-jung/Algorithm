@@ -16,7 +16,7 @@ public class Main3 {
 		System.out.println("answer2 = " + Arrays.toString(answer2));
 	}
 
-	static int[] solution(int[] arr) {
+	private static int[] solution(int[] arr) {
 		Set<Integer> answer = new HashSet<>();
 
 		for (int i = 0; i < arr.length - 1; i++) {

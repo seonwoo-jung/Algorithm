@@ -23,7 +23,7 @@ public class Main73 {
 			new String[]{"a b", "b a", "c a", "a c", "a c", "c a"}));  // 0
 	}
 
-	static int solution(String[] friends, String[] gifts) {
+	private static int solution(String[] friends, String[] gifts) {
 		int answer = 0;
 		int friendsLenght = friends.length;
 		HashMap<String, Integer> dic = new HashMap<>();

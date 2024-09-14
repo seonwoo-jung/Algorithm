@@ -29,7 +29,7 @@ public class InsertionSort {
 	}
 
 	// 단순 삽입 정렬
-	static void insertionSort(int[] a, int n) {
+	private static void insertionSort(int[] a, int n) {
 		for (int i = 1; i < n; i++) {
 			int j;
 			int tmp = a[i];

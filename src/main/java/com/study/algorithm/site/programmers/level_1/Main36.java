@@ -7,7 +7,7 @@ public class Main36 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		StringBuffer sb = new StringBuffer();
 		sb.append(Integer.toString(n, 3));
 		int answer = Integer.parseInt(sb.reverse().toString(), 3);

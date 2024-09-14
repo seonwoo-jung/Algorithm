@@ -25,7 +25,7 @@ public class Main5_BFS {
 		System.out.println("bfs = " + bfs);
 	}
 
-	static int BFS() {
+	private static int BFS() {
 		Queue<Score> Q = new LinkedList<>();
 		Q.offer(new Score(0, 0));
 

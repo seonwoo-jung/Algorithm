@@ -9,7 +9,7 @@ public class Main86 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int[] array) {
+	private static int solution(int[] array) {
 		int answer = 0, max = 0;
 
 		// 오름차순 정렬

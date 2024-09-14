@@ -18,7 +18,7 @@ public class RecurMemo {
 		recur(x);
 	}
 
-	static void recur(int n) {
+	private static void recur(int n) {
 		if (memo[n + 1] != null) {
 			System.out.print(memo[n + 1]);
 		} else {

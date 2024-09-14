@@ -7,7 +7,7 @@ public class Main62 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		int answer = 0;
 		for (int i = 1; i <= n; i++) {
 			// 모든 약수의 수와 순서쌍의 수는 같다.

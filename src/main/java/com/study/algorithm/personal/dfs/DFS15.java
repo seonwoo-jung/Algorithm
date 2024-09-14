@@ -23,7 +23,7 @@ public class DFS15 {
 		System.out.println(answer);
 	}
 
-	static void solution(int[][] board) {
+	private static void solution(int[][] board) {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
 				if (board[i][j] == 1) {
@@ -35,7 +35,7 @@ public class DFS15 {
 		}
 	}
 
-	static void DFS(int x, int y, int[][] board) {
+	private static void DFS(int x, int y, int[][] board) {
 		for (int i = 0; i < 8; i++) {
 			int nx = x + dx[i];
 			int ny = y + dy[i];

@@ -21,7 +21,7 @@ public class Main10 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n, int c, int[] arr) {
+	private static int solution(int n, int c, int[] arr) {
 		int answer = 0;
 		sort(arr);
 		int lt = 1, rt = arr[n - 1];
@@ -37,7 +37,7 @@ public class Main10 {
 		return answer;
 	}
 
-	static int count(int[] arr, int dist) {
+	private static int count(int[] arr, int dist) {
 		int cnt = 1;
 		int ep = arr[0];
 		for (int i = 1; i < arr.length; i++) {

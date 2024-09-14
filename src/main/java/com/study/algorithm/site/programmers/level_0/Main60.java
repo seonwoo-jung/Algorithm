@@ -6,7 +6,7 @@ public class Main60 {
 		solution("205");
 	}
 
-	static String solution(String rsp) {
+	private static String solution(String rsp) {
 		String data = "";
 
 		for (int i = 0; i < rsp.length(); i++) {
@@ -16,7 +16,7 @@ public class Main60 {
 		return data;
 	}
 
-	static String calculate(String param) {
+	private static String calculate(String param) {
 		if (param.equals("2")) {
 			return "0";
 		} else if (param.equals("0")) {

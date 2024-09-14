@@ -7,7 +7,7 @@ public class Main71 {
 		solution(num_list);
 	}
 
-	static int[] solution(int[] num_list) {
+	private static int[] solution(int[] num_list) {
 		int[] answer = new int[2];
 
 		for (int i = 0; i < num_list.length; i++) {

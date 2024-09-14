@@ -7,7 +7,7 @@ public class Main74 {
 		solution(num_list);
 	}
 
-	static int[] solution(int[] num_list) {
+	private static int[] solution(int[] num_list) {
 		int[] reverse = new int[num_list.length];
 
 		for (int i = 0; i < num_list.length; i++) {

@@ -24,7 +24,7 @@ public class DFS9 {
 		DFS(node);
 	}
 
-	static void DFS(Node root) {
+	private static void DFS(Node root) {
 		if (root == null) {
 			return;
 		} else {

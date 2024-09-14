@@ -9,7 +9,7 @@ public class Main67 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n, int k) {
+	private static int solution(int n, int k) {
 		int num = n / 10;
 		k = num != 0 ? k - num : k;
 		return n * 12000 + k * 2000;

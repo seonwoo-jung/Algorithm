@@ -17,7 +17,7 @@ public class Main15 {
 	static int[] combi;
 	static ArrayList<Point> house, pizza;
 
-	static void DFS(int L, int s) {
+	private static void DFS(int L, int s) {
 		if (L == m) {
 			int sum = 0;
 			for (Point h : house) {

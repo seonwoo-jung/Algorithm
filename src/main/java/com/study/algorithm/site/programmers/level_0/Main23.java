@@ -5,7 +5,7 @@ public class Main23 {
 		System.out.println(solution("dfjardstddetckdaccccdegk", 4));
 	}
 
-	static String solution(String cipher, int code) {
+	private static String solution(String cipher, int code) {
 		String buffer = "";
 		int index = 0;
 		for (int i = 0; i < cipher.length() / code; i++) {
@@ -20,7 +20,7 @@ public class Main23 {
 		return buffer;
 	}
 
-	static String solution2(String cipher, int code) {
+	private static String solution2(String cipher, int code) {
 		String answer = "";
 
 		for (int i = code; i <= cipher.length(); i += code) {

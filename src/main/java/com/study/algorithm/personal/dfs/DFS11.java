@@ -25,7 +25,7 @@ public class DFS11 {
 	}
 
 
-	static void BFS(int sum, Integer[] arr) {
+	private static void BFS(int sum, Integer[] arr) {
 		Queue<Integer> Q = new LinkedList<>();
 		Q.offer(sum);
 		int L = 0;
@@ -49,7 +49,7 @@ public class DFS11 {
 		}
 	}
 
-	static void DFS(int L, int sum, Integer[] arr) {
+	private static void DFS(int L, int sum, Integer[] arr) {
 		if (sum > m) return;
 		if (L >= answer) return;
 		if (sum == m) {

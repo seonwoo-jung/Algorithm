@@ -5,7 +5,7 @@ public class Main17 {
 		solution("happy birthday!");
 	}
 
-	static int solution(String message) {
+	private static int solution(String message) {
 		return message.length() * 2;
 	}
 }

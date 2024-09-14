@@ -15,7 +15,7 @@ public class Main5 {
 		System.out.println("solution = " + solution(str));
 	}
 
-	static int solution(String str) {
+	private static int solution(String str) {
 		int answer = 0;
 		Stack<Character> stack = new Stack<>();
 		for (char x : str.toCharArray()) {

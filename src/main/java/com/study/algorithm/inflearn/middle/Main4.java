@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 좌석 번호
  */
 public class Main4 {
-	static int[] solution(int c, int r, int k) {
+	private static int[] solution(int c, int r, int k) {
 		int[] answer = new int[2];
 
 		// c * r == 총 앉을 수 있는 좌석 수

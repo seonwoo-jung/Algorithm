@@ -9,7 +9,7 @@ public class Main38 {
 		System.out.println("solution = " + solution);
 	}
 
-	static String solution(String[] cards1, String[] cards2, String[] goal) {
+	private static String solution(String[] cards1, String[] cards2, String[] goal) {
 		int idx1 = 0, idx2 = 0;
 		for (int i = 0; i < goal.length; i++) {
 			if (idx1 < cards1.length && goal[i].equals(cards1[idx1])) {

@@ -19,7 +19,7 @@ public class Main8 {
 		System.out.println("answer = " + answer4);
 	}
 
-	static boolean solution(String s) {
+	private static boolean solution(String s) {
 		ArrayDeque<Character> stack = new ArrayDeque<>();
 
 		char[] a = s.toCharArray();

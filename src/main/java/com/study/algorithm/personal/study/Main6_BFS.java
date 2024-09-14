@@ -29,7 +29,7 @@ public class Main6_BFS {
 		System.out.println("bfs = " + bfs);
 	}
 
-	static int BFS(int[] arr) {
+	private static int BFS(int[] arr) {
 		Queue<Integer> Q = new LinkedList<>();
 		Q.offer(0);
 		int level = 0;

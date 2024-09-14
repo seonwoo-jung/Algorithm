@@ -23,7 +23,7 @@ public class Main31 {
 		}
 	}
 
-	static int[] solution(String[] wallpaper) {
+	private static int[] solution(String[] wallpaper) {
 		int x_min = MAX_VALUE, x_max = MIN_VALUE, y_min = MAX_VALUE, y_max = MIN_VALUE;
 		for (int i = 0; i < wallpaper.length; i++) {
 			for (int j = 0; j < wallpaper[i].length(); j++) {

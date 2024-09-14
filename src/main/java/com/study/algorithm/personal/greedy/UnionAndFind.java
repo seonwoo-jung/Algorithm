@@ -11,12 +11,12 @@ public class UnionAndFind {
 
 	static int[] unf;
 
-	static int Find(int v) {
+	private static int Find(int v) {
 		if (v == unf[v]) return v;
 		else return unf[v] = Find(unf[v]);
 	}
 
-	static void Union(int a, int b) {
+	private static void Union(int a, int b) {
 		int fa = Find(a);
 		int fb = Find(b);
 		if (fa != fb) unf[fa] = fb;

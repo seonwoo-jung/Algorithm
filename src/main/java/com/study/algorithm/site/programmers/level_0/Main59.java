@@ -6,7 +6,7 @@ public class Main59 {
 		System.out.println(combination(5, 3));
 	}
 
-	static int combination(int balls, int share) {
+	private static int combination(int balls, int share) {
 		if (balls == share || share == 0) {
 			return 1;
 		}

@@ -6,7 +6,7 @@ public class Main4 {
 		System.out.println(solution(1, 1));
 	}
 
-	static int solution(int M, int N) {
+	private static int solution(int M, int N) {
 		int answer = 0;
 		answer = M * N - 1;
 		return answer;

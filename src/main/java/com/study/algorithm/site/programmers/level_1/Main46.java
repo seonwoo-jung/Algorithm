@@ -13,7 +13,7 @@ public class Main46 {
 		System.out.println(solution(new String[]{"ba", "an", "nan", "ban", "n"}, "banana"));
 	}
 
-	static int solution(String[] strs, String t) {
+	private static int solution(String[] strs, String t) {
 		for (int i = 0; i < strs.length; i++) {
 			if (t.contains(strs[i])) {
 				DFS(1, t.replaceFirst(strs[i], ""), strs);
@@ -22,7 +22,7 @@ public class Main46 {
 		return answer == MAX_VALUE ? -1 : answer;
 	}
 
-	static void DFS(int cnt, String t, String[] strs) {
+	private static void DFS(int cnt, String t, String[] strs) {
 		if (t.length() == 0) {
 			answer = min(answer, cnt);
 		} else {

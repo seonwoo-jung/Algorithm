@@ -22,7 +22,7 @@ public class BFS {
 		System.out.println(BFS(target, typesOfCoin, coins, check));
 	}
 
-	static int BFS(int target, int typesOfCoin, int[] coins, int[] check) {
+	private static int BFS(int target, int typesOfCoin, int[] coins, int[] check) {
 		Queue<Integer> q = new LinkedList<>();
 		check[target] = 1;
 		q.offer(target);

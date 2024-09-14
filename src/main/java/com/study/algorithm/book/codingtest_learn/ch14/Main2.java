@@ -13,7 +13,7 @@ public class Main2 {
 		}
 	}
 
-	static int[][] solution(int[][] matrix1, int[][] matrix2) {
+	private static int[][] solution(int[][] matrix1, int[][] matrix2) {
 		int[][] multiplied = multiplyMatrices(matrix1, matrix2);
 
 		// 전치 행렬 생성

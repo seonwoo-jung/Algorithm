@@ -12,7 +12,7 @@ public class Main44 {
 		System.out.println("answer = " + answer);
 	}
 
-	static int solution(int[] number) {
+	private static int solution(int[] number) {
 		int answer = 0;
 		for (int i = 0; i < number.length; i++) {
 			for (int j = i + 1; j < number.length; j++) {
@@ -25,7 +25,7 @@ public class Main44 {
 		return answer;
 	}
 
-	static void DFS(int L, int s, int[] number) {
+	private static void DFS(int L, int s, int[] number) {
 		if (L == 3) {
 			int sum = 0;
 			for (int i = 0; i < number.length; i++) {

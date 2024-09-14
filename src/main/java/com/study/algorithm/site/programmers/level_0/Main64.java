@@ -8,7 +8,7 @@ public class Main64 {
 		System.out.println(solution(23));
 	}
 
-	static String solution(int age) {
+	private static String solution(int age) {
 		HashMap<String, String> map = new HashMap<>();
 		map.put("0", "a");
 		map.put("1", "b");

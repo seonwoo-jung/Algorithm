@@ -1,11 +1,20 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
+/**
+ * 대소문자 변환
+ */
 public class Main2 {
-	public static String solution(String str) {
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(in);
+		String str = kb.next();
+		System.out.println(solution(str));
+	}
+
+	private static String solution(String str) {
 		String answer = "";
 
 		for (char x : str.toCharArray()) {
@@ -28,11 +37,5 @@ public class Main2 {
 //            }
 //        }
 		return answer;
-	}
-
-	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
-		String str = kb.next();
-		System.out.println(solution(str));
 	}
 }

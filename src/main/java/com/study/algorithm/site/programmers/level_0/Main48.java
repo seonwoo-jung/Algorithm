@@ -9,7 +9,7 @@ public class Main48 {
 		System.out.println(solution(strlist));
 	}
 
-	static int[] solution(String[] strlist) {
+	private static int[] solution(String[] strlist) {
 
 		int[] arrlength = new int[strlist.length];
 

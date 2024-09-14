@@ -9,7 +9,7 @@ public class Main4 {
 		DFS(0, 1, nums);
 	}
 
-	static void DFS(int L, int s, int[] nums) {
+	private static void DFS(int L, int s, int[] nums) {
 		int sum = 0;
 		if (L == 3) {
 			for (int x : combi) {

@@ -43,7 +43,7 @@ public class Mst_1922 {
 		System.out.println(answer);
 	}
 
-	static int Find(int v) {
+	private static int Find(int v) {
 		if (unf[v] == v) {
 			return v;
 		} else {
@@ -51,7 +51,7 @@ public class Mst_1922 {
 		}
 	}
 
-	static void Union(int a, int b) {
+	private static void Union(int a, int b) {
 		int fa = Find(a);
 		int fb = Find(b);
 		if (fa != fb) unf[fa] = fb;

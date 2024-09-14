@@ -12,7 +12,7 @@ public class Combi {
 		System.out.println("result = " + result);
 	}
 
-	static int DFS(int n, int r) {
+	private static int DFS(int n, int r) {
 		if (n == r || r == 0) {
 			return 1;
 		} else {

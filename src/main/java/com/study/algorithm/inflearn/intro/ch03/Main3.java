@@ -1,12 +1,12 @@
 package com.study.algorithm.inflearn.intro.ch03;
 
-import java.util.Scanner;
-
 import static java.lang.Math.max;
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
 /**
- * 최대매출
+ * 최대 매출(Sliding window)
  */
 public class Main3 {
 	public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class Main3 {
 	}
 
 	// n: 배열 사이즈, k: 연속된 일수
-	static int solution(int n, int k, int[] arr) {
+	private static int solution(int n, int k, int[] arr) {
 		int answer, sum = 0;
 
 		// 0부터 k번 째 전까지 합한다.

@@ -10,7 +10,7 @@ public class Main1 {
 		);
 	}
 
-	static String[] solution(String[] players, String[] callings) {
+	private static String[] solution(String[] players, String[] callings) {
 		String[] answer = new String[players.length];
 
 		HashMap<String, Integer> mappedByPlayer = new HashMap<>();
@@ -47,7 +47,7 @@ public class Main1 {
 		return answer;
 	}
 
-	static String[] solution2(String[] players, String[] callings) {
+	private static String[] solution2(String[] players, String[] callings) {
 		int n = players.length;
 		HashMap<String, Integer> indexMap = new HashMap<>();
 

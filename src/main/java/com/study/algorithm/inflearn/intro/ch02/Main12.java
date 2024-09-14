@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 멘토링 (이해필요)
@@ -24,7 +24,7 @@ public class Main12 {
 		System.out.println(solution);
 	}
 
-	static int solution(int n, int m, int[][] arr) {
+	private static int solution(int n, int m, int[][] arr) {
 		int answer = 0;
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= n; j++) {

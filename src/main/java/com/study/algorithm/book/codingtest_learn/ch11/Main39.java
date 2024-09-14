@@ -16,7 +16,7 @@ public class Main39 {
 		System.out.println("result2 = " + result2);
 	}
 
-	static int solution(String[] maps) {
+	private static int solution(String[] maps) {
 		N = maps.length;
 		M = maps[0].length();
 		map = new char[N][M];
@@ -49,7 +49,7 @@ public class Main39 {
 		}
 	}
 
-	static int BFS(Point start, Point end) {
+	private static int BFS(Point start, Point end) {
 		int[][] dist = new int[N][M];
 		ArrayDeque<Point> queue = new ArrayDeque<>();
 		dist[start.ny][start.nx] = 1;

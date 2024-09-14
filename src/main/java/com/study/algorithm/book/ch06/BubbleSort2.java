@@ -28,7 +28,7 @@ public class BubbleSort2 {
 		}
 	}
 
-	static void bubbleSort(int[] a, int n) {
+	private static void bubbleSort(int[] a, int n) {
 		for (int i = 0; i < n - 1; i++) {
 			// 패스에서 교환하는 횟수를 저장
 			int exchg = 0;
@@ -44,7 +44,7 @@ public class BubbleSort2 {
 		}
 	}
 
-	static void swap(int[] a, int idx1, int idx2) {
+	private static void swap(int[] a, int idx1, int idx2) {
 		int t = a[idx1];
 		a[idx1] = a[idx2];
 		a[idx2] = t;

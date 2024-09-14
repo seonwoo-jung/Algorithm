@@ -23,7 +23,7 @@ public class Main4 {
 		}
 	}
 
-	static int[] solution(int s, int n, int[] arr) {
+	private static int[] solution(int s, int n, int[] arr) {
 		int[] cache = new int[s];
 		for (int x : arr) {
 			int pos = -1;

@@ -6,7 +6,7 @@ public class Main12 {
 		System.out.println(solution(930211));
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 
 		int answer = 0;
 

@@ -22,7 +22,7 @@ public class MethodReferencesExample {
 	}
 
 	static class Calculator {
-		static int staticMethod(int x, int y) {
+		private static int staticMethod(int x, int y) {
 			return x + y;
 		}
 

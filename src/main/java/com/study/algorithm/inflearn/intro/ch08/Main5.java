@@ -16,7 +16,7 @@ public class Main5 {
 	static int n, m, answer = MAX_VALUE;
 
 	// L은 동전갯수, sum은 동전합계
-	static void DFS(int L, int sum, Integer[] arr) {
+	private static void DFS(int L, int sum, Integer[] arr) {
 		if (sum > m) return;
 		if (L >= answer) return; // 최솟값을 구하는 것이기 때문에 L이랑 같거나 큰건 볼 필요가 없다.(시간복잡도가 줄어듦)
 		if (sum == m) {

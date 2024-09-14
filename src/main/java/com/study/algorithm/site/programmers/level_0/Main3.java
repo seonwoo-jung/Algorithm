@@ -10,7 +10,7 @@ public class Main3 {
 		}
 	}
 
-	static int[] solution(int num, int total) {
+	private static int[] solution(int num, int total) {
 		int[] answer = new int[num];
 
 		int nSum = num * (1 + num) / 2;

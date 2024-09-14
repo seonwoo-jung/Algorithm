@@ -9,7 +9,7 @@ public class Main51 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(String my_string) {
+	private static int solution(String my_string) {
 
 		String[] replaceStr = my_string.replaceAll("[^0-9]", "").split("");
 		int sum = stream(replaceStr).mapToInt(Integer::parseInt).sum();

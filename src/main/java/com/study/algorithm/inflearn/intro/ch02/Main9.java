@@ -25,7 +25,7 @@ public class Main9 {
 		System.out.println(solution(n, arr));
 	}
 
-	static int solution(int n, int[][] arr) {
+	private static int solution(int n, int[][] arr) {
 		int answer = MIN_VALUE;
 		// sum1: 행의 합, sum2: 열의 합
 		int sum1, sum2;

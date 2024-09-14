@@ -9,7 +9,7 @@ public class Main87 {
 	}
 
 	// 분자, 분모 / 분자, 분모
-	static int[] solution(int numer1, int denom1, int numer2, int denom2) {
+	private static int[] solution(int numer1, int denom1, int numer2, int denom2) {
 
 		int numer = numer1 * denom2 + numer2 * denom1;
 		int denom = denom1 * denom2;

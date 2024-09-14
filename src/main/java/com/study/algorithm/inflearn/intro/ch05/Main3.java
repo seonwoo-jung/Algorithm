@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch05;
 
+import static java.lang.System.in;
+
 import java.util.Scanner;
 import java.util.Stack;
-
-import static java.lang.System.in;
 
 /**
  * 크레인 인형뽑기(카카오)
@@ -30,7 +30,7 @@ public class Main3 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int[][] board, int[] moves) {
+	private static int solution(int[][] board, int[] moves) {
 		int answer = 0;
 		Stack<Integer> stack = new Stack<>();
 		for (int i = 0; i < moves.length; i++) {
@@ -56,7 +56,7 @@ public class Main3 {
 		return answer;
 	}
 
-	static int solution2(int[][] board, int[] moves) {
+	private static int solution2(int[][] board, int[] moves) {
 		int answer = 0;
 		Stack<Integer> stack = new Stack<>();
 		for (int pos : moves) {

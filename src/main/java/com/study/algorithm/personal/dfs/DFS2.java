@@ -19,7 +19,7 @@ public class DFS2 {
 	}
 
 
-	static int DFS(int L, Node root) {
+	private static int DFS(int L, Node root) {
 		if (root.lt == null && root.rt == null) {
 			return L;
 		} else {

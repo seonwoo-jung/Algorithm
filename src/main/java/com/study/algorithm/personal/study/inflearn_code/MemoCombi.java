@@ -23,7 +23,7 @@ public class MemoCombi {
 		out.println("dfs = " + dfs);
 	}
 
-	static int DFS(int n, int r) {
+	private static int DFS(int n, int r) {
 		if (dy[n][r] > 0) return dy[n][r];
 		if (n == r || r == 0) {
 			return 1;

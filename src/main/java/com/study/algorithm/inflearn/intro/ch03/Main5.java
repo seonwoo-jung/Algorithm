@@ -1,11 +1,11 @@
 package com.study.algorithm.inflearn.intro.ch03;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
 /**
- * 연속된 자연수의 합
+ * 연속된 자연수의 합 (two pointers)
  */
 public class Main5 {
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Main5 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		int answer = 0, sum = 0, lt = 0;
 		int m = n / 2 + 1;
 		int[] arr = new int[m];

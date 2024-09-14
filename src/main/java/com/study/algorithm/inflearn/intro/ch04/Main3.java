@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch04;
 
+import static java.lang.System.in;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-
-import static java.lang.System.in;
 
 /**
  * 매출액의 종류(Hash, sliding window)
@@ -22,7 +22,7 @@ public class Main3 {
 		System.out.println("list = " + list);
 	}
 
-	static int[] solution(int n, int k, int[] arr) {
+	private static int[] solution(int n, int k, int[] arr) {
 		HashMap<Integer, Integer> map = new HashMap<>();
 		int[] answer = new int[n - k + 1];
 		for (int i = 0; i <= n - k; i++) {
@@ -36,7 +36,7 @@ public class Main3 {
 		return answer;
 	}
 
-	static ArrayList<Integer> solution2(int n, int k, int[] arr) {
+	private static ArrayList<Integer> solution2(int n, int k, int[] arr) {
 		ArrayList<Integer> answer = new ArrayList<>();
 		HashMap<Integer, Integer> HM = new HashMap<>();
 		// 0, 1, 2

@@ -23,7 +23,7 @@ public class EuclidGCD {
 	}
 
 	// 재귀방식
-	static int gcd(int x, int y) {
+	private static int gcd(int x, int y) {
 		if (y == 0) {
 			return x;
 		} else {
@@ -32,7 +32,7 @@ public class EuclidGCD {
 	}
 
 	// 반복문 방식
-	static int gcd2(int x, int y) {
+	private static int gcd2(int x, int y) {
 
 		while (y != 0) {
 			int r = x % y;
@@ -43,7 +43,7 @@ public class EuclidGCD {
 		return x;
 	}
 
-	static int findArrayGCD(int[] arr) {
+	private static int findArrayGCD(int[] arr) {
 		int result = arr[0];
 		for (int i = 1; i < arr.length; i++) {
 			result = gcd2(result, arr[i]);

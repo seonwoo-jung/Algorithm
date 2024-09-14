@@ -16,7 +16,7 @@ public class Main3 {
 		);
 	}
 
-	static int[] solution(String[] park, String[] routes) {
+	private static int[] solution(String[] park, String[] routes) {
 		int[] answer = {};
 		String[][] result = new String[park.length][park[0].length()];
 		for (int i = 0; i < park.length; i++) {

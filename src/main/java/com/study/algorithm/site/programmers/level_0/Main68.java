@@ -6,7 +6,7 @@ public class Main68 {
 		solution(1, 16);
 	}
 
-	static int solution(int num1, int num2) {
+	private static int solution(int num1, int num2) {
 		double answer = (double) num1 / num2 * 1000;
 		return (int) answer;
 	}

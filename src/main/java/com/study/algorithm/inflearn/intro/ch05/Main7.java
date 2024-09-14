@@ -17,7 +17,7 @@ public class Main7 {
 		System.out.println("solution = " + solution(a, b));
 	}
 
-	static String solution(String need, String plan) {
+	private static String solution(String need, String plan) {
 		String answer = "YES";
 		Queue<Character> Q = new LinkedList<>();
 		for (char x : need.toCharArray()) {

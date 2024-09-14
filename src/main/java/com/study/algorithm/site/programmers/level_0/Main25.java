@@ -6,7 +6,7 @@ public class Main25 {
 		solution(array, 20);
 	}
 
-	static int solution(int[] arrays, int n) {
+	private static int solution(int[] arrays, int n) {
 		return 0;
 	}
 }

@@ -22,7 +22,7 @@ public class Main8 {
 		System.out.println(solution(s, e));
 	}
 
-	static int solution(int s, int e) {
+	private static int solution(int s, int e) {
 		ch = new int[10001];
 		ch[s] = 1;
 		Q.offer(s);

@@ -9,7 +9,7 @@ public class Main18 {
 		System.out.println("solution = " + solution);
 	}
 
-	static boolean solution(int[] arr, int target) {
+	private static boolean solution(int[] arr, int target) {
 		HashSet<Integer> hashSet = new HashSet<>();
 
 		for (int i : arr) {

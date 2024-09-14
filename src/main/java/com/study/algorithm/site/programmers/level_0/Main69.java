@@ -7,7 +7,7 @@ public class Main69 {
 		solution(numbers);
 	}
 
-	static int solution(int[] numbers) {
+	private static int solution(int[] numbers) {
 		int sum = 0;
 
 		for (int i = 0; i < numbers.length; i++) {

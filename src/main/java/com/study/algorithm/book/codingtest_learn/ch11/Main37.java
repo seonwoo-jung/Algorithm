@@ -15,7 +15,7 @@ public class Main37 {
 		System.out.println("result = " + result);
 	}
 
-	static int solution(int[][] maps) {
+	private static int solution(int[][] maps) {
 		// 1. 이동할 수 있는 방향을 나타내는 배열 선언
 		int[] rx = {-1, 0, 1, 0};
 		int[] ry = {0, 1, 0, -1};

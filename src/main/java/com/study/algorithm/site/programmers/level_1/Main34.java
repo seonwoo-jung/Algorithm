@@ -11,7 +11,7 @@ public class Main34 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int[] d, int budget) {
+	private static int solution(int[] d, int budget) {
 		sort(d);
 		int answer = 0;
 		for (int i = 0; i < d.length; i++) {

@@ -21,7 +21,7 @@ public class Main1 {
 		}
 	}
 
-	static void DFS(int n) {
+	private static void DFS(int n) {
 
 		if (n == 0) {
 

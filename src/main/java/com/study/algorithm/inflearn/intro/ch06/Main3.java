@@ -22,7 +22,7 @@ public class Main3 {
 		}
 	}
 
-	static int[] solution(int n, int[] arr) {
+	private static int[] solution(int n, int[] arr) {
 		for (int i = 1; i < n; i++) {
 			int tmp = arr[i], j;
 			for (j = i - 1; j >= 0; j--) {

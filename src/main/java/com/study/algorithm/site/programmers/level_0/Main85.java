@@ -8,7 +8,7 @@ public class Main85 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		int answer = 0;
 		for (int i = 0; i < n; i++) {
 			answer++;

@@ -7,7 +7,7 @@ public class Main28 {
 		System.out.println(solution(1, 13, 1));
 	}
 
-	static int solution(int i, int j, int k) {
+	private static int solution(int i, int j, int k) {
 
 		return (int) IntStream.rangeClosed(i, j)
 				.mapToObj(Integer::toString)

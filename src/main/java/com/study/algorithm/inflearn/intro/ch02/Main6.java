@@ -24,7 +24,7 @@ public class Main6 {
 		System.out.println("data = " + data);
 	}
 
-	static ArrayList<Integer> solution(int n, int[] arr) {
+	private static ArrayList<Integer> solution(int n, int[] arr) {
 		ArrayList<Integer> answer = new ArrayList<>();
 		for (int i = 0; i < n; i++) {
 			int tmp = arr[i];

@@ -16,7 +16,7 @@ public class Main72 {
 		System.out.println(solution(new int[]{1, 1, 1}, 5, new int[][]{{1, 2}, {3, 2}}));  // 3
 	}
 
-	static int solution(int[] bandage, int health, int[][] attacks) {
+	private static int solution(int[] bandage, int health, int[][] attacks) {
 		Map<Integer, Integer> attacksMap = new HashMap<>();
 
 		Arrays.stream(attacks).forEach(x -> {

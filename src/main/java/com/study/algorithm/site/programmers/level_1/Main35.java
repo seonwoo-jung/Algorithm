@@ -9,7 +9,7 @@ public class Main35 {
 
 	}
 
-	static int solution(int[] nums) {
+	private static int solution(int[] nums) {
 		int answer = 0;
 		for (int i = 0; i < nums.length; i++) {
 			for (int j = i + 1; j < nums.length; j++) {
@@ -24,7 +24,7 @@ public class Main35 {
 		return answer;
 	}
 
-	static boolean isPrime(int num) {
+	private static boolean isPrime(int num) {
 		if (num == 1) return false;
 		for (int i = 2; i < num; i++) {
 			if (num % i == 0) return false;

@@ -17,7 +17,7 @@ public class Main {
 		solution(arr);
 	}
 
-	static void solution(int[][] arr) {
+	private static void solution(int[][] arr) {
 		int x = 0, y = 0, max = MIN_VALUE;
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {

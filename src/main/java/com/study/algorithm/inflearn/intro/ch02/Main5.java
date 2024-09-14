@@ -16,7 +16,7 @@ public class Main5 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		int answer = 0;
 		int[] ch = new int[n + 1];
 

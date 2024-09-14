@@ -11,7 +11,7 @@ public class Main28 {
 		System.out.println(solution);
 	}
 
-	static String solution(String s) {
+	private static String solution(String s) {
 		String answer = "";
 
 		String[] str = s.split("");

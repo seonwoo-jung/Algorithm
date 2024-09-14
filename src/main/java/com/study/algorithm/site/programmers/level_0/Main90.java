@@ -17,7 +17,7 @@ public class Main90 {
 		solution(arr);
 	}
 
-	static int solution(int[][] dots) {
+	private static int solution(int[][] dots) {
 		int answer = 0;
 
 		List<Double> slopes = new ArrayList<>();

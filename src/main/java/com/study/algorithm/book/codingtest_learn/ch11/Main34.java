@@ -25,7 +25,7 @@ public class Main34 {
 		}
 	}
 
-	static int[] solution(int[][] graph, int start, int n) {
+	private static int[] solution(int[][] graph, int start, int n) {
 		adjList = new ArrayList[n + 1];
 		for (int i = 0; i < adjList.length; i++) {
 			adjList[i] = new ArrayList<>();

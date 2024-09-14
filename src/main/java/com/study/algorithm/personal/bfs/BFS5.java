@@ -35,7 +35,7 @@ public class BFS5 {
 		System.out.println(dis[3][5]);
 	}
 
-	static void BFS() {
+	private static void BFS() {
 		while (!Q.isEmpty()) {
 			Point tmp = Q.poll();
 			for (int i = 0; i < 4; i++) {

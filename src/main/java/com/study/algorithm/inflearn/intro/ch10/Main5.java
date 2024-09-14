@@ -14,7 +14,7 @@ public class Main5 {
 	static int n, m;
 	static int[] dy;
 
-	static int solution(int[] coin) {
+	private static int solution(int[] coin) {
 		fill(dy, MAX_VALUE);
 		dy[0] = 0;
 		for (int i = 0; i < n; i++) {

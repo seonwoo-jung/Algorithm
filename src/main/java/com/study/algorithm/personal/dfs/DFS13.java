@@ -13,7 +13,7 @@ public class DFS13 {
 	static boolean flag = false;
 	static int[][] dy = new int[35][35]; // 메모이제이션
 
-	static void DFS(int L, int sum) {
+	private static void DFS(int L, int sum) {
 
 		if (flag) return;
 
@@ -35,7 +35,7 @@ public class DFS13 {
 		}
 	}
 
-	static int combi(int n, int r) {
+	private static int combi(int n, int r) {
 		if (dy[n][r] > 0) return dy[n][r];
 		if (n == r || r == 0) return 1;
 		else return dy[n][r] = combi(n - 1, r - 1) + combi(n - 1, r);

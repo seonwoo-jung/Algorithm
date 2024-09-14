@@ -10,7 +10,7 @@ public class Main20 {
 		System.out.println("result = " + result);
 	}
 
-	static int solution(String[] want, int[] number, String[] discount) {
+	private static int solution(String[] want, int[] number, String[] discount) {
 		Map<String, Integer> wantMap = new HashMap<>();
 
 		for (int i = 0; i < want.length; i++) {

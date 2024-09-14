@@ -10,7 +10,7 @@ public class Main38 {
 		System.out.println("result = " + result);
 	}
 
-	static int solution(int n, int[][] computers) {
+	private static int solution(int n, int[][] computers) {
 		int answer = 0;
 		computer = computers;
 		visit = new boolean[n];

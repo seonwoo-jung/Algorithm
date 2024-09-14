@@ -24,7 +24,7 @@ public class Main5 {
 		}
 	}
 
-	static int[][] solution(int[][] arr1, int[][] arr2) {
+	private static int[][] solution(int[][] arr1, int[][] arr2) {
 		// arr1의 행과 열의 길이
 		int r1 = arr1.length;
 		int c1 = arr1[0].length;

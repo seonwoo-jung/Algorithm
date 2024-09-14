@@ -5,7 +5,7 @@ public class Main21 {
 		solution2("onetwothreefourfivesixseveneightnine");
 	}
 
-	static long solution(String my_string) {
+	private static long solution(String my_string) {
 		// 어떤 규칙을 찾아야 함.
 		my_string = my_string.replace("zero", "0");
 		my_string = my_string.replace("one", "1");
@@ -21,7 +21,7 @@ public class Main21 {
 		return Long.parseLong(my_string);
 	}
 
-	static long solution2(String my_string) {
+	private static long solution2(String my_string) {
 
 		String[] numbersArr = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 

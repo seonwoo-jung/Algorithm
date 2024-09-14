@@ -16,7 +16,7 @@ public class Main14 {
 	static ArrayList<ArrayList<Integer>> graph;
 	static int[] ch, dis;
 
-	static void BFS(int v) {
+	private static void BFS(int v) {
 		Queue<Integer> queue = new LinkedList<>();
 		ch[v] = 1;
 		dis[v] = 0;

@@ -18,7 +18,7 @@ public class Main33 {
 		System.out.println(solution(score));
 	}
 
-	static int[] solution(int[][] score) {
+	private static int[] solution(int[][] score) {
 		List<Integer> scoreList = new ArrayList<>();
 
 		// row별 합계 후 list에 넣는다.
@@ -40,7 +40,7 @@ public class Main33 {
 		return answer;
 	}
 
-	static int[] solution2(int[][] score) {
+	private static int[] solution2(int[][] score) {
 		int[] avg = new int[score.length];
 
 		// 배열 avg에 평균값을 넣는다.

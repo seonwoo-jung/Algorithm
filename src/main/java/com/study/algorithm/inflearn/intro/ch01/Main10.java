@@ -1,9 +1,12 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
+/**
+ * 문자 거리
+ */
 public class Main10 {
 	public static void main(String[] args) {
 		/**
@@ -19,7 +22,7 @@ public class Main10 {
 		}
 	}
 
-	static int[] solution(String s, char t) {
+	private static int[] solution(String s, char t) {
 		int[] answer = new int[s.length()];
 		int p = 1000;
 

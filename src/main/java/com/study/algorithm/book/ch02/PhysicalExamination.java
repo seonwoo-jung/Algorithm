@@ -50,7 +50,7 @@ public class PhysicalExamination {
 	}
 
 	// 키의 평균값을 구함
-	static double aveHeight(PhyscData[] dat) {
+	private static double aveHeight(PhyscData[] dat) {
 		double sum = 0;
 
 		for (int i = 0; i < dat.length; i++) {
@@ -61,7 +61,7 @@ public class PhysicalExamination {
 	}
 
 	// 시력 분포를 구함
-	static void distVision(PhyscData[] dat, int[] dist) {
+	private static void distVision(PhyscData[] dat, int[] dist) {
 		int i = 0;
 		dist[i] = 0;
 

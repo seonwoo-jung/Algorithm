@@ -6,7 +6,7 @@ public class Main84 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		int answer = 0, pizza = 1, piece = 6;
 		for (int i = 1; i <= 100; i++) {
 			if ((pizza * piece) % n == 0) {

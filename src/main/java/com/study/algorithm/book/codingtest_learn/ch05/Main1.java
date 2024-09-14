@@ -20,7 +20,7 @@ public class Main1 {
 		System.out.println("answer2 = " + Arrays.toString(answer3));
 	}
 
-	static int[] solution(int[] arr) {
+	private static int[] solution(int[] arr) {
 		Arrays.sort(arr);
 		return arr;
 	}

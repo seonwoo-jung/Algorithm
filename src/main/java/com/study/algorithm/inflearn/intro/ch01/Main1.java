@@ -1,10 +1,13 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
-import java.util.Scanner;
-
 import static java.lang.Character.toUpperCase;
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
+/**
+ * 문자 찾기
+ */
 public class Main1 {
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -13,7 +16,7 @@ public class Main1 {
 		System.out.println(solution(str, c));
 	}
 
-	public static int solution(String str, char t) {
+	private static int solution(String str, char t) {
 		int answer = 0;
 
 		str = str.toUpperCase();

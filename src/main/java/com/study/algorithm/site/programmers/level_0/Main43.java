@@ -17,7 +17,7 @@ public class Main43 {
 	 */
 
 
-	static int solution(String my_string) {
+	private static int solution(String my_string) {
 
 		int answer = 0;
 		String[] ms = my_string.split("[a-zA-Z]");

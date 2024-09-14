@@ -6,7 +6,7 @@ public class Main43 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(String t, String p) {
+	private static int solution(String t, String p) {
 		int len = p.length();
 		long num = Long.parseLong(p);
 		int result = 0;

@@ -9,7 +9,7 @@ public class Main41 {
 		solution(param);
 	}
 
-	static int solution(int[] sides) {
+	private static int solution(int[] sides) {
 		int answer = 0;
 
 		// 오름차순 정렬

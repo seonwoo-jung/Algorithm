@@ -1,11 +1,14 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 import static java.lang.System.in;
 import static java.util.regex.Pattern.matches;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
+/**
+ * 특정 문자 뒤집기
+ */
 public class Main5 {
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -24,7 +27,7 @@ public class Main5 {
 		System.out.println(solution2("a#b!GE*T@S"));
 	}
 
-	static ArrayList<String> solution(int n, String[] str) {
+	private static ArrayList<String> solution(int n, String[] str) {
 		ArrayList<String> answer = new ArrayList<>();
 		for (String x : str) {
 			char[] s = x.toCharArray();
@@ -46,7 +49,7 @@ public class Main5 {
 		return answer;
 	}
 
-	static String solution2(String str) {
+	private static String solution2(String str) {
 		String answer;
 		char[] s = str.toCharArray();
 		int lt = 0, rt = str.length() - 1;

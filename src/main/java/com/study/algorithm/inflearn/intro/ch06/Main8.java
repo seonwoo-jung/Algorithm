@@ -21,7 +21,7 @@ public class Main8 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n, int m, int[] arr) {
+	private static int solution(int n, int m, int[] arr) {
 		int answer = 0;
 		sort(arr);
 		int lt = 0, rt = n - 1;

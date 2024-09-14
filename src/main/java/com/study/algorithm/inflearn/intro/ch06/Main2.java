@@ -22,7 +22,7 @@ public class Main2 {
 		}
 	}
 
-	static int[] solution(int n, int[] arr) {
+	private static int[] solution(int n, int[] arr) {
 		// turn의 횟수
 		for (int i = 0; i < n - 1; i++) {
 			for (int j = 0; j < n - i - 1; j++) {

@@ -13,7 +13,7 @@ public class Main58 {
 		solution2(param, direction);
 	}
 
-	static int[] solution(int[] numbers, String direction) {
+	private static int[] solution(int[] numbers, String direction) {
 
 		int[] temp = new int[numbers.length];
 
@@ -35,7 +35,7 @@ public class Main58 {
 		return temp;
 	}
 
-	static int[] solution2(int[] numbers, String direction) {
+	private static int[] solution2(int[] numbers, String direction) {
 		// 배열 -> list로 변환
 		List<Integer> list = Arrays.stream(numbers).boxed().collect(toList());
 

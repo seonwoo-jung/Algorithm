@@ -7,7 +7,7 @@ public class Main9 {
 		solution(s);
 	}
 
-	static boolean solution(String s) {
+	private static boolean solution(String s) {
 		int cnt = 0;
 		s = s.toLowerCase();
 		for (char x : s.toCharArray()) {

@@ -6,7 +6,7 @@ public class Main80 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int price) {
+	private static int solution(int price) {
 		if (price >= 500_000) {
 			price *= 0.8;
 		} else if (price >= 300_000) {

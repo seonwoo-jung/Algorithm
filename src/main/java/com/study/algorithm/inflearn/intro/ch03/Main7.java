@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch03;
 
-import java.util.Scanner;
-
 import static java.lang.Math.max;
 import static java.lang.System.in;
+
+import java.util.Scanner;
 
 /**
  * 최대 길이 연속부분수열
@@ -21,7 +21,7 @@ public class Main7 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int n, int k, int[] arr) {
+	private static int solution(int n, int k, int[] arr) {
 		int answer = 0, cnt = 0, lt = 0;
 		for (int rt = 0; rt < n; rt++) {
 

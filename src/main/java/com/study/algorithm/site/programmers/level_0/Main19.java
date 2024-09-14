@@ -9,7 +9,7 @@ public class Main19 {
 		System.out.println(solution("hello"));
 	}
 
-	static String solution(String s) {
+	private static String solution(String s) {
 		return Arrays.stream(s.split(""))
 				.collect(Collectors.groupingBy(s1 -> s1))
 				.entrySet()

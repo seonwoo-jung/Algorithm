@@ -34,7 +34,7 @@ public class Main3 {
 		System.out.println(solution(arr2));
 	}
 
-	static int solution(int[][] board) {
+	private static int solution(int[][] board) {
 		int n = board.length;
 		int[] dx = {-1, 0, 1, 0};
 		int[] dy = {0, 1, 0, -1};

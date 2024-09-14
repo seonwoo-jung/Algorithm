@@ -21,7 +21,7 @@ public class Main71 {
 		System.out.println(Arrays.toString(solution2));
 	}
 
-	static int[] solution(String[] id_list, String[] report, int k) {
+	private static int[] solution(String[] id_list, String[] report, int k) {
 		// 신고 당한 사용자
 		Map<String, Integer> reportedUser = new HashMap<>();
 		Map<String, Integer> answer = new HashMap<>();

@@ -22,7 +22,7 @@ public class Main1 {
 		}
 	}
 
-	static int[] solution(int n, int[] arr) {
+	private static int[] solution(int n, int[] arr) {
 		for (int i = 0; i < n - 1; i++) {
 			int idx = i;
 			for (int j = i + 1; j < n; j++) {
@@ -38,7 +38,7 @@ public class Main1 {
 		return arr;
 	}
 
-	static void printArray(int[] arr) {
+	private static void printArray(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.printf("%d ", arr[i]);
 		}

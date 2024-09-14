@@ -15,7 +15,7 @@ public class Main30 {
 		}
 	}
 
-	static int[][] solution(int[][] arr1, int[][] arr2) {
+	private static int[][] solution(int[][] arr1, int[][] arr2) {
 		int[][] answer = new int[arr1.length][arr1.length];
 		for (int i = 0; i < arr1.length; i++) {
 			for (int j = 0; j < arr1.length; j++) {

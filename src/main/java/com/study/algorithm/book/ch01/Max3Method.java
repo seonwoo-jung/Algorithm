@@ -1,7 +1,7 @@
 package com.study.algorithm.book.ch01;
 
 public class Max3Method {
-	static int max3(int a, int b, int c) {
+	private static int max3(int a, int b, int c) {
 		int max = a; // 최댓값
 
 		if (b > max) {

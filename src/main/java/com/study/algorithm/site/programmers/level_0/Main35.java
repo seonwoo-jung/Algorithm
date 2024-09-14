@@ -11,7 +11,7 @@ public class Main35 {
 		solution(numlist, n);
 	}
 
-	static int[] solution(int[] numlist, int n) {
+	private static int[] solution(int[] numlist, int n) {
 		return of(numlist).boxed().sorted((o1, o2) -> {
 					int o1Abs = abs(o1 - n);
 					int o2Abs = abs(o2 - n);

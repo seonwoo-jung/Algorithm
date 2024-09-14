@@ -14,7 +14,7 @@ public class Puzzle {
 		System.out.println("answer = " + answer);
 	}
 
-	static void DFS(String[] arr, String t, String match, int cnt) {
+	private static void DFS(String[] arr, String t, String match, int cnt) {
 		if (t.length() < match.length()) return;
 
 		if (t.length() == match.length()) {

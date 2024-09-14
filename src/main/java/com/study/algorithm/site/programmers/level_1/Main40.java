@@ -9,12 +9,12 @@ public class Main40 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int[] numbers, int target) {
+	private static int solution(int[] numbers, int target) {
 		DFS(0, 0, target, numbers);
 		return answer;
 	}
 
-	static void DFS(int L, int sum, int target, int[] numbers) {
+	private static void DFS(int L, int sum, int target, int[] numbers) {
 		if (L == numbers.length) {
 			if (sum == target) {
 				answer++;

@@ -11,7 +11,7 @@ public class Main37 {
 		System.out.println(solution(line));
 	}
 
-	static int solution(int[][] lines) {
+	private static int solution(int[][] lines) {
 
 		int answer = 0;
 

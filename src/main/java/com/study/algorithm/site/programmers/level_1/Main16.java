@@ -9,7 +9,7 @@ public class Main16 {
 		System.out.println(solution(626331));
 	}
 
-	static int solution(long num) {
+	private static int solution(long num) {
 		int answer = 0;
 
 		while (num != 1) {

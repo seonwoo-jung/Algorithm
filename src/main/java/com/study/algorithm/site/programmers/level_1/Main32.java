@@ -18,7 +18,7 @@ public class Main32 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(int[][] sizes) {
+	private static int solution(int[][] sizes) {
 
 		int[][] answer = new int[sizes.length][2];
 		int w = MIN_VALUE, h = MIN_VALUE;

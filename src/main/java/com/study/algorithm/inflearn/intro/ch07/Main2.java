@@ -15,7 +15,7 @@ public class Main2 {
 		DFS(n);
 	}
 
-	static void DFS(int n) {
+	private static void DFS(int n) {
 		if (n == 0) return;
 		else {
 			DFS(n / 2);

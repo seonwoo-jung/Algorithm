@@ -10,7 +10,7 @@ public class Main19 {
 		System.out.println("result = " + result);
 	}
 
-	static String solution(String[] participant, String[] completion) {
+	private static String solution(String[] participant, String[] completion) {
 		Map<String, Integer> map = new HashMap<>();
 		for (String string : completion) {
 			map.put(string, map.getOrDefault(string, 0) + 1);

@@ -10,7 +10,7 @@ public class Main1 {
 		System.out.println(solution(n, ladder));
 	}
 
-	static char[] solution(int n, int[][] ladder) {
+	private static char[] solution(int n, int[][] ladder) {
 		char[] answer = new char[n];
 
 		for (int i = 0; i < n; i++) {

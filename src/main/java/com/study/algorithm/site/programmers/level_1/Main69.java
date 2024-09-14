@@ -18,7 +18,7 @@ public class Main69 {
 		System.out.println(Arrays.toString(solution("2020.01.01", new String[]{"Z 3", "D 5"}, new String[]{"2019.01.01 D", "2019.11.15 Z", "2019.08.02 D", "2019.07.01 D", "2018.12.28 Z"})));
 	}
 
-	static int[] solution(String today, String[] terms, String[] privacies) {
+	private static int[] solution(String today, String[] terms, String[] privacies) {
 		List<Integer> answer = new ArrayList<>();
 		Map<String, Integer> map = new HashMap<>();
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy.MM.dd");

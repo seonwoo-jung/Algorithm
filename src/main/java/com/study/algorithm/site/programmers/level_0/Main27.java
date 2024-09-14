@@ -12,11 +12,11 @@ public class Main27 {
 		System.out.println(solution2(my_string));
 	}
 
-	static String solution(String my_string) {
+	private static String solution(String my_string) {
 		return stream(my_string.split("")).distinct().collect(Collectors.joining());
 	}
 
-	static String solution2(String my_string) {
+	private static String solution2(String my_string) {
 		String[] arr = my_string.split("");
 		LinkedHashSet<String> linkedHashSet = new LinkedHashSet<>(Arrays.asList(arr));
 

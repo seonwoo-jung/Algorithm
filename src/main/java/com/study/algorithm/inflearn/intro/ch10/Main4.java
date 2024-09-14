@@ -13,7 +13,7 @@ public class Main4 {
 
 	static int[] dy;
 
-	static int solution(ArrayList<Brick> arr) {
+	private static int solution(ArrayList<Brick> arr) {
 		int answer;
 
 		sort(arr);

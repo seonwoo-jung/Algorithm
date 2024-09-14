@@ -55,7 +55,7 @@ public class Main5 {
 		}
 	}
 
-	static void solution(int v) {
+	private static void solution(int v) {
 		PriorityQueue<Edge> pQ = new PriorityQueue<>();
 		pQ.offer(new Edge(v, 0));
 		dis[v] = 0;

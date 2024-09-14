@@ -16,7 +16,7 @@ public class Main14 {
 	static int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
 	static Queue<Point> queue = new LinkedList<>();
 
-	static void BFS(int x, int y, int[][] board) {
+	private static void BFS(int x, int y, int[][] board) {
 		queue.add(new Point(x, y));
 		while (!queue.isEmpty()) {
 			Point pos = queue.poll();
@@ -31,7 +31,7 @@ public class Main14 {
 		}
 	}
 
-	static void solution(int[][] board) {
+	private static void solution(int[][] board) {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
 				if (board[i][j] == 1) {

@@ -21,7 +21,7 @@ public class Main6 {
 		System.out.println(solution2(n, arr));
 	}
 
-	static int[] solution(int n, int[] arr) {
+	private static int[] solution(int n, int[] arr) {
 		int[] tmp = arr.clone();
 		int[] answer = new int[2];
 		int idx = 0;
@@ -34,7 +34,7 @@ public class Main6 {
 		return answer;
 	}
 
-	static ArrayList<Integer> solution2(int n, int[] arr) {
+	private static ArrayList<Integer> solution2(int n, int[] arr) {
 		ArrayList<Integer> answer = new ArrayList<>();
 		int[] tmp = arr.clone();
 		sort(tmp);

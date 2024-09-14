@@ -6,7 +6,7 @@ public class Main56 {
 		System.out.println(solution(10));
 	}
 
-	static int solution(int n) {
+	private static int solution(int n) {
 		int count = 0;
 
 		for (int i = 1; i <= n; i++) {

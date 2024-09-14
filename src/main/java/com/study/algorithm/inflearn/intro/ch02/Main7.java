@@ -21,7 +21,7 @@ public class Main7 {
 		System.out.println("result = " + result);
 	}
 
-	static int solution(int n, int[] arr) {
+	private static int solution(int n, int[] arr) {
 		int answer = 0, cnt = 0;
 		for (int i = 0; i < n; i++) {
 			if (arr[i] == 1) {

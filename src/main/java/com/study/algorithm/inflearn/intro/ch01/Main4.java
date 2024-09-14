@@ -1,10 +1,13 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
+import static java.lang.System.in;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import static java.lang.System.in;
-
+/**
+ * 단어 뒤집기
+ */
 public class Main4 {
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -22,7 +25,7 @@ public class Main4 {
 		System.out.println(solution(n, str));
 	}
 
-	static ArrayList<String> solution(int n, String[] str) {
+	private static ArrayList<String> solution(int n, String[] str) {
 		ArrayList<String> answer = new ArrayList<>();
 
 		// 1. 단어 전체를 뒤집는 것

@@ -14,7 +14,7 @@ public class Main13 {
 	static int[] dx = {-1, -1, 0, 1, 1, 1, 0, -1};
 	static int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
 
-	static void DFS(int x, int y, int[][] board) {
+	private static void DFS(int x, int y, int[][] board) {
 		for (int i = 0; i < 8; i++) {
 			int nx = x + dx[i];
 			int ny = y + dy[i];
@@ -27,7 +27,7 @@ public class Main13 {
 		}
 	}
 
-	static void solution(int[][] board) {
+	private static void solution(int[][] board) {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
 				// 섬이 발견됐을경우

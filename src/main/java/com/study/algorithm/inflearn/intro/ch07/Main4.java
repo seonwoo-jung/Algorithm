@@ -7,7 +7,7 @@ public class Main4 {
 
 	static int[] fibo;
 
-	static int DFS(int n) {
+	private static int DFS(int n) {
 		if (fibo[n] > 0) {
 			return fibo[n];
 		}

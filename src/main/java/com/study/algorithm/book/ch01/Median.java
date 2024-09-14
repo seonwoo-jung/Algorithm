@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static java.lang.System.in;
 
 public class Median {
-	static int med3(int a, int b, int c) {
+	private static int med3(int a, int b, int c) {
 		if (a >= b) {
 			if (b >= c) {
 				return b;

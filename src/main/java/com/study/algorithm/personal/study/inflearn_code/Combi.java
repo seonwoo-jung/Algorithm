@@ -15,7 +15,7 @@ public class Combi {
 		DFS(0, 1);
 	}
 
-	static void DFS(int L, int s) {
+	private static void DFS(int L, int s) {
 		if (L == m) {
 			for (int x : combi) {
 				System.out.printf(x + " ");

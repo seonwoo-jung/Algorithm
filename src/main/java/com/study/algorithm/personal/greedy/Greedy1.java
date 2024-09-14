@@ -24,7 +24,7 @@ public class Greedy1 {
 		System.out.println(solution);
 	}
 
-	static int solution(ArrayList<Person> list) {
+	private static int solution(ArrayList<Person> list) {
 		int cnt = 0;
 		sort(list);
 		int max = MIN_VALUE;

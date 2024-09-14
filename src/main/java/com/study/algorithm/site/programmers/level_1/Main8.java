@@ -9,7 +9,7 @@ public class Main8 {
 		solution(x, n);
 	}
 
-	static long[] solution(long x, int n) {
+	private static long[] solution(long x, int n) {
 		ArrayList<Long> list = new ArrayList<>();
 		for (int i = 1; i <= n; i++) {
 			list.add(x * i);

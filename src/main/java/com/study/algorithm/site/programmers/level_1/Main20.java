@@ -16,7 +16,7 @@ public class Main20 {
 		System.out.println(solution);
 	}
 
-	static String solution(String s) {
+	private static String solution(String s) {
 		String answer = "";
 		// 짝수
 		if (s.length() % 2 == 0) {

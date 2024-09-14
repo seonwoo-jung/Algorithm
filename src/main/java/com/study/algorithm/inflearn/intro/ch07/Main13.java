@@ -14,7 +14,7 @@ public class Main13 {
 	static ArrayList<ArrayList<Integer>> graph;
 	static int[] ch;
 
-	static void DFS(int v) {
+	private static void DFS(int v) {
 		if (v == n) answer++;
 		else {
 			for (int nv : graph.get(v)) {

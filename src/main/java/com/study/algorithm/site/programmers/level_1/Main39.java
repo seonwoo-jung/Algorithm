@@ -9,7 +9,7 @@ public class Main39 {
 		}
 	}
 
-	static int solution(String dartResult) {
+	private static int solution(String dartResult) {
 		int answer = 0;
 		String[] dart = dartResult.split("");
 		int[] score = new int[3];

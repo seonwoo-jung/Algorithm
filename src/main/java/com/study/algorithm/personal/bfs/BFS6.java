@@ -26,7 +26,7 @@ public class BFS6 {
 		System.out.println(answer);
 	}
 
-	static void solution(int[][] board) {
+	private static void solution(int[][] board) {
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
 				if (board[i][j] == 1) {
@@ -38,7 +38,7 @@ public class BFS6 {
 		}
 	}
 
-	static void BFS(int x, int y, int[][] board) {
+	private static void BFS(int x, int y, int[][] board) {
 		Q.add(new Point(x, y));
 
 		while (!Q.isEmpty()) {

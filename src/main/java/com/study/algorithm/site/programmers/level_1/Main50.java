@@ -16,7 +16,7 @@ public class Main50 {
 		int[] result = solution(array, commands);
 	}
 
-	static int[] solution(int[] array, int[][] commands) {
+	private static int[] solution(int[] array, int[][] commands) {
 		List<Integer> list = new ArrayList<>();
 		for (int i = 0; i < commands.length; i++) {
 			int s = commands[i][0] - 1;

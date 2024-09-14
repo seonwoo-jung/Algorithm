@@ -1,10 +1,11 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
 /**
+ * 가위바위보
  * 5
  * 2 3 3 1 3
  * 1 1 2 2 3
@@ -32,7 +33,7 @@ public class Main3 {
 		}
 	}
 
-	static String solution(int n, int[] a, int[] b) {
+	private static String solution(int n, int[] a, int[] b) {
 		String answer = "";
 		for (int i = 0; i < n; i++) {
 			// A가 이길 때

@@ -17,7 +17,7 @@ public class Main22 {
 		System.out.println(Arrays.toString(solution));
 	}
 
-	static int[] solution(String[] genres, int[] plays) {
+	private static int[] solution(String[] genres, int[] plays) {
 		HashMap<String, ArrayList<int[]>> genreMap = new HashMap<>();
 		HashMap<String, Integer> playMap = new HashMap<>();
 

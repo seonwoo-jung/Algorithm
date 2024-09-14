@@ -9,7 +9,7 @@ public class Main38 {
 		System.out.println("solution = " + solution);
 	}
 
-	static int solution(String s) {
+	private static int solution(String s) {
 		String[] strArray = s.split(" ");
 		for (int i = 0; i < strArray.length; i++) {
 			if (strArray[i].equals("Z")) {

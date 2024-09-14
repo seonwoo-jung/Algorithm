@@ -13,7 +13,7 @@ public class Main3 {
 	static int answer = Integer.MIN_VALUE, n, m;
 	boolean flag = false;
 
-	static void DFS(int L, int sum, int time, int[] ps, int[] pt) {
+	private static void DFS(int L, int sum, int time, int[] ps, int[] pt) {
 		if (time > m) return;
 		if (L == n) {
 			answer = max(answer, sum);

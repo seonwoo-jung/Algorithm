@@ -7,7 +7,7 @@ public class Main55 {
 		System.out.println(solution(arr));
 	}
 
-	static int solution(int[] numbers) {
+	private static int solution(int[] numbers) {
 		int max = 0;
 		for (int i = 0; i < numbers.length - 1; i++) {
 			for (int j = i + 1; j < numbers.length; j++) {
