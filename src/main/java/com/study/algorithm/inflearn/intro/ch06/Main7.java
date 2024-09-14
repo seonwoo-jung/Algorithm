@@ -1,15 +1,16 @@
 package com.study.algorithm.inflearn.intro.ch06;
 
+import static java.lang.System.in;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-
-import static java.lang.System.in;
 
 /**
  * 좌표 정렬(잘 외워놓기)
  */
 public class Main7 {
+
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
 		int n = kb.nextInt();
@@ -25,30 +26,31 @@ public class Main7 {
 			System.out.println(o.x + " " + o.y);
 		}
 	}
-}
 
-class Point implements Comparable<Point> {
-	public int x, y;
+	private static class Point implements Comparable<Point> {
 
-	public Point(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
+		public int x, y;
 
-	// 정렬하는 기준을 설정
-	@Override
-	public int compareTo(Point o) {
-		// 오름차순 정렬
+		public Point(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
+
+		// 정렬하는 기준을 설정
+		@Override
+		public int compareTo(Point o) {
+			// 오름차순 정렬
 //        if (this.x == o.x) {
 //            return this.y - o.y;
 //        } else {
 //            return this.x - o.x;
 //        }
-		// 내림차순 정렬
-		if (this.x == o.x) {
-			return o.y - this.y;
-		} else {
-			return o.x - this.x;
+			// 내림차순 정렬
+			if (this.x == o.x) {
+				return o.y - this.y;
+			} else {
+				return o.x - this.x;
+			}
 		}
 	}
 }
