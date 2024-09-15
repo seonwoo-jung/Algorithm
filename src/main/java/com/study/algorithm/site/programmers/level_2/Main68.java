@@ -21,7 +21,6 @@ public class Main68 {
 		ch = new int[nums.length];
 		DFS(0, "", nums);
 
-
 		for (Integer num : set) {
 			if (isPrime(num)) {
 				answer++;
