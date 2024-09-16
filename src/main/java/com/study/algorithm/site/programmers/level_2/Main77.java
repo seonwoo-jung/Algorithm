@@ -16,9 +16,9 @@ public class Main77 {
                 board[i][j] = n++;
             }
         }
-        for (int i = 0; i < board.length; i++) {
+        for (int[] ints : board) {
             for (int j = 0; j < board[0].length; j++) {
-                System.out.printf("%-5d ", board[i][j]);
+                System.out.printf("%-5d ", ints[j]);
             }
             System.out.println();
         }
