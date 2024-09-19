@@ -23,7 +23,7 @@ public class Main84 {
                     x++;
                 } else if (i % 3 == 1) {
                     y++;
-                } else if (i % 3 == 2) {
+                } else {
                     x--;
                     y--;
                 }
@@ -34,8 +34,9 @@ public class Main84 {
         int k = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if (matrix[i][j] == 0)
+                if (matrix[i][j] == 0) {
                     break;
+                }
                 answer[k++] = matrix[i][j];
             }
         }
