@@ -1,5 +1,6 @@
 package com.study.algorithm.inflearn.intro.ch06;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.lang.System.in;
@@ -16,10 +17,7 @@ public class Main1 {
 			arr[i] = kb.nextInt();
 		}
 
-		int[] solution = solution(n, arr);
-		for (int i : solution) {
-			System.out.println("i = " + i);
-		}
+		System.out.println(Arrays.toString(solution(n, arr)));
 	}
 
 	private static int[] solution(int n, int[] arr) {
@@ -33,15 +31,7 @@ public class Main1 {
 				arr[i] = arr[idx];
 				arr[idx] = tmp;
 			}
-			printArray(arr);
 		}
 		return arr;
-	}
-
-	private static void printArray(int[] arr) {
-		for (int i = 0; i < arr.length; i++) {
-			System.out.printf("%d ", arr[i]);
-		}
-		System.out.println();
 	}
 }
