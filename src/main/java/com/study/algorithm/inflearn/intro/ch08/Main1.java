@@ -8,7 +8,7 @@ public class Main1 {
 
 	private static String answer = "NO";
 	private static int n, total = 0;
-	private boolean flag = false;
+	private static boolean flag = false;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -18,12 +18,11 @@ public class Main1 {
 			arr[i] = kb.nextInt();
 			total += arr[i];
 		}
-		Main1 main = new Main1();
-		main.DFS(0, 0, arr);
+		DFS(0, 0, arr);
 		System.out.println(answer);
 	}
 
-	private void DFS(int L, int sum, int[] arr) {
+	private static void DFS(int L, int sum, int[] arr) {
 		if (flag) return;            // 부분집합 합을 찾으면 더 찾을 필요가 없음.
 		if (sum > total / 2) return; // 총합보다 크다면 재귀가 돌아갈 필요가 없음
 		if (L == n) {

@@ -11,8 +11,10 @@ public class Main4 {
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
 
-		int n = kb.nextInt(); // 배열 사이즈
-		int m = kb.nextInt(); // 연속된 수
+		// 배열 사이즈
+		int n = kb.nextInt();
+		// 연속된 수
+		int m = kb.nextInt();
 
 		int[] arr = new int[n];
 

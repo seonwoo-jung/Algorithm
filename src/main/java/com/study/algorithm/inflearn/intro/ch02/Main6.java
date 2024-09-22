@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
+import static java.lang.System.in;
+
 import java.util.ArrayList;
 import java.util.Scanner;
-
-import static java.lang.System.in;
 
 /**
  * 뒤집은 소수
@@ -35,7 +35,9 @@ public class Main6 {
 				res = res * 10 + t;
 				tmp = tmp / 10;
 			}
-			if (isPrime(res)) answer.add(res);
+			if (isPrime(res)) {
+				answer.add(res);
+			}
 		}
 		return answer;
 	}
@@ -43,8 +45,8 @@ public class Main6 {
 	private static boolean isPrime(int num) {
 		// 1은 소수가 아님
 		if (num == 1) return false;
-		for (int i = 2; i < num; i++) {
-			// 2부터 num 전까지의 수로 나눠지지 않으면 소수임
+
+		for (int i = 2; i < (int) Math.sqrt(num); i++) {
 			if (num % i == 0) return false;
 		}
 		return true;

@@ -4,19 +4,19 @@ package com.study.algorithm.inflearn.intro.ch07;
  * 부분집합 구하기(DFS)
  */
 public class Main6 {
-	private static int n;
+	private static int N;
 	private static int[] ch;
 
 	public static void main(String[] args) {
-		n = 3;
-		ch = new int[n + 1];
+		N = 3;
+		ch = new int[N + 1];
 		DFS(1);
 	}
 
 	private static void DFS(int L) {
-		if (L == n + 1) {
+		if (L == N + 1) {
 			String tmp = "";
-			for (int i = 1; i <= n; i++) {
+			for (int i = 1; i <= N; i++) {
 				if (ch[i] == 1) tmp += (i + " ");
 			}
 			if (!tmp.isEmpty()) {

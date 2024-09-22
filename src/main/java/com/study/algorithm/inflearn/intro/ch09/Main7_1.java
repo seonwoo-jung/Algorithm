@@ -1,9 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch09;
 
-import static java.lang.System.in;
-import static java.util.Collections.sort;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 /**
@@ -14,7 +13,7 @@ public class Main7_1 {
 	private static int[] unf;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
 		int m = kb.nextInt();
 		unf = new int[n + 1];
@@ -35,7 +34,7 @@ public class Main7_1 {
 		int answer = 0;
 
 		// cost를 기준으로 오름차순 정렬
-		sort(graph);
+		Collections.sort(graph);
 
 		for (Edge ob : graph) {
 			int fv1 = Find(ob.v1);

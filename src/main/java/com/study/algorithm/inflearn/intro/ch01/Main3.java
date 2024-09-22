@@ -12,6 +12,7 @@ public class Main3 {
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
 		String str = kb.nextLine();
+		System.out.println(solution(str));
 		System.out.println(solution2(str));
 	}
 
