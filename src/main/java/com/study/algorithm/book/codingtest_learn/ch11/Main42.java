@@ -41,6 +41,7 @@ public class Main42 {
 
 		for (int next : adjList[now]) {
 			if (!visited[next]) {
+				System.out.println("node = " + next);
 				int cnt = DFS(next);
 				answer = Math.min(answer, Math.abs(N - cnt * 2));
 				sum += cnt;
