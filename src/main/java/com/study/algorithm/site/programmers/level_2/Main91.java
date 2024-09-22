@@ -1,10 +1,6 @@
 package com.study.algorithm.site.programmers.level_2;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * 다시보기
@@ -47,10 +43,10 @@ public class Main91 {
 
 			if (nowCost > dis[now]) continue;
 
-			for (Edge ob : graph.get(now)) {
-				if (dis[ob.vex] > nowCost + ob.cost) {
-					dis[ob.vex] = nowCost + ob.cost;
-					PQ.offer(new Edge(ob.vex, nowCost + ob.cost));
+			for (Edge next : graph.get(now)) {
+				if (dis[next.vex] > nowCost + next.cost) {
+					dis[next.vex] = nowCost + next.cost;
+					PQ.offer(new Edge(next.vex, nowCost + next.cost));
 				}
 			}
 		}

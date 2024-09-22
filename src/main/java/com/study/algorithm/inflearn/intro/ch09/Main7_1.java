@@ -7,10 +7,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * 윈더랜드(최소 스패닝 트리(간선의 가중치가 제일 최소가 되도록 하는 것) - 크루스칼 : Uion&Find 이용)
- * 회로(다시 돌아갈 수 있는)의 유무에 따라서 그래프인지 트리인지 나뉨
+ * 윈더랜드 (최소 스패닝 트리 - 크루스칼)
  */
-public class Main7 {
+public class Main7_1 {
 
 	private static int[] unf;
 
@@ -19,27 +18,26 @@ public class Main7 {
 		int n = kb.nextInt();
 		int m = kb.nextInt();
 		unf = new int[n + 1];
-		ArrayList<Edge> arr = new ArrayList<>();
+		ArrayList<Edge> graph = new ArrayList<>();
 
-		for (int i = 1; i <= n; i++) unf[i] = i;
+		// 배열 unf에 정점 입력
+		for (int i = 1; i <= n; i++) {
+			unf[i] = i;
+		}
 
 		for (int i = 0; i < m; i++) {
 			int a = kb.nextInt();
 			int b = kb.nextInt();
 			int c = kb.nextInt();
-			arr.add(new Edge(a, b, c));
+			graph.add(new Edge(a, b, c));
 		}
 
 		int answer = 0;
 
 		// cost를 기준으로 오름차순 정렬
-		sort(arr);
+		sort(graph);
 
-		for (Edge ob : arr) {
-			System.out.printf("%d %d %d\n", ob.v1, ob.v2, ob.cost);
-		}
-
-		for (Edge ob : arr) {
+		for (Edge ob : graph) {
 			int fv1 = Find(ob.v1);
 			int fv2 = Find(ob.v2);
 
