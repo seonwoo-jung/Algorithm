@@ -2,6 +2,7 @@ package com.study.algorithm.personal.study.study0926;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Scanner;
@@ -22,7 +23,7 @@ import java.util.Scanner;
 public class Dijkstra {
 
     private static int N, M;
-    private static ArrayList<ArrayList<Edge>> graph;
+    private static List<ArrayList<Edge>> graph;
     private static int[] dis;
 
     public static void main(String[] args) {
@@ -65,10 +66,10 @@ public class Dijkstra {
             int now = tmp.vex;
             int nowCost = tmp.cost;
             if (nowCost > dis[now]) continue; // 큰 값일경우 굳이 아래 for문을 확인 할 필요가 없음.
-            for (Edge ob : graph.get(now)) {
-                if (dis[ob.vex] > nowCost + ob.cost) {
-                    dis[ob.vex] = nowCost + ob.cost;
-                    PQ.offer(new Edge(ob.vex, nowCost + ob.cost));
+            for (Edge nx : graph.get(now)) {
+                if (dis[nx.vex] > nowCost + nx.cost) {
+                    dis[nx.vex] = nowCost + nx.cost;
+                    PQ.offer(new Edge(nx.vex, nowCost + nx.cost));
                 }
             }
         }

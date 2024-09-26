@@ -9,9 +9,9 @@ public class LIS {
 
 	public static void main(String[] args) {
 		int solution1 = solution(new int[]{1, 4, 2, 3, 1, 5, 7, 3});
-//		int solution2 = solution(new int[]{3, 2, 1});
+		int solution2 = solution(new int[]{3, 2, 1});
 		System.out.println("solution = " + solution1);
-//		System.out.println("solution = " + solution2);
+		System.out.println("solution = " + solution2);
 	}
 
 	private static int solution(int[] nums) {

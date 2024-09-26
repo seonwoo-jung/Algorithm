@@ -9,18 +9,7 @@ import java.util.Scanner;
  */
 public class UnionAndFind {
 
-	static int[] unf;
-
-	private static int Find(int v) {
-		if (v == unf[v]) return v;
-		else return unf[v] = Find(unf[v]);
-	}
-
-	private static void Union(int a, int b) {
-		int fa = Find(a);
-		int fb = Find(b);
-		if (fa != fb) unf[fa] = fb;
-	}
+	private static int[] unf;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
@@ -43,5 +32,16 @@ public class UnionAndFind {
 		int fb = Find(b);
 		if (fa == fb) System.out.println("YES");
 		else System.out.println("NO");
+	}
+
+	private static int Find(int v) {
+		if (v == unf[v]) return v;
+		else return unf[v] = Find(unf[v]);
+	}
+
+	private static void Union(int a, int b) {
+		int fa = Find(a);
+		int fb = Find(b);
+		if (fa != fb) unf[fa] = fb;
 	}
 }
