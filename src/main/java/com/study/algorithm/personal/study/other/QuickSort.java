@@ -1,4 +1,4 @@
-package com.study.algorithm.personal.study;
+package com.study.algorithm.personal.study.other;
 
 public class QuickSort {
 	public static void main(String[] args) {

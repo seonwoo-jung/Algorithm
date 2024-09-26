@@ -1,4 +1,4 @@
-package com.study.algorithm.personal.study;
+package com.study.algorithm.personal.study.other;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
