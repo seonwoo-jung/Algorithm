@@ -3,10 +3,7 @@ package com.study.algorithm.site.programmers.level_0;
 public class Main1 {
 
 	public static void main(String[] args) {
-		// 객체 생성
-		// 파라미터 전달
-		String[] parameter = {"aya", "yee", "u", "maa", "wyeoo", "ayayewoo"};
-		int result = solution(parameter);
+		int result = solution(new String[]{"aya", "yee", "u", "maa", "wyeoo", "ayayewoo"});
 		System.out.println("result = " + result);
 	}
 
