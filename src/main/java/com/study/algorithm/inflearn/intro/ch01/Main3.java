@@ -33,6 +33,7 @@ public class Main3 {
 
 			str = str.substring(pos + 1);
 
+			// 마지막 단어는 while문을 돌지않기 때문에 추가 처리 필요
 			if (str.length() > m) {
 				answer = str;
 			}
