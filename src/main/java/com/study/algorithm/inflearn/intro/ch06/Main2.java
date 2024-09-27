@@ -1,8 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch06;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * 버블정렬
@@ -16,10 +17,7 @@ public class Main2 {
 			arr[i] = kb.nextInt();
 		}
 
-		int[] solution = solution(n, arr);
-		for (int i : solution) {
-			System.out.println("i = " + i);
-		}
+		System.out.println(Arrays.toString(solution(n, arr)));
 	}
 
 	private static int[] solution(int n, int[] arr) {
