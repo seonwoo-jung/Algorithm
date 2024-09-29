@@ -1,29 +1,44 @@
 package com.study.algorithm.site.leetCode;
 
+import java.util.*;
+import java.util.Map.Entry;
+
 public class RomanToInteger {
 
 	public static void main(String[] args) {
-		System.out.println(longestCommonPrefix(new String[]{"flower", "flow", "flight"}));
+//		System.out.println(romanToInt("III"));
+//		System.out.println(romanToInt("LVIII"));
+//		System.out.println(romanToInt("MCMXCIV"));
+		System.out.println(romanToInt("MMMXLV"));
 	}
 
-	private static String longestCommonPrefix(String[] strs) {
-		if (strs.length == 0) {
-			return "";
-		}
-
-		StringBuilder sb = new StringBuilder();
-
-		for (int i = 0; i < strs[0].length(); i++) {
-			char c = strs[0].charAt(i);
-
-			for (String str : strs) {
-				if (str.length() <= i || c != str.charAt(i)) {
-					return sb.toString();
-				}
+	private static int romanToInt(String s) {
+		int sum = 0;
+		Map<Character, Integer> map = new HashMap<>();
+		Map<String, Integer> exCase = new HashMap<>();
+		exCase.put("IV", 4);
+		exCase.put("IX", 9);
+		exCase.put("XL", 40);
+		exCase.put("XC", 90);
+		exCase.put("CD", 400);
+		exCase.put("CM", 900);
+		map.put('I', 1);
+		map.put('V', 5);
+		map.put('X', 10);
+		map.put('L', 50);
+		map.put('C', 100);
+		map.put('D', 500);
+		map.put('M', 1000);
+		for (Entry<String, Integer> entry : exCase.entrySet()) {
+			while (s.indexOf(entry.getKey()) != -1) {
+				s = s.replaceFirst(entry.getKey(), "");
+				sum += entry.getValue();
 			}
-
-			sb.append(c);
 		}
-		return sb.toString();
+		for (char x : s.toCharArray()) {
+			sum += map.get(x);
+		}
+
+		return sum;
 	}
 }
