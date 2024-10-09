@@ -6,9 +6,9 @@ import java.util.Map.Entry;
 public class RomanToInteger {
 
 	public static void main(String[] args) {
-//		System.out.println(romanToInt("III"));
-//		System.out.println(romanToInt("LVIII"));
-//		System.out.println(romanToInt("MCMXCIV"));
+		System.out.println(romanToInt("III"));
+		System.out.println(romanToInt("LVIII"));
+		System.out.println(romanToInt("MCMXCIV"));
 		System.out.println(romanToInt("MMMXLV"));
 	}
 
