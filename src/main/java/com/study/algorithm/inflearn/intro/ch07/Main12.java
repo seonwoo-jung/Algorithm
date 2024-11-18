@@ -8,7 +8,8 @@ import java.util.Scanner;
 /**
  * 경로탐색(인접행렬)
  */
-public class Main12 {
+public class
+Main12 {
 	private static int n, m, answer = 0;
 	private static int[][] graph;
 	private static int[] ch;
