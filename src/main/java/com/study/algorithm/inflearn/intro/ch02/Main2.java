@@ -15,7 +15,19 @@ public class Main2 {
 		for (int i = 0; i < n; i++) {
 			arr[i] = kb.nextInt();
 		}
-		System.out.println(solution(n, arr));
+		System.out.println(solution2(n, arr));
+	}
+
+	private static int solution2(int n, int[] arr) {
+		int h = Integer.MIN_VALUE;
+		int answer = 0;
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] > h) {
+				h = arr[i];
+				answer++;
+			}
+		}
+		return answer;
 	}
 
 	private static int solution(int n, int[] arr) {

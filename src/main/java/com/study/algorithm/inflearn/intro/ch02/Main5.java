@@ -26,10 +26,8 @@ public class Main5 {
 			if (ch[i] == 0) {
 				answer++;
 				for (int j = i; j <= n; j = j + i) {
-					System.out.printf("%d ", j);
 					ch[j] = 1;
 				}
-				System.out.println();
 			}
 		}
 		return answer;

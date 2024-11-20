@@ -3,14 +3,14 @@ package com.study.algorithm.inflearn.intro.ch02;
 import static java.lang.System.in;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
- * 뒤집은 소수
- * 9
- * 32 55 62 20 250 370 200 30 100
+ * 뒤집은 소수 9 32 55 62 20 250 370 200 30 100
  */
 public class Main6 {
+
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(in);
 		int n = kb.nextInt();
@@ -20,8 +20,21 @@ public class Main6 {
 			arr[i] = kb.nextInt();
 		}
 
-		ArrayList<Integer> data = solution(n, arr);
+		List<Integer> data = solution2(n, arr);
 		System.out.println("data = " + data);
+	}
+
+	private static List<Integer> solution2(int n, int[] arr) {
+		List<Integer> answer = new ArrayList<>();
+		for (int i = 0; i < n; i++) {
+			String str = new StringBuilder(String.valueOf(arr[i])).reverse().toString();
+			int res = Integer.parseInt(str);
+
+			if (isPrime(res)) {
+				answer.add(res);
+			}
+		}
+		return answer;
 	}
 
 	private static ArrayList<Integer> solution(int n, int[] arr) {
@@ -44,10 +57,14 @@ public class Main6 {
 
 	private static boolean isPrime(int num) {
 		// 1은 소수가 아님
-		if (num == 1) return false;
+		if (num == 1) {
+			return false;
+		}
 
-		for (int i = 2; i < (int) Math.sqrt(num); i++) {
-			if (num % i == 0) return false;
+		for (int i = 2; i <= (int) Math.sqrt(num); i++) {
+			if (num % i == 0) {
+				return false;
+			}
 		}
 		return true;
 	}
