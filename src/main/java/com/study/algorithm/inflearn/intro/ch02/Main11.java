@@ -25,9 +25,12 @@ public class Main11 {
 
 	private static int solution(int n, int[][] arr) {
 		int answer = 0, max = MIN_VALUE;
+		// 한 명의 학생을 선택
 		for (int i = 1; i <= n; i++) {
 			int cnt = 0;
+			// 다른 학생들과의 비교
 			for (int j = 1; j <= n; j++) {
+				// 학년을 선택
 				for (int k = 1; k <= 5; k++) {
 					if (arr[i][k] == arr[j][k]) {
 						cnt++;
@@ -35,6 +38,7 @@ public class Main11 {
 					}
 				}
 			}
+			// 최대값 비교 및 결과 저장
 			if (cnt > max) {
 				max = cnt;
 				answer = i;

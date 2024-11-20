@@ -5,7 +5,7 @@ import static java.lang.System.in;
 import java.util.Scanner;
 
 /**
- * 멘토링 (이해필요)
+ * 멘토링
  */
 public class Main12 {
 	public static void main(String[] args) {
@@ -26,17 +26,23 @@ public class Main12 {
 
 	private static int solution(int n, int m, int[][] arr) {
 		int answer = 0;
+		// 멘토 선택
 		for (int i = 1; i <= n; i++) {
+			// 멘티 선택
 			for (int j = 1; j <= n; j++) {
 				int cnt = 0;
+				// 시험 선택
 				for (int k = 0; k < m; k++) {
 					int pi = 0, pj = 0;
+					// 학생 순위
 					for (int s = 0; s < n; s++) {
 						if (arr[k][s] == i) pi = s;
 						if (arr[k][s] == j) pj = s;
 					}
+					// 멘토와 멘티 조건 검증
 					if (pi < pj) cnt++;
 				}
+				// 멘토링 가능성 +1
 				if (cnt == m) {
 					answer++;
 				}

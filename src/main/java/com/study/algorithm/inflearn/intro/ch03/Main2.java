@@ -39,7 +39,7 @@ public class Main2 {
 		// 포인터
 		int p1 = 0, p2 = 0;
 
-		// 대소비교후 작은 쪽 배열의 인덱스를 증감시킨다.
+		// 대소비교후 작은 쪽 배열의 인덱스를 증가시킨다.
 		while (p1 < n && p2 < m) {
 			if (a[p1] == b[p2]) {
 				answer.add(a[p1++]);

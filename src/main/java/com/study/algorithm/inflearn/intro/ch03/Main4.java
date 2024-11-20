@@ -22,27 +22,11 @@ public class Main4 {
 			arr[i] = kb.nextInt();
 		}
 
-		int solution = solution2(n, m, arr);
+		int solution = solution(n, m, arr);
 		System.out.println("solution = " + solution);
 	}
 
-	// n: 배열 사이즈, k: 연속된 수
 	private static int solution(int n, int m, int[] arr) {
-		int answer = 0;
-		for (int i = 0; i < n - 1; i++) {
-			int sum = 0;
-			for (int j = i; j < n; j++) {
-				sum += arr[j];
-				if (sum == m) {
-					answer++;
-					break;
-				}
-			}
-		}
-		return answer;
-	}
-
-	private static int solution2(int n, int m, int[] arr) {
 		int answer = 0, sum = 0, lt = 0;
 
 		for (int rt = 0; rt < n; rt++) {
