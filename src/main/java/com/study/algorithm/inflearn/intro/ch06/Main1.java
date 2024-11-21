@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch06;
 
+import static java.lang.System.in;
+
 import java.util.Arrays;
 import java.util.Scanner;
-
-import static java.lang.System.in;
 
 /**
  * 선택정렬
@@ -13,6 +13,7 @@ public class Main1 {
 		Scanner kb = new Scanner(in);
 		int n = kb.nextInt();
 		int[] arr = new int[n];
+
 		for (int i = 0; i < n; i++) {
 			arr[i] = kb.nextInt();
 		}
@@ -27,10 +28,10 @@ public class Main1 {
 				if (arr[j] < arr[idx]) {
 					idx = j;
 				}
-				int tmp = arr[i];
-				arr[i] = arr[idx];
-				arr[idx] = tmp;
 			}
+			int tmp = arr[i];
+			arr[i] = arr[idx];
+			arr[idx] = tmp;
 		}
 		return arr;
 	}

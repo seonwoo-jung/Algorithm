@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch05;
 
+import static java.lang.System.in;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
-import static java.lang.System.in;
 
 /**
  * 응급실
@@ -24,9 +24,11 @@ public class Main8 {
 	private static int solution(int n, int m, int[] arr) {
 		int answer = 0;
 		Queue<Person> Q = new LinkedList<>();
+
 		for (int i = 0; i < n; i++) {
 			Q.add(new Person(i, arr[i]));
 		}
+
 		while (!Q.isEmpty()) {
 			Person tmp = Q.poll();
 			for (Person x : Q) {
@@ -36,6 +38,7 @@ public class Main8 {
 					break;
 				}
 			}
+
 			if (tmp != null) {
 				if (tmp.id == m) {
 					return answer;
@@ -43,6 +46,7 @@ public class Main8 {
 					answer++;
 				}
 			}
+
 		}
 		return answer;
 	}
