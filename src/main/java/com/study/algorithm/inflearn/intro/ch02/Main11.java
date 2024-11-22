@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
+import java.util.Scanner;
+
 import static java.lang.Integer.MIN_VALUE;
 import static java.lang.System.in;
-
-import java.util.Scanner;
 
 /**
  * 임시 반장 정하기

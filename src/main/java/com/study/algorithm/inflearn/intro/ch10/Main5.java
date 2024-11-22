@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch10;
 
+import java.util.Scanner;
+
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.System.in;
 import static java.util.Arrays.fill;
-
-import java.util.Scanner;
 
 /**
  * 동전교환(냅색 알고리즘)

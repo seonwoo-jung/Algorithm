@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
+import java.util.Scanner;
+
 import static java.lang.Math.max;
 import static java.lang.System.in;
-
-import java.util.Scanner;
 
 /**
  * 최대점수 구하기

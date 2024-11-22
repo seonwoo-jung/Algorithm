@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch10;
 
-import static java.lang.System.in;
-import static java.util.Collections.sort;
-
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import static java.lang.System.in;
+import static java.util.Collections.sort;
 
 /**
  * 가장 높은 탑 쌓기(LIS 응용)

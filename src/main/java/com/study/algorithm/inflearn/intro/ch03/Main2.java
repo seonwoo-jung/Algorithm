@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch03;
 
-import static java.lang.System.in;
-import static java.util.Arrays.sort;
-
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import static java.lang.System.in;
+import static java.util.Arrays.sort;
 
 /**
  * 공통원소 구하기 (two pointers algorithm)

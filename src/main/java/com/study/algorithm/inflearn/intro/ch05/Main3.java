@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch05;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
 import java.util.Stack;
+
+import static java.lang.System.in;
 
 /**
  * 크레인 인형뽑기(카카오)

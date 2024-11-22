@@ -1,12 +1,12 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.Math.abs;
 import static java.lang.Math.min;
 import static java.lang.System.in;
-
-import java.util.ArrayList;
-import java.util.Scanner;
 
 /**
  * 피자배달거리

@@ -1,7 +1,7 @@
 package com.study.algorithm.site.programmers.level_2;
 
 import java.util.PriorityQueue;
-	import java.util.Queue;
+import java.util.Queue;
 
 public class Main46 {
 

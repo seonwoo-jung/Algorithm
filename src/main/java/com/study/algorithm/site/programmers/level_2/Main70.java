@@ -1,6 +1,8 @@
 package com.study.algorithm.site.programmers.level_2;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main70 {
 

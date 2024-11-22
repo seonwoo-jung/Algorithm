@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 숫자만 추출

@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
-import static java.lang.System.in;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 미로의 최단거리 통로(BFS)

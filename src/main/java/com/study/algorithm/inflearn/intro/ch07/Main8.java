@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch07;
 
-import static java.lang.System.in;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 송아지 찾기1(BFS)

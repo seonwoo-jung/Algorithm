@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch09;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 친구인가 (Union&Find 알고리즘)

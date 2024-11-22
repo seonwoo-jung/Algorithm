@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch06;
 
-import static java.lang.System.in;
-
 import java.util.Arrays;
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 선택정렬

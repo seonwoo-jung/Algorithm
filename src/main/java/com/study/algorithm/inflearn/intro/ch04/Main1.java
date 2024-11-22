@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch04;
 
-import static java.lang.Integer.MIN_VALUE;
-import static java.lang.System.in;
-
 import java.util.HashMap;
 import java.util.Scanner;
+
+import static java.lang.Integer.MIN_VALUE;
+import static java.lang.System.in;
 
 /**
  * 학급 회장 (해쉬)

@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
+import java.util.Scanner;
+
 import static java.lang.Integer.MIN_VALUE;
 import static java.lang.System.in;
-
-import java.util.Scanner;
 
 /**
  * 문장 속 단어

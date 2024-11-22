@@ -1,11 +1,11 @@
 package com.study.algorithm.inflearn.intro.ch10;
 
+import java.util.Scanner;
+
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.Math.max;
 import static java.lang.System.in;
 import static java.util.Arrays.fill;
-
-import java.util.Scanner;
 
 /**
  * 최대점수 구하기(냅색 알고리즘)

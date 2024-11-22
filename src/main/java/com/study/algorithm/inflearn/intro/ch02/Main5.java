@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 소수(에라토스테네스 체): 체크해서 걸러낸다

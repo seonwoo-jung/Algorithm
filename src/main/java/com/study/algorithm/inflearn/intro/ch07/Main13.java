@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch07;
 
-import static java.lang.System.in;
-
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 경로탐색(인접리스트, ArrayList)

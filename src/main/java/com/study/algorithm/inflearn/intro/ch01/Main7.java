@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 회문 문자열 (앞에서부터 읽던, 뒤에서부터 읽던 같은 문자열을 의미)

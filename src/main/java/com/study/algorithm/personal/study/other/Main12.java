@@ -1,6 +1,7 @@
 package com.study.algorithm.personal.study.other;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Main12 {
 

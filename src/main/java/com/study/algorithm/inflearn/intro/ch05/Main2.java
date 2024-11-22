@@ -1,11 +1,11 @@
 package com.study.algorithm.inflearn.intro.ch05;
 
-import static java.lang.System.in;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Stack;
+
+import static java.lang.System.in;
 
 /**
  * 괄호문자제거

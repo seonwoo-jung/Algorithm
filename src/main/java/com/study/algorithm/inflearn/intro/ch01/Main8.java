@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 팰린드롬: 앞에서 읽을 때나 뒤에서 읽을 때나 같은 문자열을 의미

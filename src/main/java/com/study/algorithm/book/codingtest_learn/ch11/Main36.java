@@ -1,11 +1,11 @@
 package com.study.algorithm.book.codingtest_learn.ch11;
 
-import static java.lang.Integer.MAX_VALUE;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
+
+import static java.lang.Integer.MAX_VALUE;
 
 public class Main36 {
 

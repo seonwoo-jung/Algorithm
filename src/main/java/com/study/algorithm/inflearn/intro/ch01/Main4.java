@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
-import static java.lang.System.in;
-
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 단어 뒤집기

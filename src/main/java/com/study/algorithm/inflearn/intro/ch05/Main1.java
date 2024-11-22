@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch05;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
 import java.util.Stack;
+
+import static java.lang.System.in;
 
 /**
  * 올바른 괄호 (Stack)

@@ -1,8 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 조합구하기

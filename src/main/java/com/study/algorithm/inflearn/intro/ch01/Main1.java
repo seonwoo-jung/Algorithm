@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch01;
 
+import java.util.Scanner;
+
 import static java.lang.Character.toUpperCase;
 import static java.lang.System.in;
-
-import java.util.Scanner;
 
 /**
  * 문자 찾기

@@ -1,8 +1,8 @@
 package com.study.algorithm.personal.study.study0926;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 친구인가 (서로소)

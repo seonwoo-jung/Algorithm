@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
-import static java.lang.System.in;
-
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 등수 구하기

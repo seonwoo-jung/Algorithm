@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch06;
 
-import static java.lang.System.in;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 좌표 정렬(잘 외워놓기)

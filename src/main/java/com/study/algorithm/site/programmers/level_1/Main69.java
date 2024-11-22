@@ -2,11 +2,7 @@ package com.study.algorithm.site.programmers.level_1;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 프로그래머스 - 유효 기간 검사

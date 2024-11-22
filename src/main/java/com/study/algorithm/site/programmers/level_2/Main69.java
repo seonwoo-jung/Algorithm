@@ -1,6 +1,7 @@
 package com.study.algorithm.site.programmers.level_2;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Stack;
 
 public class Main69 {
 

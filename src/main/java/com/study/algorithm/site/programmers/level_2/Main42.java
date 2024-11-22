@@ -1,6 +1,7 @@
 package com.study.algorithm.site.programmers.level_2;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main42 {
 

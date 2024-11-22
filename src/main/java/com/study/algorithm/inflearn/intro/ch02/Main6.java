@@ -1,10 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch02;
 
-import static java.lang.System.in;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 뒤집은 소수 9 32 55 62 20 250 370 200 30 100

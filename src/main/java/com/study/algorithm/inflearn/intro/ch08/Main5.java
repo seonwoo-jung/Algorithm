@@ -1,12 +1,12 @@
 package com.study.algorithm.inflearn.intro.ch08;
 
+import java.util.Scanner;
+
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.Math.min;
 import static java.lang.System.in;
 import static java.util.Arrays.sort;
 import static java.util.Collections.reverseOrder;
-
-import java.util.Scanner;
 
 /**
  * 동전교환

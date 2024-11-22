@@ -1,12 +1,8 @@
 package com.study.algorithm.personal.study.study0926;
 
-import static java.lang.System.in;
+import java.util.*;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Scanner;
+import static java.lang.System.in;
 
 /**
  * 윈더랜드 (최소 스패닝 트리 - 프림)

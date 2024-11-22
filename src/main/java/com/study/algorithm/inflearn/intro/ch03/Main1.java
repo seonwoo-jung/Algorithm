@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch03;
 
-import static java.lang.System.in;
-
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import static java.lang.System.in;
 
 /**
  * 두 배열 합치기 (two pointers algorithm)
