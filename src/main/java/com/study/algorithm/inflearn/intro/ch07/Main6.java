@@ -10,23 +10,7 @@ public class Main6 {
 	public static void main(String[] args) {
 		N = 3;
 		ch = new int[N + 1];
-		DFS2(1);
-	}
-
-	private static void DFS2(int L) {
-		if (L == N + 1) {
-			for (int i = 1; i <= N; i++) {
-				if (ch[i] == 1) {
-					System.out.printf("%d ", i);
-				}
-			}
-			System.out.println();
-		} else {
-			ch[L] = 1;
-			DFS2(L + 1);
-			ch[L] = 0;
-			DFS2(L + 1);
-		}
+		DFS(1);
 	}
 
 	private static void DFS(int L) {

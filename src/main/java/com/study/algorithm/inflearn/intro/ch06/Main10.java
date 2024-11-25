@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch06;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
-import static java.util.Arrays.sort;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * 마구간 정하기(결정 알고리즘)
@@ -23,8 +23,11 @@ public class Main10 {
 
 	private static int solution(int n, int c, int[] arr) {
 		int answer = 0;
-		sort(arr);
+
+		Arrays.sort(arr);
+
 		int lt = 1, rt = arr[n - 1];
+
 		while (lt <= rt) {
 			int mid = (lt + rt) / 2;
 			if (count(arr, mid) >= c) {

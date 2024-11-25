@@ -1,12 +1,12 @@
 package com.study.algorithm.inflearn.intro.ch06;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 import static java.util.Arrays.stream;
 
+import java.util.Scanner;
+
 /**
- * 결정 알고리즘(이분탐색 사용)
+ * 뮤직비디오(결정 알고리즘)
  */
 public class Main9 {
 	public static void main(String[] args) {
