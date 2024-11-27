@@ -1,11 +1,11 @@
 package com.study.algorithm.inflearn.intro.ch06;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 
+import java.util.Scanner;
+
 /**
- * 삽입정렬
+ * 삽입정렬 (손안의 카드를 정렬하는 방법과 유사)
  */
 public class Main3 {
 	public static void main(String[] args) {
