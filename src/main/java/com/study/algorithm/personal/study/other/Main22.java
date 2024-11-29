@@ -1,4 +1,4 @@
-﻿package com.study.algorithm.personal.study.other;
+package com.study.algorithm.personal.study.other;
 
 import java.util.HashMap;
 import java.util.Map;
