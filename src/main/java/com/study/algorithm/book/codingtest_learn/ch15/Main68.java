@@ -23,7 +23,9 @@ public class Main68 {
 		for (int i = 1; i < n; i++) {
 			for (int j = 0; j < i; j++) {
 				if (nums[i] > nums[j]) {
+					System.out.println(Arrays.toString(dp));
 					dp[i] = Math.max(dp[i], dp[j] + 1);
+					System.out.println(Arrays.toString(dp));
 				}
 			}
 		}
