@@ -30,6 +30,7 @@ public class Main12 {
 		for (int i = 1; i <= n; i++) {
 			// 멘티 선택
 			for (int j = 1; j <= n; j++) {
+				// 테스트 통과 횟수
 				int cnt = 0;
 				// 시험 선택
 				for (int k = 0; k < m; k++) {
@@ -40,7 +41,9 @@ public class Main12 {
 						if (arr[k][s] == j) pj = s;
 					}
 					// 멘토와 멘티 조건 검증
-					if (pi < pj) cnt++;
+					if (pi < pj) {
+						cnt++;
+					}
 				}
 				// 멘토링 가능성 +1
 				if (cnt == m) {

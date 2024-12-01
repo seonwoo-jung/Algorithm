@@ -1,16 +1,14 @@
 package com.study.algorithm.inflearn.intro.ch06;
 
+import java.util.Arrays;
 import java.util.Scanner;
-
-import static java.lang.System.in;
-import static java.util.Arrays.stream;
 
 /**
  * 결정 알고리즘(이분탐색 사용)
  */
 public class Main9 {
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
 		int m = kb.nextInt();
 		int[] arr = new int[n];
@@ -23,8 +21,8 @@ public class Main9 {
 
 	private static int solution(int n, int m, int[] arr) {
 		int answer = 0;
-		int lt = stream(arr).max().getAsInt(); // 기본형 int로 바꿔준다.
-		int rt = stream(arr).sum();
+		int lt = Arrays.stream(arr).max().getAsInt(); // 기본형 int로 바꿔준다.
+		int rt = Arrays.stream(arr).sum();
 
 		while (lt <= rt) {
 			int mid = (lt + rt) / 2;
