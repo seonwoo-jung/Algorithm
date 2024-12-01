@@ -1,9 +1,9 @@
 package com.study.algorithm.inflearn.intro.ch04;
 
+import static java.lang.System.in;
+
 import java.util.HashMap;
 import java.util.Scanner;
-
-import static java.lang.System.in;
 
 /**
  * 모든 아나그램 찾기(Hash, sliding window: 시간복잡도)
@@ -28,6 +28,7 @@ public class Main4 {
 
 		int L = b.length() - 1;
 
+		// sliding widnow를 위해 am에 미리 값을 입력함
 		for (int i = 0; i < L; i++) {
 			am.put(a.charAt(i), am.getOrDefault(a.charAt(i), 0) + 1);
 		}
