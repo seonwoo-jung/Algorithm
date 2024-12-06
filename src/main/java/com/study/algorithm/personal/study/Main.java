@@ -6,23 +6,22 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
-
-		int a = kb.nextInt();
-		int b = kb.nextInt();
-		int l = 100;
-		int sum1 = 0;
-		int sum2 = 0;
-		while (a > 0 || b > 0) {
-			sum1 += a % 10 * l;
-			sum2 += b % 10 * l;
-
-			a = a / 10;
-			b = b / 10;
-
-			l /= 10;
-
+		int n = kb.nextInt();
+		int[][] arr = new int[100][100];
+		for (int i = 0; i < n; i++) {
+			int row = kb.nextInt();
+			int col = kb.nextInt();
+			for (int j = row; j < row + 10; j++) {
+				for (int k = 0; k < col + 10; k++) {
+					arr[j][k] = 1;
+				}
+			}
 		}
-
-		System.out.println(Math.max(sum1, sum2));
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < arr[i].length; j++) {
+				System.out.printf("%d ", arr[i][j]);
+			}
+			System.out.println();
+		}
 	}
 }
