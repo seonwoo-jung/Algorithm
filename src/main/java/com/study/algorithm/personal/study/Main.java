@@ -6,20 +6,19 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
-		int n = kb.nextInt();
-		int[][] arr = new int[100][100];
-		for (int i = 0; i < n; i++) {
-			int row = kb.nextInt();
-			int col = kb.nextInt();
-			for (int j = row; j < row + 10; j++) {
-				for (int k = 0; k < col + 10; k++) {
-					arr[j][k] = 1;
-				}
-			}
-		}
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = 0; j < arr[i].length; j++) {
-				System.out.printf("%d ", arr[i][j]);
+		int t = kb.nextInt();
+		double[] changes = new double[]{0.25, 0.10, 0.05, 0.01};
+
+		for (int i = 0; i < t; i++) {
+			int c = kb.nextInt();
+
+			for (int j = 0; j < changes.length; j++) {
+				int changeInCents = (int) (changes[j] * 100);
+
+				int result = c / changeInCents;
+				System.out.printf("%d ", result);
+
+				c = c % changeInCents;
 			}
 			System.out.println();
 		}
