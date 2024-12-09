@@ -1,26 +1,38 @@
 package com.study.algorithm.personal.study;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
-		int t = kb.nextInt();
-		double[] changes = new double[]{0.25, 0.10, 0.05, 0.01};
 
-		for (int i = 0; i < t; i++) {
-			int c = kb.nextInt();
+		while (true) {
+			int n = kb.nextInt();
+			if (n == -1) return;
 
-			for (int j = 0; j < changes.length; j++) {
-				int changeInCents = (int) (changes[j] * 100);
+			List<Integer> list = new ArrayList<>();
+			int answer = 0;
 
-				int result = c / changeInCents;
-				System.out.printf("%d ", result);
-
-				c = c % changeInCents;
+			for (int i = 1; i <= Math.sqrt(n); i++) {
+				if (n % i == 0) {
+					list.add(i);
+					answer += i;
+					if (i != 1 && i != n / i) {
+						list.add(n / i);
+						answer += n / i;
+					}
+				}
 			}
-			System.out.println();
+
+			if (answer == n) {
+				list.sort(Integer::compareTo); // 약수를 오름차순으로 정렬
+				System.out.printf("%d = %s\n", n, String.join(" + ", list.stream().map(String::valueOf).toArray(String[]::new)));
+			} else {
+				System.out.printf("%d is NOT perfect.\n", n);
+			}
 		}
 	}
 }
