@@ -35,21 +35,22 @@ public class Main3 {
 	}
 
 	private static int solution(int[][] board) {
-		int n = board.length;
+		int x1 = 0, y1 = 0, x2 = 0, y2 = 0;
+		int d1 = 0, d2 = 0;
+		int count = 0;
 		int[] dx = {-1, 0, 1, 0};
 		int[] dy = {0, 1, 0, -1};
-		int x1 = 0, y1 = 0, x2 = 0, y2 = 0;
 
 		for (int i = 0; i < board.length; i++) {
 			for (int j = 0; j < board[i].length; j++) {
 
-				// 현수 위치 찾기
+				// 현수 위치
 				if (board[i][j] == 2) {
 					x1 = i;
 					y1 = j;
 				}
 
-				// 강아지 위치 찾기
+				// 강아지 위치
 				if (board[i][j] == 3) {
 					x2 = i;
 					y2 = j;
@@ -57,10 +58,9 @@ public class Main3 {
 			}
 		}
 
-		// d1은 현수 방향, d2는 강아지 방향
-		int d1 = 0, d2 = 0, count = 0;
-
 		while (count < 10000) {
+			if (x1 == x2 && y1 == y2) return count;
+
 			count++;
 
 			int nx1 = x1 + dx[d1];
@@ -68,39 +68,20 @@ public class Main3 {
 			int nx2 = x2 + dx[d2];
 			int ny2 = y2 + dy[d2];
 
-			// 회전 유무
-			boolean flag1 = true, flag2 = true;
-
-			// 현수가 지도 바깥쪽 또는 나무를 만나면 회전
-			if (nx1 < 0 || nx1 >= n || ny1 < 0 || ny1 >= n || board[nx1][ny1] == 1) {
-				d1 = (d1 + 1) % 4;
-				flag1 = false;
-			}
-
-			// 강아지가 지도 바깥쪽 또는 나무를 만나면 회전
-			if (nx2 < 0 || nx2 >= n || ny2 < 0 || ny2 >= n || board[nx2][ny2] == 1) {
-				d2 = (d2 + 1) % 4;
-				flag2 = false;
-			}
-
-			// 현수는 회전하지 않음
-			if (flag1 == true) {
+			if (nx1 >= 0 && nx1 < board.length && ny1 >= 0 && ny1 < board.length && board[nx1][ny1] != 1) {
 				x1 = nx1;
 				y1 = ny1;
+			} else {
+				d1 = (d1 + 1) % 4;
 			}
 
-			// 강아지는 회전하지 않음
-			if (flag2 == true) {
+			if (nx2 >= 0 && nx2 < board.length && ny2 >= 0 && ny2 < board.length && board[nx2][ny2] != 1) {
 				x2 = nx2;
 				y2 = ny2;
+			} else {
+				d2 = (d2 + 1) % 4;
 			}
-
-			// 현수와 강아지가 만남
-			if (x1 == x2 && y1 == y2) break;
 		}
-
-		if (count >= 10000) return 0;
-
-		return count;
+		return 0;
 	}
 }

@@ -1,5 +1,7 @@
 package com.study.algorithm.inflearn.middle.ch01;
 
+import java.util.Arrays;
+
 /**
  * 사다리 타기
  */
@@ -22,6 +24,7 @@ public class Main1 {
 				char tmp = answer[x];
 				answer[x] = answer[x - 1];
 				answer[x - 1] = tmp;
+				System.out.println(Arrays.toString(answer));
 			}
 		}
 		return answer;

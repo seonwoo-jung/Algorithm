@@ -13,13 +13,13 @@ public class Main2 {
 			{1, 0, 1, 0, 1},
 			{0, 0, 0, 0, 0}
 		};
-		int[] solution = solution2(board, k);
+		int[] solution = solution(board, k);
 		for (int i : solution) {
 			System.out.println("i = " + i);
 		}
 	}
 
-	private static int[] solution2(int[][] board, int k) {
+	private static int[] solution(int[][] board, int k) {
 		int[] answer = new int[2];
 		int n = board.length;
 		// dx, dy는 방향
