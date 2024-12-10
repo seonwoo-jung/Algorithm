@@ -3,7 +3,7 @@ package com.study.algorithm.inflearn.middle.ch02;
 import java.util.Arrays;
 
 /**
- * 한 번 사용한 최초문자
+ * 서로 다른 빈도수 만들기
  */
 public class Main2 {
 
