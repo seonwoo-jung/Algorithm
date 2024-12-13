@@ -1,4 +1,4 @@
-package com.study.algorithm.inflearn.middle.ch01;
+package com.study.algorithm.inflearn.middle.ch01_simulation;
 
 /**
  * 잃어버린 강아지

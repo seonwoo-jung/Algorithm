@@ -1,4 +1,4 @@
-package com.study.algorithm.inflearn.middle.ch05;
+package com.study.algorithm.inflearn.middle.ch05_greedy;
 
 import java.util.ArrayList;
 import java.util.Collections;

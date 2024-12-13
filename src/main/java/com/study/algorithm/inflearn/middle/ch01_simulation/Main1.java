@@ -1,4 +1,4 @@
-package com.study.algorithm.inflearn.middle.ch01;
+package com.study.algorithm.inflearn.middle.ch01_simulation;
 
 import java.util.Arrays;
 

@@ -1,9 +1,9 @@
-package com.study.algorithm.inflearn.middle.ch02;
+package com.study.algorithm.inflearn.middle.ch02_hashing;
 
 import java.util.Arrays;
 
 /**
- * 서로 다른 빈도수 만들기
+ * 같은 빈도수 만들기
  */
 public class Main2 {
 

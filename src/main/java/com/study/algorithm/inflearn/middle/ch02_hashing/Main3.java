@@ -1,4 +1,4 @@
-package com.study.algorithm.inflearn.middle.ch02;
+package com.study.algorithm.inflearn.middle.ch02_hashing;
 
 import java.util.HashMap;
 import java.util.HashSet;
