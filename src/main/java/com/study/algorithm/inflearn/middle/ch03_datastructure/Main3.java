@@ -23,7 +23,6 @@ public class Main3 {
 
 		// cnt: 현관문을 사용한 사람 수
 		// i: 사원번호
-
 		for (int t = 0, i = 0, cnt = 0; ; t++) {
 			// 출입
 			if (enter.isEmpty() && exit.isEmpty() && i < n) {
