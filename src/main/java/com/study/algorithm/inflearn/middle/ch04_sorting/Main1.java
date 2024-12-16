@@ -1,6 +1,7 @@
 package com.study.algorithm.inflearn.middle.ch04_sorting;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -23,19 +24,11 @@ public class Main1 {
 			map.put(x, Integer.bitCount(x));
 		}
 
-		System.out.println("map = " + map);
-
-		int[] array = map.entrySet()
+		return map.entrySet()
 			.stream()
-			.sorted((o1, o2) -> {
-				int compare = Integer.compare(o1.getValue(), o2.getValue());
-				if (compare == 0) {
-					return Integer.compare(o1.getKey(), o2.getKey());
-				}
-				return compare;
-			})
+			.sorted(Comparator.comparing(Entry<Integer, Integer>::getValue)
+				.thenComparing(Entry::getKey))
 			.mapToInt(Entry::getKey)
 			.toArray();
-		return array;
 	}
 }
