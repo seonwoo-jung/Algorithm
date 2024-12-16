@@ -1,6 +1,5 @@
 package com.study.algorithm.inflearn.middle.ch03_datastructure;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -16,35 +15,18 @@ public class Main1 {
 	}
 
 	private static int solution(int[] nums) {
-		int answer = 1;
-		nums = Arrays.stream(nums).distinct().sorted().toArray();
-		System.out.println(Arrays.toString(nums));
-		for (int i = 0; i < nums.length - 1; i++) {
-			int val = nums[i];
-			int count = 1;
-			for (int j = i + 1; j < nums.length; j++) {
-				if (val + 1 == nums[j]) {
-					val = nums[j];
-					count++;
-				}
-			}
-			answer = Math.max(answer, count);
-		}
-
-		return answer;
-	}
-
-	private static int solution2(int[] nums) {
 		int answer = 0;
 		Set<Integer> set = new HashSet<>();
 		for (int x : nums) {
 			set.add(x);
 		}
 		for (int x : set) {
+			// 자기보다 1 작은 숫자가 있다는 것은, 시작점이 아니라는 것이기 때문에
 			if (set.contains(x - 1)) {
 				continue;
 			}
 			int cnt = 0;
+			// 시작지점으로 보이는 숫자가 있으면 연속수열인지 확인한다.
 			while (set.contains(x)) {
 				cnt++;
 				x++;

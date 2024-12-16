@@ -20,23 +20,28 @@ public class Main2 {
 		for (Character x : s.toCharArray()) {
 			if (x == ')') {
 				String tmp = "";
-				while (!stack.empty()) {
+				while (!stack.isEmpty()) {
 					String c = stack.pop();
 					if (c.equals("(")) {
 						String num = "";
-						while (!stack.empty() && Character.isDigit(stack.peek().charAt(0))) {
+						while (!stack.isEmpty() && Character.isDigit(stack.peek().charAt(0))) {
 							num = stack.pop() + num;
 						}
 						String res = "";
+
 						int cnt = 0;
-						if (num.equals("")) {
+
+						if (num.isEmpty()) {
 							cnt = 1;
 						} else {
 							cnt = Integer.parseInt(num);
 						}
+
+						// 숫자만큼 문자열을 복사
 						for (int i = 0; i < cnt; i++) {
 							res += tmp;
 						}
+						// 해당 문자열을 다시 stack에 push
 						stack.push(res);
 						break;
 					}
