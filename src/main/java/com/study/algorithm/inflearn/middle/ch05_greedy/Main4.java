@@ -1,5 +1,10 @@
 package com.study.algorithm.inflearn.middle.ch05_greedy;
 
+import java.util.Arrays;
+
+/**
+ * 꽃이 피는 최단시간
+ */
 public class Main4 {
 
 	public static void main(String[] args){
@@ -12,6 +17,25 @@ public class Main4 {
 
 	private static int solution(int[] plantTime, int[] growTime) {
 		int answer = 0;
+		int n = plantTime.length;
+		int[][] list = new int[n][2];
+
+		for (int i = 0; i < n; i++) {
+			list[i][0] = plantTime[i];
+			list[i][1] = growTime[i];
+		}
+
+		// 자라는데 오래걸리는 순으로 정렬
+		Arrays.sort(list, (a, b) -> b[1] - a[1]);
+
+		int start = 0, end = 0;
+
+		for (int[] x : list) {
+			// 심는데 걸리는 시간, 자라는데 걸리는 시간
+			end = start + x[0] + x[1];
+			answer = Math.max(answer, end);
+			start += x[0];
+		}
 
 		return answer;
 	}

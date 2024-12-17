@@ -20,10 +20,12 @@ public class Main3 {
 
 		// 각 스프링쿨러의 범위를 구한 것
 		for (int i = 0; i < n; i++) {
+			// 스프링 쿨러 시작지점, 끝지점
 			lines[i][0] = Math.max(0, i - nums[i]);
 			lines[i][1] = Math.min(n, i + nums[i]);
 		}
 
+		// 시작지점을 기준으로 오름차순 정렬
 		Arrays.sort(lines, (o1, o2) -> o1[0] - o2[0]);
 
 		int s = 0, e = 0, i = 0;

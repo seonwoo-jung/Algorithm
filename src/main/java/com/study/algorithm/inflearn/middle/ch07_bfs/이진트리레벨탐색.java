@@ -1,4 +1,4 @@
-package com.study.algorithm.inflearn.intro.ch07_recursive;
+package com.study.algorithm.inflearn.middle.ch07_bfs;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -6,12 +6,12 @@ import java.util.Queue;
 /**
  * 이진트리 레벨탐색(넓이우선탐색: 레벨탐색)
  */
-public class Main7 {
+public class 이진트리레벨탐색 {
 
 	private Node root;
 
 	public static void main(String[] args) {
-		Main7 tree = new Main7();
+		이진트리레벨탐색 tree = new 이진트리레벨탐색();
 		tree.root = new Node(1);
 		tree.root.lt = new Node(2);
 		tree.root.rt = new Node(3);
@@ -41,9 +41,9 @@ public class Main7 {
 	}
 
 	private static class Node {
-		int data;
+		public int data;
 
-		Node lt, rt;
+		public Node lt, rt;
 
 		public Node(int val) {
 			data = val;

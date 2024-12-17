@@ -1,5 +1,8 @@
 package com.study.algorithm.inflearn.middle.ch05_greedy;
 
+/**
+ * 최대인원수
+ */
 public class Main6 {
 
 	public static void main(String[] args) {

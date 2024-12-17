@@ -17,27 +17,32 @@ public class Main4 {
 		int[][] inList = new int[n][2];
 
 		for (int i = 0; i < n; i++) {
-			int a = getTime(enter[i].split(" ")[0]);
-			int b = Integer.parseInt(enter[i].split(" ")[1]);
-			inList[i][0] = a; // 분단위 시간
-			inList[i][1] = b; // 레이저 시간
+			int a = getTime(enter[i].split(" ")[0]); // 분단위로 변환
+			int b = Integer.parseInt(enter[i].split(" ")[1]); // 레이저 인덱스
+			inList[i][0] = a;
+			inList[i][1] = b;
 		}
 
 		Queue<Integer> Q = new LinkedList<>();
 		Q.offer(inList[0][1]);
-		int fT = inList[0][0]; // 고객이 도착한 시간을 fT로 두기
+		int fT = inList[0][0]; // 고객이 도착한 시간
 		int pos = 1; // inList index를 위한 변수
 
 		for (int t = fT; t <= 1200; t++) {
+			// 처리할 고객이 있고, 현재 시간이 고객 도착시간이랑 동일할경우
+			// pos는 고객을 가리키는 index
 			if (pos < n && t == inList[pos][0]) {
+				// 시간 간격이 클 때 t를 1씩 증가시키는게 아니라 확 건너뜀 (대기실도 비어있고, 레이저실도 비어있다는 뜻)
 				if (Q.isEmpty() && inList[pos][0] > fT) {
 					fT = inList[pos][0];
 				}
+
 				Q.offer(inList[pos][1]);
 				pos++;
 			}
 
-			// 대기실에 있는 고객을 레이저실로 이동
+			// 레이저실 고객 -> 나감
+			// 대기실 고객 -> 레이저실
 			if (t == fT && !Q.isEmpty()) {
 				int idx = Q.poll();
 				fT += laser[idx];
