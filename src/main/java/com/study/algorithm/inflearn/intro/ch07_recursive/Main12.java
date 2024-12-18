@@ -1,15 +1,15 @@
 package com.study.algorithm.inflearn.intro.ch07_recursive;
 
-import java.util.Scanner;
-
 import static java.lang.System.in;
 import static java.lang.System.out;
+
+import java.util.Scanner;
 
 /**
  * 경로탐색(인접행렬)
  */
-public class
-Main12 {
+public class Main12 {
+
 	private static int n, m, answer = 0;
 	private static int[][] graph;
 	private static int[] ch;
