@@ -1,17 +1,15 @@
 package com.study.algorithm.inflearn.intro.ch09_greedy;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
-
-import static java.lang.System.in;
-import static java.util.Collections.sort;
 
 /**
  * 회의실 배정
  */
 public class Main2 {
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
 		ArrayList<Time> list = new ArrayList<>();
 
@@ -29,7 +27,7 @@ public class Main2 {
 		int cnt = 0;
 
 		// 오름차순 정렬, 정렬 기준은 compareTo 메서드로 설정
-		sort(arr);
+		Collections.sort(arr);
 
 		int et = 0;
 
