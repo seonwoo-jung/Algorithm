@@ -3,6 +3,9 @@ package com.study.algorithm.inflearn.middle.ch06_dfs;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 가장 가까운 큰수
+ */
 public class Main1 {
     private static List<Integer> nums;
     private static int[] ch;
