@@ -1,4 +1,4 @@
-package com.study.algorithm.inflearn.middle.ch06_dfs;
+package com.study.algorithm.inflearn.middle.ch06_dfs.intro_복습;
 
 /**
  * 가장 가까운 큰수

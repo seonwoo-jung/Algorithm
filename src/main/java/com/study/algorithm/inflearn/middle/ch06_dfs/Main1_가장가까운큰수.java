@@ -3,10 +3,7 @@ package com.study.algorithm.inflearn.middle.ch06_dfs;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 가장 가까운 큰수
- */
-public class Main1 {
+public class Main1_가장가까운큰수 {
     private static List<Integer> nums;
     private static int[] ch;
     private static boolean flag;

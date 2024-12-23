@@ -1,4 +1,4 @@
-package com.study.algorithm.inflearn.middle.ch07_bfs;
+package com.study.algorithm.inflearn.middle.ch07_bfs.intro_복습;
 
 import java.util.LinkedList;
 import java.util.Queue;
