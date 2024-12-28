@@ -14,5 +14,4 @@ public class Main7_비밀번호 {
 
         return answer;
     }
-
 }
