@@ -24,13 +24,9 @@ public class Main5 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         N = kb.nextInt(); // 정점의 개수
-        List<int[]> record = new ArrayList<>();
         M = kb.nextInt(); // 간선의 개수
         graph = new ArrayList<>(); // 가중치 방향 그래프이기 때문에 객체를 저장해야함.
 
-        for (ArrayList<Edge> edges : graph) {
-            
-        }
         for (int i = 0; i < M; i++) {
             graph.add(new ArrayList<>());
         }
@@ -60,6 +56,7 @@ public class Main5 {
         Queue<Edge> PQ = new PriorityQueue<>();
         PQ.offer(new Edge(v, 0));
         dis[v] = 0;
+
         while (!PQ.isEmpty()) {
             Edge tmp = PQ.poll();
             int now = tmp.vex;
