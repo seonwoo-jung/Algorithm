@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 음수가 있는 부분 수열
  */
-public class Main4 {
+public class Main4_음수가있는부분수열 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new int[]{2, 2, 3, -1, -1, -1, 3, 1, 1}, 5));

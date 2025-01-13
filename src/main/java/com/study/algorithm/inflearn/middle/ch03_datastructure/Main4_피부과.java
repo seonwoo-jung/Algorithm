@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // 피부과
-public class Main4 {
-	public static void main(String[] args){
+public class Main4_피부과 {
+	public static void main(String[] args) {
 		System.out.println(solution(new int[]{30, 20, 25, 15}, new String[]{"10:23 0", "10:40 3", "10:42 2", "10:52 3", "11:10 2"}));
 		System.out.println(solution(new int[]{30, 20, 25, 15}, new String[]{"10:23 0", "10:40 3", "10:42 2", "10:52 3", "15:10 0", "15:20 3", "15:22 1", "15:23 0", "15:25 0"}));
 		System.out.println(solution(new int[]{30, 20, 25, 15}, new String[]{"10:20 1", "10:40 1", "11:00 1", "11:20 1", "11:40 1"}));
@@ -23,26 +23,25 @@ public class Main4 {
 			inList[i][1] = b;
 		}
 
-		Queue<Integer> Q = new LinkedList<>();
-		Q.offer(inList[0][1]);
+		Queue<Integer> Q = new LinkedList<>(); // 대기실
+		Q.offer(inList[0][1]); // 레이저 번호 입력
 		int fT = inList[0][0]; // 고객이 도착한 시간
 		int pos = 1; // inList index를 위한 변수
 
 		for (int t = fT; t <= 1200; t++) {
 			// 처리할 고객이 있고, 현재 시간이 고객 도착시간이랑 동일할경우
-			// pos는 고객을 가리키는 index
 			if (pos < n && t == inList[pos][0]) {
-				// 시간 간격이 클 때 t를 1씩 증가시키는게 아니라 확 건너뜀 (대기실도 비어있고, 레이저실도 비어있다는 뜻)
+
+				// 대기실, 레이저실 둘 다 비어있을 경우 (시간 간격이 클 때 t를 1씩 증가시키는게 아니라 확 건너뜀)
 				if (Q.isEmpty() && inList[pos][0] > fT) {
 					fT = inList[pos][0];
 				}
 
+				// 고객을 대기실에 넣는다.
 				Q.offer(inList[pos][1]);
 				pos++;
 			}
 
-			// 레이저실 고객 -> 나감
-			// 대기실 고객 -> 레이저실
 			if (t == fT && !Q.isEmpty()) {
 				int idx = Q.poll();
 				fT += laser[idx];

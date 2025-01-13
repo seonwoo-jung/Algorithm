@@ -9,7 +9,7 @@ import java.util.TreeMap;
 /**
  * 회장선거
  */
-public class Main5 {
+public class Main5_회장선거 {
 
 	public static void main(String[] args){
 		System.out.println(solution(new String[]{"john tom", "daniel luis", "john luis", "luis tom", "daniel tom", "luis john"}, 2));

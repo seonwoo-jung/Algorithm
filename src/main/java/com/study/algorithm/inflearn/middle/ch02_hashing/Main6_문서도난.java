@@ -1,6 +1,5 @@
 package com.study.algorithm.inflearn.middle.ch02_hashing;
 
-import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -9,7 +8,7 @@ import java.util.List;
 /**
  * 문서도난
  */
-public class Main6 {
+public class Main6_문서도난 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(new String[]{"john 15:23", "daniel 09:30", "tom 07:23", "park 09:59", "luis 08:57"}, "08:33 09:45")));
@@ -18,33 +17,6 @@ public class Main6 {
 	}
 
 	private static String[] solution(String[] reports, String times) {
-		List<String> answer = new ArrayList<>();
-
-		Arrays.sort(reports, ((o1, o2) -> {
-			String a = o1.split(" ")[1];
-			String b = o2.split(" ")[1];
-			return LocalTime.parse(a).compareTo(LocalTime.parse(b));
-		}));
-
-		String[] t = times.split(" ");
-		LocalTime st = LocalTime.parse(t[0]);
-		LocalTime et = LocalTime.parse(t[1]);
-
-		for (String x : reports) {
-			String name = x.split(" ")[0];
-			String usedTime = x.split(" ")[1];
-			LocalTime used = LocalTime.parse(usedTime);
-			if (!used.isBefore(st) && !used.isAfter(et)) {
-				answer.add(name);
-			}
-		}
-
-		return answer.stream()
-			.map(String::valueOf)
-			.toArray(String[]::new);
-	}
-
-	private static String[] solution2(String[] reports, String times) {
 		List<Info> tmp = new ArrayList<>();
 
 		for (String x : reports) {
@@ -53,7 +25,7 @@ public class Main6 {
 			tmp.add(new Info(a, getTime(b)));
 		}
 
-		Collections.sort(tmp);
+		Collections.sort(tmp, (a, b) -> Integer.compare(a.time, b.time));
 
 		int s = getTime(times.split(" ")[0]);
 		int e = getTime(times.split(" ")[1]);
@@ -83,7 +55,7 @@ public class Main6 {
 		return H * 60 + M;
 	}
 
-	private static class Info implements Comparable<Info> {
+	private static class Info {
 
 		public String name;
 		public int time;
@@ -91,11 +63,6 @@ public class Main6 {
 		public Info(String name, int time) {
 			this.name = name;
 			this.time = time;
-		}
-
-		@Override
-		public int compareTo(Info ob) {
-			return this.time - ob.time;
 		}
 	}
 }

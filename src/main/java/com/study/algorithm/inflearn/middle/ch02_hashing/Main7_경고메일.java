@@ -1,15 +1,15 @@
 package com.study.algorithm.inflearn.middle.ch02_hashing;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.TreeMap;
 
 /**
  * 경고 메일
  */
-public class Main7 {
+public class Main7_경고메일 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(new String[]{"john 09:30 in", "daniel 10:05 in", "john 10:15 out", "luis 11:57 in", "john 12:03 in", "john 12:20 out", "luis 12:35 out", "daniel 15:05 out"}, 60)));
@@ -22,22 +22,34 @@ public class Main7 {
 		Map<String, Integer> inTime = new HashMap<>();
 		Map<String, Integer> sumTime = new TreeMap<>();
 
-		for (String report : reports) {
-			String name = report.split(" ")[0];
-			int t = getTime(report.split(" ")[1]);
-			String status = report.split(" ")[2];
+		for (String x : reports) {
+			String a = x.split(" ")[0];
+			String b = x.split(" ")[1];
+			String c = x.split(" ")[2];
 
-			if (status.equals("in")) {
-				inTime.put(name, t);
+			if (c.equals("in")) {
+				inTime.put(a, getTime(b));
 			} else {
-				sumTime.put(name, sumTime.getOrDefault(name, 0) + (t - inTime.get(name)));
+				sumTime.put(a, sumTime.getOrDefault(a, 0) + (getTime(b) - inTime.get(a)));
 			}
 		}
 
-		return sumTime.entrySet().stream()
-			.filter(x -> x.getValue() > time)
-			.map(Entry::getKey)
-			.toArray(String[]::new);
+		ArrayList<String> res = new ArrayList<>();
+
+		for (String name : sumTime.keySet()) {
+			if (sumTime.get(name) > time) {
+				res.add(name);
+			}
+		}
+
+		res.sort((a, b) -> a.compareTo(b));
+		String[] answer = new String[res.size()];
+
+		for (int i = 0; i < res.size(); i++) {
+			answer[i] = res.get(i);
+		}
+
+		return answer;
 	}
 
 	private static int getTime(String time) {

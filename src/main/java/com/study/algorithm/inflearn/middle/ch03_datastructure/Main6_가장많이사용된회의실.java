@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.TreeSet;
 
 // 가장 많이 사용된 회의실
-public class Main6 {
+public class Main6_가장많이사용된회의실 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(2, new int[][]{{0, 5}, {2, 7}, {4, 5}, {7, 10}, {9, 12}}));
@@ -20,7 +20,7 @@ public class Main6 {
 		int[] res = new int[n];
 
 		// 시작시간 정렬, 같으면 종료시간 정렬 (오름차순)
-		// 큐에 회의가 끝나는 시간, 룸 번호 순으로 삽입한다
+		// 큐 데이터 구조 (회의가 끝나는 시간, 룸 번호)
 		Queue<int[]> ends = new PriorityQueue<>((a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
 
 		// 회의실 번호를 저장한다

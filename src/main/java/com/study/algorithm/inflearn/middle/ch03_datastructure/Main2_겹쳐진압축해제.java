@@ -3,7 +3,7 @@ package com.study.algorithm.inflearn.middle.ch03_datastructure;
 import java.util.Stack;
 
 // 문자열 압축해제
-public class Main2 {
+public class Main2_겹쳐진압축해제 {
 
 	public static void main(String[] args) {
 		System.out.println(solution("3(a2(b))ef"));

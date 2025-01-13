@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 // 현관문 출입 순서
-public class Main3 {
+public class Main3_현관문출입순서 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(new int[]{0, 1, 1, 1, 2, 3, 8, 8}, new int[]{1, 0, 0, 1, 0, 0, 1, 0})));

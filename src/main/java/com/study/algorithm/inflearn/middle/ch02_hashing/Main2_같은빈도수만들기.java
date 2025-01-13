@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 같은 빈도수 만들기
  */
-public class Main2 {
+public class Main2_같은빈도수만들기 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution("aaabc")));

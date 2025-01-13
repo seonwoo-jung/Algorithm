@@ -8,13 +8,13 @@ import java.util.Set;
 /**
  * 서로 다른 빈도수 만들기
  */
-public class Main3 {
+public class Main3_서로다른빈도수만들기 {
 
 	public static void main(String[] args) {
-		System.out.println(solution("aaabbbcc"));
-		System.out.println(solution("aaabbc"));
-		System.out.println(solution("aebbbbc"));
-		System.out.println(solution("aaabbbcccde"));
+//		System.out.println(solution("aaabbbcc"));
+//		System.out.println(solution("aaabbc"));
+//		System.out.println(solution("aebbbbc"));
+//		System.out.println(solution("aaabbbcccde"));
 		System.out.println(solution("aaabbbcccdddeeeeeff"));
 	}
 
@@ -38,6 +38,7 @@ public class Main3 {
 			}
 			set.add(map.get(key));
 		}
+		System.out.println("map = " + map);
 		return answer;
 	}
 }

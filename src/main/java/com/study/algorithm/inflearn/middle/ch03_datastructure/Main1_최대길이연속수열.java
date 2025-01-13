@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 // 최대 길이 연속 수열
-public class Main1 {
+public class Main1_최대길이연속수열 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new int[]{8, 1, 9, 3, 10, 2, 4, 0, 2, 3}));
