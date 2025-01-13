@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 침몰하는 타이타닉
  */
-public class Main1 {
+public class Main1_침몰하는타이타닉 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new int[]{90, 50, 70, 100, 60}, 140));

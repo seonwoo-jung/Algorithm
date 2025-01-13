@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 이동 횟수
  */
-public class Main2 {
+public class Main2_이동횟수 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new int[]{2, 5, 3, 4, 2, 3}));
