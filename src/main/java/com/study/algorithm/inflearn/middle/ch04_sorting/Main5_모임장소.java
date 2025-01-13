@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 모임 장소
  */
-public class Main5 {
+public class Main5_모임장소 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new int[][]{{1, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 1}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}}));
@@ -34,6 +34,7 @@ public class Main5 {
 
 		int x = row.get(row.size() / 2);
 		int y = col.get(col.size() / 2);
+		
 		for (int p : row) answer += Math.abs(x - p);
 		for (int p : col) answer += Math.abs(y - p);
 

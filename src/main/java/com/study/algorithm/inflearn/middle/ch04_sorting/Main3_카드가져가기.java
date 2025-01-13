@@ -6,7 +6,7 @@ import java.util.Collections;
 /**
  * 카드 가져가기
  */
-public class Main3 {
+public class Main3_카드가져가기 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new int[]{7, 8, 5, 12, 3, 1, 3, 1, 1, 12}, 2));

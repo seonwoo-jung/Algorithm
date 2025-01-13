@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 멀티태스킹
+ * 최소 회의실 개수
  */
-public class Main7 {
+public class Main7_최소회의실개수 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new int[][]{{0, 10}, {20, 25}, {5, 15}, {2, 5}}));
@@ -27,7 +27,7 @@ public class Main7 {
 		list.sort((a, b) -> a[0] == b[0] ? b[1] - a[1] : a[0] - b[0]);
 		int answer = 0, cnt = 0;
 
-		for (int[] x: list) {
+		for (int[] x : list) {
 			if (x[1] == 1) {
 				cnt++;
 			} else {

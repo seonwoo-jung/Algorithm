@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * 수열 찾기
  */
-public class Main2 {
+public class Main2_수열찾기 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(new int[]{1, 10, 2, 3, 5, 6})));
