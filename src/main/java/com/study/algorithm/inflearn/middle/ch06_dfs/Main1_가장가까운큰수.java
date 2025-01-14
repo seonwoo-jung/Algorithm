@@ -1,6 +1,7 @@
 package com.study.algorithm.inflearn.middle.ch06_dfs;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Main1_가장가까운큰수 {
@@ -11,10 +12,10 @@ public class Main1_가장가까운큰수 {
 
     public static void main(String[] args) {
         System.out.println(solution(123));
-        System.out.println(solution(321));
-        System.out.println(solution(20573));
-        System.out.println(solution(27711));
-        System.out.println(solution(54312));
+//        System.out.println(solution(321));
+//        System.out.println(solution(20573));
+//        System.out.println(solution(27711));
+//        System.out.println(solution(54312));
     }
 
     private static int solution(int n) {
@@ -29,7 +30,7 @@ public class Main1_가장가까운큰수 {
             nums.add(t);
             tmp = tmp / 10;
         }
-        nums.sort((a, b) -> a - b);
+        Collections.sort(nums);
         m = nums.size();
         ch = new int[m];
         DFS(0, 0);
