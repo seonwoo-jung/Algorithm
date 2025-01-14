@@ -3,7 +3,7 @@ package com.study.algorithm.inflearn.middle.ch01_simulation;
 /**
  * 잃어버린 강아지
  */
-public class Main3 {
+public class Main3_잃어버린강아지 {
 	public static void main(String[] args) {
 		int[][] arr1 = {
 			{0, 0, 0, 0, 0, 0, 1, 0, 0, 0},

@@ -3,7 +3,7 @@ package com.study.algorithm.inflearn.middle.ch01_simulation;
 /**
  * 청소
  */
-public class Main2 {
+public class Main2_청소 {
 	public static void main(String[] args) {
 		int k = 10;
 		int[][] board = {

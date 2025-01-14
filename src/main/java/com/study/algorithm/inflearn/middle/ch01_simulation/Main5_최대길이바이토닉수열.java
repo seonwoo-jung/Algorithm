@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 최대 길이 바이토닉 수열
  */
-public class Main5 {
+public class Main5_최대길이바이토닉수열 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new int[]{1, 3, 2, 5, 7, 4, 2, 5, 1}));

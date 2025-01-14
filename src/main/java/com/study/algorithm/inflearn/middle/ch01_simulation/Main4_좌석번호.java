@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 좌석 번호
  */
-public class Main4 {
+public class Main4_좌석번호 {
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(6, 5, 12)));
 		System.out.println(Arrays.toString(solution(6, 5, 20)));

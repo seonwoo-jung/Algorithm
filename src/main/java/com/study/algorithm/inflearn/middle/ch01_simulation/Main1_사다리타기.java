@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 사다리 타기
  */
-public class Main1 {
+public class Main1_사다리타기 {
 	public static void main(String[] args) {
 		int n = 5;
 		int[][] ladder = {{1, 3}, {2, 4}, {1, 4}};

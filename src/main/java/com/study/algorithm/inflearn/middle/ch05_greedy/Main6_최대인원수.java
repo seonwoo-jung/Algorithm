@@ -3,7 +3,7 @@ package com.study.algorithm.inflearn.middle.ch05_greedy;
 /**
  * 최대인원수
  */
-public class Main6 {
+public class Main6_최대인원수 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(5, new int[][]{{1, 4, 2}, {2, 5, 1}}, new int[][]{{1, 2}, {1, 5}, {2, 3}, {2, 4}, {2, 5}, {2, 5}, {3, 5}, {3, 4}}));

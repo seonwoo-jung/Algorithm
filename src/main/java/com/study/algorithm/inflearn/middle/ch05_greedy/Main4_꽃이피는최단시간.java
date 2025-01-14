@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 꽃이 피는 최단시간
  */
-public class Main4 {
+public class Main4_꽃이피는최단시간 {
 
 	public static void main(String[] args){
 		System.out.println(solution(new int[]{1, 3, 2}, new int[]{2, 3, 2}));

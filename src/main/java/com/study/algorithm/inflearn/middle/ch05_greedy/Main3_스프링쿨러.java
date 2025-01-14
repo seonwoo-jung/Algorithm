@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 스프링쿨러
  */
-public class Main3 {
+public class Main3_스프링쿨러 {
 
 	public static void main(String[] args){
 		System.out.println(solution(8, new int[]{1, 1, 1, 2, 1, 1, 2, 1, 1}));
