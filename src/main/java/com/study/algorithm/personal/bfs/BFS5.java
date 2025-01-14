@@ -18,7 +18,7 @@ public class BFS5 {
 	static Queue<Point> Q = new LinkedList<>();
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		m = kb.nextInt();
 		n = kb.nextInt();
 		dis = new int[n][m];

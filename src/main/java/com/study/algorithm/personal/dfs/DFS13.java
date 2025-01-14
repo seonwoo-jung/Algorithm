@@ -42,7 +42,7 @@ public class DFS13 {
 	}
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		n = kb.nextInt(); // 가장 윗줄에 있는 숫자의 개수
 		f = kb.nextInt(); // 가장 밑에 줄에 있는 수
 		b = new int[n];

@@ -10,7 +10,7 @@ public class Mst_4386 {
 	static int[] unf;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
 		unf = new int[n + 1];
 		ArrayList<ArrayList<Edge>> list = new ArrayList<>();

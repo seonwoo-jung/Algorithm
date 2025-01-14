@@ -15,7 +15,7 @@ public class Main3 {
 	static int c, n, answer = MIN_VALUE;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 
 		c = kb.nextInt();
 		n = kb.nextInt();

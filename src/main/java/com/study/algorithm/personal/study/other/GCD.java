@@ -6,7 +6,7 @@ import static java.lang.System.in;
 
 public class GCD {
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int a = kb.nextInt();
 		int b = kb.nextInt();
 		int gcd = GCD(a, b);

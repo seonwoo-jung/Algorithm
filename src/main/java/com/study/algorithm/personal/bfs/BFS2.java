@@ -14,7 +14,7 @@ public class BFS2 {
 	int answer = 0;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int s = kb.nextInt();
 		int e = kb.nextInt();
 		int bfs = BFS(s, e);

@@ -10,7 +10,7 @@ public class Main5_BFS {
 	static List<Score> list = new ArrayList<>();
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 
 		class_cnt = kb.nextInt(); // 수업개수
 		limit_time = kb.nextInt(); // 제한시간

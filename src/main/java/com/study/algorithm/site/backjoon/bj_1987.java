@@ -15,7 +15,7 @@ public class bj_1987 {
 	static Set<Character> set = new HashSet<>();
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		r = kb.nextInt();
 		c = kb.nextInt();
 

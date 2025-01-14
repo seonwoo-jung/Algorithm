@@ -14,7 +14,7 @@ public class DFS8 {
 	static boolean flag = false;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		n = kb.nextInt();
 		int[] arr = new int[n];
 		for (int i = 0; i < n; i++) {

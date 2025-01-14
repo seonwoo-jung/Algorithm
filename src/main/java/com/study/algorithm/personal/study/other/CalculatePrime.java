@@ -9,7 +9,7 @@ public class CalculatePrime {
 	static int[] ch = new int[1000000];
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
 		int solution = solution(n);
 		System.out.println("solution = " + solution);

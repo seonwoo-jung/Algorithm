@@ -14,7 +14,7 @@ public class DFS7 {
 	static int answer = MIN_VALUE, n, m;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		n = kb.nextInt(); // 문제개수
 		m = kb.nextInt(); // 제한시간
 

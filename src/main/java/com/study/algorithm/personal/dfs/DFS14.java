@@ -52,7 +52,7 @@ public class DFS14 {
 	}
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		for (int i = 1; i <= 7; i++) {
 			for (int j = 1; j <= 7; j++) {
 				board[i][j] = kb.nextInt();

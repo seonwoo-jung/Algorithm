@@ -11,7 +11,7 @@ public class DFS5 {
 	static int answer = MAX_VALUE, n, m;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		n = kb.nextInt();
 		int[] arr = new int[n];
 		for (int i = 0; i < n; i++) {

@@ -14,7 +14,7 @@ public class Main4_DFS {
 	static List<Score> list = new ArrayList<>();
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 
 		n = kb.nextInt();
 		m = kb.nextInt();

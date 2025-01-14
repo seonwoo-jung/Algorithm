@@ -13,7 +13,7 @@ public class Main6_BFS {
 	static int coinLen, targetNum, answer = MAX_VALUE;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		coinLen = kb.nextInt();
 
 		int[] arr = new int[coinLen];

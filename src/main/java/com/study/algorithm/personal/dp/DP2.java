@@ -9,7 +9,7 @@ public class DP2 {
 	static int[] dy;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
 		dy = new int[n + 2];
 		System.out.println(solution(n));

@@ -12,7 +12,7 @@ public class UnionAndFind {
 	private static int[] unf;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
 		int m = kb.nextInt();
 

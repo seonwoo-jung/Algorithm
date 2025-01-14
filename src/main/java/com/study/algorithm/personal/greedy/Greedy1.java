@@ -12,7 +12,7 @@ import static java.util.Collections.sort;
  */
 public class Greedy1 {
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
 		ArrayList<Person> list = new ArrayList<>();
 		for (int i = 0; i < n; i++) {

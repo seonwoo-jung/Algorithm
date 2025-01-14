@@ -12,7 +12,7 @@ public class bj_1759 {
 	static int l, c;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		l = kb.nextInt(); // 암호의 수
 		c = kb.nextInt(); // 알파벳 수
 

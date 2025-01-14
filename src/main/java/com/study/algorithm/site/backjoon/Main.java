@@ -7,7 +7,7 @@ import static java.lang.System.in;
 
 public class Main {
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		int[][] arr = new int[9][9];
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {

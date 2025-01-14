@@ -18,7 +18,7 @@ public class DFS16 {
 	static ArrayList<Point> pz, hs;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		n = kb.nextInt();
 		m = kb.nextInt();
 		pz = new ArrayList<>();

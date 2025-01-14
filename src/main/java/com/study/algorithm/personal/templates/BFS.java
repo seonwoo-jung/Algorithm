@@ -15,7 +15,7 @@ public class BFS {
 	private static int[] dis;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		n = kb.nextInt(); // 정점의 수
 		m = kb.nextInt(); // 간선의 수
 		graph = new ArrayList<>();

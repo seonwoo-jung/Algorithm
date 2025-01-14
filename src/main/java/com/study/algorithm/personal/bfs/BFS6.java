@@ -14,7 +14,7 @@ public class BFS6 {
 	static Queue<Point> Q = new LinkedList<>();
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		n = kb.nextInt();
 		int[][] board = new int[n][n];
 		for (int i = 0; i < n; i++) {

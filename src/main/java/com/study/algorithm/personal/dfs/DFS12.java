@@ -11,7 +11,7 @@ public class DFS12 {
 	static int n, m;
 
 	public static void main(String[] args) {
-		Scanner kb = new Scanner(in);
+		Scanner kb = new Scanner(System.in);
 		n = kb.nextInt();
 		m = kb.nextInt();
 		ch = new int[n];
