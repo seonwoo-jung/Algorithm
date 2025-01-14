@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch06_sorting;
 
-import static java.lang.System.in;
-
 import java.util.Arrays;
 import java.util.Scanner;
 

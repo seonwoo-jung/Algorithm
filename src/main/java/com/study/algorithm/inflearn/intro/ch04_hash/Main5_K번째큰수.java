@@ -1,8 +1,6 @@
 package com.study.algorithm.inflearn.intro.ch04_hash;
 
-import static java.lang.System.in;
-import static java.util.Collections.reverseOrder;
-
+import java.util.Collections;
 import java.util.Scanner;
 import java.util.TreeSet;
 
@@ -11,7 +9,7 @@ import java.util.TreeSet;
  */
 public class Main5_K번째큰수 {
 	public static void main(String[] args) {
-		Scanner stdIn = new Scanner(in);
+		Scanner stdIn = new Scanner(System.in);
 		int n = stdIn.nextInt();
 		int k = stdIn.nextInt();
 		int[] arr = new int[n];
@@ -24,7 +22,7 @@ public class Main5_K번째큰수 {
 
 	private static int solution(int n, int k, int[] arr) {
 		int answer = 0;
-		TreeSet<Integer> Tset = new TreeSet<>(reverseOrder()); // reverseOrder로 내림차순 정렬
+		TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder()); // reverseOrder로 내림차순 정렬
 		for (int i = 0; i < n; i++) {
 			for (int j = i + 1; j < n; j++) {
 				for (int l = j + 1; l < n; l++) {

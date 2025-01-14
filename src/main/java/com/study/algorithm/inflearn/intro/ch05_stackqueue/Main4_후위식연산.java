@@ -1,8 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch05_stackqueue;
 
-import static java.lang.Character.isDigit;
-import static java.lang.System.in;
-
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -19,7 +16,7 @@ public class Main4_후위식연산 {
 	private static int solution(String str) {
 		Stack<Integer> stack = new Stack<>();
 		for (char x : str.toCharArray()) {
-			if (isDigit(x)) {
+			if (Character.isDigit(x)) {
 				stack.push(x - 48);
 			} else {
 				int rt = stack.pop();

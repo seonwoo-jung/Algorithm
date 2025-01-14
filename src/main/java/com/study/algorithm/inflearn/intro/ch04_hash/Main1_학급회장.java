@@ -1,8 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch04_hash;
 
-import static java.lang.Integer.MIN_VALUE;
-import static java.lang.System.in;
-
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -11,7 +8,7 @@ import java.util.Scanner;
  */
 public class Main1_학급회장 {
 	public static void main(String[] args) {
-		Scanner stdIn = new Scanner(in);
+		Scanner stdIn = new Scanner(System.in);
 		int a = stdIn.nextInt();
 		String b = stdIn.next();
 		System.out.println(solution(a, b));
@@ -26,7 +23,7 @@ public class Main1_학급회장 {
 			map.put(x, map.getOrDefault(x, 0) + 1);
 		}
 
-		int max = MIN_VALUE;
+		int max = Integer.MIN_VALUE;
 
 		for (char key : map.keySet()) {
 			if (map.get(key) > max) {

@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch04_hash;
 
-import static java.lang.System.in;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -11,7 +9,7 @@ import java.util.Scanner;
  */
 public class Main3_매출액의종류 {
 	public static void main(String[] args) {
-		Scanner stdIn = new Scanner(in);
+		Scanner stdIn = new Scanner(System.in);
 		int n = stdIn.nextInt();
 		int k = stdIn.nextInt();
 		int[] arr = new int[n];

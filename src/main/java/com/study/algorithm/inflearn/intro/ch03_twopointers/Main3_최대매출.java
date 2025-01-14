@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch03_twopointers;
 
-import static java.lang.Math.max;
-
 import java.util.Scanner;
 
 /**
@@ -37,7 +35,7 @@ public class Main3_최대매출 {
 		// arr[0] + arr[1] + arr[2]와 arr[1] + arr[2] + arr[3] 비교 후 큰 값을 answer에 입력
 		for (int i = k; i < n; i++) {
 			sum += (arr[i] - arr[i - k]);
-			answer = max(answer, sum);
+			answer = Math.max(answer, sum);
 		}
 
 		return answer;

@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch04_hash;
 
-import static java.lang.System.in;
-
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -10,7 +8,7 @@ import java.util.Scanner;
  */
 public class Main4_모든아나그램찾기 {
 	public static void main(String[] args) {
-		Scanner stdIn = new Scanner(in);
+		Scanner stdIn = new Scanner(System.in);
 		String a = stdIn.next();
 		String b = stdIn.next();
 		int solution = solution(a, b);

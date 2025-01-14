@@ -1,6 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch07_recursive;
 
-
 import java.util.Scanner;
 
 /**

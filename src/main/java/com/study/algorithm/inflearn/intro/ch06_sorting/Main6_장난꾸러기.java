@@ -1,9 +1,7 @@
 package com.study.algorithm.inflearn.intro.ch06_sorting;
 
-import static java.lang.System.in;
-import static java.util.Arrays.sort;
-
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -25,7 +23,7 @@ public class Main6_장난꾸러기 {
 		int[] tmp = arr.clone();
 		int[] answer = new int[2];
 		int idx = 0;
-		sort(tmp);
+		Arrays.sort(tmp);
 		for (int i = 0; i < n; i++) {
 			if (arr[i] != tmp[i]) {
 				answer[idx++] = i + 1;
@@ -37,7 +35,7 @@ public class Main6_장난꾸러기 {
 	private static ArrayList<Integer> solution2(int n, int[] arr) {
 		ArrayList<Integer> answer = new ArrayList<>();
 		int[] tmp = arr.clone();
-		sort(tmp);
+		Arrays.sort(tmp);
 		for (int i = 0; i < n; i++) {
 			if (arr[i] != tmp[i]) {
 				answer.add(i + 1);

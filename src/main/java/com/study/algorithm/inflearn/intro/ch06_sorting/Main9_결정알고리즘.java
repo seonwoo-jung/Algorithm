@@ -1,8 +1,6 @@
 package com.study.algorithm.inflearn.intro.ch06_sorting;
 
-import static java.lang.System.in;
-import static java.util.Arrays.stream;
-
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -23,8 +21,8 @@ public class Main9_결정알고리즘 {
 
 	private static int solution(int n, int m, int[] arr) {
 		int answer = 0;
-		int lt = stream(arr).max().getAsInt(); // 기본형 int로 바꿔준다.
-		int rt = stream(arr).sum();
+		int lt = Arrays.stream(arr).max().getAsInt(); // 기본형 int로 바꿔준다.
+		int rt = Arrays.stream(arr).sum();
 
 		while (lt <= rt) {
 			int mid = (lt + rt) / 2;

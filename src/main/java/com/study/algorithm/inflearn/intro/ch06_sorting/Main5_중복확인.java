@@ -1,8 +1,6 @@
 package com.study.algorithm.inflearn.intro.ch06_sorting;
 
-import static java.lang.System.in;
-import static java.util.Arrays.sort;
-
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -25,7 +23,7 @@ public class Main5_중복확인 {
 
 	private static String solution2(int n, int[] arr) {
 		String answer = "U";
-		sort(arr);
+		Arrays.sort(arr);
 		for (int i = 0; i < n - 1; i++) {
 			if (arr[i] == arr[i + 1]) return "D";
 		}

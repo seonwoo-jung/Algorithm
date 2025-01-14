@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch03_twopointers;
 
-import static java.lang.Math.max;
-
 import java.util.Scanner;
 
 /**
@@ -33,7 +31,7 @@ public class Main7_최대길이연속부분수열 {
 					cnt--;
 				}
 				lt++;
-				answer = max(answer, rt - lt + 1);
+				answer = Math.max(answer, rt - lt + 1);
 			}
 
 		}

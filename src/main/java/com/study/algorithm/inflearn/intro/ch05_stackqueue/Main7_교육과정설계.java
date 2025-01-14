@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch05_stackqueue;
 
-import static java.lang.System.in;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
