@@ -1,6 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch10_dp;
 
-
 import java.util.Arrays;
 import java.util.Scanner;
 

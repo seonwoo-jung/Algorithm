@@ -1,9 +1,7 @@
 package com.study.algorithm.inflearn.intro.ch10_dp;
 
-import static java.lang.System.in;
-import static java.util.Collections.sort;
-
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 /**
@@ -32,7 +30,7 @@ public class Main4_가장높은탑쌓기 {
 	private static int solution(ArrayList<Brick> arr) {
 		int answer;
 
-		sort(arr);
+		Collections.sort(arr);
 
 		dy[0] = arr.get(0).h;
 		answer = dy[0];

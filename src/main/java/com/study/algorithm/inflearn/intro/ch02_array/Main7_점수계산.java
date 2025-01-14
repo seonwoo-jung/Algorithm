@@ -15,8 +15,7 @@ public class Main7_점수계산 {
 			arr[i] = kb.nextInt();
 		}
 
-		int result = solution(n, arr);
-		System.out.println("result = " + result);
+		System.out.println(solution(n, arr));
 	}
 
 	private static int solution(int n, int[] arr) {

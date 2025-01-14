@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch07_recursive;
 
-import static java.lang.Math.min;
-
 /**
  * Tree 말단노드까지의 가장 짧은 경로(DFS)
  */
@@ -23,7 +21,7 @@ public class Main9_말단노드까지의가장짧은경로_DFS {
 		if (root.lt == null && root.rt == null) {
 			return L;
 		} else {
-			return min(DFS(L + 1, root.lt), DFS(L + 1, root.rt));
+			return Math.min(DFS(L + 1, root.lt), DFS(L + 1, root.rt));
 		}
 	}
 

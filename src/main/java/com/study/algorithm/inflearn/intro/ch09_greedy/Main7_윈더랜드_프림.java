@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch09_greedy;
 
-import static java.lang.System.in;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.PriorityQueue;

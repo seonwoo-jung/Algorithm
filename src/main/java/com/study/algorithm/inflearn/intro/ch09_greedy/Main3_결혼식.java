@@ -1,10 +1,7 @@
 package com.study.algorithm.inflearn.intro.ch09_greedy;
 
-import static java.lang.Integer.MIN_VALUE;
-import static java.lang.System.in;
-import static java.util.Collections.sort;
-
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 /**
@@ -27,8 +24,8 @@ public class Main3_결혼식 {
 	}
 
 	private static int solution(ArrayList<Time> arr) {
-		int answer = MIN_VALUE;
-		sort(arr);
+		int answer = Integer.MIN_VALUE;
+		Collections.sort(arr);
 		int cnt = 0;
 		for (Time ob : arr) {
 			if (ob.state == 's') {

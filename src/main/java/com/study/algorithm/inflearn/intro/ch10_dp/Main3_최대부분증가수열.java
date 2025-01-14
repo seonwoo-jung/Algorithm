@@ -1,8 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch10_dp;
 
-import static java.lang.Math.max;
-import static java.lang.System.in;
-
 import java.util.Scanner;
 
 /**
@@ -36,7 +33,7 @@ public class Main3_최대부분증가수열 {
 					max = dy[j];
 				}
 				dy[i] = max + 1;
-				answer = max(answer, dy[i]);
+				answer = Math.max(answer, dy[i]);
 			}
 		}
 		return answer;

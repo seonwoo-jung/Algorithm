@@ -1,9 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch08_dfsbfs;
 
-import static java.lang.Integer.MIN_VALUE;
-import static java.lang.Math.max;
-import static java.lang.System.in;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -38,7 +34,7 @@ public class Main12_토마토_BFS {
 		BFS();
 
 		boolean flag = true;
-		int answer = MIN_VALUE;
+		int answer = Integer.MIN_VALUE;
 
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
@@ -51,7 +47,7 @@ public class Main12_토마토_BFS {
 		if (flag) {
 			for (int i = 0; i < n; i++) {
 				for (int j = 0; j < m; j++) {
-					answer = max(answer, dis[i][j]);
+					answer = Math.max(answer, dis[i][j]);
 				}
 			}
 			System.out.println(answer);

@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch07_recursive;
 
-import static java.lang.System.in;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -9,7 +7,7 @@ import java.util.Scanner;
 /**
  * 송아지 찾기1(BFS)
  */
-public class Main8_송아지찾기BFS {
+public class Main8_송아지찾기_BFS {
 
 	private static int[] dis = {1, -1, 5};
 	private static Queue<Integer> Q = new LinkedList<>();

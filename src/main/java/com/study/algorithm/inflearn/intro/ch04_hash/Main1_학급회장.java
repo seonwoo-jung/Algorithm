@@ -14,9 +14,7 @@ public class Main1_학급회장 {
 		Scanner stdIn = new Scanner(in);
 		int a = stdIn.nextInt();
 		String b = stdIn.next();
-		char solution = solution(a, b);
-		System.out.println("solution = " + solution);
-
+		System.out.println(solution(a, b));
 	}
 
 	private static char solution(int a, String b) {

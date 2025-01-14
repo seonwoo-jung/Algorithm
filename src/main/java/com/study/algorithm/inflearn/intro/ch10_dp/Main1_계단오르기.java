@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch10_dp;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
 
 /**

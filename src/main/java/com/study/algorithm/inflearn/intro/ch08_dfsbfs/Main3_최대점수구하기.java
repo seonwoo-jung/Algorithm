@@ -1,8 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch08_dfsbfs;
 
-import static java.lang.Math.max;
-import static java.lang.System.in;
-
 import java.util.Scanner;
 
 /**
@@ -30,7 +27,7 @@ public class Main3_최대점수구하기 {
 	private static void DFS(int L, int sum, int time, int[] ps, int[] pt) {
 		if (time > m) return;
 		if (L == n) {
-			answer = max(answer, sum);
+			answer = Math.max(answer, sum);
 		} else {
 			DFS(L + 1, sum + ps[L], time + pt[L], ps, pt);
 			DFS(L + 1, sum, time, ps, pt);

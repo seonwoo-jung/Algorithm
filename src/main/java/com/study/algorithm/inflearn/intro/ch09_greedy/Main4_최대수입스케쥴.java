@@ -1,11 +1,7 @@
 package com.study.algorithm.inflearn.intro.ch09_greedy;
 
-import static java.lang.Integer.MIN_VALUE;
-import static java.lang.System.in;
-import static java.util.Collections.reverseOrder;
-import static java.util.Collections.sort;
-
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
@@ -14,7 +10,7 @@ import java.util.Scanner;
  */
 public class Main4_최대수입스케쥴 {
 
-	private static int n, max = MIN_VALUE;
+	private static int n, max = Integer.MIN_VALUE;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
@@ -31,8 +27,8 @@ public class Main4_최대수입스케쥴 {
 
 	private static int solution(ArrayList<Lecture> arr) {
 		int answer = 0;
-		PriorityQueue<Integer> pQ = new PriorityQueue<>(reverseOrder());
-		sort(arr);
+		PriorityQueue<Integer> pQ = new PriorityQueue<>(Collections.reverseOrder());
+		Collections.sort(arr);
 
 		int j = 0;
 

@@ -1,9 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch08_dfsbfs;
 
-import static java.lang.Integer.MAX_VALUE;
-import static java.lang.Math.abs;
-import static java.lang.Math.min;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -12,7 +8,7 @@ import java.util.Scanner;
  */
 public class Main15_피자배달거리 {
 
-	private static int n, m, len, answer = MAX_VALUE;
+	private static int n, m, len, answer = Integer.MAX_VALUE;
 	private static int[] combi;
 	private static ArrayList<Point> house, pizza;
 
@@ -45,13 +41,13 @@ public class Main15_피자배달거리 {
 		if (L == m) {
 			int sum = 0;
 			for (Point h : house) {
-				int dis = MAX_VALUE;
+				int dis = Integer.MAX_VALUE;
 				for (int i : combi) {
-					dis = min(dis, abs(h.x - pizza.get(i).x) + abs(h.y - pizza.get(i).y));
+					dis = Math.min(dis, Math.abs(h.x - pizza.get(i).x) + Math.abs(h.y - pizza.get(i).y));
 				}
 				sum += dis;
 			}
-			answer = min(answer, sum);
+			answer = Math.min(answer, sum);
 		} else {
 			for (int i = s; i < len; i++) {
 				combi[L] = i;

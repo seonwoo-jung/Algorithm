@@ -10,23 +10,11 @@ public class Main6_중복문자제거 {
 		Scanner kb = new Scanner(System.in);
 		// input: ksekkset
 		// output: kset
-		System.out.println(solution2(kb.nextLine()));
-	}
-
-	private static String solution(String str) {
-		char[] tmp = str.toCharArray();
-		for (int i = 0; i < tmp.length - 2; i++) {
-			for (int j = i + 1; j < tmp.length - 1; j++) {
-				if (tmp[i] == tmp[j]) {
-					tmp[j] = ' ';
-				}
-			}
-		}
-		return String.valueOf(tmp).replaceAll(" ", "");
+		System.out.println(solution(kb.nextLine()));
 	}
 
 	// indexOf는 문자열에서 첫 번째 문자 위치를 찾는다.
-	private static String solution2(String str) {
+	private static String solution(String str) {
 		String answer = "";
 		for (int i = 0; i < str.length(); i++) {
 			if (str.indexOf(str.charAt(i)) == i) {

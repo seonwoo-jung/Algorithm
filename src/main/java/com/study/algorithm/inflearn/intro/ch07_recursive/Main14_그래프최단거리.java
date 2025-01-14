@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch07_recursive;
 
-import static java.lang.System.in;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;

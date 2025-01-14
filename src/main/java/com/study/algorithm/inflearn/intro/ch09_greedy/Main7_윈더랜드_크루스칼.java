@@ -1,6 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch09_greedy;
 
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;

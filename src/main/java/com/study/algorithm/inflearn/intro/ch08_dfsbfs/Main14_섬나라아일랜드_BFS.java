@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch08_dfsbfs;
 
-import static java.lang.System.in;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;

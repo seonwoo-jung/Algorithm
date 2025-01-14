@@ -1,13 +1,10 @@
 package com.study.algorithm.inflearn.intro.ch08_dfsbfs;
 
-import static java.lang.Integer.MIN_VALUE;
-import static java.lang.System.in;
-
 import java.util.Scanner;
 
 public class Main2_바둑이승차 {
 
-	private static int answer = MIN_VALUE, c, n;
+	private static int answer = Integer.MIN_VALUE, c, n;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);

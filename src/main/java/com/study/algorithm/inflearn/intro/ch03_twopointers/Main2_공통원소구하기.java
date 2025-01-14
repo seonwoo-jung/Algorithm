@@ -1,8 +1,7 @@
 package com.study.algorithm.inflearn.intro.ch03_twopointers;
 
-import static java.util.Arrays.sort;
-
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -32,8 +31,8 @@ public class Main2_공통원소구하기 {
 	private static ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {
 		ArrayList<Integer> answer = new ArrayList();
 		// 오름차순 정렬
-		sort(a);
-		sort(b);
+		Arrays.sort(a);
+		Arrays.sort(b);
 
 		// 포인터
 		int p1 = 0, p2 = 0;

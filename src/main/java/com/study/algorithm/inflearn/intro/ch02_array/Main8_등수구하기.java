@@ -1,5 +1,6 @@
 package com.study.algorithm.inflearn.intro.ch02_array;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -15,10 +16,7 @@ public class Main8_등수구하기 {
 			arr[i] = kb.nextInt();
 		}
 
-		int[] solution = solution(n, arr);
-		for (int i : solution) {
-			System.out.println("i = " + i);
-		}
+		System.out.println(Arrays.toString(solution(n, arr)));
 	}
 
 	private static int[] solution(int n, int[] arr) {

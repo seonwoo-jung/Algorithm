@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch07_recursive;
 
-import static java.lang.System.in;
-import static java.lang.System.out;
 
 import java.util.Scanner;
 
@@ -27,7 +25,7 @@ public class Main12_경로탐색_인접행렬 {
 		}
 		ch[1] = 1;
 		DFS(1);
-		out.println(answer);
+		System.out.println(answer);
 	}
 
 	private static void DFS(int v) {

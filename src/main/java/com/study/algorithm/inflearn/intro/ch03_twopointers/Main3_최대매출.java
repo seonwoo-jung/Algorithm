@@ -20,8 +20,7 @@ public class Main3_최대매출 {
 			arr[i] = kb.nextInt();
 		}
 
-		int solution = solution(n, k, arr);
-		System.out.println("solution = " + solution);
+		System.out.println(solution(n, k, arr));
 	}
 
 	// n: 배열 사이즈, k: 연속된 일수

@@ -1,7 +1,5 @@
 package com.study.algorithm.inflearn.intro.ch08_dfsbfs;
 
-import static java.lang.System.in;
-
 import java.util.Scanner;
 
 /**
