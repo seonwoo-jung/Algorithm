@@ -4,15 +4,13 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-import static java.lang.System.in;
-
 public class bj_1987 {
 
-	static int[] dx = {-1, 0, 1, 0};
-	static int[] dy = {0, 1, 0, -1};
-	static char[][] arr;
-	static int r, c, answer = Integer.MIN_VALUE;
-	static Set<Character> set = new HashSet<>();
+	private static int[] dx = {-1, 0, 1, 0};
+	private static int[] dy = {0, 1, 0, -1};
+	private static char[][] arr;
+	private static int r, c, answer = Integer.MIN_VALUE;
+	private static Set<Character> set = new HashSet<>();
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
@@ -30,6 +28,8 @@ public class bj_1987 {
 		}
 
 		DFS(1, 0, 0);
+
+		System.out.println(answer);
 	}
 
 	private static void DFS(int move, int x, int y) {

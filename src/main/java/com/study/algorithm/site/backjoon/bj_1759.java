@@ -1,15 +1,13 @@
 package com.study.algorithm.site.backjoon;
 
+import java.util.Arrays;
 import java.util.Scanner;
-
-import static java.lang.System.in;
-import static java.util.Arrays.sort;
 
 public class bj_1759 {
 
-	static char arr[];
-	static boolean[] visited;
-	static int l, c;
+	private static char arr[];
+	private static boolean[] visited;
+	private static int l, c;
 
 	public static void main(String[] args) {
 		Scanner kb = new Scanner(System.in);
@@ -23,10 +21,9 @@ public class bj_1759 {
 			arr[i] = kb.next().charAt(0);
 		}
 
-		sort(arr);
+		Arrays.sort(arr);
 
 		DFS(0, 0);
-
 	}
 
 	private static void DFS(int s, int L) {
@@ -36,7 +33,6 @@ public class bj_1759 {
 			for (int i = 0; i < c; i++) {
 				if (visited[i]) {
 					answer += arr[i];
-
 					if (arr[i] == 'a' || arr[i] == 'e' || arr[i] == 'i' || arr[i] == 'o' || arr[i] == 'u') {
 						a++;
 					} else {
