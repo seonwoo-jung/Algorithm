@@ -19,7 +19,7 @@ public class Main6_알파코드 {
 	}
 
 	private static int DFS(int start, String s) {
-		if (dy[start] > 0) return dy[start];
+		if (dy[start] > 0) return dy[start]; // 메모이제이션
 		if (start < s.length() && s.charAt(start) == '0') return 0;
 
 		if (start == s.length() - 1 || start == s.length()) {

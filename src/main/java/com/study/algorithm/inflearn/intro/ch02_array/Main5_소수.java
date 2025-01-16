@@ -10,8 +10,7 @@ public class Main5_소수 {
 		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
 
-		int solution = solution(n);
-		System.out.println("solution = " + solution);
+		System.out.println(solution(n));
 	}
 
 	private static int solution(int n) {

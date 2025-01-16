@@ -39,11 +39,12 @@ public class Main4_팰린드롬의경우수 {
 				odd++;
 			}
 		}
-		if (odd > 1) {
-			return new String[]{};
-		}
 
-		// 빈도수가 홀수인 문자가 하나있을경우
+		// 홀수가 2개 이상일경우 빈 배열 반환, 팰린드롬을 만들 수 없음.
+		if (odd > 1) return new String[]{};
+
+		// #이 아닐경우는 홀수가 한개 있던지, 아예 없던지 둘 중 하나임.
+		// if문이 참이면 홀수가 하나라는 것임
 		if (mid != '#') {
 			tmp.add(mid);
 			sH.put(mid, sH.get(mid) - 1);

@@ -38,11 +38,9 @@ public class Main5_IP주소 {
 			res.add(Ts.substring(0, Ts.length() - 1));
 		} else {
 			for (int i = start; i < s.length(); i++) {
-				// 0으로 시작하고 길이가 2이상인경우 종료
-				if (s.charAt(start) == '0' && i > start) return;
+				if (s.charAt(start) == '0' && i > start) return; // 0으로 시작하고 길이가 2이상인경우 종료
 				String num = s.substring(start, i + 1);
-				// 255이상이면 종료
-				if (Integer.parseInt(num) > 255) return;
+				if (Integer.parseInt(num) > 255) return; // 255이상이면 종료
 				tmp.add(num);
 				DFS(i + 1, s);
 				tmp.pollLast();
