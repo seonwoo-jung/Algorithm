@@ -17,6 +17,7 @@ public class Main5_집을짓자 {
 		int[] dx = {-1, 0, 1, 0};
 		int[] dy = {0, 1, 0, -1};
 		int n = board.length;
+		// 모든 빌딩에서 빈땅으로 가는 이동거리의 총합
 		int[][] dist = new int[n][n];
 		Queue<int[]> Q = new LinkedList<>();
 		int emptyLand = 0;
