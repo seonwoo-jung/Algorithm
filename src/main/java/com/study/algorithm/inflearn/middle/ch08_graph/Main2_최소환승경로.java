@@ -19,6 +19,7 @@ public class Main2_최소환승경로 {
 		HashMap<Integer, HashSet<Integer>> graph = new HashMap<>();
 		int n = routes.length;
 
+		// x라는 역의 i호선
 		for (int i = 0; i < n; i++) {
 			for (int x : routes[i]) {
 				graph.putIfAbsent(x, new HashSet<>());
@@ -29,7 +30,8 @@ public class Main2_최소환승경로 {
 		Queue<Integer> Q = new LinkedList<>();
 		int[] ch = new int[n];
 		Q.offer(s);
-		int L = 0;
+
+		int L = 0; // 환승횟수
 
 		while (!Q.isEmpty()) {
 			int len = Q.size();
@@ -37,9 +39,10 @@ public class Main2_최소환승경로 {
 			for (int i = 0; i < len; i++) {
 				int curStop = Q.poll();
 				for (int line : graph.get(curStop)) {
-                    if (ch[line] == 1) {
-                        continue;
-                    }
+					// 이미 탐색한 호선이면 continue
+                    if (ch[line] == 1) continue;
+
+					// 호선을 체크하고, 탐색한다.
 					ch[line] = 1;
 					for (int stop : routes[line]) {
                         if (stop == e) {

@@ -41,11 +41,11 @@ public class Main1_최소비행료 {
 				int nowCost = p[1];
 
 				for (int[] x : graph.get(now)) {
-					int nx = x[0];
+					int nxNode = x[0];
 					int nxCost = x[1];
-					if (nowCost + nxCost < costs[nx]) {
-						costs[nx] = nowCost + nxCost;
-						Q.offer(new int[]{nx, costs[nx]});
+					if (nowCost + nxCost < costs[nxNode]) {
+						costs[nxNode] = nowCost + nxCost;
+						Q.offer(new int[]{nxNode, costs[nxNode]});
 					}
 				}
 			}

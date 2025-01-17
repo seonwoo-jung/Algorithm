@@ -5,20 +5,22 @@ import java.util.Queue;
 
 public class Main6_숲속의기사 {
 
+    private static int[] dx = {-1, 0, 1, 0};
+    private static int[] dy = {0, 1, 0, -1};
+
     public static void main(String[] args) {
         System.out.println(solution(new int[][]{{4, 1, 0, 0, 0, 0, 1, 0}, {0, 0, 0, 1, 0, 1, 0, 0}, {0, 2, 1, 1, 3, 0, 4, 0}, {0, 0, 0, 4, 1, 1, 1, 0}}));
-        System.out.println(solution(new int[][]{{3, 0, 0, 0, 1, 4, 4, 4}, {0, 1, 1, 0, 0, 0, 1, 0}, {0, 1, 4, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0, 0}, {1, 0, 1, 0, 0, 1, 1, 0}, {4, 0, 0, 0, 1, 0, 0, 0}, {4, 1, 0, 0, 1, 0, 0, 0}, {4, 0, 0, 0, 0, 0, 1, 2}}));
-        System.out.println(solution(new int[][]{{4, 1, 0, 1, 0}, {0, 1, 0, 1, 0}, {0, 0, 2, 3, 4}, {0, 1, 0, 1, 0}}));
+//        System.out.println(solution(new int[][]{{3, 0, 0, 0, 1, 4, 4, 4}, {0, 1, 1, 0, 0, 0, 1, 0}, {0, 1, 4, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0, 0}, {1, 0, 1, 0, 0, 1, 1, 0}, {4, 0, 0, 0, 1, 0, 0, 0}, {4, 1, 0, 0, 1, 0, 0, 0}, {4, 0, 0, 0, 0, 0, 1, 2}}));
+//        System.out.println(solution(new int[][]{{4, 1, 0, 1, 0}, {0, 1, 0, 1, 0}, {0, 0, 2, 3, 4}, {0, 1, 0, 1, 0}}));
     }
 
     private static int solution(int[][] board) {
         int answer = Integer.MAX_VALUE;
-        int[] dx = {-1, 0, 1, 0};
-        int[] dy = {0, 1, 0, -1};
         int n = board.length;
         int m = board[0].length;
         int[][] dist = new int[n][m];
         Queue<int[]> Q = new LinkedList<>();
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (board[i][j] == 2 || board[i][j] == 3) {
@@ -26,6 +28,7 @@ public class Main6_숲속의기사 {
                     int[][] ch = new int[n][m];
                     ch[i][j] = 1;
                     int L = 0;
+
                     while (!Q.isEmpty()) {
                         L++;
                         int len = Q.size();
@@ -47,6 +50,7 @@ public class Main6_숲속의기사 {
                 }
             }
         }
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (board[i][j] == 4 && dist[i][j] > 0) {
