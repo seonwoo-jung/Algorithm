@@ -3,63 +3,81 @@ package com.study.algorithm.site.backjoon.step.ch21_재귀;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class bj_24060 {
 
+	private static int[] tmp;
+	private static int result = -1;
+	private static int cnt = 0;
+	private static int K;
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		int n = Integer.parseInt(st.nextToken());
-		int k = Integer.parseInt(st.nextToken());
-		int[] arr = new int[n];
-		st = new StringTokenizer(br.readLine(), " ");
 
-		for (int i = 0; i < n; i++) {
-			arr[i] = Integer.parseInt(st.nextToken());
+		StringTokenizer st = new StringTokenizer(br.readLine());
+
+		int N = Integer.parseInt(st.nextToken());
+		K = Integer.parseInt(st.nextToken());
+
+		int[] A = new int[N];
+		tmp = new int[N];
+
+		st = new StringTokenizer(br.readLine());
+
+		for (int i = 0; i < N; i++) {
+			A[i] = Integer.parseInt(st.nextToken());
 		}
 
-		mergeSort(arr, 0, arr.length - 1);
-		System.out.println(Arrays.toString(arr));
+		merge_sort(A, 0, N - 1);
+
+		System.out.println(result);
 	}
 
-	public static void mergeSort(int[] arr, int p, int r) {
+	private static void merge_sort(int[] array, int p, int r) {
+		if (cnt > K) {
+			return; //저장 횟수가 진행 횟수보다 넘어가게 되면 더이상 분해 or 병합 진행X
+		}
 		if (p < r) {
-			int q = (p + r) / 2; // 중간 지점 계산
-			mergeSort(arr, p, q);  // 전반부 정렬
-			mergeSort(arr, q + 1, r); // 후반부 정렬
-			merge(arr, p, q, r); // 병합
+			int q = (p + r) / 2; //중간으로 쪼갠다.
+			merge_sort(array, p, q);   //전반부 정렬
+			merge_sort(array, q + 1, r); //후반부 정렬
+			merge(array, p, q, r); //병합
 		}
 	}
 
-	public static void merge(int[] arr, int p, int q, int r) {
-		int[] tmp = new int[r - p + 1]; // 임시 배열 생성
-		int i = p, j = q + 1, t = 0;
+	private static void merge(int[] array, int p, int q, int r) {
+		int i = p;
+		int j = q + 1;
+		int t = 0;
 
-		// 두 부분 배열을 병합
 		while (i <= q && j <= r) {
-			if (arr[i] <= arr[j]) {
-				tmp[t++] = arr[i++];
+			if (array[i] < array[j]) {
+				tmp[t++] = array[i++];
 			} else {
-				tmp[t++] = arr[j++];
+				tmp[t++] = array[j++];
 			}
 		}
 
-		// 왼쪽 배열의 나머지 복사
 		while (i <= q) {
-			tmp[t++] = arr[i++];
+			tmp[t++] = array[i++];
 		}
 
-		// 오른쪽 배열의 나머지 복사
 		while (j <= r) {
-			tmp[t++] = arr[j++];
+			tmp[t++] = array[j++];
 		}
 
-		// tmp 배열의 내용을 원본 배열 A에 복사
+		i = p;
 		t = 0;
-		for (i = p; i <= r; i++) {
-			arr[i] = tmp[t++];
+		while (i <= r) {
+			cnt++;
+
+			if (cnt == K) {
+				result = tmp[t];
+				break;
+			}
+
+			array[i++] = tmp[t++];
 		}
 	}
 }
