@@ -1,3 +1,3 @@
 # Algorithm
 
-PCCP 준비를 위한 학습 Repository
+자료구조 & 알고리즘 학습 Repository
