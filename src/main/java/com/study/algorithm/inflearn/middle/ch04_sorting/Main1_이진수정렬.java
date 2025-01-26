@@ -25,8 +25,7 @@ public class Main1_이진수정렬 {
 
 		return map.entrySet()
 			.stream()
-			.sorted((a, b) -> a.getValue() == b.getValue() ? a.getKey() - b.getKey() : a.getValue() - b.getValue())
-//			.sorted(Comparator.comparing(Entry<Integer, Integer>::getValue).thenComparing(Entry::getKey))
+			.sorted((a, b) -> a.getValue().equals(b.getValue()) ? Integer.compare(a.getKey(), b.getKey()) : Integer.compare(a.getValue(), b.getValue()))
 			.mapToInt(Entry::getKey)
 			.toArray();
 	}

@@ -5,15 +5,13 @@ package com.study.algorithm.inflearn.middle.ch01_simulation;
  */
 public class Main2_청소 {
 	public static void main(String[] args) {
-		int k = 10;
-		int[][] board = {
+		int[] solution = solution(new int[][]{
 			{0, 0, 0, 0, 0},
 			{0, 1, 1, 0, 0},
 			{0, 0, 0, 0, 0},
 			{1, 0, 1, 0, 1},
 			{0, 0, 0, 0, 0}
-		};
-		int[] solution = solution(board, k);
+		}, 10);
 		for (int i : solution) {
 			System.out.println("i = " + i);
 		}

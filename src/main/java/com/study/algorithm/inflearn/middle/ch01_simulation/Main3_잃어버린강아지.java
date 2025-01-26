@@ -5,7 +5,7 @@ package com.study.algorithm.inflearn.middle.ch01_simulation;
  */
 public class Main3_잃어버린강아지 {
 	public static void main(String[] args) {
-		int[][] arr1 = {
+		System.out.println(solution(new int[][]{
 			{0, 0, 0, 0, 0, 0, 1, 0, 0, 0},
 			{0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
 			{0, 0, 0, 1, 0, 0, 0, 1, 0, 0},
@@ -16,10 +16,9 @@ public class Main3_잃어버린강아지 {
 			{0, 0, 0, 0, 0, 3, 0, 0, 0, 1},
 			{0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
 			{0, 1, 0, 1, 0, 0, 0, 0, 0, 0}
-		};
-		System.out.println(solution(arr1));
+		}));
 
-		int[][] arr2 = {
+		System.out.println(solution(new int[][]{
 			{1, 0, 0, 0, 1, 0, 0, 0, 0, 0},
 			{0, 0, 0, 0, 0, 0, 1, 0, 0, 0},
 			{0, 0, 1, 1, 0, 0, 0, 1, 0, 0},
@@ -30,8 +29,7 @@ public class Main3_잃어버린강아지 {
 			{0, 0, 1, 0, 0, 0, 0, 0, 2, 1},
 			{0, 0, 0, 1, 0, 1, 0, 0, 0, 1},
 			{0, 1, 0, 1, 0, 0, 0, 0, 0, 3}
-		};
-		System.out.println(solution(arr2));
+		}));
 	}
 
 	private static int solution(int[][] board) {

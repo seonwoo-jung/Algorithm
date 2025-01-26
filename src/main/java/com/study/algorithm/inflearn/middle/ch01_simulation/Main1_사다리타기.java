@@ -7,9 +7,7 @@ import java.util.Arrays;
  */
 public class Main1_사다리타기 {
 	public static void main(String[] args) {
-		int n = 5;
-		int[][] ladder = {{1, 3}, {2, 4}, {1, 4}};
-		System.out.println(solution(n, ladder));
+		System.out.println(solution(5, new int[][]{{1, 3}, {2, 4}, {1, 4}}));
 	}
 
 	private static char[] solution(int n, int[][] ladder) {

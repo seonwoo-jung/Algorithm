@@ -9,14 +9,10 @@ import java.util.Map;
 public class Main1_한번사용한최초문자 {
 
 	public static void main(String[] args) {
-		String s1 = "statitsics";
-		String s2 = "aabb";
-		String s3 = "stringshowtime";
-		String s4 = "abcdeabcdfg";
-		System.out.println(solution(s1));
-		System.out.println(solution(s2));
-		System.out.println(solution(s3));
-		System.out.println(solution(s4));
+		System.out.println(solution("statitsics"));
+		System.out.println(solution("aabb"));
+		System.out.println(solution("stringshowtime"));
+		System.out.println(solution("abcdeabcdfg"));
 	}
 
 	private static int solution(String s) {
