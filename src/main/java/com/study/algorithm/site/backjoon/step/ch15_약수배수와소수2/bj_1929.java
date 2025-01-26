@@ -28,12 +28,10 @@ public class bj_1929 {
 		ch[1] = 1;
 
 		for (int i = 2; i <= Math.sqrt(ch.length); i++) {
-			if (ch[i] == 1) {
-				continue;
-			}
-
-			for (int j = i * i; j < ch.length; j += i) {
-				ch[j] = 1;
+			if (ch[i] == 0) {
+				for (int j = i; j <= ch.length; j += i) {
+					ch[j] = 1;
+				}
 			}
 		}
 	}

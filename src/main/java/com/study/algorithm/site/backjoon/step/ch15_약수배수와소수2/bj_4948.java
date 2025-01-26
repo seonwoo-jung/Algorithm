@@ -39,7 +39,7 @@ public class bj_4948 {
 				continue;
 			}
 
-			for (int j = i * i; j < ch.length; j += i) {
+			for (int j = i * i; j <= ch.length; j += i) {
 				ch[j] = 1;
 			}
 		}
