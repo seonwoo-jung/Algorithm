@@ -12,10 +12,10 @@ public class Main1_가장가까운큰수 {
 
     public static void main(String[] args) {
         System.out.println(solution(123));
-//        System.out.println(solution(321));
-//        System.out.println(solution(20573));
-//        System.out.println(solution(27711));
-//        System.out.println(solution(54312));
+        System.out.println(solution(321));
+        System.out.println(solution(20573));
+        System.out.println(solution(27711));
+        System.out.println(solution(54312));
     }
 
     private static int solution(int n) {

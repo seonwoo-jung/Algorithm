@@ -31,6 +31,7 @@ public class Main6_최대인원수 {
 		Arrays.sort(bookings, (a, b) -> a[0] - b[0]);
 		LinkedList<Integer> nums = new LinkedList<>();
 		int ix = 0;
+
 		for (int i = 1; i <= n; i++) {
 			while (!nums.isEmpty() && nums.peek() == i) {
 				answer++;

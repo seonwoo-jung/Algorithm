@@ -21,11 +21,15 @@ public class Main5_IP주소 {
 	private static String[] solution(String s) {
 		tmp = new LinkedList<>();
 		res = new ArrayList<>();
+
 		DFS(0, s);
+
 		String[] answer = new String[res.size()];
+
 		for (int i = 0; i < res.size(); i++) {
 			answer[i] = res.get(i);
 		}
+
 		return answer;
 	}
 
@@ -38,7 +42,7 @@ public class Main5_IP주소 {
 			res.add(Ts.substring(0, Ts.length() - 1));
 		} else {
 			for (int i = start; i < s.length(); i++) {
-				if (s.charAt(start) == '0' && i > start) return; // 0으로 시작하고 길이가 2이상인경우 종료
+				if (s.charAt(start) == '0' && i > start) return; // 0으로 시작하고 길이가 2이상인경우 종료 (02를 뽑아내면 안되기 때문에)
 				String num = s.substring(start, i + 1);
 				if (Integer.parseInt(num) > 255) return; // 255이상이면 종료
 				tmp.add(num);

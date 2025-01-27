@@ -32,7 +32,7 @@ public class Main4_꽃이피는최단시간 {
 
 		for (int[] x : list) {
 			// 심는데 걸리는 시간, 자라는데 걸리는 시간
-			end = start + x[0] + x[1];
+			end = start + x[0] + x[1]; // end = 시작시간 + 심는기간 + 성장기간
 			answer = Math.max(answer, end);
 			start += x[0];
 		}

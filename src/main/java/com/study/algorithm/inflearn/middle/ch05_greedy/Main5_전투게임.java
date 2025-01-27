@@ -27,24 +27,27 @@ public class Main5_전투게임 {
 			int b = Integer.parseInt(students[i].split(" ")[1]);
 			list.add(new Info(i, a, b));
 		}
-		Collections.sort(list);
+
+		Collections.sort(list); // 공격력을 기준으로 오름차순 정렬한다.
 		HashMap<Character, Integer> Tp = new HashMap<>();
 
 		int j = 0;
 		int total = 0; // i번 전까지 학생의 총 공격력
 
+		// i번 학생의 점수를 구하는 것
 		for (int i = 1; i < n; i++) {
 			for (; j < n; j++) {
 				// i번 학생이 잡을 수 있는 j번 학생이 없으면 break
 				if (list.get(j).power < list.get(i).power) {
 					total += list.get(j).power;
 					char x = list.get(j).team;
-					Tp.put(x, Tp.getOrDefault(x, 0) + list.get(j).power);
+					Tp.put(x, Tp.getOrDefault(x, 0) + list.get(j).power); // 같은 팀의 총 공격력을 더한다
 				} else {
 					break;
 				}
 			}
-			// i번 학생의 팀 공격력은 제외한다
+
+			// 같은 팀의 공격력은 제외한다
 			answer[list.get(i).idx] = total - Tp.getOrDefault(list.get(i).team, 0);
 		}
 
