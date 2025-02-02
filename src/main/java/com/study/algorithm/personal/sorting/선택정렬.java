@@ -2,6 +2,9 @@ package com.study.algorithm.personal.sorting;
 
 import java.util.Arrays;
 
+/**
+ * 자리를 선택해 들어갈 원소를 정한다.
+ */
 public class 선택정렬 {
 
 	public static void main(String[] args) {
