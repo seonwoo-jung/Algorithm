@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * pivot을 무작위로 정하는데, 계속 가장 작은 값만 정해지면 O(n^2)의 시간복잡도를 가진다 최악의 경우 O(n^2)까지 걸릴 수 있고, Unstable Sort임
  */
-public class 퀵정렬 {
+public class 퀵소트 {
 
 	public static void main(String[] args) {
 		int[] arr = {3, 9, 4, 7, 5, 0, 1, 6, 8, 2};
