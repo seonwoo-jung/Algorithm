@@ -8,10 +8,8 @@ import java.util.ArrayDeque;
 public class Main15 {
 
 	public static void main(String[] args) {
-		int answer1 = solution(5, 2);
-		int answer2 = solution(10, 2);
-		System.out.println("answer = " + answer1);
-		System.out.println("answer = " + answer2);
+		System.out.println(solution(5, 2));
+		System.out.println(solution(10, 2));
 	}
 
 	private static int solution(int N, int K) {

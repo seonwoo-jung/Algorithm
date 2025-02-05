@@ -8,10 +8,10 @@ public class Main30 {
 	private static int[] parent;
 
 	public static void main(String[] args) {
-		Boolean[] solution1 = solution(3, new int[][]{{0, 0, 1}, {0, 1, 2}, {1, 1, 2}});
-		Boolean[] solution2 = solution(4, new int[][]{{0, 0, 1}, {1, 1, 2}, {0, 1, 2}, {1, 0, 2}});
-		System.out.println(Arrays.toString(solution1));
-		System.out.println(Arrays.toString(solution2));
+		System.out.println(Arrays.toString(
+			solution(3, new int[][]{{0, 0, 1}, {0, 1, 2}, {1, 1, 2}})));
+		System.out.println(Arrays.toString(
+			solution(4, new int[][]{{0, 0, 1}, {1, 1, 2}, {0, 1, 2}, {1, 0, 2}})));
 	}
 
 	private static Boolean[] solution(int k, int[][] operation) {

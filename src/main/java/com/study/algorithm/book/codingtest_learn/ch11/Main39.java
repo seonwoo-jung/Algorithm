@@ -10,10 +10,8 @@ public class Main39 {
 	static char[][] map;
 
 	public static void main(String[] args) {
-		int result = solution(new String[]{"SOOOL", "XXXXO", "OOOOO", "OXXXX", "OOOOE"});
-		int result2 = solution(new String[]{"LOOXS", "OOOOX", "OOOOO", "OOOOO", "EOOOO"});
-		System.out.println("result = " + result);
-		System.out.println("result2 = " + result2);
+		System.out.println(solution(new String[]{"SOOOL", "XXXXO", "OOOOO", "OXXXX", "OOOOE"}));
+		System.out.println(solution(new String[]{"LOOXS", "OOOOX", "OOOOO", "OOOOO", "EOOOO"}));
 	}
 
 	private static int solution(String[] maps) {

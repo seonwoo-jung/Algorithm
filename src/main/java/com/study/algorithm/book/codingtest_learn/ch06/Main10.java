@@ -9,15 +9,10 @@ import java.util.HashMap;
 public class Main10 {
 
 	public static void main(String[] args) {
-		int answer1 = solution("[](){}");
-		int answer2 = solution("}]()[{");
-		int answer3 = solution("[)(]");
-		int answer4 = solution("}}}");
-
-		System.out.println("answer = " + answer1);
-		System.out.println("answer = " + answer2);
-		System.out.println("answer = " + answer3);
-		System.out.println("answer = " + answer4);
+		System.out.println(solution("[](){}"));
+		System.out.println(solution("}]()[{"));
+		System.out.println(solution("[)(]"));
+		System.out.println(solution("}}}"));
 	}
 
 	private static int solution(String s) {

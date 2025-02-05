@@ -7,9 +7,9 @@ public class Main24 {
 	private static HashMap<Integer, HashMap<String, Integer>> courseMap;
 
 	public static void main(String[] args) {
-		String[] solution = solution(new String[]{"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"},
-			new int[]{2, 3, 4});
-		System.out.println(Arrays.toString(solution));
+		System.out.println(Arrays.toString(
+			solution(new String[]{"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"},
+				new int[]{2, 3, 4})));
 	}
 
 	private static String[] solution(String[] orders, int[] course) {

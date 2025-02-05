@@ -9,9 +9,8 @@ import java.util.Map.Entry;
 public class Main23 {
 
 	public static void main(String[] args) {
-		int[] solution = solution(new String[]{"muzi", "frodo", "apeach", "neo"},
-			new String[]{"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"}, 2);
-		System.out.println(Arrays.toString(solution));
+		System.out.println(Arrays.toString(solution(new String[]{"muzi", "frodo", "apeach", "neo"},
+			new String[]{"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"}, 2)));
 	}
 
 	private static int[] solution(String[] id_list, String[] report, int k) {

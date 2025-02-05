@@ -5,8 +5,7 @@ import java.util.HashSet;
 public class Main18 {
 
 	public static void main(String[] args) {
-		boolean solution = solution(new int[]{1, 2, 3, 4, 8}, 6);
-		System.out.println("solution = " + solution);
+		System.out.println(solution(new int[]{1, 2, 3, 4, 8}, 6));
 	}
 
 	private static boolean solution(int[] arr, int target) {

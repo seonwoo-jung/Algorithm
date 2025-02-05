@@ -10,13 +10,9 @@ public class Main31 {
 	private static int[] parent;
 
 	public static void main(String[] args) {
-		int solution = solution(new int[]{3, 1, 2, 3});
-		int solution1 = solution(new int[]{3, 3, 3, 2, 2, 4});
-		int solution2 = solution(new int[]{3, 3, 3, 2, 2, 2});
-
-		System.out.println("solution = " + solution);
-		System.out.println("solution1 = " + solution1);
-		System.out.println("solution2 = " + solution2);
+		System.out.println(solution(new int[]{3, 1, 2, 3}));
+		System.out.println(solution(new int[]{3, 3, 3, 2, 2, 4}));
+		System.out.println(solution(new int[]{3, 3, 3, 2, 2, 2}));
 	}
 
 	private static int solution(int[] nums) {

@@ -8,13 +8,9 @@ public class Main43 {
 	private static int n;
 
 	public static void main(String[] args) {
-		ArrayList<ArrayList<Integer>> solution = solution(5);
-//		ArrayList<ArrayList<Integer>> solution1 = solution(2);
-//		ArrayList<ArrayList<Integer>> solution2 = solution(7);
-
-		System.out.println("solution = " + solution);
-//		System.out.println("solution1 = " + solution1);
-//		System.out.println("solution2 = " + solution2);
+		System.out.println(solution(5));
+		System.out.println(solution(2));
+		System.out.println(solution(7));
 	}
 
 	private static ArrayList<ArrayList<Integer>> solution(int N) {

@@ -6,10 +6,8 @@ import java.util.Arrays;
 public class Main77 {
 
 	public static void main(String[] args) {
-		int[] solution = solution(123);
-		System.out.println("solution = " + Arrays.toString(solution));
-		int[] solution1 = solution(350);
-		System.out.println("solution1 = " + Arrays.toString(solution1));
+		System.out.println(Arrays.toString(solution(123)));
+		System.out.println(Arrays.toString(solution(350)));
 	}
 
 	private static int[] solution(int amount) {

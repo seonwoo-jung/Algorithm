@@ -9,12 +9,11 @@ import java.util.stream.Stream;
 public class Main22 {
 
 	public static void main(String[] args) {
-		int[] solution = solution(
+
+		System.out.println(Arrays.toString(solution(
 			new String[]{"classic", "pop", "classic", "classic", "pop"},
 			new int[]{500, 600, 150, 800, 2500}
-		);
-
-		System.out.println(Arrays.toString(solution));
+		)));
 	}
 
 	private static int[] solution(String[] genres, int[] plays) {

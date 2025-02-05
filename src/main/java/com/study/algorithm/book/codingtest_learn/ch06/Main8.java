@@ -8,15 +8,10 @@ import java.util.ArrayDeque;
 public class Main8 {
 
 	public static void main(String[] args) {
-		boolean answer1 = solution("()()"); // t
-		boolean answer2 = solution("(())()"); // t
-		boolean answer3 = solution(")()("); // f
-		boolean answer4 = solution("(()("); // f
-
-		System.out.println("answer = " + answer1);
-		System.out.println("answer = " + answer2);
-		System.out.println("answer = " + answer3);
-		System.out.println("answer = " + answer4);
+		System.out.println(solution("()()"));
+		System.out.println(solution("(())()"));
+		System.out.println(solution(")()("));
+		System.out.println(solution("(()("));
 	}
 
 	private static boolean solution(String s) {

@@ -9,10 +9,8 @@ import java.util.Arrays;
 public class Main17 {
 
 	public static void main(String[] args) {
-		String solution = solution(new String[]{"i", "drink", "water"}, new String[]{"want", "to"}, new String[]{"i", "want", "to", "drink", "water"});
-		String solution2 = solution(new String[]{"i", "water", "drink"}, new String[]{"want", "to"}, new String[]{"i", "want", "to", "drink", "water"});
-		System.out.println("solution = " + solution);
-		System.out.println("solution2 = " + solution2);
+		System.out.println(solution(new String[]{"i", "drink", "water"}, new String[]{"want", "to"}, new String[]{"i", "want", "to", "drink", "water"}));
+		System.out.println(solution(new String[]{"i", "water", "drink"}, new String[]{"want", "to"}, new String[]{"i", "want", "to", "drink", "water"}));
 	}
 
 	private static String solution(String[] cards1, String[] cards2, String[] goal) {

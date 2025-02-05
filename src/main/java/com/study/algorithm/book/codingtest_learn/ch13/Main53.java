@@ -6,8 +6,7 @@ import java.util.Collections;
 public class Main53 {
 
 	public static void main(String[] args) {
-		long solution = solution(118372);
-		System.out.println(solution);
+		System.out.println(solution(118372));
 	}
 
 	private static long solution(long n) {

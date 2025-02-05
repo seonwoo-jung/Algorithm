@@ -3,8 +3,7 @@ package com.study.algorithm.book.codingtest_learn.ch13;
 public class Main50 {
 
 	public static void main(String[] args) {
-		String hello = solution("hello");
-		System.out.println("hello = " + hello);
+		System.out.println(solution("hello"));
 	}
 
 	private static String solution(String s) {

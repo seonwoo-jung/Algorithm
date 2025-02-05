@@ -5,10 +5,8 @@ import java.util.Arrays;
 public class Main79 {
 
 	public static void main(String[] args) {
-		int solution = solution(new int[]{1, 3, 2, 5, 4}, 9);
-		System.out.println("solution = " + solution);
-		int solution1 = solution(new int[]{2, 2, 3, 3}, 10);
-		System.out.println("solution1 = " + solution1);
+		System.out.println(solution(new int[]{1, 3, 2, 5, 4}, 9));
+		System.out.println(solution(new int[]{2, 2, 3, 3}, 10));
 	}
 
 	private static int solution(int[] d, int budget) {

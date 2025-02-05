@@ -6,8 +6,7 @@ public class Main38 {
 	private static int[][] computer;
 
 	public static void main(String[] args) {
-		int result = solution(3, new int[][]{{1, 1, 0}, {1, 1, 0}, {0, 0, 1}});
-		System.out.println("result = " + result);
+		System.out.println(solution(3, new int[][]{{1, 1, 0}, {1, 1, 0}, {0, 0, 1}}));
 	}
 
 	private static int solution(int n, int[][] computers) {

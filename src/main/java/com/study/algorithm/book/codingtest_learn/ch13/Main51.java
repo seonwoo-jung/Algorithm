@@ -5,10 +5,8 @@ import java.util.Arrays;
 public class Main51 {
 
 	public static void main(String[] args) {
-		int[] solution1 = solution(new int[]{1, 3, 5}, new int[]{2, 4, 6});
-		int[] solution2 = solution(new int[]{1, 2, 3}, new int[]{4, 5, 6});
-		System.out.println(Arrays.toString(solution1));
-		System.out.println(Arrays.toString(solution2));
+		System.out.println(Arrays.toString(solution(new int[]{1, 3, 5}, new int[]{2, 4, 6})));
+		System.out.println(Arrays.toString(solution(new int[]{1, 2, 3}, new int[]{4, 5, 6})));
 	}
 
 	private static int[] solution(int[] arr1, int[] arr2) {

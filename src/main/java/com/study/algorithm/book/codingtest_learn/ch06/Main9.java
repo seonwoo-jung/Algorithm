@@ -8,13 +8,9 @@ import java.util.ArrayDeque;
 public class Main9 {
 
 	public static void main(String[] args) {
-		String answer1 = solution(10); // t
-		String answer2 = solution(27); // t
-		String answer3 = solution(12345); // f
-
-		System.out.println("answer = " + answer1);
-		System.out.println("answer = " + answer2);
-		System.out.println("answer = " + answer3);
+		System.out.println(solution(10));
+		System.out.println(solution(27));
+		System.out.println(solution(12345));
 	}
 
 	private static String solution(int decimal) {

@@ -8,12 +8,10 @@ import java.util.List;
  * 모의고사
  */
 public class Main4 {
-	public static void main(String[] args) {
-		int[] answer1 = solution(new int[]{1, 2, 3, 4, 5});
-		int[] answer2 = solution(new int[]{1, 3, 2, 4, 2});
 
-		System.out.println("answer1 = " + Arrays.toString(answer1));
-		System.out.println("answer2 = " + Arrays.toString(answer2));
+	public static void main(String[] args) {
+		System.out.println(Arrays.toString(solution(new int[]{1, 2, 3, 4, 5})));
+		System.out.println(Arrays.toString(solution(new int[]{1, 3, 2, 4, 2})));
 	}
 
 	private static int[] solution(int[] answers) {

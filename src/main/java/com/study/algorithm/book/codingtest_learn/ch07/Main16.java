@@ -9,11 +9,8 @@ import java.util.Arrays;
 public class Main16 {
 
 	public static void main(String[] args) {
-		int[] solution = solution(new int[]{93, 30, 55}, new int[]{1, 30, 5});
-		int[] solution1 = solution(new int[]{95, 90, 99, 99, 80, 99}, new int[]{1, 1, 1, 1, 1, 1});
-
-		System.out.println("answer = " + Arrays.toString(solution));
-		System.out.println("answer = " + Arrays.toString(solution1));
+		System.out.println(Arrays.toString(solution(new int[]{93, 30, 55}, new int[]{1, 30, 5})));
+		System.out.println(Arrays.toString(solution(new int[]{95, 90, 99, 99, 80, 99}, new int[]{1, 1, 1, 1, 1, 1})));
 	}
 
 	private static int[] solution(int[] progresses, int[] speeds) {

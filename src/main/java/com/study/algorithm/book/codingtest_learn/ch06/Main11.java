@@ -8,11 +8,8 @@ import java.util.Stack;
 public class Main11 {
 
 	public static void main(String[] args) {
-		int answer1 = solution("baabaa");
-		int answer2 = solution("cdcd");
-
-		System.out.println("answer = " + answer1);
-		System.out.println("answer = " + answer2);
+		System.out.println(solution("baabaa"));
+		System.out.println(solution("cdcd"));
 	}
 
 	private static int solution(String s) {

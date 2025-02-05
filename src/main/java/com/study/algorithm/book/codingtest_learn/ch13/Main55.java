@@ -5,8 +5,7 @@ import java.util.ArrayList;
 public class Main55 {
 
 	public static void main(String[] args) {
-		String solution = solution(new int[]{6, 10, 2});
-		System.out.println(solution);
+		System.out.println(solution(new int[]{6, 10, 2}));
 	}
 
 	private static String solution(int[] numbers) {

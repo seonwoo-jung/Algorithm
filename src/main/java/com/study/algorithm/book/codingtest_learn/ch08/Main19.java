@@ -6,8 +6,7 @@ import java.util.Map;
 public class Main19 {
 
 	public static void main(String[] args) {
-		String result = solution(new String[]{"leo", "kiki", "eden"}, new String[]{"eden", "kiki"});
-		System.out.println("result = " + result);
+		System.out.println(solution(new String[]{"leo", "kiki", "eden"}, new String[]{"eden", "kiki"}));
 	}
 
 	private static String solution(String[] participant, String[] completion) {

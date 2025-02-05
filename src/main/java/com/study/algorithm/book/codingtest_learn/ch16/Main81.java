@@ -7,13 +7,9 @@ import java.util.Map.Entry;
 public class Main81 {
 
 	public static void main(String[] args) {
-		int solution = solution(6, new int[]{1, 3, 2, 5, 4, 5, 2, 3});
-		int solution1 = solution(4, new int[]{1, 3, 2, 5, 4, 5, 2, 3});
-		int solution2 = solution(2, new int[]{1, 1, 1, 1, 2, 2, 2, 3});
-
-		System.out.println("solution = " + solution);
-		System.out.println("solution1 = " + solution1);
-		System.out.println("solution2 = " + solution2);
+		System.out.println(solution(6, new int[]{1, 3, 2, 5, 4, 5, 2, 3}));
+		System.out.println(solution(4, new int[]{1, 3, 2, 5, 4, 5, 2, 3}));
+		System.out.println(solution(2, new int[]{1, 1, 1, 1, 2, 2, 2, 3}));
 	}
 
 	private static int solution(int k, int[] tangerine) {
