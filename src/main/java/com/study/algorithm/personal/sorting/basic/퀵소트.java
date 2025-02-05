@@ -1,4 +1,4 @@
-package com.study.algorithm.personal.sorting;
+package com.study.algorithm.personal.sorting.basic;
 
 import java.util.Arrays;
 
@@ -51,8 +51,7 @@ public class 퀵소트 {
 			}
 		}
 
-		// pivot보다 작은 파티션, 큰 파티션으로 나뉨. 큰 파티션의 인덱스를 반환함
-		return start;
+		return start; // pivot보다 작은 파티션, 큰 파티션으로 나뉨. 큰 파티션의 인덱스를 반환함
 	}
 
 	private static void swap(int[] arr, int start, int end) {

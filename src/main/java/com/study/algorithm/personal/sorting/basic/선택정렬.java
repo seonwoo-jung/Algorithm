@@ -1,9 +1,9 @@
-package com.study.algorithm.personal.sorting;
+package com.study.algorithm.personal.sorting.basic;
 
 import java.util.Arrays;
 
 /**
- * 자리를 선택해 들어갈 원소를 정한다.
+ * 첫 번째 자리부터 제일 작은 원소를 찾아서 정렬함
  */
 public class 선택정렬 {
 

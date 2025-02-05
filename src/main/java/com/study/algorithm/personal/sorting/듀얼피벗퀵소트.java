@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class 듀얼피벗퀵소트 {
 
 	public static void main(String[] args) {
-		int[] array = {3, 1, 5, 9, 4, 8, 7};
-		dualPivotQuickSort(array);
-		System.out.println(Arrays.toString(array));
+		int[] arr = {3, 9, 4, 7, 5, 0, 1, 6, 8, 2};
+		dualPivotQuickSort(arr);
+		System.out.println(Arrays.toString(arr));
 	}
 
 	// 메소드 시작

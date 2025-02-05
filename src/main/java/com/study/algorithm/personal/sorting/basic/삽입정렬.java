@@ -1,4 +1,4 @@
-package com.study.algorithm.personal.sorting;
+package com.study.algorithm.personal.sorting.basic;
 
 import java.util.Arrays;
 
@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class 삽입정렬 {
 
 	public static void main(String[] args) {
-		int[] arr = {8, 5, 6, 2, 4};
+		int[] arr = {3, 9, 4, 7, 5, 0, 1, 6, 8, 2};
 		System.out.println(Arrays.toString(solution(arr.length, arr)));
 	}
 

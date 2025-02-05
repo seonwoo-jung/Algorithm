@@ -11,9 +11,9 @@ public class 팀소트 {
 	private static final int RUN = 32;
 
 	public static void main(String[] args) {
-		int[] array = {3, 1, 5, 9, 4, 8, 7};
-		timSort(array);
-		System.out.println("Arrays.toString(array) = " + Arrays.toString(array));
+		int[] arr = {3, 9, 4, 7, 5, 0, 1, 6, 8, 2};
+		timSort(arr);
+		System.out.println(Arrays.toString(arr));
 	}
 
 	private static void timSort(int[] array) {
