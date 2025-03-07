@@ -1,8 +1,8 @@
-package com.study.algorithm.book.codingtest_learn.ch08;
+package com.study.algorithm.book.codingtest_learn.ch08_해시;
 
 import java.util.HashSet;
 
-public class Main18 {
+public class Main18_두개의수로특정값만들기 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new int[]{1, 2, 3, 4, 8}, 6));

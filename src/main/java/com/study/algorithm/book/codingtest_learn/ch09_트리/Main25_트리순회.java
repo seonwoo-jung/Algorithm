@@ -1,8 +1,8 @@
-package com.study.algorithm.book.codingtest_learn.ch09;
+package com.study.algorithm.book.codingtest_learn.ch09_트리;
 
 import java.util.Arrays;
 
-public class Main25 {
+public class Main25_트리순회 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(new int[]{1, 2, 3, 4, 5, 6, 7})));

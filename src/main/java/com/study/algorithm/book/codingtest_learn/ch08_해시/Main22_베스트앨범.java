@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch08;
+package com.study.algorithm.book.codingtest_learn.ch08_해시;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,14 +6,10 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.stream.Stream;
 
-public class Main22 {
+public class Main22_베스트앨범 {
 
 	public static void main(String[] args) {
-
-		System.out.println(Arrays.toString(solution(
-			new String[]{"classic", "pop", "classic", "classic", "pop"},
-			new int[]{500, 600, 150, 800, 2500}
-		)));
+		System.out.println(Arrays.toString(solution(new String[]{"classic", "pop", "classic", "classic", "pop"}, new int[]{500, 600, 150, 800, 2500})));
 	}
 
 	private static int[] solution(String[] genres, int[] plays) {

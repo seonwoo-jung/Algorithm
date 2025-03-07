@@ -1,15 +1,13 @@
-package com.study.algorithm.book.codingtest_learn.ch08;
+package com.study.algorithm.book.codingtest_learn.ch08_해시;
 
 import java.util.*;
 
-public class Main24 {
+public class Main24_메뉴리뉴얼 {
 
 	private static HashMap<Integer, HashMap<String, Integer>> courseMap;
 
 	public static void main(String[] args) {
-		System.out.println(Arrays.toString(
-			solution(new String[]{"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"},
-				new int[]{2, 3, 4})));
+		System.out.println(Arrays.toString(solution(new String[]{"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"}, new int[]{2, 3, 4})));
 	}
 
 	private static String[] solution(String[] orders, int[] course) {

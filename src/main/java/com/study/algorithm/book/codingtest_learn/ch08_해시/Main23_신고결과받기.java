@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch08;
+package com.study.algorithm.book.codingtest_learn.ch08_해시;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,11 +6,10 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class Main23 {
+public class Main23_신고결과받기 {
 
 	public static void main(String[] args) {
-		System.out.println(Arrays.toString(solution(new String[]{"muzi", "frodo", "apeach", "neo"},
-			new String[]{"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"}, 2)));
+		System.out.println(Arrays.toString(solution(new String[]{"muzi", "frodo", "apeach", "neo"}, new String[]{"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"}, 2)));
 	}
 
 	private static int[] solution(String[] id_list, String[] report, int k) {

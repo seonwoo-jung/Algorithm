@@ -1,10 +1,10 @@
-package com.study.algorithm.book.codingtest_learn.ch08;
+package com.study.algorithm.book.codingtest_learn.ch08_해시;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class Main21 {
+public class Main21_오픈채팅방 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(new String[]{"Enter uid1234 Muzi", "Enter uid4567 Prodo", "Leave uid1234", "Enter uid1234 Prodo", "Change uid4567 Ryan"})));

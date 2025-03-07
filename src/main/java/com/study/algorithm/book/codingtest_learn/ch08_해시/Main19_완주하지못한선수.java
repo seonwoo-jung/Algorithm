@@ -1,9 +1,9 @@
-package com.study.algorithm.book.codingtest_learn.ch08;
+package com.study.algorithm.book.codingtest_learn.ch08_해시;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main19 {
+public class Main19_완주하지못한선수 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new String[]{"leo", "kiki", "eden"}, new String[]{"eden", "kiki"}));
