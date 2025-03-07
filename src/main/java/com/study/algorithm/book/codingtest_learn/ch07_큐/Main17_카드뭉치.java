@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch07;
+package com.study.algorithm.book.codingtest_learn.ch07_큐;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * 카드 뭉치
  */
-public class Main17 {
+public class Main17_카드뭉치 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new String[]{"i", "drink", "water"}, new String[]{"want", "to"}, new String[]{"i", "want", "to", "drink", "water"}));

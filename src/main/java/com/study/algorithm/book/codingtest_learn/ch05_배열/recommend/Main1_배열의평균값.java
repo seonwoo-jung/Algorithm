@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch05.recommend;
+package com.study.algorithm.book.codingtest_learn.ch05_배열.recommend;
 
 public class Main1_배열의평균값 {
 	public static void main(String[] args) {

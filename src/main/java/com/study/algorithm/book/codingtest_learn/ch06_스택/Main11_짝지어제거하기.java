@@ -1,11 +1,11 @@
-package com.study.algorithm.book.codingtest_learn.ch06;
+package com.study.algorithm.book.codingtest_learn.ch06_스택;
 
 import java.util.Stack;
 
 /**
  * 짝지어 제거하기
  */
-public class Main11 {
+public class Main11_짝지어제거하기 {
 
 	public static void main(String[] args) {
 		System.out.println(solution("baabaa"));

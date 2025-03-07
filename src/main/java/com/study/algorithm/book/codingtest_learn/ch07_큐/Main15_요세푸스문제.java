@@ -1,11 +1,11 @@
-package com.study.algorithm.book.codingtest_learn.ch07;
+package com.study.algorithm.book.codingtest_learn.ch07_큐;
 
 import java.util.ArrayDeque;
 
 /**
  * 요세푸스 문제
  */
-public class Main15 {
+public class Main15_요세푸스문제 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(5, 2));

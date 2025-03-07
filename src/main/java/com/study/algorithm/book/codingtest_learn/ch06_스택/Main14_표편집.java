@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch06;
+package com.study.algorithm.book.codingtest_learn.ch06_스택;
 
 import java.util.Arrays;
 import java.util.Stack;
@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * 표 편집
  */
-public class Main14 {
+public class Main14_표편집 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(8, 2, new String[]{"D 2", "C", "U 3", "C", "D 4", "C", "U 2", "Z", "Z", "U 1", "C"}));

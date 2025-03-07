@@ -1,11 +1,11 @@
-package com.study.algorithm.book.codingtest_learn.ch06;
+package com.study.algorithm.book.codingtest_learn.ch06_스택;
 
 import java.util.ArrayDeque;
 
 /**
  * 올바른 괄호
  */
-public class Main8 {
+public class Main8_올바른괄호 {
 
 	public static void main(String[] args) {
 		System.out.println(solution("()()"));

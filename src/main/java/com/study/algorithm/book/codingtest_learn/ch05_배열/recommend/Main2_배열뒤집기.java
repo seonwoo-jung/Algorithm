@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch05.recommend;
+package com.study.algorithm.book.codingtest_learn.ch05_배열.recommend;
 
 import java.util.Arrays;
 

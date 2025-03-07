@@ -1,8 +1,8 @@
-package com.study.algorithm.book.codingtest_learn.ch06;
+package com.study.algorithm.book.codingtest_learn.ch06_스택;
 
 import java.util.Stack;
 
-public class Main13 {
+public class Main13_크레인인형뽑기게임 {
 
 	public static void main(String[] args) {
 		int[][] board = new int[][]{

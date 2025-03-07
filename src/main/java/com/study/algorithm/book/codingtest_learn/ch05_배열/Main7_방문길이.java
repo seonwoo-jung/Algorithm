@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch05;
+package com.study.algorithm.book.codingtest_learn.ch05_배열;
 
 import java.util.HashMap;
 import java.util.HashSet;

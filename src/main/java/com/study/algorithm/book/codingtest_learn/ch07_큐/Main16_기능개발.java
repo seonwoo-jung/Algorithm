@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch07;
+package com.study.algorithm.book.codingtest_learn.ch07_큐;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * 기능 개발
  */
-public class Main16 {
+public class Main16_기능개발 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(new int[]{93, 30, 55}, new int[]{1, 30, 5})));
@@ -22,8 +22,6 @@ public class Main16 {
 		for (int i = 0; i < n; i++) {
 			daysLeft[i] = (int) Math.ceil((100.0 - progresses[i]) / speeds[i]);
 		}
-
-		System.out.println("daysLeft = " + Arrays.toString(daysLeft));
 
 		int count = 0;
 		int maxDay = daysLeft[0];

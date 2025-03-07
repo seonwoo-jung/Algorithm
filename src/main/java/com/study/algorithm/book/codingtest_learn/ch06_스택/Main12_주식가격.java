@@ -1,17 +1,15 @@
-package com.study.algorithm.book.codingtest_learn.ch06;
+package com.study.algorithm.book.codingtest_learn.ch06_스택;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 /**
  * 주식 가격
  */
-public class Main12 {
+public class Main12_주식가격 {
 
 	public static void main(String[] args) {
-		int[] solution = solution(new int[]{1, 2, 3, 2, 3});
-		for (int i : solution) {
-			System.out.println("i = " + i);
-		}
+		System.out.println(Arrays.toString(solution(new int[]{1, 2, 3, 2, 3})));
 	}
 
 	private static int[] solution(int[] prices) {

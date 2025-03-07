@@ -1,11 +1,11 @@
-package com.study.algorithm.book.codingtest_learn.ch06;
+package com.study.algorithm.book.codingtest_learn.ch06_스택;
 
 import java.util.ArrayDeque;
 
 /**
  * 10진수를 2진수로 변환하기
  */
-public class Main9 {
+public class Main9_10진수를2진수로변환하기 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(10));

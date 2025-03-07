@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch06;
+package com.study.algorithm.book.codingtest_learn.ch06_스택;
 
 import java.util.ArrayDeque;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 /**
  * 괄호 회전하기
  */
-public class Main10 {
+public class Main10_괄호회전하기 {
 
 	public static void main(String[] args) {
 		System.out.println(solution("[](){}"));
