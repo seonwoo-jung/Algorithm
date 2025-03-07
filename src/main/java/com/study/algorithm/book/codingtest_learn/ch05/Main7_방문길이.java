@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * 방문 길이
  */
-public class Main7 {
+public class Main7_방문길이 {
 
 	private static final HashMap<Character, int[]> location = new HashMap<>();
 

@@ -6,13 +6,10 @@ import java.util.HashMap;
 /**
  * 실패율
  */
-public class Main6 {
+public class Main6_실패율 {
 
 	public static void main(String[] args) {
-		int[] answer = solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3});
-		for (int i : answer) {
-			System.out.println("i = " + i);
-		}
+		System.out.println(Arrays.toString(solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3})));
 	}
 
 	private static int[] solution(int N, int[] stages) {
@@ -22,8 +19,6 @@ public class Main6 {
 		for (int i = 0; i < stages.length; i++) {
 			challenger[stages[i]] += 1;
 		}
-
-		System.out.println("스테이지별 도전자 수 = " + Arrays.toString(challenger));
 
 		// 스테이지별 실패한 사용자 수 계산
 		HashMap<Integer, Double> fails = new HashMap<>();
@@ -41,6 +36,8 @@ public class Main6 {
 		}
 
 		// 실패율이 높은 스테이지부터 내림차순으로 정렬
-		return fails.entrySet().stream().sorted((o1, o2) -> Double.compare(o2.getValue(), o1.getValue())).mapToInt(HashMap.Entry::getKey).toArray();
+		return fails.entrySet().stream()
+			.sorted((o1, o2) -> Double.compare(o2.getValue(), o1.getValue()))
+			.mapToInt(HashMap.Entry::getKey).toArray();
 	}
 }

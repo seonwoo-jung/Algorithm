@@ -6,7 +6,7 @@ import java.util.Collections;
 /**
  * 배열 제어하기
  */
-public class Main2 {
+public class Main2_배열제어하기 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(new int[]{4, 2, 2, 1, 3, 4})));

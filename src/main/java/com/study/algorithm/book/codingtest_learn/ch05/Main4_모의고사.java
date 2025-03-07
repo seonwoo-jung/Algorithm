@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 모의고사
  */
-public class Main4 {
+public class Main4_모의고사 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(new int[]{1, 2, 3, 4, 5})));
@@ -23,7 +23,7 @@ public class Main4 {
 
 		int[] scores = new int[3];
 
-		// 1번 방법
+		// O(3N)의 시간복잡도
 		for (int i = 0; i < answers.length; i++) {
 			for (int j = 0; j < pattern.length; j++) {
 				if (answers[i] == pattern[j][i % pattern[j].length]) {
@@ -32,15 +32,17 @@ public class Main4 {
 			}
 		}
 
+		// O(3)의 시간복잡도
 		int maxScore = Arrays.stream(scores).max().getAsInt();
 
+		// O(3)의 시간복잡도
 		List<Integer> answer = new ArrayList<>();
 		for (int i = 0; i < scores.length; i++) {
 			if (scores[i] == maxScore) {
 				answer.add(i + 1);
 			}
 		}
-
+		
 		return answer.stream().mapToInt(Integer::intValue).toArray();
 	}
 }
