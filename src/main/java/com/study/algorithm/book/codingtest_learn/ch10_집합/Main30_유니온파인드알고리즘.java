@@ -1,17 +1,15 @@
-package com.study.algorithm.book.codingtest_learn.ch10;
+package com.study.algorithm.book.codingtest_learn.ch10_집합;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Main30 {
+public class Main30_유니온파인드알고리즘 {
 
 	private static int[] parent;
 
 	public static void main(String[] args) {
-		System.out.println(Arrays.toString(
-			solution(3, new int[][]{{0, 0, 1}, {0, 1, 2}, {1, 1, 2}})));
-		System.out.println(Arrays.toString(
-			solution(4, new int[][]{{0, 0, 1}, {1, 1, 2}, {0, 1, 2}, {1, 0, 2}})));
+		System.out.println(Arrays.toString(solution(3, new int[][]{{0, 0, 1}, {0, 1, 2}, {1, 1, 2}})));
+		System.out.println(Arrays.toString(solution(4, new int[][]{{0, 0, 1}, {1, 1, 2}, {0, 1, 2}, {1, 0, 2}})));
 	}
 
 	private static Boolean[] solution(int k, int[][] operation) {

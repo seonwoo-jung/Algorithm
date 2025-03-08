@@ -1,8 +1,8 @@
-package com.study.algorithm.book.codingtest_learn.ch10;
+package com.study.algorithm.book.codingtest_learn.ch10_집합;
 
 import java.util.Arrays;
 
-public class Main33 {
+public class Main33_섬연결하기 {
 
 	private static int[] parent;
 

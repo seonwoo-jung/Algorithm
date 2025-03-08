@@ -1,10 +1,10 @@
-package com.study.algorithm.site.programmers.level_2;
+package com.study.algorithm.book.codingtest_learn.ch10_집합;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Main61 {
+public class Main32_영어끝말잇기 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(solution(3, new String[]{"tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"})));
