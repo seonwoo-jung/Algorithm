@@ -1,10 +1,10 @@
-package com.study.algorithm.book.codingtest_learn.ch11;
+package com.study.algorithm.book.codingtest_learn.ch11_그래프;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class Main40 {
+public class Main40_배달 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(5, new int[][]{{1, 2, 1}, {2, 3, 3}, {5, 2, 2}, {1, 4, 2}, {5, 3, 1}, {5, 4, 2}}, 3));
@@ -31,7 +31,6 @@ public class Main40 {
 
 		while (!pq.isEmpty()) {
 			Node now = pq.poll();
-			System.out.println("now = " + now);
 
 			if (dist[now.dest] < now.cost) {
 				continue;
@@ -46,7 +45,6 @@ public class Main40 {
 		}
 
 		int answer = 0;
-		System.out.println(Arrays.toString(dist));
 		for (int i = 0; i <= N; i++) {
 			if (dist[i] <= K) answer++;
 		}
@@ -60,14 +58,6 @@ public class Main40 {
 		public Node(int dest, int cost) {
 			this.dest = dest;
 			this.cost = cost;
-		}
-
-		@Override
-		public String toString() {
-			return "Node{" +
-				"dest=" + dest +
-				", cost=" + cost +
-				'}';
 		}
 	}
 }

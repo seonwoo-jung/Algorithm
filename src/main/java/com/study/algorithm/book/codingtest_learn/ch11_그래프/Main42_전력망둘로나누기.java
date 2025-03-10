@@ -1,8 +1,8 @@
-package com.study.algorithm.book.codingtest_learn.ch11;
+package com.study.algorithm.book.codingtest_learn.ch11_그래프;
 
 import java.util.ArrayList;
 
-public class Main42 {
+public class Main42_전력망둘로나누기 {
 
 	private static boolean[] visited;
 	private static ArrayList<Integer>[] adjList;
@@ -41,7 +41,6 @@ public class Main42 {
 
 		for (int next : adjList[now]) {
 			if (!visited[next]) {
-				System.out.println("node = " + next);
 				int cnt = DFS(next);
 				answer = Math.min(answer, Math.abs(N - cnt * 2));
 				sum += cnt;

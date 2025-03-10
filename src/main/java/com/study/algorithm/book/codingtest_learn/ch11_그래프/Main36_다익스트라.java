@@ -1,27 +1,16 @@
-package com.study.algorithm.book.codingtest_learn.ch11;
+package com.study.algorithm.book.codingtest_learn.ch11_그래프;
+
+import static java.lang.Integer.MAX_VALUE;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-import static java.lang.Integer.MAX_VALUE;
-
-public class Main36 {
+public class Main36_다익스트라 {
 
 	public static void main(String[] args) {
-		int[] result = solution(new int[][]{
-			{0, 1, 9},
-			{0, 2, 3},
-			{1, 0, 5},
-			{2, 1, 1}
-		},
-			0,
-			3);
-
-		for (int i : result) {
-			System.out.println("i = " + i);
-		}
+		System.out.println(Arrays.toString(solution(new int[][]{{0, 1, 9}, {0, 2, 3}, {1, 0, 5}, {2, 1, 1}}, 0, 3)));
 	}
 
 	private static int[] solution(int[][] graph, int start, int n) {
@@ -34,8 +23,6 @@ public class Main36 {
 		for (int[] edge : graph) {
 			adjList.get(edge[0]).add(new Node(edge[1], edge[2]));
 		}
-
-		System.out.println("adjList = " + adjList);
 
 		int[] dist = new int[n];
 		Arrays.fill(dist, MAX_VALUE);

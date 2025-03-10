@@ -1,6 +1,6 @@
-package com.study.algorithm.book.codingtest_learn.ch11;
+package com.study.algorithm.book.codingtest_learn.ch11_그래프;
 
-public class Main38 {
+public class Main38_네트워크 {
 
 	private static boolean[] visit;
 	private static int[][] computer;

@@ -1,18 +1,11 @@
-package com.study.algorithm.book.codingtest_learn.ch11;
+package com.study.algorithm.book.codingtest_learn.ch11_그래프;
 
 import java.util.ArrayDeque;
 
-public class Main37 {
+public class Main37_게임맵최단거리 {
 
 	public static void main(String[] args) {
-		int result = solution(new int[][]{
-			{1, 0, 1, 1, 1},
-			{1, 0, 1, 0, 1},
-			{1, 0, 1, 1, 1},
-			{1, 1, 1, 0, 1},
-			{0, 0, 0, 0, 1}
-		});
-		System.out.println("result = " + result);
+		System.out.println(solution(new int[][]{{1, 0, 1, 1, 1}, {1, 0, 1, 0, 1}, {1, 0, 1, 1, 1}, {1, 1, 1, 0, 1}, {0, 0, 0, 0, 1}}));
 	}
 
 	private static int solution(int[][] maps) {

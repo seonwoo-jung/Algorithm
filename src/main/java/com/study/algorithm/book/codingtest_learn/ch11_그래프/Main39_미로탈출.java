@@ -1,8 +1,8 @@
-package com.study.algorithm.book.codingtest_learn.ch11;
+package com.study.algorithm.book.codingtest_learn.ch11_그래프;
 
 import java.util.ArrayDeque;
 
-public class Main39 {
+public class Main39_미로탈출 {
 
 	static int[] dx = {-1, 0, 1, 0};
 	static int[] dy = {0, 1, 0, -1};

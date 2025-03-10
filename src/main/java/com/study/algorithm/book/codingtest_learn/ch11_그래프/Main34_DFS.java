@@ -1,11 +1,12 @@
-package com.study.algorithm.book.codingtest_learn.ch11;
+package com.study.algorithm.book.codingtest_learn.ch11_그래프;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * DFS
  */
-public class Main34 {
+public class Main34_DFS {
 
 	private static ArrayList<Integer>[] adjList;
 
@@ -13,16 +14,7 @@ public class Main34 {
 	private static ArrayList<Integer> answer;
 
 	public static void main(String[] args) {
-		int[] result = solution(new int[][]{
-			{1, 2},
-			{2, 3},
-			{3, 4},
-			{4, 5}
-		}, 1, 5);
-
-		for (int i : result) {
-			System.out.println("i = " + i);
-		}
+		System.out.println(Arrays.toString(solution(new int[][]{{1, 2}, {2, 3}, {3, 4}, {4, 5}}, 1, 5)));
 	}
 
 	private static int[] solution(int[][] graph, int start, int n) {

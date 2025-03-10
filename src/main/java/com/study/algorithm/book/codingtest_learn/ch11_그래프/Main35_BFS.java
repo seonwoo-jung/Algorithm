@@ -1,12 +1,13 @@
-package com.study.algorithm.book.codingtest_learn.ch11;
+package com.study.algorithm.book.codingtest_learn.ch11_그래프;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * BFS
  */
-public class Main35 {
+public class Main35_BFS {
 
 	private static ArrayList<Integer>[] adjList;
 
@@ -14,22 +15,7 @@ public class Main35 {
 	private static ArrayList<Integer> answer;
 
 	public static void main(String[] args) {
-		int[] result = solution(new int[][]{
-			{1, 2},
-			{1, 3},
-			{2, 4},
-			{2, 5},
-			{3, 6},
-			{3, 7},
-			{4, 8},
-			{5, 8},
-			{6, 9},
-			{7, 9}
-		}, 1, 9);
-
-		for (int i : result) {
-			System.out.println("i = " + i);
-		}
+		System.out.println(Arrays.toString(solution(new int[][]{{1, 2}, {1, 3}, {2, 4}, {2, 5}, {3, 6}, {3, 7}, {4, 8}, {5, 8}, {6, 9}, {7, 9}}, 1, 9)));
 	}
 
 	private static int[] solution(int[][] graph, int start, int n) {
@@ -63,17 +49,6 @@ public class Main35 {
 					Q.add(next);
 					visited[next] = true;
 				}
-			}
-		}
-	}
-
-	private static void DFS(int start) {
-		visited[start] = true;
-		answer.add(start);
-
-		for (int next : adjList[start]) {
-			if (!visited[next]) {
-				DFS(next);
 			}
 		}
 	}
