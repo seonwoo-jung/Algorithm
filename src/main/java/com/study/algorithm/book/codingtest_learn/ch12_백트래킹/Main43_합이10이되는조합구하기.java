@@ -1,8 +1,8 @@
-package com.study.algorithm.book.codingtest_learn.ch12;
+package com.study.algorithm.book.codingtest_learn.ch12_백트래킹;
 
 import java.util.ArrayList;
 
-public class Main43 {
+public class Main43_합이10이되는조합구하기 {
 
 	private static ArrayList<ArrayList<Integer>> result;
 	private static int n;
@@ -26,8 +26,6 @@ public class Main43 {
 			result.add(selectedNums);
 			return;
 		}
-
-		System.out.println("selectedNums = " + selectedNums);
 
 		for (int i = start; i <= n; i++) {
 			if (sum + i <= 10) {

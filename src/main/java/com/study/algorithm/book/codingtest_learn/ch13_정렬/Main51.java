@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch13;
+package com.study.algorithm.book.codingtest_learn.ch13_정렬;
 
 import java.util.Arrays;
 
@@ -23,12 +23,12 @@ public class Main51 {
 			}
 		}
 
-		while (lt < arr1.length) {
-			answer[idx++] = arr1[lt++];
-		}
 
 		while (rt < arr2.length) {
 			answer[idx++] = arr2[rt++];
+		}
+		while (lt < arr1.length) {
+			answer[idx++] = arr1[lt++];
 		}
 
 		return answer;

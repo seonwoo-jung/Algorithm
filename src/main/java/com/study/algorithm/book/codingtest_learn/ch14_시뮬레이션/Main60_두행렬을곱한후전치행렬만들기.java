@@ -1,16 +1,12 @@
-package com.study.algorithm.book.codingtest_learn.ch14;
+package com.study.algorithm.book.codingtest_learn.ch14_시뮬레이션;
 
-public class Main2 {
+import java.util.Arrays;
+
+public class Main60_두행렬을곱한후전치행렬만들기 {
 
 	public static void main(String[] args) {
-		int[][] result1 = solution(new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, new int[][]{{9, 8, 7}, {6, 5, 4}, {3, 2, 1}});
-		int[][] result2 = solution(new int[][]{{2, 4, 6}, {1, 3, 5}, {7, 8, 9}}, new int[][]{{9, 1, 2}, {4, 5, 6}, {7, 3, 8}});
-
-		for (int[] ints : result1) {
-			for (int anInt : ints) {
-				System.out.println("anInt = " + anInt);
-			}
-		}
+		System.out.println(Arrays.deepToString(solution(new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, new int[][]{{9, 8, 7}, {6, 5, 4}, {3, 2, 1}})));
+		System.out.println(Arrays.deepToString(solution(new int[][]{{2, 4, 6}, {1, 3, 5}, {7, 8, 9}}, new int[][]{{9, 1, 2}, {4, 5, 6}, {7, 3, 8}})));
 	}
 
 	private static int[][] solution(int[][] matrix1, int[][] matrix2) {

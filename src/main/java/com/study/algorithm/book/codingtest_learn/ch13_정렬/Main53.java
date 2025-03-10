@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch13;
+package com.study.algorithm.book.codingtest_learn.ch13_정렬;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.study.algorithm.book.codingtest_learn.ch13;
+package com.study.algorithm.book.codingtest_learn.ch13_정렬;
 
 public class Main50 {
 

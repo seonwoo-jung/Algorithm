@@ -1,6 +1,6 @@
-package com.study.algorithm.book.codingtest_learn.ch12;
+package com.study.algorithm.book.codingtest_learn.ch12_백트래킹;
 
-public class Main45 {
+public class Main45_피로도 {
 
 	private static int answer;
 	private static int[][] Dungeons;

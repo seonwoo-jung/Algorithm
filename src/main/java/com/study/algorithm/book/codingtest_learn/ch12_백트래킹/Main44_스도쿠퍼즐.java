@@ -1,8 +1,8 @@
-package com.study.algorithm.book.codingtest_learn.ch12;
+package com.study.algorithm.book.codingtest_learn.ch12_백트래킹;
 
 import java.util.Arrays;
 
-public class Main44 {
+public class Main44_스도쿠퍼즐 {
 
 	private static int[][] Board;
 
