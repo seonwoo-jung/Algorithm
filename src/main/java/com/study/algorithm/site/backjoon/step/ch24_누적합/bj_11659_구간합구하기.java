@@ -5,7 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class bj_11659 {
+/**
+ * i에서 j까지 구간합 공식: S[j] - S[i - 1]
+ */
+public class bj_11659_구간합구하기 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
