@@ -1,4 +1,4 @@
-package com.study.algorithm.book.doit_middle.정수론;
+package com.study.algorithm.book.doit_middle.ch07_정수론;
 
 import java.io.*;
 import java.util.StringTokenizer;

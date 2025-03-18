@@ -1,4 +1,4 @@
-package com.study.algorithm.book.doit_middle.greedy;
+package com.study.algorithm.book.doit_middle.ch06_greedy;
 
 import java.io.BufferedReader;
 import java.io.IOException;
