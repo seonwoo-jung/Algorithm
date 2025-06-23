@@ -15,10 +15,16 @@ public class bj_10250 {
 			int H = Integer.parseInt(st.nextToken()); // 행
 			int W = Integer.parseInt(st.nextToken()); // 열
 			int N = Integer.parseInt(st.nextToken()); // 몇 번째 손님인지
-			int XX = N / H;
-			int YY = N % H;
-			int answer = YY * 100 + (XX + 1);
-			System.out.println(answer);
+
+			int floor = N % H;
+			int room = N / H + 1;
+
+			if (floor == 0) {
+				floor = H;
+				room -= 1;
+			}
+
+			System.out.println(floor * 100 + room);
 		}
 	}
 }
