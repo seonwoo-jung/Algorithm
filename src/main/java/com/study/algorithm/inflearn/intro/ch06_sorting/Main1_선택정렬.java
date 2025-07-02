@@ -1,5 +1,8 @@
 package com.study.algorithm.inflearn.intro.ch06_sorting;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -7,14 +10,10 @@ import java.util.Scanner;
  * 선택정렬
  */
 public class Main1_선택정렬 {
-	public static void main(String[] args) {
-		Scanner kb = new Scanner(System.in);
-		int n = kb.nextInt();
-		int[] arr = new int[n];
-
-		for (int i = 0; i < n; i++) {
-			arr[i] = kb.nextInt();
-		}
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int n = Integer.parseInt(br.readLine());
+		int[] arr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
 
 		System.out.println(Arrays.toString(solution(n, arr)));
 	}
