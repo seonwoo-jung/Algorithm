@@ -43,7 +43,7 @@ public class Main3_가위바위보 {
 				answer += "A";
 			} else if (a[i] == 3 && b[i] == 2) {
 				answer += "A";
-				// B가 이길 때
+			// B가 이길 때
 			} else if (a[i] == 3 && b[i] == 1) {
 				answer += "B";
 			} else if (a[i] == 1 && b[i] == 2) {

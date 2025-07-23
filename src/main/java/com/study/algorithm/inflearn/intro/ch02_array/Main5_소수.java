@@ -1,15 +1,16 @@
 package com.study.algorithm.inflearn.intro.ch02_array;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * 소수(에라토스테네스 체): 체크해서 걸러낸다
  */
 public class Main5_소수 {
-	public static void main(String[] args) {
-		Scanner kb = new Scanner(System.in);
-		int n = kb.nextInt();
-
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int n = Integer.parseInt(br.readLine());
 		System.out.println(solution(n));
 	}
 
